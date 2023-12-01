@@ -1,6 +1,6 @@
 Package: Zwemsterdam
 Type: Package
-Title: 
+Title: This is Zwemsterdam
 Version: 0.9.9
 Author: Fabio Votta (f.a.votta@uva.nl)
 Maintainer: Fabio Votta <f.a.votta@uva.nl>
@@ -40,3 +40,4 @@ Imports:
 Depends:
     R (>= 3.0.0)
 RoxygenNote: 5.0.1
+
