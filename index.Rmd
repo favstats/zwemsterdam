@@ -1,0 +1,43 @@
+---
+title: "Zwemsterdam"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r, message=F, warning=F, echo = F}
+library(tidyverse)
+library(highcharter)
+
+source("fin.R")
+
+fin <- readRDS("data/fin.rds")
+```
+
+
+```{r}
+# Define colors for the days
+color_set <- RColorBrewer::brewer.pal(n = length(unique(fin$dag)), "Dark2")
+names(color_set) <- levels(fin$dag)
+
+day <- 0
+daynum <- lubridate::wday(lubridate::today(), week_start = 1) - 1
+
+jscode <- 0:6 %>% 
+  discard(~.x == daynum) %>% 
+  paste0("chart.series[",.,"].setVisible(false)", collapse = "\n") %>% 
+  paste0("function() {
+   var chart = this;", . ,"}")
+
+# Create the columnrange chart
+hchart(fin , "columnrange", hcaes(x = bad, y = start, low = start, high = end, group = dag, fill = dag)) %>%
+  hc_xAxis(title = list(text = "Zwembad"), categories = unique(fin$bad)) %>%
+  hc_yAxis(title = list(text = "Tijd")) %>%
+  hc_plotOptions(columnrange = list(dataLabels = list(enabled = TRUE))) %>%
+  hc_colors(colors = color_set) %>%
+  hc_legend(enabled = TRUE) %>% 
+  hc_chart(inverted = T)  %>%
+   hc_chart(events = list(load = JS(jscode)))
+```
+

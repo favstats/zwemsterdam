@@ -1,0 +1,42 @@
+Package: Zwemsterdam
+Type: Package
+Title: 
+Version: 0.9.9
+Author: Fabio Votta (f.a.votta@uva.nl)
+Maintainer: Fabio Votta <f.a.votta@uva.nl>
+Description: Zwemsterdam helps figure out opening times for swimming
+URL: https://github.com/favstats/zwemsterdam
+BugReports: https://github.com/favstats/zwemsterdam/issues
+Imports:
+		tidyverse,
+		httr,
+		remotes,
+		shiny,
+		scales,
+		treemap,
+		here,
+		jsonlite,
+		janitor,
+		quarto,
+		highcharter,
+		lubridate,
+		gt,
+		gtExtras,
+		pacman,
+		openxlsx,
+		sf,
+		xml2,
+		rvest,
+		reticulate,
+		fs,
+		countrycode,
+		progress,
+		cli,
+		digest,
+		glue,
+		vroom,
+		prettydoc,
+		DT
+Depends:
+    R (>= 3.0.0)
+RoxygenNote: 5.0.1
