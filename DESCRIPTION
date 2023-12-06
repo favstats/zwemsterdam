@@ -36,7 +36,8 @@ Imports:
 		glue,
 		vroom,
 		prettydoc,
-		DT
+		DT,
+		flexdashboard
 Depends:
     R (>= 3.0.0)
 RoxygenNote: 5.0.1
