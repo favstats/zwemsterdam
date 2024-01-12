@@ -229,12 +229,21 @@ translate_weekday_to_dutch <- function(weekday_en) {
 # Example usage
 # translate_weekday_to_dutch("Monday") # Should return "maandag"
 
-urls <- c("https://www.sportfondsenbadamsterdamoost.nl/_next/data/9gp0AHBSfAZXqjxvXI1rJ/tijden-tarieven.json?slug=tijden-tarieven",
-          "https://www.sportplazamercator.nl/_next/data/9gp0AHBSfAZXqjxvXI1rJ/tijden-tarieven-van-mercator.json?slug=tijden-tarieven-van-mercator") %>% 
+dodo <- httr::GET("https://www.sportfondsenbadamsterdamoost.nl/tijden-tarieven/")
+
+patit <- httr::content(dodo) %>% 
+  rvest::html_elements("script") %>% 
+  rvest::html_attr("src") %>% 
+  .[str_detect(., "_buildManifest.js|_ssgManifest.js|_middlewareManifest.js")] %>%
+  str_remove_all("/_next/static/|/_buildManifest.js|/_ssgManifest.js|/_middlewareManifest.js") %>% 
+  na.omit() %>% unique()
+
+urls <- c(paste0("https://www.sportfondsenbadamsterdamoost.nl/_next/data/",patit,"/tijden-tarieven.json?slug=tijden-tarieven"),
+          paste0("https://www.sportplazamercator.nl/_next/data/",patit,"/tijden-tarieven-van-mercator.json?slug=tijden-tarieven-van-mercator")) %>% 
   set_names("Sportfondsenbad Oost",
             "Sportplaza Mercator")
 
-
+# debugonce(get_thistype )
 
 
 kidinschool <- urls %>% 

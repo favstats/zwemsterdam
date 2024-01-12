@@ -1,10 +1,11 @@
 ---
-title: "Zwemsterdam"
+title: "Zwemsterdam - Last Updated `r Sys.Date()`"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
 ---
+
 
 ```{r, message=F, warning=F, echo = F}
 library(tidyverse)
