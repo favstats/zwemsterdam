@@ -1851,14 +1851,14 @@ const App: React.FC = () => {
               </button>
             </div>
             
-            {/* Mobile search (shows inline on mobile) */}
-            <div className="flex-1 md:hidden">
-              <div className="inline-flex items-center bg-base-200/80 p-1 rounded-2xl shadow-inner border border-base-300/50 w-full">
-                <div className="relative w-full">
-                  <input 
+            {/* Mobile search (shows inline on mobile, right-aligned) */}
+            <div className="ml-auto md:hidden">
+              <div className="inline-flex items-center bg-base-200/80 p-1 rounded-2xl shadow-inner border border-base-300/50">
+                <div className="relative">
+                  <input
                     type="text"
-                    className="w-full pl-9 pr-3 py-1.5 text-sm bg-transparent rounded-xl focus:outline-none focus:bg-white focus:shadow-md transition-all placeholder:text-base-content/40" 
-                    placeholder="Zoeken..." 
+                    className="w-36 pl-9 pr-3 py-1.5 text-sm bg-transparent rounded-xl focus:outline-none focus:bg-white focus:shadow-md focus:w-48 transition-all placeholder:text-base-content/40"
+                    placeholder="Zoeken..."
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
                   />
@@ -1873,20 +1873,30 @@ const App: React.FC = () => {
       {/* Filters */}
       <div className="px-4 md:px-6 py-4">
         <div className="bg-base-100 rounded-xl shadow-lg border border-base-300 overflow-hidden">
-          {/* Collapsible header */}
+          {/* Collapsible header - visible on all screen sizes */}
           <button
             onClick={() => setFiltersExpanded(!filtersExpanded)}
-            className="w-full flex items-center justify-between p-4 hover:bg-base-50 transition-colors md:hidden"
+            className="w-full flex items-center justify-between p-4 hover:bg-base-200/50 transition-colors"
           >
             <span className="font-bold flex items-center gap-2">
               <MapPin size={16} className="text-primary" />
               Filters
+              {!filtersExpanded && (
+                <span className="text-sm font-normal text-base-content/50 ml-2">
+                  ({selectedDay === 'Today' ? 'Vandaag' : selectedDay === 'All Days' ? 'Hele week' : selectedDay} • {selectedActivity === 'All Activities' ? 'Alle activiteiten' : selectedActivity})
+                </span>
+              )}
             </span>
-            {filtersExpanded ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
+            <div className="flex items-center gap-2">
+              <span className="text-xs text-base-content/50 hidden sm:inline">
+                {filtersExpanded ? 'Verbergen' : 'Tonen'}
+              </span>
+              {filtersExpanded ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
+            </div>
           </button>
-          
+
           {/* Filter content */}
-          <div className={`p-4 pt-0 md:pt-4 space-y-4 ${filtersExpanded ? 'block' : 'hidden'} md:block`}>
+          <div className={`p-4 pt-0 space-y-4 ${filtersExpanded ? 'block' : 'hidden'}`}>
             {/* Week selector - prominent display */}
             <WeekSelector 
               selectedWeek={selectedWeek}
