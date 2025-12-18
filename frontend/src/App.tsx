@@ -1168,9 +1168,9 @@ const GanttView: React.FC<GanttViewProps> = ({ data, selectedDay, onSessionClick
                 
                 const rowMap = assignRows(poolSessions);
                 const maxRows = Math.max(...Array.from(rowMap.values()), 0) + 1;
-                const barHeight = 40;
-                const rowSpacing = 4;
-                const rowHeight = maxRows * (barHeight + rowSpacing) + 16;
+                const barHeight = 48;
+                const rowSpacing = 6;
+                const rowHeight = maxRows * (barHeight + rowSpacing) + 20;
                 const poolColor = getPoolColor(pool, poolIdx);
                 
                 return (
@@ -1773,81 +1773,81 @@ const App: React.FC = () => {
     <div className="min-h-screen bg-water-gradient pb-20 md:pb-8">
       {/* Header */}
       <header className="sticky top-0 z-30 bg-base-100/95 backdrop-blur-lg shadow-lg border-b border-base-200">
-        <div className="max-w-7xl mx-auto px-4 md:px-6 py-3">
-          {/* Single row layout with proper alignment */}
-          <div className="flex items-center gap-3 md:gap-6">
-            {/* Logo + Title - left */}
-            <div className="flex items-center gap-2 md:gap-3 flex-shrink-0">
-              <WaveXXXLogo size="md" />
+        <div className="max-w-7xl mx-auto px-4 md:px-6 py-4">
+          {/* Three-column layout: left / center / right */}
+          <div className="flex items-center justify-between">
+            {/* LEFT: Logo + Title */}
+            <div className="flex items-center gap-3 flex-shrink-0">
+              <WaveXXXLogo size="lg" />
               <div>
-                <h1 className="text-base sm:text-lg md:text-xl font-black text-primary tracking-tight leading-none">
+                <h1 className="text-lg sm:text-xl md:text-2xl font-black text-primary tracking-tight leading-none">
                   ZWEMSTERDAM
                 </h1>
-                <p className="text-[9px] sm:text-[10px] md:text-xs text-base-content/50 font-medium leading-tight mt-0.5">
+                <p className="text-[10px] sm:text-xs md:text-sm text-base-content/50 font-medium leading-tight mt-1">
                   Alle zwemtijden op één plek
                 </p>
               </div>
             </div>
-            
-            {/* View toggles - center (desktop only) */}
-            <div className="hidden md:flex items-center justify-center flex-1">
-              <div className="inline-flex items-center bg-base-200/80 p-1 rounded-2xl shadow-inner border border-base-300/50">
+
+            {/* CENTER: View toggles (desktop only) */}
+            <div className="hidden md:flex items-center justify-center absolute left-1/2 -translate-x-1/2">
+              <div className="inline-flex items-center bg-base-200/80 p-1.5 rounded-2xl shadow-inner border border-base-300/50">
                 <button
                   onClick={() => setViewMode('timeline')}
-                  className={`flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold transition-all duration-200 ${
+                  className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-base font-semibold transition-all duration-200 ${
                     viewMode === 'timeline' 
                       ? 'bg-white text-primary shadow-md' 
                       : 'text-base-content/60 hover:text-base-content hover:bg-base-100/50'
                   }`}
                 >
-                  <BarChart3 size={16} />
+                  <BarChart3 size={18} />
                   <span>Tijdlijn</span>
                 </button>
                 <button
                   onClick={() => setViewMode('calendar')}
-                  className={`flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold transition-all duration-200 ${
+                  className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-base font-semibold transition-all duration-200 ${
                     viewMode === 'calendar' 
                       ? 'bg-white text-primary shadow-md' 
                       : 'text-base-content/60 hover:text-base-content hover:bg-base-100/50'
                   }`}
                 >
-                  <Calendar size={16} />
+                  <Calendar size={18} />
                   <span>Kalender</span>
                 </button>
                 <button
                   onClick={() => setViewMode('list')}
-                  className={`flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold transition-all duration-200 ${
+                  className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-base font-semibold transition-all duration-200 ${
                     viewMode === 'list' 
                       ? 'bg-white text-primary shadow-md' 
                       : 'text-base-content/60 hover:text-base-content hover:bg-base-100/50'
                   }`}
                 >
-                  <List size={16} />
+                  <List size={18} />
                   <span>Lijst</span>
                 </button>
               </div>
             </div>
             
-            {/* Right side: Search + Theme + Info (desktop) */}
-            <div className="hidden md:flex items-center gap-2 flex-shrink-0">
-              <div className="inline-flex items-center bg-base-200/80 p-1 rounded-2xl shadow-inner border border-base-300/50">
+            {/* RIGHT: Search + Info (desktop) */}
+            <div className="hidden md:flex items-center gap-3 flex-shrink-0">
+              <div className="inline-flex items-center bg-base-200/80 p-1.5 rounded-2xl shadow-inner border border-base-300/50">
                 <div className="relative">
                   <input 
                     type="text"
-                    className="w-44 lg:w-52 pl-9 pr-3 py-2 text-sm bg-transparent rounded-xl focus:outline-none focus:bg-base-100 focus:shadow-md transition-all placeholder:text-base-content/40" 
+                    className="w-48 lg:w-56 pl-10 pr-4 py-2.5 text-base bg-transparent rounded-xl focus:outline-none focus:bg-base-100 focus:shadow-md transition-all placeholder:text-base-content/40" 
                     placeholder="Zoeken..." 
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
                   />
-                  <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-base-content/40" />
+                  <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-base-content/40" />
                 </div>
               </div>
               <button
                 onClick={() => setShowAbout(true)}
-                className="p-2 rounded-xl hover:bg-base-200 transition-colors text-base-content/60 hover:text-primary"
+                className="p-2.5 rounded-xl hover:bg-base-200 transition-colors text-base-content/60 hover:text-primary"
                 title="Over Zwemsterdam"
               >
-                <Info size={18} />
+                <Info size={22} />
               </button>
             </div>
             
