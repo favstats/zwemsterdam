@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-18T20:51:59Z",
-  "lastUpdatedLocal": "18-12-2025 21:51",
+  "lastUpdated": "2025-12-18T22:55:13Z",
+  "lastUpdatedLocal": "18-12-2025 22:55",
   "totalSessions": 253,
   "pools": ["Zuiderbad", "Noorderparkbad", "De Mirandabad", "Flevoparkbad", "Brediusbad", "Het Marnix", "Sportfondsenbad Oost"],
   "dataSources": [
@@ -14,7 +14,7 @@
       "name": "Het Marnix",
       "description": "Zwembad in Amsterdam West",
       "url": "https://hetmarnix.nl/",
-      "pools": ["Het Marnix"]
+      "pools": "Het Marnix"
     },
     {
       "name": "Sportfondsen Amsterdam",
