@@ -1,44 +1,16 @@
 Package: Zwemsterdam
 Type: Package
-Title: This is Zwemsterdam
-Version: 0.9.9
+Title: Zwemsterdam - Swimming Pool Schedule Aggregator for Amsterdam
+Version: 2.0.0
 Author: Fabio Votta (f.a.votta@uva.nl)
 Maintainer: Fabio Votta <f.a.votta@uva.nl>
-Description: Zwemsterdam helps figure out opening times for swimming
+Description: Zwemsterdam automatically collects swimming schedules from all public pools in Amsterdam and displays them in a modern web interface.
 URL: https://github.com/favstats/zwemsterdam
 BugReports: https://github.com/favstats/zwemsterdam/issues
 Imports:
-		tidyverse,
-		httr,
-		remotes,
-		shiny,
-		scales,
-		treemap,
-		here,
-		jsonlite,
-		janitor,
-		quarto,
-		highcharter,
-		lubridate,
-		gt,
-		gtExtras,
-		pacman,
-		openxlsx,
-		sf,
-		xml2,
-		rvest,
-		reticulate,
-		fs,
-		countrycode,
-		progress,
-		cli,
-		digest,
-		glue,
-		vroom,
-		prettydoc,
-		DT,
-		flexdashboard
+    tidyverse,
+    httr,
+    jsonlite,
+    lubridate
 Depends:
-    R (>= 3.0.0)
-RoxygenNote: 5.0.1
-
+    R (>= 4.0.0)

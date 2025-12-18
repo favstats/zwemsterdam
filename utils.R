@@ -1,270 +1,177 @@
 
+library(httr)
+library(tidyverse)
 library(lubridate)
-library(dplyr)
 
+# Helper to aggregate timeframes if needed (optional for all activities)
 aggregate_timeframes <- function(df) {
-  # Sort by start time
-  df_sorted <- df %>% arrange(start)
+  df %>%
+    arrange(start) %>%
+    group_by(bad, dag, activity, extra) %>%
+    summarise(
+      start = min(start),
+      end = max(end),
+      .groups = "drop"
+    )
+}
+
+# New function for Amsterdam Municipal Pools
+get_amsterdam_timetables <- function(pool_slug) {
+  # Get dates for the next 7 days
+  dates <- seq(Sys.Date(), Sys.Date() + 7, by = "1 day")
   
-  # Initialize an empty data frame for results
-  new_rows <- df_sorted[0,]
-  
-  # Iterate through each row
-  for (i in 1:nrow(df_sorted)) {
-    current_row <- df_sorted[i, ]
+  all_schedules <- map_dfr(dates, ~{
+    date_str <- format(.x, "%Y-%m-%d")
+    url <- paste0("https://zwembaden.api-amsterdam.nl/nl/api/", pool_slug, "/date/", date_str, "/")
     
-    # Check for overlaps with the last row in new_rows
-    if (nrow(new_rows) == 0 || current_row$start >= tail(new_rows, 1)$end) {
-      new_rows <- rbind(new_rows, current_row)
-    } else {
-      # Adjust the end time of the last row and add a new row
-      last_row <- tail(new_rows, 1)
-      last_row$end <- min(last_row$end, current_row$start)
-      
-      # Update the last row in new_rows
-      new_rows[nrow(new_rows), ] <- last_row
-      
-      # Add the current row with adjusted start time
-      if (current_row$end > last_row$end) {
-        current_row$start <- last_row$end
-        new_rows <- rbind(new_rows, current_row)
+    response <- GET(url)
+    if (status_code(response) != 200) return(NULL)
+    
+    res_content <- content(response, "parsed")
+    if (is.null(res_content$schedule) || length(res_content$schedule) == 0) return(NULL)
+    
+    map_dfr(res_content$schedule, ~{
+      # Convert "7.00" to decimal 7.0, "15.30" to 15.5
+      parse_time_dec <- function(t_str) {
+        parts <- str_split(t_str, "\\.")[[1]]
+        h <- as.numeric(parts[1])
+        m <- if(length(parts) > 1) as.numeric(parts[2]) else 0
+        return(h + m/60)
       }
-    }
+      
+      tibble(
+        bad = res_content$pool,
+        dag = .x$dow,
+        date = date_str,
+        activity = .x$activity,
+        extra = .x$extra,
+        start = parse_time_dec(.x$start),
+        end = parse_time_dec(.x$end)
+      )
+    })
+  })
+  
+  return(all_schedules)
+}
+
+# Function for Het Marnix
+get_marnix_timetable <- function() {
+  url <- "https://hetmarnix.nl/wp-admin/admin-ajax.php"
+  
+  # Current week
+  start_date <- floor_date(Sys.Date(), "week", week_start = 1)
+  end_date <- start_date + days(7)
+  
+  params <- list(
+    action = "getlessons",
+    start = format(start_date, "%Y-%m-%dT00:00:00Z"),
+    end = format(end_date, "%Y-%m-%dT23:59:59Z")
+  )
+  
+  response <- GET(url, query = params)
+  if (status_code(response) != 200) return(NULL)
+  
+  marnixres <- content(response, "parsed")
+  
+  if (is.null(marnixres) || length(marnixres) == 0) return(NULL)
+  
+  map_dfr(marnixres, ~{
+    # Handle nested structure - use purrr::flatten explicitly
+    item <- purrr::flatten(.x)
+    # Filter only relevant fields
+    if (is.null(item$start) || is.null(item$title)) return(NULL)
+    
+    start_time <- ymd_hms(item$start)
+    end_time <- ymd_hms(item$end)
+    
+    tibble(
+      bad = "Het Marnix",
+      dag = format(start_time, "%A"),
+      date = as.character(as.Date(start_time)),
+      activity = item$title,
+      extra = "",
+      start = hour(start_time) + minute(start_time)/60,
+      end = hour(end_time) + minute(end_time)/60
+    )
+  }) %>%
+    # Translate Dutch days if necessary, but format(%A) depends on locale. 
+    # Let's normalize days to Dutch.
+    mutate(dag = case_when(
+      str_detect(dag, "Monday|maandag") ~ "Maandag",
+      str_detect(dag, "Tuesday|dinsdag") ~ "Dinsdag",
+      str_detect(dag, "Wednesday|woensdag") ~ "Woensdag",
+      str_detect(dag, "Thursday|donderdag") ~ "Donderdag",
+      str_detect(dag, "Friday|vrijdag") ~ "Vrijdag",
+      str_detect(dag, "Saturday|zaterdag") ~ "Zaterdag",
+      str_detect(dag, "Sunday|zondag") ~ "Zondag",
+      TRUE ~ dag
+    ))
+}
+
+# Function for Sportfondsen (Oost, Mercator, etc.)
+# NOTE: The Sportfondsen websites have migrated to new URL structure:
+# - sportfondsenbadamsterdamoost.nl -> amsterdamoost.sportfondsen.nl
+# - sportplazamercator.nl -> mercator.sportfondsen.nl
+get_sportfondsen_timetable <- function(base_url, pool_name) {
+  
+  # Try the tijden-tarieven page directly
+  dodo <- GET(paste0(base_url, "/tijden-tarieven/"), user_agent("Mozilla/5.0"))
+  if (status_code(dodo) != 200) {
+     # try alternative URL
+     dodo <- GET(paste0(base_url, "/tijden-en-tarieven/"), user_agent("Mozilla/5.0"))
   }
   
-  return(new_rows)
-}
-
-get_timetables <- function(bad) {
+  if (status_code(dodo) != 200) {
+    message(paste("Could not fetch schedule page for", pool_name, "- Status:", status_code(dodo)))
+    return(NULL)
+  }
   
+  page_content <- content(dodo, "text")
   
-  # URL and endpoint
-  url <- paste0("https://zwembaden.api-amsterdam.nl/nl/api/", bad, "/activity/")
+  # Extract __NEXT_DATA__ which contains the schedule data
+  next_data <- str_extract(page_content, '<script id="__NEXT_DATA__" type="application/json">[^<]+</script>')
+  if (is.na(next_data)) {
+    message(paste("Could not find __NEXT_DATA__ for", pool_name))
+    return(NULL)
+  }
   
-  # Headers
-  headers <- c(
-    `User-Agent` = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
-    `Accept` = "application/json, text/plain, */*",
-    `Accept-Language` = "en-US,en;q=0.5",
-    # `Accept-Encoding` = "gzip, deflate, br",
-    `Origin` = "https://www.amsterdam.nl",
-    `Connection` = "keep-alive",
-    `Referer` = "https://www.amsterdam.nl/",
-    `Sec-Fetch-Dest` = "empty",
-    `Sec-Fetch-Mode` = "cors",
-    `Sec-Fetch-Site` = "cross-site",
-    `TE` = "trailers"
-  )
+  json_str <- str_replace_all(next_data, '<script id="__NEXT_DATA__" type="application/json">|</script>', '')
   
-  # Make the GET request
-  response <- GET(url, add_headers(.headers=headers))
-  
-  # Check the status code
-  status_code(response)
-  
-  # View the response content
-  yo <- content(response, "parsed")
-  
-  
-  # yo$days[[1]]$ -> as
-  # as  %>% map_dfr(as_tibble)
-  # bind_rows()
-  
-  zwemdat <- yo$days %>% 
-    map_dfr(~{
-      .x$schedule  %>% map_dfr(as_tibble) %>% 
-        mutate(dag = .x$name)
-    }) %>% 
-    mutate(start = parse_number(start),
-           end = parse_number(end)) %>% 
-    mutate(bad = str_to_title(str_replace(bad, "-", " ")))
-  
-  return(zwemdat)
-}
-
-
-
-get_thistype <- function(url, baad) {
-  # print(url)
-  # baad <- names(url)
-  # print(baad)
-  # Setting headers
-  headers <- c(
-    "authority" = "www.sportfondsenbadamsterdamoost.nl",
-    "accept" = "*/*",
-    "accept-language" = "en-US,en;q=0.9,de-DE;q=0.8,de;q=0.7,nl;q=0.6",
-    "cookie" = "next-auth.csrf-token=143cf089b12624ceaba5b31e71958c1e5cd09cb1ccff4279ecfadeb816c8cab3%7C55437bce0b0910ee94a7d04db05f827988af8747d826fb488ee99083c3bd4712; next-auth.callback-url=http%3A%2F%2Flocalhost%3A3000; _ga_0T3204D8PT=GS1.1.1701421564.1.0.1701421564.60.0.0; _ga=GA1.2.1694794977.1701421564; _gid=GA1.2.454577609.1701421565; sfnAcceptEssential=true; sfnAcceptAnalytics=true; sfnAcceptThirdParty=true; sqzl_consent=analytics,marketing; sqzllocal=sqzl6569a21a0000043f8712; sqzl_session_id=6569a1fc0000043f8711|1701421594.415; _gat_UA-40360714-15=1",
-    "referer" = "https://www.sportfondsenbadamsterdamoost.nl/",
-    "sec-ch-ua" = "\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"",
-    "sec-ch-ua-mobile" = "?0",
-    "sec-ch-ua-platform" = "\"Windows\"",
-    "sec-fetch-dest" = "empty",
-    "sec-fetch-mode" = "cors",
-    "sec-fetch-site" = "same-origin",
-    "user-agent" = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
-  )
-  
-  # Making the GET request
-  response <- GET(url, add_headers(.headers=headers))
-  
-  # Checking the response
-  # status_code(response)
-  ress <- content(response, "parsed")
-  
-  
-  yo <- ress[["pageProps"]][["extraPageProps"]][["scheduleData"]][["timeSlots"]]
-  kidinschool <- yo %>% 
-    map_dfr(~{
-      # print(.x)
-      bind_cols(.x %>% 
-                  .[c("day", "startTime", "endTime", "occupationDisplay")] %>% 
-                  purrr::discard(is_empty) %>% 
-                  as_tibble(),
-                
-                .x$activitySchedule$activity %>% flatten()  %>% 
-                  .[c("title", "url", "id", "name")] %>% 
-                  purrr::discard(is_empty) %>% 
-                  as_tibble()
+  tryCatch({
+    data <- jsonlite::fromJSON(json_str, simplifyVector = FALSE)
+    
+    # Extract scheduleData from extraPageProps
+    slots <- data$props$pageProps$extraPageProps$scheduleData$timeSlots
+    if (is.null(slots)) slots <- data$props$pageProps$scheduleData$timeSlots
+    
+    if (is.null(slots) || length(slots) == 0) {
+      message(paste("No schedule data found for", pool_name))
+      return(NULL)
+    }
+    
+    message(paste("Found", length(slots), "time slots for", pool_name))
+    
+    map_dfr(slots, ~{
+      # Check if required fields exist
+      if (is.null(.x$startTime) || is.null(.x$endTime)) return(NULL)
+      
+      tibble(
+        bad = pool_name,
+        dag = .x$day,
+        date = NA, # Sportfondsen doesn't provide specific dates
+        activity = if(!is.null(.x$activitySchedule$activity$title)) .x$activitySchedule$activity$title else "Onbekend",
+        extra = if(!is.null(.x$occupationDisplay)) .x$occupationDisplay else "",
+        start = as.numeric(str_replace(.x$startTime, ":", "")) / 100,
+        end = as.numeric(str_replace(.x$endTime, ":", "")) / 100
       )
-    }) %>% 
-    rename(dag = day, start = startTime, end = endTime, occupation = occupationDisplay, activity = title)  %>% 
-    mutate(bad = "oost") %>% 
-    filter(str_detect(activity, "Banenzwemmen")) %>% 
-    group_split(dag, bad) %>% 
-    map_dfr(aggregate_timeframes) %>% 
-    ungroup() %>% 
-    mutate(start = parse_number(str_remove(start, ":"))/100)%>%
-    mutate(end = parse_number(str_remove(end, ":"))/100) %>% 
-    mutate(bad = baad)
-  
-  return(kidinschool)
+    }) %>%
+      mutate(
+        # Convert time format: 12:00 -> 1200/100 = 12.0, 12:30 -> 1230/100 = 12.30 -> need to convert minutes
+        start = floor(start) + (start %% 1 * 100 / 60),
+        end = floor(end) + (end %% 1 * 100 / 60)
+      )
+  }, error = function(e) {
+    message(paste("Error parsing data for", pool_name, ":", e$message))
+    return(NULL)
+  })
 }
-
-
-library(httr)
-
-# URL for the request
-url <- "https://hetmarnix.nl/wp-admin/admin-ajax.php"
-
-
-
-# Define the start date
-start_date <- ymd_hms("2023-11-26T23:00:00.000Z")
-
-# Create a sequence of dates, 7 days apart
-date_sequence <- seq(from = start_date, by = "7 days", length.out = 10)
-
-# Create a dataset with start and end dates for each week
-dates_dataset <- tibble(
-  start = format(date_sequence, "%Y-%m-%dT%H:%M:%OSZ"),
-  end = format(date_sequence + days(7), "%Y-%m-%dT%H:%M:%OSZ")
-)
-
-# Print the dataset
-# print(dates_dataset)
-
-# Find the current week
-today <- Sys.Date()
-current_week <- dates_dataset %>% 
-  filter(as.Date(start) <= today & as.Date(end) >= today)
-
-# Print the current week
-# print(current_week)
-
-# Parameters for the request
-params <- list(
-  action = "getlessons",
-  start = current_week$start,
-  end = current_week$end#,
-  # sectionId = "8281996b-b3d0-4178-83a7-5586566b24ac"
-)
-
-# Headers
-headers <- c(
-  "authority" = "hetmarnix.nl",
-  "accept" = "*/*",
-  "accept-language" = "en-US,en;q=0.9,de-DE;q=0.8,de;q=0.7,nl;q=0.6",
-  "cookie" = "PHPSESSID=316f4f595b2f8c3335b012027dd3337d; _gid=GA1.2.315117722.1701423553; euCookieConsent.accepted=1; euCookieConsent.clicked=1; _ga_574TD1Y4X2=GS1.1.1701423553.2.1.1701424055.58.0.0; _ga=GA1.2.1341570072.1700223087; _gat_gtag_UA_112315885_1=1; _gat_UA-198709723-66=1; _ga_FMXVSD1516=GS1.2.1701423569.1.1.1701424055.0.0.0",
-  "referer" = "https://hetmarnix.nl/schedule/tijden/",
-  "sec-ch-ua" = "\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"",
-  "sec-ch-ua-mobile" = "?0",
-  "sec-ch-ua-platform" = "\"Windows\"",
-  "sec-fetch-dest" = "empty",
-  "sec-fetch-mode" = "cors",
-  "sec-fetch-site" = "same-origin",
-  "user-agent" = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
-  "x-requested-with" = "XMLHttpRequest"
-)
-
-# Making the GET request
-response <- GET(url, query = params, add_headers(.headers = headers))
-
-# Checking the response
-# status_code(response)
-marnixres <- content(response, "parsed")
-
-
-gviolo <- marnixres %>% 
-  map_dfr(~{
-    .x %>% flatten() %>% 
-      as_tibble() %>% 
-      mutate(dag = lubridate::wday(start, label = T, abbr = F))
-  }) 
-
-# Function to translate English weekday names to Dutch
-translate_weekday_to_dutch <- function(weekday_en) {
-  # Mapping of English to Dutch weekday names
-  weekdays_map <- c("Monday" = "Maandag", 
-                    "Tuesday" = "Dinsdag", 
-                    "Wednesday" = "Woensdag", 
-                    "Thursday" = "Donderdag", 
-                    "Friday" = "Vrijdag", 
-                    "Saturday" = "Zaterdag", 
-                    "Sunday" = "Zondag")
-  
-  # Translate
-  return(weekdays_map[weekday_en])
-}
-
-# Example usage
-# translate_weekday_to_dutch("Monday") # Should return "maandag"
-
-dodo <- httr::GET("https://www.sportfondsenbadamsterdamoost.nl/tijden-tarieven/")
-
-patit <- httr::content(dodo) %>% 
-  rvest::html_elements("script") %>% 
-  rvest::html_attr("src") %>% 
-  .[str_detect(., "_buildManifest.js|_ssgManifest.js|_middlewareManifest.js")] %>%
-  str_remove_all("/_next/static/|/_buildManifest.js|/_ssgManifest.js|/_middlewareManifest.js") %>% 
-  na.omit() %>% unique()
-
-urls <- c(paste0("https://www.sportfondsenbadamsterdamoost.nl/_next/data/",patit,"/tijden-tarieven.json?slug=tijden-tarieven"),
-          paste0("https://www.sportplazamercator.nl/_next/data/",patit,"/tijden-tarieven-van-mercator.json?slug=tijden-tarieven-van-mercator")) %>% 
-  set_names("Sportfondsenbad Oost",
-            "Sportplaza Mercator")
-
-# debugonce(get_thistype )
-
-
-kidinschool <- urls %>% 
-  imap_dfr(~get_thistype(.x, .y))
-
-hetmarnix <- gviolo  %>%# View()
-  # mutate(start = lubridate::ymd_hms(start)) %>% 
-  # mutate(start = paste0(as.numeric(lubridate::hour(start)), as.numeric(lubridate::minute(start))) %>% as.numeric) %>% 
-  rowwise() %>% 
-  mutate(start = str_split(start, "T") %>% unlist %>%  .[2]) %>% 
-  mutate(end = str_split(end, "T") %>% unlist %>%  .[2]) %>% 
-  ungroup() %>% #View()
-  mutate(start = as.numeric(str_remove_all(start, ":"))/10000) %>% 
-  mutate(end = as.numeric(str_remove_all(end, ":"))/10000) %>%
-  rename(activity = title) %>% 
-  mutate(dag = translate_weekday_to_dutch(dag)) %>% 
-  mutate(bad = "Het Marnix")  %>% #View() 
-  distinct(dag, bad, start, end, activity) %>% 
-  filter(str_detect(activity, "Banenzwemmen"))
-# filter(dag == "Dinsdag") %>% View()
-# group_split(dag, bad) %>% 
-# map_dfr(aggregate_timeframes) %>% 
-# ungroup() %>% View()
-

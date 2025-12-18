@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Amsterdam Aquatic Theme Styles */
+:root {
+  --amsterdam-red: #C8102E;
+  --canal-blue: #0077B6;
+  --pool-aqua: #06B6D4;
+  --deep-navy: #0F172A;
+}
+
+/* Water-inspired background */
+.bg-water-gradient {
+  background: linear-gradient(135deg, #F0F7FA 0%, #E0EEF4 50%, #ffffff 100%);
+}
+
+/* Wave animation for decorative elements */
+@keyframes wave {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+.animate-wave {
+  animation: wave 2s ease-in-out infinite;
+}
+
+.animate-wave-delay-1 {
+  animation: wave 2s ease-in-out infinite 0.2s;
+}
+
+.animate-wave-delay-2 {
+  animation: wave 2s ease-in-out infinite 0.4s;
+}
+
+/* Smooth transitions for filter changes */
+.transition-filter {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Custom scrollbar for the Gantt chart */
+.gantt-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.gantt-scroll::-webkit-scrollbar-track {
+  background: #E0EEF4;
+  border-radius: 4px;
+}
+
+.gantt-scroll::-webkit-scrollbar-thumb {
+  background: #0077B6;
+  border-radius: 4px;
+}
+
+.gantt-scroll::-webkit-scrollbar-thumb:hover {
+  background: #005a8c;
+}
+
+/* Skeleton loading animation */
+@keyframes skeleton-pulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.7; }
+}
+
+.skeleton-loading {
+  animation: skeleton-pulse 1.5s ease-in-out infinite;
+  background: linear-gradient(90deg, #E0EEF4 25%, #F0F7FA 50%, #E0EEF4 75%);
+  background-size: 200% 100%;
+}
+
+/* Session bar hover effect */
+.session-bar {
+  transition: all 0.2s ease;
+}
+
+.session-bar:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 119, 182, 0.3);
+  z-index: 20;
+}
+
+/* Now indicator pulse */
+@keyframes now-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.now-indicator {
+  animation: now-pulse 2s ease-in-out infinite;
+}
+
+/* Day pill active state */
+.day-pill {
+  transition: all 0.2s ease;
+}
+
+.day-pill:hover {
+  transform: translateY(-1px);
+}
+
+.day-pill.active {
+  box-shadow: 0 2px 8px rgba(200, 16, 46, 0.3);
+}
+
+/* Mobile bottom nav */
+@media (max-width: 768px) {
+  .mobile-bottom-nav {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+/* Grid lines for Gantt chart */
+.gantt-grid-line {
+  background: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent calc(100% / 17 - 1px),
+    #E0EEF4 calc(100% / 17 - 1px),
+    #E0EEF4 calc(100% / 17)
+  );
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Stagger children animation */
+.stagger-children > * {
+  animation: fadeIn 0.3s ease-out forwards;
+  opacity: 0;
+}
+
+.stagger-children > *:nth-child(1) { animation-delay: 0.05s; }
+.stagger-children > *:nth-child(2) { animation-delay: 0.1s; }
+.stagger-children > *:nth-child(3) { animation-delay: 0.15s; }
+.stagger-children > *:nth-child(4) { animation-delay: 0.2s; }
+.stagger-children > *:nth-child(5) { animation-delay: 0.25s; }
+.stagger-children > *:nth-child(6) { animation-delay: 0.3s; }
+.stagger-children > *:nth-child(7) { animation-delay: 0.35s; }
+
+/* Nu Open badge pulse */
+@keyframes badge-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(5, 150, 105, 0.4); }
+  50% { box-shadow: 0 0 0 6px rgba(5, 150, 105, 0); }
+}
+
+.nu-open-badge {
+  animation: badge-pulse 2s ease-in-out infinite;
+}
