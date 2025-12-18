@@ -4,7 +4,7 @@
 
 Zwemsterdam is een web-app die automatisch zwemtijden verzamelt van alle openbare zwembaden in Amsterdam, zodat je in één overzicht kunt zien wanneer en waar je kunt zwemmen.
 
-🌐 **Live:** [zwemsterdam.nl](https://favstats.github.io/zwemsterdam/) *(of je eigen deployment)*
+🌐 **Live:** [zwemsterdam.nl](https://zwemsterdam.nl)
 
 ---
 
