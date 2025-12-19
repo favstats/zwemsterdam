@@ -1752,7 +1752,6 @@ const App: React.FC = () => {
   // Filter data
   useEffect(() => {
     let result = data;
-    const today = getTodayDutch();
     const todayDateStr = formatDateISO(new Date());
     const weekOffset = selectedWeek === 'this' ? 0 : 1;
     const weekInfo = getWeekInfo(weekOffset);
