@@ -154,3 +154,13 @@
 .nu-open-badge {
   animation: badge-pulse 2s ease-in-out infinite;
 }
+
+/* Hide scrollbar for mobile calendar swipe */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

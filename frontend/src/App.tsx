@@ -53,18 +53,19 @@ const DAY_ABBREVIATIONS: Record<string, string> = {
 // - Het Marnix (own API)
 // - Sportfondsen: Sportfondsenbad Oost, Sportplaza Mercator
 // Note: Sloterparkbad & Bijlmer Sportcentrum (Optisport) require browser automation (Cloudflare)
+// Pool colors - 11 distinct colors, warm and vibrant palette
 const POOL_COLORS: Record<string, string> = {
   'Zuiderbad': '#C8102E',           // Amsterdam Red
-  'Het Marnix': '#0077B6',          // Canal Blue
-  'Sportplaza Mercator': '#059669', // Emerald
-  'De Mirandabad': '#7C3AED',       // Purple
-  'Noorderparkbad': '#0891B2',      // Cyan
-  'Flevoparkbad': '#16A34A',        // Green
-  'Brediusbad': '#DC2626',          // Red
-  'Sportfondsenbad Oost': '#8B5CF6', // Violet
+  'Brediusbad': '#E11D48',          // Rose Red
   'Sloterparkbad': '#EA580C',       // Orange
-  'Bijlmer Sportcentrum': '#BE185D', // Pink/Magenta
-  'Duranbad (Diemen)': '#0D9488',   // Teal
+  'Flevoparkbad': '#16A34A',        // Green
+  'Sportplaza Mercator': '#0D9488', // Teal
+  'Noorderparkbad': '#0284C7',      // Sky Blue
+  'Het Marnix': '#2563EB',          // Blue
+  'De Mirandabad': '#7C3AED',       // Purple
+  'Sportfondsenbad Oost': '#A855F7', // Violet
+  'Bijlmer Sportcentrum': '#DB2777', // Pink
+  'Duranbad (Diemen)': '#6366F1',   // Indigo
 };
 
 // Day colors for multi-day view
@@ -1133,21 +1134,37 @@ const GanttView: React.FC<GanttViewProps> = ({ data, selectedDay, onSessionClick
   const uniqueDays = useMemo(() => new Set(deduplicatedData.map(d => d.dag)), [deduplicatedData]);
   const isSingleDay = uniqueDays.size === 1;
   
-  // Assign rows to avoid overlaps
+  // Assign rows to avoid overlaps - with small epsilon for floating point comparison
   const assignRows = (sessions: SwimmingSession[]): Map<number, number> => {
     const rowMap = new Map<number, number>();
-    const sortedSessions = [...sessions].sort((a, b) => a.start - b.start || a.end - b.end);
-    const rowEndTimes: number[] = [];
+    const EPSILON = 0.02; // ~1 minute tolerance for floating point issues
     
-    sortedSessions.forEach(session => {
-      let assignedRow = rowEndTimes.findIndex(endTime => endTime <= session.start);
-      if (assignedRow === -1) {
-        assignedRow = rowEndTimes.length;
-        rowEndTimes.push(session.end);
-      } else {
-        rowEndTimes[assignedRow] = session.end;
+    // When viewing multiple days, group by date first to avoid cross-day stacking
+    const sessionsByDate = new Map<string, SwimmingSession[]>();
+    sessions.forEach(session => {
+      const dateKey = session.date || session.dag;
+      if (!sessionsByDate.has(dateKey)) {
+        sessionsByDate.set(dateKey, []);
       }
-      rowMap.set(session.id, assignedRow);
+      sessionsByDate.get(dateKey)!.push(session);
+    });
+    
+    // Process each day separately
+    sessionsByDate.forEach((daySessions) => {
+      const sortedSessions = [...daySessions].sort((a, b) => a.start - b.start || a.end - b.end);
+      const rowEndTimes: number[] = [];
+      
+      sortedSessions.forEach(session => {
+        // Find a row where the previous session ended before (or at) this session's start
+        let assignedRow = rowEndTimes.findIndex(endTime => endTime <= session.start + EPSILON);
+        if (assignedRow === -1) {
+          assignedRow = rowEndTimes.length;
+          rowEndTimes.push(session.end);
+        } else {
+          rowEndTimes[assignedRow] = session.end;
+        }
+        rowMap.set(session.id, assignedRow);
+      });
     });
     
     return rowMap;
@@ -1274,12 +1291,12 @@ const GanttView: React.FC<GanttViewProps> = ({ data, selectedDay, onSessionClick
                         return (
                           <div
                             key={session.id}
-                            className={`session-bar absolute rounded-lg flex items-center text-white text-xs font-bold cursor-pointer border-2 hover:scale-105 hover:z-20 active:scale-95 transition-transform ${
+                            className={`session-bar absolute rounded-md flex items-center text-white text-xs font-bold cursor-pointer border hover:scale-105 hover:z-20 active:scale-95 transition-transform ${
                               isNow ? 'ring-2 ring-success ring-offset-2' : ''
-                            } ${isOther ? 'border-dashed border-gray-400' : 'border-white/40'} ${hasNote ? 'brightness-90' : ''}`}
+                            } ${isOther ? 'border-dashed border-gray-400' : 'border-white/20'} ${hasNote ? 'brightness-95' : ''}`}
                             style={{
-                              left: `${left}%`,
-                              width: `${Math.max(width, 3)}%`,
+                              left: `calc(${left}% + 1px)`,
+                              width: `calc(${Math.max(width, 3)}% - 2px)`,
                               top: `${top}px`,
                               height: `${barHeight}px`,
                               backgroundColor: color,
@@ -1308,7 +1325,7 @@ const GanttView: React.FC<GanttViewProps> = ({ data, selectedDay, onSessionClick
                                 {formatTime(session.start)}-{formatTime(session.end)}
                               </span>
                               {hasNote && (
-                                <span className="text-yellow-200 flex-shrink-0" title={session.extra}>*</span>
+                                <span className="text-amber-300 flex-shrink-0" title={session.extra}>*</span>
                               )}
                             </div>
                           </div>
@@ -1452,128 +1469,263 @@ const CalendarView: React.FC<CalendarViewProps> = ({ data, selectedDay, onSessio
     return layout;
   };
   
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const [maxScroll, setMaxScroll] = useState(0);
+  const scrollContainerRef = React.useRef<HTMLDivElement>(null);
+  const headerScrollRef = React.useRef<HTMLDivElement>(null);
+  
+  // Sync header scroll with content scroll
+  const handleScroll = (e: React.UIEvent<HTMLDivElement>) => {
+    const target = e.target as HTMLDivElement;
+    setScrollPosition(target.scrollLeft);
+    setMaxScroll(target.scrollWidth - target.clientWidth);
+    if (headerScrollRef.current) {
+      headerScrollRef.current.scrollLeft = target.scrollLeft;
+    }
+  };
+  
+  const scrollToDirection = (direction: 'left' | 'right') => {
+    if (scrollContainerRef.current) {
+      const scrollAmount = 240; // ~2 columns
+      const newScroll = direction === 'left' 
+        ? scrollContainerRef.current.scrollLeft - scrollAmount
+        : scrollContainerRef.current.scrollLeft + scrollAmount;
+      scrollContainerRef.current.scrollTo({ left: newScroll, behavior: 'smooth' });
+    }
+  };
+  
   if (pools.length === 0) return null;
   
+  const showLeftArrow = scrollPosition > 10;
+  const showRightArrow = maxScroll > 0 && scrollPosition < maxScroll - 10;
+  
   return (
-    <div className="bg-base-100 rounded-xl shadow-lg overflow-hidden border border-base-300">
+    <div className="bg-base-100 rounded-xl shadow-lg overflow-hidden border border-base-300 relative">
+      {/* Left scroll arrow */}
+      {showLeftArrow && (
+        <button 
+          onClick={() => scrollToDirection('left')}
+          className="absolute left-16 top-1/2 -translate-y-1/2 z-30 bg-base-100/90 shadow-lg rounded-full p-2 hover:bg-base-200 transition-colors md:hidden"
+          aria-label="Scroll left"
+        >
+          <ChevronUp className="rotate-[-90deg]" size={20} />
+        </button>
+      )}
+      
+      {/* Right scroll arrow */}
+      {showRightArrow && (
+        <button 
+          onClick={() => scrollToDirection('right')}
+          className="absolute right-2 top-1/2 -translate-y-1/2 z-30 bg-base-100/90 shadow-lg rounded-full p-2 hover:bg-base-200 transition-colors md:hidden"
+          aria-label="Scroll right"
+        >
+          <ChevronDown className="rotate-[-90deg]" size={20} />
+        </button>
+      )}
+      
       {/* Header with pool names */}
       <div className="sticky top-0 z-20 bg-base-100 border-b-2 border-primary/20">
         <div className="flex">
           <div className="w-16 flex-shrink-0 p-3 bg-base-200 font-bold text-xs text-base-content/70">
             Tijd
           </div>
-          {pools.map((pool, idx) => (
-            <div 
-              key={pool}
-              className="flex-1 p-3 font-bold text-sm text-center border-l border-base-200 min-w-[140px]"
-              style={{ backgroundColor: `${getPoolColor(pool, idx)}10` }}
-            >
+          <div 
+            ref={headerScrollRef}
+            className="flex flex-1 overflow-x-hidden"
+          >
+            {pools.map((pool, idx) => (
               <div 
-                className="w-3 h-3 rounded-full mx-auto mb-1"
-                style={{ backgroundColor: getPoolColor(pool, idx) }}
-              ></div>
-              <span className="text-xs leading-tight">{pool}</span>
+                key={pool}
+                className="flex-shrink-0 w-[calc((100vw-64px)/2)] sm:w-[calc((100vw-64px)/3)] md:flex-1 md:min-w-[120px] p-2 sm:p-3 font-bold text-sm text-center border-l border-base-200"
+                style={{ backgroundColor: `${getPoolColor(pool, idx)}10` }}
+              >
+                <div 
+                  className="w-3 h-3 rounded-full mx-auto mb-1"
+                  style={{ backgroundColor: getPoolColor(pool, idx) }}
+                ></div>
+                <span className="text-[10px] sm:text-xs leading-tight line-clamp-2">{pool}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+        
+        {/* Pool indicator dots with arrows (mobile only) */}
+        {pools.length > 2 && (
+          <div className="flex items-center justify-center gap-2 py-2 bg-base-100 border-t border-base-200 md:hidden">
+            {/* Left arrow */}
+            <button
+              onClick={() => scrollToDirection('left')}
+              className={`p-1 rounded-full transition-all ${showLeftArrow ? 'text-primary hover:bg-primary/10' : 'text-base-300 cursor-default'}`}
+              disabled={!showLeftArrow}
+              aria-label="Vorige zwembaden"
+            >
+              <ChevronUp className="rotate-[-90deg]" size={16} />
+            </button>
+            
+            {/* Dots */}
+            <div className="flex gap-1.5">
+              {pools.map((pool, idx) => {
+                // Calculate visibility based on actual scroll container
+                const container = scrollContainerRef.current;
+                const totalScrollWidth = container?.scrollWidth || 1;
+                const containerWidth = container?.clientWidth || (window.innerWidth - 64);
+                const columnWidth = totalScrollWidth / pools.length;
+                
+                // Calculate which pools are visible
+                const columnStart = idx * columnWidth;
+                const columnEnd = columnStart + columnWidth;
+                const viewStart = scrollPosition;
+                const viewEnd = scrollPosition + containerWidth;
+                
+                // A pool is visible if any part of it is in the viewport
+                const isVisible = columnEnd > viewStart + 10 && columnStart < viewEnd - 10;
+                
+                return (
+                  <button
+                    key={pool}
+                    onClick={() => {
+                      if (scrollContainerRef.current) {
+                        // Scroll to put this pool at the start
+                        scrollContainerRef.current.scrollTo({ left: columnStart, behavior: 'smooth' });
+                      }
+                    }}
+                    className={`w-2.5 h-2.5 rounded-full transition-all ${isVisible ? 'scale-110 ring-1 ring-primary/40' : 'opacity-30 hover:opacity-60'}`}
+                    style={{ backgroundColor: getPoolColor(pool, idx) }}
+                    title={pool}
+                    aria-label={`Ga naar ${pool}`}
+                  />
+                );
+              })}
+            </div>
+            
+            {/* Right arrow */}
+            <button
+              onClick={() => scrollToDirection('right')}
+              className={`p-1 rounded-full transition-all ${showRightArrow ? 'text-primary hover:bg-primary/10' : 'text-base-300 cursor-default'}`}
+              disabled={!showRightArrow}
+              aria-label="Volgende zwembaden"
+            >
+              <ChevronDown className="rotate-[-90deg]" size={16} />
+            </button>
+          </div>
+        )}
+      </div>
+      
+      {/* Time grid with sessions rendered inside pool columns */}
+      <div className="flex">
+        {/* Time column - fixed */}
+        <div className="w-16 flex-shrink-0 relative bg-base-50">
+          {/* Now indicator for time column */}
+          {showNowLine && (
+            <div 
+              className="absolute left-0 right-0 h-0.5 bg-error z-20"
+              style={{ top: `${(currentTime - MIN_TIME) * HOUR_HEIGHT}px` }}
+            >
+              <div className="absolute left-1 -top-2.5 bg-error text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full shadow-lg whitespace-nowrap">
+                {formatTime(currentTime)}
+              </div>
+            </div>
+          )}
+          {hourSlots.map(hour => (
+            <div 
+              key={hour}
+              className="border-b border-base-200 last:border-0 p-2 text-xs font-bold text-base-content/60 bg-base-50 border-r"
+              style={{ height: `${HOUR_HEIGHT}px` }}
+            >
+              {hour}:00
             </div>
           ))}
         </div>
-      </div>
-      
-      {/* Time grid with positioned sessions */}
-      <div className="relative">
-        {/* Now indicator */}
-        {showNowLine && (
-          <div 
-            className="absolute left-0 right-0 h-0.5 bg-error now-indicator z-20"
-            style={{ top: `${(currentTime - MIN_TIME) * HOUR_HEIGHT}px` }}
-          >
-            <div className="absolute left-2 -top-2.5 bg-error text-white text-xs font-bold px-2 py-0.5 rounded-full shadow-lg">
-              Nu {formatTime(currentTime)}
-            </div>
-          </div>
-        )}
         
-        {/* Hour rows - just for grid lines */}
-        {hourSlots.map(hour => (
-          <div 
-            key={hour} 
-            className="flex border-b border-base-200 last:border-0"
-            style={{ height: `${HOUR_HEIGHT}px` }}
-          >
-            {/* Time label */}
-            <div className="w-16 flex-shrink-0 p-2 text-xs font-bold text-base-content/60 bg-base-50 border-r border-base-200">
-              {hour}:00
-            </div>
-            
-            {/* Pool columns - empty grid cells */}
-            {pools.map((pool) => (
-              <div 
-                key={pool}
-                className="flex-1 border-l border-base-200 min-w-[140px] bg-base-50/30"
-              />
-            ))}
-          </div>
-        ))}
-        
-        {/* Positioned session blocks - overlay on grid */}
-        {pools.map((pool, poolIdx) => {
-          const poolColor = getPoolColor(pool, poolIdx);
-          const poolSessions = deduplicatedData.filter(s => s.bad === pool);
-          const layout = getSessionLayout(pool);
-          
-          return poolSessions.map(session => {
-            const sessionLayout = layout.get(session.id) || { column: 0, totalColumns: 1 };
-            const isNow = isSessionNow(session);
-            const category = getActivityCategory(session.activity);
-            const isClosed = category === 'closed';
-            const isOther = category === 'other';
-            const hasNote = hasImportantNote(session);
-            
-            let bgColor = poolColor;
-            if (isClosed) bgColor = '#6B7280';
-            else if (isOther) bgColor = '#9CA3AF';
-            
-            // Calculate position
-            const topPosition = (session.start - MIN_TIME) * HOUR_HEIGHT;
-            const height = Math.max((session.end - session.start) * HOUR_HEIGHT - 4, 24); // Min 24px height
-            
-            // Column width percentage within the pool cell
-            const widthPercent = 100 / sessionLayout.totalColumns;
-            const leftPercent = sessionLayout.column * widthPercent;
+        {/* Scrollable pool columns container */}
+        <div 
+          ref={scrollContainerRef}
+          onScroll={handleScroll}
+          className="flex flex-1 overflow-x-auto scroll-smooth snap-x snap-mandatory md:snap-none scrollbar-hide"
+        >
+          {/* Pool columns with sessions */}
+          {pools.map((pool, poolIdx) => {
+            const poolColor = getPoolColor(pool, poolIdx);
+            const poolSessions = deduplicatedData.filter(s => s.bad === pool);
+            const layout = getSessionLayout(pool);
             
             return (
-              <div
-                key={session.id}
-                className={`absolute rounded-lg text-white text-xs cursor-pointer hover:z-30 hover:scale-[1.02] active:scale-[0.98] transition-transform shadow-sm ${
-                  isNow ? 'ring-2 ring-success ring-offset-1 z-10' : ''
-                } ${isClosed ? 'opacity-60' : ''} ${isOther ? 'border border-dashed border-gray-400' : 'border border-white/30'}`}
-                style={{ 
-                  top: `${topPosition}px`,
-                  height: `${height}px`,
-                  // Position within the pool column
-                  left: `calc(64px + (100% - 64px) * ${poolIdx / pools.length} + (100% - 64px) / ${pools.length} * ${leftPercent / 100} + 4px)`,
-                  width: `calc((100% - 64px) / ${pools.length} * ${widthPercent / 100} - 8px)`,
-                  backgroundColor: bgColor,
-                  backgroundImage: isClosed ? 'repeating-linear-gradient(45deg, transparent, transparent 3px, rgba(255,255,255,0.1) 3px, rgba(255,255,255,0.1) 6px)' : 'none',
-                }}
-                onClick={() => onSessionClick(session, bgColor)}
+              <div 
+                key={pool}
+                className="flex-shrink-0 w-[calc((100vw-64px)/2)] sm:w-[calc((100vw-64px)/3)] md:flex-1 md:w-auto md:min-w-[120px] border-l border-base-200 relative snap-start"
+                style={{ height: `${(MAX_TIME - MIN_TIME) * HOUR_HEIGHT}px` }}
               >
-                <div className="p-1.5 h-full flex flex-col overflow-hidden">
-                  <div className="font-bold flex items-center gap-1 flex-shrink-0">
-                    {isClosed && <X size={10} />}
-                    {isClosed ? 'Gesloten' : `${formatTime(session.start)}-${formatTime(session.end)}`}
-                    {hasNote && !isClosed && <span className="text-yellow-200">*</span>}
-                  </div>
-                  {!isClosed && height > 40 && (
-                    <div className="opacity-80 truncate flex items-center gap-1 text-[10px] mt-0.5">
-                      {isOther && <span className="opacity-60">●</span>}
-                      {session.activity}
+              {/* Hour grid lines */}
+              {hourSlots.map(hour => (
+                <div 
+                  key={hour}
+                  className="absolute left-0 right-0 border-b border-base-200"
+                  style={{ top: `${(hour - MIN_TIME) * HOUR_HEIGHT}px`, height: `${HOUR_HEIGHT}px` }}
+                />
+              ))}
+              
+              {/* Now indicator line */}
+              {showNowLine && (
+                <div 
+                  className="absolute left-0 right-0 h-0.5 bg-error z-20"
+                  style={{ top: `${(currentTime - MIN_TIME) * HOUR_HEIGHT}px` }}
+                />
+              )}
+              
+              {/* Sessions for this pool */}
+              {poolSessions.map(session => {
+                const sessionLayout = layout.get(session.id) || { column: 0, totalColumns: 1 };
+                const isNow = isSessionNow(session);
+                const category = getActivityCategory(session.activity);
+                const isClosed = category === 'closed';
+                const isOther = category === 'other';
+                const hasNote = hasImportantNote(session);
+                
+                let bgColor = poolColor;
+                if (isClosed) bgColor = '#6B7280';
+                else if (isOther) bgColor = '#9CA3AF';
+                
+                const topPosition = (session.start - MIN_TIME) * HOUR_HEIGHT;
+                const height = Math.max((session.end - session.start) * HOUR_HEIGHT - 1, 14);
+                
+                const widthPercent = 100 / sessionLayout.totalColumns;
+                const leftPercent = sessionLayout.column * widthPercent;
+                
+                return (
+                  <div
+                    key={session.id}
+                    className={`absolute rounded-md text-white text-xs cursor-pointer hover:z-30 hover:scale-[1.02] active:scale-[0.98] transition-transform shadow-sm ${
+                      isNow ? 'ring-2 ring-success ring-offset-1 z-10' : ''
+                    } ${isClosed ? 'opacity-60' : ''} ${isOther ? 'border border-dashed border-gray-400' : 'border border-white/20'}`}
+                    style={{ 
+                      top: `${topPosition}px`,
+                      height: `${height}px`,
+                      left: `calc(${leftPercent}% + 2px)`,
+                      width: `calc(${widthPercent}% - 4px)`,
+                      backgroundColor: bgColor,
+                      backgroundImage: isClosed ? 'repeating-linear-gradient(45deg, transparent, transparent 3px, rgba(255,255,255,0.1) 3px, rgba(255,255,255,0.1) 6px)' : 'none',
+                    }}
+                    onClick={() => onSessionClick(session, bgColor)}
+                  >
+                    <div className="p-1 h-full flex flex-col overflow-hidden">
+                      <div className="font-bold flex items-center gap-1 flex-shrink-0 text-[11px]">
+                        {isClosed && <X size={10} />}
+                        {isClosed ? 'Gesloten' : `${formatTime(session.start)}-${formatTime(session.end)}`}
+                        {hasNote && !isClosed && <span className="text-amber-300">*</span>}
+                      </div>
+                      {!isClosed && height > 36 && (
+                        <div className="opacity-80 truncate text-[10px] mt-0.5">
+                          {session.activity}
+                        </div>
+                      )}
                     </div>
-                  )}
-                </div>
-              </div>
-            );
-          });
+                  </div>
+                );
+              })}
+            </div>
+          );
         })}
+        </div>
       </div>
     </div>
   );
