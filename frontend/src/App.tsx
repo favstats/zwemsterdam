@@ -62,6 +62,8 @@ const POOL_COLORS: Record<string, string> = {
   'Flevoparkbad': '#16A34A',        // Green
   'Brediusbad': '#DC2626',          // Red
   'Sportfondsenbad Oost': '#8B5CF6', // Violet
+  'Sloterparkbad': '#EA580C',       // Orange
+  'Bijlmer Sportcentrum': '#BE185D', // Pink/Magenta
 };
 
 // Day colors for multi-day view
@@ -85,6 +87,8 @@ const POOL_WEBSITES: Record<string, string> = {
   'Het Marnix': 'https://hetmarnix.nl/zwemmen/',
   'Sportfondsenbad Oost': 'https://amsterdamoost.sportfondsen.nl/tijden-tarieven/',
   'Sportplaza Mercator': 'https://mercator.sportfondsen.nl/tijden-tarieven/',
+  'Bijlmer Sportcentrum': 'https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost',
+  'Sloterparkbad': 'https://www.optisport.nl/sloterparkbad-amsterdam',
 };
 
 // Google Maps links for each pool
@@ -97,6 +101,8 @@ const POOL_MAPS: Record<string, string> = {
   'Het Marnix': 'https://maps.google.com/?q=Het+Marnix+Amsterdam',
   'Sportfondsenbad Oost': 'https://maps.google.com/?q=Sportfondsenbad+Oost+Amsterdam',
   'Sportplaza Mercator': 'https://maps.google.com/?q=Sportplaza+Mercator+Amsterdam',
+  'Bijlmer Sportcentrum': 'https://maps.google.com/?q=Bijlmer+Sportcentrum+Amsterdam',
+  'Sloterparkbad': 'https://maps.google.com/?q=Sloterparkbad+Amsterdam',
 };
 
 const getPoolMapLink = (poolName: string): string => {
@@ -1761,8 +1767,8 @@ const App: React.FC = () => {
         return itemDate >= weekInfo.start && itemDate <= weekInfo.end;
       });
     } else if (selectedDay === 'Today') {
-      // Filter to today
-      result = result.filter(item => item.date === todayDateStr || item.dag === today);
+      // Filter to today - only by exact date match
+      result = result.filter(item => item.date === todayDateStr);
     } else {
       // selectedDay is now a date string (YYYY-MM-DD)
       result = result.filter(item => item.date === selectedDay);
