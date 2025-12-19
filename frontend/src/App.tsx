@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { Search, MapPin, Clock, Calendar, ChevronDown, ChevronUp, Waves, List, Navigation, ExternalLink, Info, AlertTriangle, X, Database, Github, BarChart3, Coffee } from 'lucide-react';
+import { Search, MapPin, Clock, Calendar, ChevronDown, ChevronUp, Waves, List, Navigation, ExternalLink, Info, AlertTriangle, X, Database, Github, BarChart3, Coffee, Wallet, Heart, Linkedin, Globe, AtSign } from 'lucide-react';
 
 // ============================================================================
 // Types
@@ -1038,20 +1038,56 @@ const AboutModal: React.FC<AboutModalProps> = ({ metadata, onClose }) => {
           
           {/* Credits */}
           <div className="pt-4 border-t border-base-300">
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
               <div>
                 <p className="text-sm text-base-content/60">Gemaakt door</p>
                 <p className="font-bold">Fabio Votta</p>
+                <p className="text-xs text-base-content/50">Postdoc @ University of Amsterdam</p>
               </div>
-              <a
-                href="https://github.com/favstats"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-ghost btn-sm gap-2"
-              >
-                <Github size={18} />
-                @favstats
-              </a>
+              <div className="flex gap-1">
+                <a
+                  href="https://favstats.eu/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-ghost btn-sm gap-1"
+                  title="Website"
+                >
+                  <Globe size={16} />
+                </a>
+                <a
+                  href="https://github.com/favstats/zwemsterdam"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-ghost btn-sm gap-1"
+                  title="GitHub Repo"
+                >
+                  <Github size={16} />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/dr-fabio-votta-81a862131/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-ghost btn-sm gap-1 text-blue-700"
+                  title="LinkedIn"
+                >
+                  <Linkedin size={16} />
+                </a>
+                <a
+                  href="https://bsky.app/profile/favstats.eu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-ghost btn-sm gap-1 text-sky-500"
+                  title="Bluesky"
+                >
+                  <AtSign size={16} />
+                </a>
+              </div>
+            </div>
+            <p className="text-sm text-base-content/60 mt-4 flex items-center gap-1">
+              <Heart size={14} className="text-red-400" />
+              Vind je Zwemsterdam handig? Overweeg een kleine donatie!
+            </p>
+            <div className="flex gap-2 mt-2">
               <a
                 href="https://www.buymeacoffee.com/favstats"
                 target="_blank"
@@ -1060,6 +1096,15 @@ const AboutModal: React.FC<AboutModalProps> = ({ metadata, onClose }) => {
               >
                 <Coffee size={18} />
                 Buy me a coffee
+              </a>
+              <a
+                href="https://paypal.me/FVotta"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline btn-sm gap-2 text-blue-500 border-blue-400 hover:bg-blue-500 hover:text-white hover:border-blue-500"
+              >
+                <Wallet size={18} />
+                PayPal
               </a>
             </div>
           </div>
@@ -2258,57 +2303,78 @@ const App: React.FC = () => {
       </nav>
       
       {/* Footer */}
-      <footer className="mt-12 px-4 md:px-6 py-8 border-t border-base-300 bg-base-200/50">
-        <div className="max-w-4xl mx-auto">
-          {/* Disclaimer */}
-          <div className="flex items-start gap-3 p-4 bg-warning/10 rounded-xl mb-6">
-            <AlertTriangle size={20} className="text-warning flex-shrink-0 mt-0.5" />
-            <div className="text-sm text-base-content/70">
-              <strong className="text-base-content">Disclaimer:</strong> Zwemsterdam is een onofficieel hulpmiddel. 
-              Controleer altijd de <button onClick={() => setShowAbout(true)} className="text-secondary hover:underline font-semibold">officiële websites</button> voor de meest actuele zwemtijden — 
-              <em className="text-warning-content font-medium">vooral tijdens feestdagen en schoolvakanties, wanneer openingstijden vaak afwijken.</em>
+      <footer className="mt-12 px-4 md:px-6 py-6 border-t border-base-300 bg-base-200/30">
+        <div className="max-w-4xl mx-auto space-y-4">
+          {/* Main footer content */}
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+            {/* Brand & creator */}
+            <div className="flex items-center gap-3">
+              <WaveXXXLogo size="sm" />
+              <div className="text-center sm:text-left">
+                <span className="font-bold text-base-content">Zwemsterdam</span>
+                <p className="text-xs text-base-content/50">
+                  Door <a href="https://favstats.eu/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Fabio Votta</a> 🏊‍♂️
+                </p>
+              </div>
+            </div>
+            
+            {/* Social links */}
+            <div className="flex items-center gap-1">
+              <a href="https://favstats.eu/" target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-sm btn-circle" title="Website">
+                <Globe size={16} />
+              </a>
+              <a href="https://github.com/favstats/zwemsterdam" target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-sm btn-circle" title="GitHub">
+                <Github size={16} />
+              </a>
+              <a href="https://www.linkedin.com/in/dr-fabio-votta-81a862131/" target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-sm btn-circle text-blue-600" title="LinkedIn">
+                <Linkedin size={16} />
+              </a>
+              <a href="https://bsky.app/profile/favstats.eu" target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-sm btn-circle text-sky-500" title="Bluesky">
+                <AtSign size={16} />
+              </a>
+              <div className="w-px h-6 bg-base-300 mx-1" />
+              <button onClick={() => setShowAbout(true)} className="btn btn-ghost btn-sm gap-1 text-secondary">
+                <Info size={14} />
+                Info
+              </button>
             </div>
           </div>
           
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-base-content/60">
-            <div className="flex items-center gap-4">
-              <div>
-                <p className="font-bold text-base-content">Zwemsterdam</p>
-                <p className="text-xs text-base-content/50">Gemaakt door Fabio Votta</p>
-              </div>
-              <a
-                href="https://github.com/favstats"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-ghost btn-xs gap-1"
-              >
-                <Github size={14} />
-                @favstats
+          {/* Donation & disclaimer row */}
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-3 pt-3 border-t border-base-300/50">
+            {/* Donation */}
+            <div className="flex items-center gap-2 text-xs text-base-content/60">
+              <span className="flex items-center gap-1">
+                <Heart size={12} className="text-red-400" />
+                Handig?
+              </span>
+              <a href="https://www.buymeacoffee.com/favstats" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-amber-600 hover:text-amber-700 font-medium">
+                <Coffee size={12} />
+                Coffee
               </a>
-              <a
-                href="https://www.buymeacoffee.com/favstats"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-ghost btn-xs gap-1 text-amber-600 hover:text-amber-700"
-              >
-                <Coffee size={14} />
-                Doneren
+              <span className="text-base-300">|</span>
+              <a href="https://paypal.me/FVotta" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-blue-600 hover:text-blue-700 font-medium">
+                <Wallet size={12} />
+                PayPal
               </a>
-              <button
-                onClick={() => setShowAbout(true)}
-                className="text-secondary hover:underline flex items-center gap-1"
-              >
-                <Info size={14} />
-                Over & Bronnen
-              </button>
             </div>
             
-            {metadata && (
-              <div className="flex items-center gap-2 text-xs">
-                <Database size={14} />
-                <span>Laatst bijgewerkt: {formatLastUpdated(metadata.lastUpdated)}</span>
-              </div>
-            )}
+            {/* Disclaimer & last updated */}
+            <div className="flex flex-col sm:flex-row items-center gap-2 text-xs text-base-content/50">
+              <span className="flex items-center gap-1">
+                <AlertTriangle size={12} className="text-warning" />
+                Controleer altijd <button onClick={() => setShowAbout(true)} className="text-secondary hover:underline">officiële bronnen</button>
+              </span>
+              {metadata && (
+                <>
+                  <span className="hidden sm:inline text-base-300">•</span>
+                  <span className="flex items-center gap-1">
+                    <Database size={12} />
+                    {formatLastUpdated(metadata.lastUpdated)}
+                  </span>
+                </>
+              )}
+            </div>
           </div>
         </div>
       </footer>
