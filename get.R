@@ -16,9 +16,10 @@ pool_websites <- list(
   "Brediusbad" = "https://www.amsterdam.nl/brediusbad/zwembadrooster-brediusbad/",
   "Het Marnix" = "https://hetmarnix.nl/zwemmen/",
   "Sportfondsenbad Oost" = "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/",
-  "Sportplaza Mercator" = "https://mercator.sportfondsen.nl/tijden-tarieven/",
+  "Sportplaza Mercator" = "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/",
   "Bijlmer Sportcentrum" = "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost",
-  "Sloterparkbad" = "https://www.optisport.nl/sloterparkbad-amsterdam"
+  "Sloterparkbad" = "https://www.optisport.nl/sloterparkbad-amsterdam",
+  "Duranbad (Diemen)" = "https://www.diemen.nl/zwembad/Openingstijden"
 )
 
 # 1. Municipal Pools (Amsterdam.nl API)
@@ -52,8 +53,13 @@ sportfondsen_data <- sportfondsen_pools %>%
 print("Loading Optisport pools (requires 'node explore_optisport.js' to be run first)...")
 optisport_data <- get_optisport_data()
 
+# 5. Duranbad (Diemen)
+# Plain HTML parsing from diemen.nl - also checks for roosterwijzigingen
+print("Fetching Duranbad (Diemen)...")
+duranbad_data <- get_duranbad_timetable()
+
 # Combine all data
-all_swimming_data <- bind_rows(muni_data, marnix_data, sportfondsen_data, optisport_data) %>%
+all_swimming_data <- bind_rows(muni_data, marnix_data, sportfondsen_data, optisport_data, duranbad_data) %>%
   mutate(
     # Ensure consistency in day names
     dag = str_to_title(dag),
@@ -98,6 +104,12 @@ metadata <- list(
       description = "Optisport zwembaden",
       url = "https://www.optisport.nl/",
       pools = c("Bijlmer Sportcentrum", "Sloterparkbad")
+    ),
+    list(
+      name = "Duran Sportcentrum",
+      description = "Zwembad in Diemen (bij Amsterdam)",
+      url = "https://www.diemen.nl/zwembad/",
+      pools = c("Duranbad (Diemen)")
     )
   )
 )

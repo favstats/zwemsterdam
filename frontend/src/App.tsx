@@ -64,6 +64,7 @@ const POOL_COLORS: Record<string, string> = {
   'Sportfondsenbad Oost': '#8B5CF6', // Violet
   'Sloterparkbad': '#EA580C',       // Orange
   'Bijlmer Sportcentrum': '#BE185D', // Pink/Magenta
+  'Duranbad (Diemen)': '#0D9488',   // Teal
 };
 
 // Day colors for multi-day view
@@ -86,9 +87,10 @@ const POOL_WEBSITES: Record<string, string> = {
   'Brediusbad': 'https://www.amsterdam.nl/brediusbad/zwembadrooster-brediusbad/',
   'Het Marnix': 'https://hetmarnix.nl/zwemmen/',
   'Sportfondsenbad Oost': 'https://amsterdamoost.sportfondsen.nl/tijden-tarieven/',
-  'Sportplaza Mercator': 'https://mercator.sportfondsen.nl/tijden-tarieven/',
+  'Sportplaza Mercator': 'https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/',
   'Bijlmer Sportcentrum': 'https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost',
   'Sloterparkbad': 'https://www.optisport.nl/sloterparkbad-amsterdam',
+  'Duranbad (Diemen)': 'https://www.diemen.nl/zwembad/Openingstijden',
 };
 
 // Google Maps links for each pool
@@ -103,6 +105,7 @@ const POOL_MAPS: Record<string, string> = {
   'Sportplaza Mercator': 'https://maps.google.com/?q=Sportplaza+Mercator+Amsterdam',
   'Bijlmer Sportcentrum': 'https://maps.google.com/?q=Bijlmer+Sportcentrum+Amsterdam',
   'Sloterparkbad': 'https://maps.google.com/?q=Sloterparkbad+Amsterdam',
+  'Duranbad (Diemen)': 'https://maps.google.com/?q=Duran+Sportcentrum+Diemen',
 };
 
 const getPoolMapLink = (poolName: string): string => {
