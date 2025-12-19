@@ -151,14 +151,26 @@ get_sportfondsen_timetable <- function(base_url, pool_name) {
     
     message(paste("Found", length(slots), "time slots for", pool_name))
     
+    # Calculate dates for current week based on day names
+    week_start <- floor_date(Sys.Date(), "week", week_start = 1)
+    day_to_date <- c(
+      "Maandag" = 0, "Dinsdag" = 1, "Woensdag" = 2, "Donderdag" = 3,
+      "Vrijdag" = 4, "Zaterdag" = 5, "Zondag" = 6
+    )
+    
     map_dfr(slots, ~{
       # Check if required fields exist
       if (is.null(.x$startTime) || is.null(.x$endTime)) return(NULL)
       
+      # Calculate date from day name
+      dag <- .x$day
+      day_offset <- day_to_date[dag]
+      slot_date <- if (!is.na(day_offset)) as.character(week_start + days(day_offset)) else NA
+      
       tibble(
         bad = pool_name,
-        dag = .x$day,
-        date = NA, # Sportfondsen doesn't provide specific dates
+        dag = dag,
+        date = slot_date,
         activity = if(!is.null(.x$activitySchedule$activity$title)) .x$activitySchedule$activity$title else "Onbekend",
         extra = if(!is.null(.x$occupationDisplay)) .x$occupationDisplay else "",
         start = as.numeric(str_replace(.x$startTime, ":", "")) / 100,

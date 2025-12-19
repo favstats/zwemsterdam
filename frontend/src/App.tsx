@@ -87,6 +87,22 @@ const POOL_WEBSITES: Record<string, string> = {
   'Sportplaza Mercator': 'https://mercator.sportfondsen.nl/tijden-tarieven/',
 };
 
+// Google Maps links for each pool
+const POOL_MAPS: Record<string, string> = {
+  'Zuiderbad': 'https://maps.google.com/?q=Zuiderbad+Amsterdam',
+  'Noorderparkbad': 'https://maps.google.com/?q=Noorderparkbad+Amsterdam',
+  'De Mirandabad': 'https://maps.google.com/?q=De+Mirandabad+Amsterdam',
+  'Flevoparkbad': 'https://maps.google.com/?q=Flevoparkbad+Amsterdam',
+  'Brediusbad': 'https://maps.google.com/?q=Brediusbad+Amsterdam',
+  'Het Marnix': 'https://maps.google.com/?q=Het+Marnix+Amsterdam',
+  'Sportfondsenbad Oost': 'https://maps.google.com/?q=Sportfondsenbad+Oost+Amsterdam',
+  'Sportplaza Mercator': 'https://maps.google.com/?q=Sportplaza+Mercator+Amsterdam',
+};
+
+const getPoolMapLink = (poolName: string): string => {
+  return POOL_MAPS[poolName] || `https://maps.google.com/?q=${encodeURIComponent(poolName)}+Amsterdam`;
+};
+
 const MIN_TIME = 6;
 const MAX_TIME = 22;
 const TIME_RANGE = MAX_TIME - MIN_TIME;
@@ -590,21 +606,12 @@ const ActivityChips: React.FC<ActivityChipsProps> = ({ selectedActivity, onSelec
   
   const handleCategoryClick = (category: string) => {
     if (expandedCategory === category) {
+      // Clicking same category again collapses it
       setExpandedCategory(null);
     } else {
+      // Expand category and select ALL activities in this category
       setExpandedCategory(category);
-      // If clicking a category, select the first activity in that category as default
-      const activities = groupedActivities[category];
-      if (activities && activities.length > 0) {
-        // Find best default: exact "Banenzwemmen" for lap, exact "Recreatiezwemmen" for recreational, etc.
-        const defaultActivity = activities.find(a => {
-          const lower = a.toLowerCase().trim();
-          if (category === 'lap') return lower === 'banenzwemmen' || lower === 'duurtraining';
-          if (category === 'recreational') return lower === 'recreatiezwemmen' || lower === 'vrijzwemmen';
-          return true;
-        }) || activities[0];
-        onSelectActivity(defaultActivity);
-      }
+      onSelectActivity(`category:${category}`);
     }
   };
   
@@ -667,23 +674,42 @@ const ActivityChips: React.FC<ActivityChipsProps> = ({ selectedActivity, onSelec
           <span className="text-[10px] text-base-content/50 uppercase tracking-wide font-bold mr-2 self-center">
             {getCategoryName(expandedCategory)}:
           </span>
+          {/* "All in category" button */}
+          <button
+            onClick={() => onSelectActivity(`category:${expandedCategory}`)}
+            className={`px-2 py-1 rounded-lg text-[11px] font-medium transition-all ${
+              selectedActivity === `category:${expandedCategory}`
+                ? 'bg-accent text-white'
+                : 'bg-primary/20 text-primary hover:bg-primary/30'
+            }`}
+          >
+            ✓ Alles ({groupedActivities[expandedCategory].length})
+          </button>
           {groupedActivities[expandedCategory].map(activity => {
-            const isSelected = selectedActivity.toLowerCase() === activity.toLowerCase() ||
-              activity.toLowerCase().includes(selectedActivity.toLowerCase());
+            const isCategorySelected = selectedActivity === `category:${expandedCategory}`;
+            const isDirectlySelected = selectedActivity.toLowerCase() === activity.toLowerCase();
+            const needsTooltip = activity.length > 30;
             
             return (
-              <button
-                key={activity}
-                onClick={() => onSelectActivity(activity)}
-                className={`px-2 py-1 rounded-lg text-[11px] font-medium transition-all ${
-                  isSelected
-                    ? 'bg-accent text-white'
-                    : 'bg-base-200/80 text-base-content/80 hover:bg-base-300'
-                }`}
-                title={activity}
-              >
-                {activity.length > 30 ? activity.substring(0, 27) + '...' : activity}
-              </button>
+              <div key={activity} className="relative group">
+                <button
+                  onClick={() => onSelectActivity(activity)}
+                  className={`px-2 py-1 rounded-lg text-[11px] font-medium transition-all ${
+                    isDirectlySelected
+                      ? 'bg-accent text-white'
+                      : isCategorySelected
+                        ? 'bg-accent/30 text-accent-content ring-1 ring-accent/50'
+                        : 'bg-base-200/80 text-base-content/80 hover:bg-base-300'
+                  }`}
+                >
+                  {needsTooltip ? activity.substring(0, 27) + '...' : activity}
+                </button>
+                {needsTooltip && (
+                  <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-neutral text-neutral-content text-xs rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap z-50 pointer-events-none">
+                    {activity}
+                  </div>
+                )}
+              </div>
             );
           })}
         </div>
@@ -798,7 +824,18 @@ const SessionModal: React.FC<SessionModalProps> = ({ session, poolColor, onClose
         <div className="p-6 pb-4 border-b border-base-200">
           <div className="flex items-start justify-between gap-4">
             <div>
-              <h2 className="text-2xl font-black text-base-content">{session.bad}</h2>
+              <h2 className="text-2xl font-black text-base-content flex items-center gap-2">
+                {session.bad}
+                <a
+                  href={getPoolMapLink(session.bad)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-base-content/40 hover:text-primary transition-colors"
+                  title="Open in Google Maps"
+                >
+                  <MapPin size={18} />
+                </a>
+              </h2>
               <div className="flex items-center gap-2 mt-1">
                 {isNow && (
                   <span className="badge badge-success nu-open-badge">Nu open</span>
@@ -1573,7 +1610,19 @@ const ListView: React.FC<ListViewProps> = ({ data, onSessionClick }) => {
           >
             <div className="card-body p-4">
               <div className="flex justify-between items-start gap-2">
-                <h2 className="card-title text-base font-bold">{session.bad}</h2>
+                <h2 className="card-title text-base font-bold flex items-center gap-1">
+                  {session.bad}
+                  <a
+                    href={getPoolMapLink(session.bad)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    className="text-base-content/40 hover:text-primary transition-colors"
+                    title="Open in Google Maps"
+                  >
+                    <MapPin size={14} />
+                  </a>
+                </h2>
                 <div className="flex gap-1 flex-wrap justify-end">
                   {isClosed && (
                     <span className="badge badge-ghost badge-sm">Gesloten</span>
@@ -1662,7 +1711,7 @@ const App: React.FC = () => {
   
   // Filters
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedPool, setSelectedPool] = useState('All Pools');
+  const [selectedPools, setSelectedPools] = useState<string[]>([]);
   const [selectedWeek, setSelectedWeek] = useState<'this' | 'next'>('this');
   const [selectedDay, setSelectedDay] = useState('Today');
   const [selectedActivity, setSelectedActivity] = useState('Banenzwemmen');
@@ -1699,8 +1748,8 @@ const App: React.FC = () => {
     const weekOffset = selectedWeek === 'this' ? 0 : 1;
     const weekInfo = getWeekInfo(weekOffset);
 
-    if (selectedPool !== 'All Pools') {
-      result = result.filter(item => item.bad === selectedPool);
+    if (selectedPools.length > 0) {
+      result = result.filter(item => selectedPools.includes(item.bad));
     }
 
     // Week-based filtering
@@ -1720,8 +1769,13 @@ const App: React.FC = () => {
     }
 
     if (selectedActivity !== 'All Activities') {
+      // Check if selecting a whole category (e.g., "category:recreational")
+      if (selectedActivity.startsWith('category:')) {
+        const category = selectedActivity.replace('category:', '');
+        result = result.filter(item => categorizeActivity(item.activity) === category);
+      }
       // Special handling for Aqua category (matches Aqua*, Float*, Aquajoggen)
-      if (selectedActivity === 'Aqua') {
+      else if (selectedActivity === 'Aqua') {
         result = result.filter(item => {
           const lower = item.activity.toLowerCase();
           return lower.includes('aqua') || lower.includes('float');
@@ -1741,7 +1795,7 @@ const App: React.FC = () => {
     }
 
     setFilteredData(result);
-  }, [data, searchTerm, selectedPool, selectedWeek, selectedDay, selectedActivity]);
+  }, [data, searchTerm, selectedPools, selectedWeek, selectedDay, selectedActivity]);
 
   // Derived state
   const pools = useMemo(() => ['All Pools', ...new Set(data.map(item => item.bad))], [data]);
@@ -1883,7 +1937,7 @@ const App: React.FC = () => {
               Filters
               {!filtersExpanded && (
                 <span className="text-sm font-normal text-base-content/50 ml-2">
-                  ({selectedDay === 'Today' ? 'Vandaag' : selectedDay === 'All Days' ? 'Hele week' : selectedDay} • {selectedActivity === 'All Activities' ? 'Alle activiteiten' : selectedActivity})
+                  ({selectedDay === 'Today' ? 'Vandaag' : selectedDay === 'All Days' ? 'Hele week' : selectedDay} • {selectedActivity === 'All Activities' ? 'Alle activiteiten' : selectedActivity.startsWith('category:') ? `Alle ${getCategoryName(selectedActivity.replace('category:', ''))}` : selectedActivity})
                 </span>
               )}
             </span>
@@ -1938,21 +1992,41 @@ const App: React.FC = () => {
             {/* Pool filter */}
             <div>
               <label className="text-xs font-bold text-base-content/60 uppercase tracking-wide mb-2 block">
-                Zwembad
+                Zwembaden {selectedPools.length > 0 && `(${selectedPools.length})`}
               </label>
-              <div className="relative max-w-xs">
-                <select 
-                  className="w-full px-4 py-2 text-sm bg-base-200 rounded-xl border-0 appearance-none cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:bg-base-100 transition-colors pr-10"
-                  value={selectedPool}
-                  onChange={(e) => setSelectedPool(e.target.value)}
+              <div className="flex flex-wrap gap-1.5">
+                <button
+                  onClick={() => setSelectedPools([])}
+                  className={`px-3 py-1.5 rounded-full text-xs font-semibold transition-all ${
+                    selectedPools.length === 0
+                      ? 'bg-accent text-white shadow-md'
+                      : 'bg-base-200 text-base-content hover:bg-base-300'
+                  }`}
                 >
-                  {pools.map(pool => (
-                    <option key={pool} value={pool}>
-                      {pool === 'All Pools' ? 'Alle zwembaden' : pool}
-                    </option>
-                  ))}
-                </select>
-                <ChevronDown size={16} className="absolute right-3 top-1/2 -translate-y-1/2 text-base-content/40 pointer-events-none" />
+                  🏊 Alles
+                </button>
+                {pools.filter(p => p !== 'All Pools').map(pool => {
+                  const isSelected = selectedPools.includes(pool);
+                  return (
+                    <button
+                      key={pool}
+                      onClick={() => {
+                        if (isSelected) {
+                          setSelectedPools(selectedPools.filter(p => p !== pool));
+                        } else {
+                          setSelectedPools([...selectedPools, pool]);
+                        }
+                      }}
+                      className={`px-3 py-1.5 rounded-full text-xs font-semibold transition-all ${
+                        isSelected
+                          ? 'bg-accent text-white shadow-md'
+                          : 'bg-base-200 text-base-content hover:bg-base-300'
+                      }`}
+                    >
+                      {pool}
+                    </button>
+                  );
+                })}
               </div>
             </div>
           </div>
