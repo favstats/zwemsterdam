@@ -1,0 +1,23 @@
+{
+  "name": "zwemsterdam",
+  "version": "1.0.0",
+  "description": "**Alle zwemtijden van Amsterdamse zwembaden op één plek.**",
+  "main": "explore_optisport.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/favstats/zwemsterdam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/favstats/zwemsterdam/issues"
+  },
+  "homepage": "https://github.com/favstats/zwemsterdam#readme",
+  "dependencies": {
+    "playwright": "^1.57.0"
+  }
+}

@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2025-12-19T18:09:00Z",
-  "lastUpdatedLocal": "19-12-2025 18:09",
-  "totalSessions": 225,
-  "pools": ["Zuiderbad", "Noorderparkbad", "De Mirandabad", "Flevoparkbad", "Brediusbad", "Het Marnix", "Sportfondsenbad Oost"],
+  "lastUpdated": "2025-12-19T22:28:49Z",
+  "lastUpdatedLocal": "19-12-2025 23:28",
+  "totalSessions": 532,
+  "pools": ["Zuiderbad", "Noorderparkbad", "De Mirandabad", "Flevoparkbad", "Brediusbad", "Het Marnix", "Sportfondsenbad Oost", "Bijlmer Sportcentrum", "Sloterparkbad"],
   "dataSources": [
     {
       "name": "Gemeente Amsterdam",
@@ -21,6 +21,12 @@
       "description": "Sportfondsen zwembaden",
       "url": "https://www.sportfondsen.nl/",
       "pools": ["Sportfondsenbad Oost", "Sportplaza Mercator"]
+    },
+    {
+      "name": "Optisport",
+      "description": "Optisport zwembaden",
+      "url": "https://www.optisport.nl/",
+      "pools": ["Bijlmer Sportcentrum", "Sloterparkbad"]
     }
   ]
 }

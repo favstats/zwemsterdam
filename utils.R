@@ -187,3 +187,139 @@ get_sportfondsen_timetable <- function(base_url, pool_name) {
     return(NULL)
   })
 }
+
+# Function to read Optisport data (fetched by Playwright script)
+# The Playwright script must be run first: node explore_optisport.js
+get_optisport_data <- function(json_path = "data/optisport_data.json") {
+  if (!file.exists(json_path)) {
+    message("Optisport data not found. Run 'node explore_optisport.js' first.")
+    return(NULL)
+  }
+  
+  data <- jsonlite::fromJSON(json_path, simplifyVector = FALSE)
+  
+  all_sessions <- map_dfr(names(data), function(pool_name) {
+    pool_data <- data[[pool_name]]
+    events <- pool_data$events
+    
+    if (is.null(events) || length(events) == 0) return(NULL)
+    
+    map_dfr(events, function(event) {
+      tryCatch({
+        # Parse ISO datetime
+        start_dt <- ymd_hms(event$start, tz = "Europe/Amsterdam")
+        end_dt <- ymd_hms(event$end, tz = "Europe/Amsterdam")
+        
+        # Get Dutch day name
+        day_num <- wday(start_dt, week_start = 1)
+        dag <- c("Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag")[day_num]
+        
+        tibble(
+          bad = pool_name,
+          dag = dag,
+          date = as.character(as.Date(start_dt)),
+          activity = event$title,
+          extra = event$internalLocation %||% "",
+          start = hour(start_dt) + minute(start_dt) / 60,
+          end = hour(end_dt) + minute(end_dt) / 60
+        )
+      }, error = function(e) {
+        return(NULL)
+      })
+    })
+  })
+  
+  message(paste("Loaded", nrow(all_sessions), "Optisport sessions"))
+  return(all_sessions)
+}
+
+# Function for Optisport pools (Bijlmer, Sloterparkbad, etc.)
+# Uses their API: https://www.optisport.nl/api/optisport/v1/schedule
+get_optisport_timetable <- function(location_id, pool_name, referer_slug) {
+  url <- "https://www.optisport.nl/api/optisport/v1/schedule"
+  
+  # We need to fetch multiple pages to get all results
+  all_results <- list()
+  page <- 1
+  max_pages <- 10  # Safety limit
+  
+  while (page <= max_pages) {
+    body <- list(
+      page = page,
+      locationId = location_id,
+      results = 50  # Get more results per page
+    )
+    
+    response <- tryCatch({
+      POST(
+        url,
+        body = jsonlite::toJSON(body, auto_unbox = TRUE),
+        content_type_json(),
+        add_headers(
+          "Accept" = "*/*",
+          "Referer" = paste0("https://www.optisport.nl/", referer_slug)
+        ),
+        user_agent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36")
+      )
+    }, error = function(e) {
+      message(paste("Error fetching Optisport data for", pool_name, ":", e$message))
+      return(NULL)
+    })
+    
+    if (is.null(response) || status_code(response) != 200) {
+      if (page == 1) {
+        message(paste("Could not fetch Optisport schedule for", pool_name, "- Status:", 
+                      if(!is.null(response)) status_code(response) else "NULL"))
+      }
+      break
+    }
+    
+    res_content <- content(response, "parsed")
+    
+    # Check if we have results
+    if (is.null(res_content$results) || length(res_content$results) == 0) {
+      break
+    }
+    
+    all_results <- c(all_results, res_content$results)
+    
+    # Check if there are more pages
+    if (is.null(res_content$pages) || page >= res_content$pages) {
+      break
+    }
+    
+    page <- page + 1
+  }
+  
+  if (length(all_results) == 0) {
+    message(paste("No schedule data found for", pool_name))
+    return(NULL)
+  }
+  
+  message(paste("Found", length(all_results), "schedule items for", pool_name))
+  
+  # Parse the results
+  map_dfr(all_results, ~{
+    tryCatch({
+      # Parse datetime
+      start_dt <- ymd_hms(.x$start, tz = "Europe/Amsterdam")
+      end_dt <- ymd_hms(.x$end, tz = "Europe/Amsterdam")
+      
+      # Get day name in Dutch
+      day_num <- wday(start_dt, week_start = 1)
+      dag <- c("Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag")[day_num]
+      
+      tibble(
+        bad = pool_name,
+        dag = dag,
+        date = as.character(as.Date(start_dt)),
+        activity = .x$activity$name %||% "Onbekend",
+        extra = .x$description %||% "",
+        start = hour(start_dt) + minute(start_dt) / 60,
+        end = hour(end_dt) + minute(end_dt) / 60
+      )
+    }, error = function(e) {
+      return(NULL)
+    })
+  })
+}

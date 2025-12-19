@@ -35,6 +35,15 @@ jobs:
           cache: 'npm'
           cache-dependency-path: frontend/package-lock.json
 
+      - name: Install Playwright for Optisport data
+        run: |
+          npm install playwright
+          npx playwright install chromium --with-deps
+          
+      - name: Fetch Optisport pools (Playwright)
+        run: node explore_optisport.js
+        continue-on-error: true  # Don't fail the whole build if Optisport is unavailable
+        
       - name: Apt-get update
         run: sudo apt-get update 
           
@@ -84,7 +93,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "🏊 Update swimming data"
-          file_pattern: "data/*.rds frontend/public/data.json frontend/public/metadata.json"
+          file_pattern: "data/*.rds data/*.json frontend/public/data.json frontend/public/metadata.json"
 
   deploy:
     name: Deploy to GitHub Pages

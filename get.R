@@ -8,8 +8,6 @@ if (!dir.exists("data")) dir.create("data")
 if (!dir.exists("frontend/public")) dir.create("frontend/public", recursive = TRUE)
 
 # Pool website URLs for linking
-# Note: Sloterparkbad and Bijlmer Sportcentrum are managed by Optisport (behind Cloudflare)
-# and would require browser automation to scrape. Not included for now.
 pool_websites <- list(
   "Zuiderbad" = "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/",
   "Noorderparkbad" = "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/",
@@ -18,7 +16,9 @@ pool_websites <- list(
   "Brediusbad" = "https://www.amsterdam.nl/brediusbad/zwembadrooster-brediusbad/",
   "Het Marnix" = "https://hetmarnix.nl/zwemmen/",
   "Sportfondsenbad Oost" = "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/",
-  "Sportplaza Mercator" = "https://mercator.sportfondsen.nl/tijden-tarieven/"
+  "Sportplaza Mercator" = "https://mercator.sportfondsen.nl/tijden-tarieven/",
+  "Bijlmer Sportcentrum" = "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost",
+  "Sloterparkbad" = "https://www.optisport.nl/sloterparkbad-amsterdam"
 )
 
 # 1. Municipal Pools (Amsterdam.nl API)
@@ -46,8 +46,13 @@ sportfondsen_pools <- list(
 sportfondsen_data <- sportfondsen_pools %>%
   map_dfr(~get_sportfondsen_timetable(.x$url, .x$name))
 
+# 4. Optisport Pools (Bijlmer, Sloterparkbad)
+# These require Playwright to bypass Cloudflare - data fetched separately
+print("Loading Optisport pools (requires 'node explore_optisport.js' to be run first)...")
+optisport_data <- get_optisport_data()
+
 # Combine all data
-all_swimming_data <- bind_rows(muni_data, marnix_data, sportfondsen_data) %>%
+all_swimming_data <- bind_rows(muni_data, marnix_data, sportfondsen_data, optisport_data) %>%
   mutate(
     # Ensure consistency in day names
     dag = str_to_title(dag),
@@ -86,6 +91,12 @@ metadata <- list(
       description = "Sportfondsen zwembaden",
       url = "https://www.sportfondsen.nl/",
       pools = c("Sportfondsenbad Oost", "Sportplaza Mercator")
+    ),
+    list(
+      name = "Optisport",
+      description = "Optisport zwembaden",
+      url = "https://www.optisport.nl/",
+      pools = c("Bijlmer Sportcentrum", "Sloterparkbad")
     )
   )
 )
