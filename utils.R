@@ -112,14 +112,14 @@ get_marnix_timetable <- function() {
 # NOTE: The Sportfondsen websites have migrated to new URL structure:
 # - sportfondsenbadamsterdamoost.nl -> amsterdamoost.sportfondsen.nl
 # - sportplazamercator.nl -> mercator.sportfondsen.nl
-get_sportfondsen_timetable <- function(base_url, pool_name) {
+# Each pool has its own URL path for the schedule page
+get_sportfondsen_timetable <- function(base_url, pool_name, schedule_path = "/tijden-tarieven/") {
   
-  # Try the tijden-tarieven page directly
-  dodo <- GET(paste0(base_url, "/tijden-tarieven/"), user_agent("Mozilla/5.0"))
-  if (status_code(dodo) != 200) {
-     # try alternative URL
-     dodo <- GET(paste0(base_url, "/tijden-en-tarieven/"), user_agent("Mozilla/5.0"))
-  }
+  # Use the provided path for the schedule page
+  full_url <- paste0(base_url, schedule_path)
+  message(paste("Fetching", pool_name, "from", full_url))
+  
+  dodo <- GET(full_url, user_agent("Mozilla/5.0"))
   
   if (status_code(dodo) != 200) {
     message(paste("Could not fetch schedule page for", pool_name, "- Status:", status_code(dodo)))
