@@ -63,15 +63,15 @@ const DAY_ABBREVIATIONS: Record<string, string> = {
 // - Het Marnix (own API)
 // - Sportfondsen: Sportfondsenbad Oost, Sportplaza Mercator
 // Note: Sloterparkbad & Bijlmer Sportcentrum (Optisport) require browser automation (Cloudflare)
-// Temporarily closed pools (renovation, etc.) - will be filtered out until reopening date
-const TEMPORARILY_CLOSED_POOLS: Record<string, Date> = {
-  'Brediusbad': new Date('2026-05-01'), // Closed until end of April 2026
-  'Flevoparkbad': new Date('2026-05-01'), // Closed until end of April 2026
+// Seasonal outdoor pools - closed during winter, reopen in spring
+const SEASONAL_OUTDOOR_POOLS: Record<string, Date> = {
+  'Brediusbad': new Date('2025-05-01'), // Outdoor pool, reopens May 2025
+  'Flevoparkbad': new Date('2025-05-01'), // Outdoor pool, reopens May 2025
 };
 
-// Check if a pool is currently closed for renovation
-const isPoolTemporarilyClosed = (poolName: string): boolean => {
-  const reopenDate = TEMPORARILY_CLOSED_POOLS[poolName];
+// Check if a pool is currently closed (seasonal outdoor pool)
+const isPoolSeasonallyClosed = (poolName: string): boolean => {
+  const reopenDate = SEASONAL_OUTDOOR_POOLS[poolName];
   if (!reopenDate) return false;
   return new Date() < reopenDate;
 };
@@ -1967,21 +1967,21 @@ const EmptyState: React.FC<EmptyStateProps> = ({ closedPools = [] }) => {
   
   if (hasOnlyClosedPools) {
     const pool = closedPools[0];
-    const reopenDate = TEMPORARILY_CLOSED_POOLS[pool];
+    const reopenDate = SEASONAL_OUTDOOR_POOLS[pool];
     const reopenMonth = reopenDate ? reopenDate.toLocaleDateString('nl-NL', { month: 'long', year: 'numeric' }) : 'binnenkort';
     
     return (
       <div className="flex flex-col items-center justify-center p-12 text-center bg-base-100 rounded-xl shadow-lg">
-        <div className="bg-warning/20 p-6 rounded-full mb-4">
-          <span className="text-5xl">🚧</span>
+        <div className="bg-info/20 p-6 rounded-full mb-4">
+          <span className="text-5xl">❄️</span>
         </div>
         <h3 className="text-xl font-bold mb-2">
-          {closedPools.length === 1 ? `${pool} is tijdelijk gesloten` : 'Geselecteerde zwembaden zijn gesloten'}
+          {closedPools.length === 1 ? `${pool} is gesloten in de winter` : 'Geselecteerde buitenbaden zijn gesloten'}
         </h3>
         <p className="text-base-content/60 max-w-md mb-4">
           {closedPools.length === 1 
-            ? `Dit zwembad wordt gerenoveerd en opent weer in ${reopenMonth}.`
-            : 'Deze zwembaden zijn momenteel gesloten voor renovatie.'}
+            ? `Dit is een buitenbad en opent weer in ${reopenMonth}.`
+            : 'Deze buitenbaden zijn gesloten tijdens de winter.'}
         </p>
         {closedPools.length === 1 && POOL_WEBSITES[pool] && (
           <a 
@@ -2314,7 +2314,7 @@ const App: React.FC = () => {
       .then(([jsonData, jsonMeta]) => {
         // Filter out temporarily closed pools
         const filteredData = (jsonData as SwimmingSession[]).filter(
-          session => !isPoolTemporarilyClosed(session.bad)
+          session => !isPoolSeasonallyClosed(session.bad)
         );
         setData(filteredData);
         setMetadata(jsonMeta as Metadata);
@@ -2391,7 +2391,7 @@ const App: React.FC = () => {
   const pools = useMemo(() => {
     const activePools = new Set(data.map(item => item.bad));
     // Add temporarily closed pools to the list
-    Object.keys(TEMPORARILY_CLOSED_POOLS).forEach(pool => activePools.add(pool));
+    Object.keys(SEASONAL_OUTDOOR_POOLS).forEach(pool => activePools.add(pool));
     return ['All Pools', ...Array.from(activePools).sort()];
   }, [data]);
   const availableDates = useMemo(() => [...new Set(data.map(item => item.date).filter((d): d is string => !!d))], [data]);
@@ -2613,8 +2613,8 @@ const App: React.FC = () => {
                 </button>
                 {pools.filter(p => p !== 'All Pools').map(pool => {
                   const isSelected = selectedPools.includes(pool);
-                  const isClosed = isPoolTemporarilyClosed(pool);
-                  const reopenDate = TEMPORARILY_CLOSED_POOLS[pool];
+                  const isClosed = isPoolSeasonallyClosed(pool);
+                  const reopenDate = SEASONAL_OUTDOOR_POOLS[pool];
                   return (
                     <button
                       key={pool}
@@ -2632,10 +2632,10 @@ const App: React.FC = () => {
                             ? 'bg-base-200/50 text-base-content/50 hover:bg-base-300/50'
                             : 'bg-base-200 text-base-content hover:bg-base-300'
                       }`}
-                      title={isClosed && reopenDate ? `Gesloten tot ${reopenDate.toLocaleDateString('nl-NL', { month: 'long', year: 'numeric' })}` : undefined}
+                      title={isClosed && reopenDate ? `Buitenbad - opent weer ${reopenDate.toLocaleDateString('nl-NL', { month: 'long', year: 'numeric' })}` : undefined}
                     >
                       {pool}
-                      {isClosed && <span className="ml-1 opacity-60">🚧</span>}
+                      {isClosed && <span className="ml-1 opacity-60">❄️</span>}
                     </button>
                   );
                 })}
@@ -2648,7 +2648,7 @@ const App: React.FC = () => {
       {/* Main content */}
       <main className="px-4 md:px-6">
         {filteredData.length === 0 ? (
-          <EmptyState closedPools={selectedPools.filter(p => isPoolTemporarilyClosed(p))} />
+          <EmptyState closedPools={selectedPools.filter(p => isPoolSeasonallyClosed(p))} />
         ) : viewMode === 'timeline' ? (
           <GanttView data={filteredData} selectedDay={selectedDay} onSessionClick={handleSessionClick} />
         ) : viewMode === 'calendar' ? (
