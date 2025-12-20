@@ -108,7 +108,7 @@ const POOL_WEBSITES: Record<string, string> = {
   'De Mirandabad': 'https://www.amsterdam.nl/de-mirandabad/zwembadrooster-de-mirandabad/',
   'Flevoparkbad': 'https://www.amsterdam.nl/flevoparkbad/zwembadrooster-flevoparkbad/',
   'Brediusbad': 'https://www.amsterdam.nl/brediusbad/zwembadrooster-brediusbad/',
-  'Het Marnix': 'https://hetmarnix.nl/zwemmen/',
+  'Het Marnix': 'https://hetmarnix.nl/schedule/tijden/',
   'Sportfondsenbad Oost': 'https://amsterdamoost.sportfondsen.nl/tijden-tarieven/',
   'Sportplaza Mercator': 'https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/',
   'Bijlmer Sportcentrum': 'https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost',
@@ -528,33 +528,51 @@ interface ActivityChipsProps {
 }
 
 // Smart activity categorization
-const categorizeActivity = (activity: string): 'lap' | 'recreational' | 'lesson' | 'aqua' | 'special' | 'other' | 'closed' => {
+const categorizeActivity = (activity: string): 'lap' | 'recreational' | 'lesson' | 'aqua' | 'baby' | 'target' | 'wellness' | 'other' | 'closed' => {
   const lower = activity.toLowerCase();
-  
+
   if (lower.includes('gesloten')) return 'closed';
-  
-  // Lap swimming (banenzwemmen, duurtraining)
-  if (lower.includes('banenzwem') || lower.includes('duurtraining')) return 'lap';
-  
-  // Recreational swimming (recreatiezwemmen, vrijzwemmen, etc.)
-  if (lower.includes('recreat') || lower.includes('vrijzwem') || lower.includes('zwemplezier')) return 'recreational';
-  
-  // Swimming lessons
-  if (lower.includes('zwemles') || lower.includes('zwem-abc') || lower.includes('oefenuur') || lower.includes('zwemtechniek')) return 'lesson';
-  
-  // Aqua/Float activities
-  if (lower.includes('aqua') || lower.includes('float')) return 'aqua';
-  
-  // Special swimming (ladies, naturist, pregnancy, baby, etc.)
-  if (lower.includes('dames') || lower.includes('naaktz') || lower.includes('naturist') || 
-      lower.includes('zwangerschap') || lower.includes('baby') || lower.includes('peuter') || 
-      lower.includes('kleuter') || lower.includes('functiebeperking') || lower.includes('ouder & kind') ||
-      lower.includes('fifty fit') || lower.includes('mbvo')) return 'special';
-  
-  // Non-swimming (squash, sauna)
-  if (lower.includes('squash') || lower.includes('sauna')) return 'other';
-  
-  return 'recreational'; // Default to recreational for other swimming activities
+
+  // Lap swimming (banenzwemmen, duurtraining, baantjes)
+  if (lower.includes('banenzwem') || lower.includes('duurtraining') || lower.includes('baantjes')) return 'lap';
+
+  // Swimming lessons - ABC diplomas, zwemles, oefenuur, spetterles, zwemvaardigheid, etc.
+  // Check this BEFORE recreational to catch "zwem(les)" patterns
+  if (lower.includes('zwemles') || lower.includes('les ') || lower.includes(' les') ||
+      lower.match(/zwem.*abc/) || lower.match(/abc.*zwem/) || lower.includes('diploma') ||
+      lower.includes('oefenuur') || lower.includes('zwemtechniek') || lower.includes('spetterles') ||
+      lower.includes('liz & wes') || lower.includes('afzwem') || lower.includes('zwemvaardigheid') ||
+      lower.includes('zed & sop')) return 'lesson';
+
+  // Aqua/Float/Water fitness activities
+  if (lower.includes('aqua') || lower.includes('float') || lower.includes('aquajog')) return 'aqua';
+
+  // Baby & Peuter swimming (check BEFORE target groups)
+  if (lower.includes('baby') || lower.includes('peuter') || lower.includes('kleuter')) return 'baby';
+
+  // Sport & Wellness - non-swimming facilities & events (check BEFORE target groups)
+  if (lower.includes('squash') || lower.includes('sauna') || lower.includes('stoombad') ||
+      lower.includes('wellness') || lower.includes('zwemfeestje')) return 'wellness';
+
+  // Fitness & therapy (non-swimming activities in the pool)
+  if (lower.includes('bbb') || lower.includes('jumping') || lower.includes('fitness') ||
+      lower.includes('personal training') || lower.includes('bewegen met') ||
+      lower.includes('reuma') || lower.includes('therapie') || lower.includes('revalidatie')) return 'wellness';
+
+  // Doelgroepen - Target group swimming (ladies, naturist, pregnancy, adapted, seniors, etc.)
+  if (lower.includes('dames') || lower.includes('vrouwen') || 
+      lower.includes('naaktz') || lower.includes('naturist') || lower.includes('bloot') ||
+      lower.includes('zwangerschap') || lower.includes('pregnant') ||
+      lower.includes('functiebeperking') || lower.includes('aangepast') || lower.includes('prikkelarm') ||
+      lower.includes('ouder & kind') || lower.includes('ouder en kind') || lower.includes('ouder-kind') ||
+      lower.includes('fifty fit') || lower.includes('55+') || lower.includes('65+') ||
+      lower.includes('mbvo') || lower.includes('senioren')) return 'target';
+
+  // Recreational swimming (recreatiezwemmen, vrijzwemmen, familiezwemmen, etc.)
+  if (lower.includes('recreat') || lower.includes('vrijzwem') || lower.includes('zwemplezier') ||
+      lower.includes('familiezwem') || lower.includes('familie zwem') || lower.includes('iedereen')) return 'recreational';
+
+  return 'other'; // Default catch-all for new/unknown activities
 };
 
 // Get emoji for category
@@ -564,8 +582,10 @@ const getCategoryEmoji = (category: string): string => {
     case 'recreational': return '🌊';
     case 'lesson': return '📚';
     case 'aqua': return '💧';
-    case 'special': return '⭐';
-    case 'other': return '🎾';
+    case 'baby': return '👶';
+    case 'target': return '👥';
+    case 'wellness': return '🧖';
+    case 'other': return '➕';
     default: return '🏊';
   }
 };
@@ -577,7 +597,9 @@ const getCategoryName = (category: string): string => {
     case 'recreational': return 'Recreatief';
     case 'lesson': return 'Zwemlessen';
     case 'aqua': return 'Aqua & Float';
-    case 'special': return 'Speciaal';
+    case 'baby': return 'Baby & Peuter';
+    case 'target': return 'Doelgroepen';
+    case 'wellness': return 'Fitness & Wellness';
     case 'other': return 'Overig';
     default: return category;
   }
@@ -593,7 +615,9 @@ const ActivityChips: React.FC<ActivityChipsProps> = ({ selectedActivity, onSelec
       recreational: [],
       lesson: [],
       aqua: [],
-      special: [],
+      baby: [],
+      target: [],
+      wellness: [],
       other: [],
     };
     
@@ -619,7 +643,7 @@ const ActivityChips: React.FC<ActivityChipsProps> = ({ selectedActivity, onSelec
   }, [availableActivities]);
   
   // Priority categories to show as main chips
-  const mainCategories = ['lap', 'recreational', 'aqua', 'special'];
+  const mainCategories = ['lap', 'recreational', 'aqua', 'baby', 'target'];
   
   // Check if an activity matches the selected filter
   const isActivitySelected = (category: string) => {
@@ -704,11 +728,21 @@ const ActivityChips: React.FC<ActivityChipsProps> = ({ selectedActivity, onSelec
           </button>
         )}
         
-        {/* Other (non-swimming) category - smaller */}
+        {/* Sport & Wellness category - smaller */}
+        {groupedActivities.wellness.length > 0 && (
+          <button
+            onClick={() => handleCategoryClick('wellness')}
+            className={`${categoryButtonClass('wellness')} opacity-70`}
+          >
+            {getCategoryEmoji('wellness')} Fitness & Wellness
+          </button>
+        )}
+        
+        {/* Other (catch-all) category - smaller */}
         {groupedActivities.other.length > 0 && (
           <button
             onClick={() => handleCategoryClick('other')}
-            className={`${categoryButtonClass('other')} opacity-70`}
+            className={`${categoryButtonClass('other')} opacity-50`}
           >
             {getCategoryEmoji('other')} Overig
           </button>
