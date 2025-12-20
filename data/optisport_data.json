@@ -1237,15 +1237,6 @@
         "day": "Zondag",
         "events": [
           {
-            "title": "1 op 5 personal training",
-            "internalLocation": null,
-            "start": "2026-01-18T10:00:00+01:00",
-            "end": "2026-01-18T11:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": null
-          },
-          {
             "title": "Banenzwemmen",
             "internalLocation": "Wedstrijdbad",
             "start": "2026-01-18T10:00:00+01:00",
@@ -1253,6 +1244,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "1 op 5 personal training",
+            "internalLocation": null,
+            "start": "2026-01-18T10:00:00+01:00",
+            "end": "2026-01-18T11:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": null
           },
           {
             "title": "Vrijzwemmen",
@@ -2762,17 +2762,6 @@
         "dayName": "Zaterdag"
       },
       {
-        "title": "1 op 5 personal training",
-        "internalLocation": null,
-        "start": "2026-01-18T10:00:00+01:00",
-        "end": "2026-01-18T11:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": null,
-        "dateLabel": "18 januari",
-        "dayName": "Zondag"
-      },
-      {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad",
         "start": "2026-01-18T10:00:00+01:00",
@@ -2780,6 +2769,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "18 januari",
+        "dayName": "Zondag"
+      },
+      {
+        "title": "1 op 5 personal training",
+        "internalLocation": null,
+        "start": "2026-01-18T10:00:00+01:00",
+        "end": "2026-01-18T11:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": null,
         "dateLabel": "18 januari",
         "dayName": "Zondag"
       },
@@ -2993,7 +2993,7 @@
         "dayName": "Dinsdag"
       }
     ],
-    "fetchedAt": "2025-12-20T05:03:25.110Z"
+    "fetchedAt": "2025-12-20T06:04:38.836Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -3999,15 +3999,6 @@
             "url": "/activiteiten/aquarobic/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Banenzwemmen",
-            "internalLocation": "Wedstrijdbad (25m x 8 banen)",
-            "start": "2026-01-08T20:30:00+01:00",
-            "end": "2026-01-08T21:30:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Vrijzwemmen",
             "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
             "start": "2026-01-08T20:30:00+01:00",
@@ -4015,6 +4006,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad (25m x 8 banen)",
+            "start": "2026-01-08T20:30:00+01:00",
+            "end": "2026-01-08T21:30:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
       },
@@ -5814,17 +5814,6 @@
         "dayName": "Donderdag"
       },
       {
-        "title": "Banenzwemmen",
-        "internalLocation": "Wedstrijdbad (25m x 8 banen)",
-        "start": "2026-01-08T20:30:00+01:00",
-        "end": "2026-01-08T21:30:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "08 januari",
-        "dayName": "Donderdag"
-      },
-      {
         "title": "Vrijzwemmen",
         "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
         "start": "2026-01-08T20:30:00+01:00",
@@ -5832,6 +5821,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "08 januari",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad (25m x 8 banen)",
+        "start": "2026-01-08T20:30:00+01:00",
+        "end": "2026-01-08T21:30:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "08 januari",
         "dayName": "Donderdag"
       },
@@ -6595,6 +6595,6 @@
         "dayName": "Dinsdag"
       }
     ],
-    "fetchedAt": "2025-12-20T05:03:27.016Z"
+    "fetchedAt": "2025-12-20T06:04:40.655Z"
   }
 }
