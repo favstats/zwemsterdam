@@ -1,5 +1,15 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { Search, MapPin, Clock, Calendar, ChevronDown, ChevronUp, Waves, List, Navigation, ExternalLink, Info, AlertTriangle, X, Database, Github, BarChart3, Coffee, Wallet, Heart, Linkedin, Globe, AtSign } from 'lucide-react';
+import { Search, MapPin, Clock, Calendar, ChevronDown, ChevronUp, Waves, List, Navigation, ExternalLink, Info, AlertTriangle, X, Database, Github, BarChart3, Coffee, Wallet, Heart, Linkedin, Globe, Map as MapIcon } from 'lucide-react';
+
+// Bluesky butterfly icon
+const BlueskyIcon: React.FC<{ size?: number; className?: string }> = ({ size = 16, className = '' }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className}>
+    <path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.882 1.082-6.498-2.83-7.078-.139-.017-.278-.035-.418-.057.14.018.28.037.418.057 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8z"/>
+  </svg>
+);
+import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
+import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
 
 // ============================================================================
 // Types
@@ -53,6 +63,18 @@ const DAY_ABBREVIATIONS: Record<string, string> = {
 // - Het Marnix (own API)
 // - Sportfondsen: Sportfondsenbad Oost, Sportplaza Mercator
 // Note: Sloterparkbad & Bijlmer Sportcentrum (Optisport) require browser automation (Cloudflare)
+// Temporarily closed pools (renovation, etc.) - will be filtered out until reopening date
+const TEMPORARILY_CLOSED_POOLS: Record<string, Date> = {
+  'Brediusbad': new Date('2026-05-01'), // Closed until end of April 2026
+};
+
+// Check if a pool is currently closed for renovation
+const isPoolTemporarilyClosed = (poolName: string): boolean => {
+  const reopenDate = TEMPORARILY_CLOSED_POOLS[poolName];
+  if (!reopenDate) return false;
+  return new Date() < reopenDate;
+};
+
 // Pool colors - 11 distinct colors, warm and vibrant palette
 const POOL_COLORS: Record<string, string> = {
   'Zuiderbad': '#C8102E',           // Amsterdam Red
@@ -107,6 +129,21 @@ const POOL_MAPS: Record<string, string> = {
   'Bijlmer Sportcentrum': 'https://maps.google.com/?q=Bijlmer+Sportcentrum+Amsterdam',
   'Sloterparkbad': 'https://maps.google.com/?q=Sloterparkbad+Amsterdam',
   'Duranbad (Diemen)': 'https://maps.google.com/?q=Duran+Sportcentrum+Diemen',
+};
+
+// Pool coordinates for map view [lat, lng] - manually verified
+const POOL_COORDINATES: Record<string, [number, number]> = {
+  'Zuiderbad': [52.3587, 4.8860],
+  'Noorderparkbad': [52.39803, 4.91848],
+  'De Mirandabad': [52.33879, 4.90264],
+  'Flevoparkbad': [52.36448, 4.95290],
+  'Brediusbad': [52.39253, 4.86828],
+  'Het Marnix': [52.37799, 4.87843],
+  'Sportfondsenbad Oost': [52.3567, 4.9282],
+  'Sportplaza Mercator': [52.37164, 4.84603],
+  'Bijlmer Sportcentrum': [52.31535, 4.95803],
+  'Sloterparkbad': [52.37007, 4.81765],
+  'Duranbad (Diemen)': [52.33611, 4.95870],
 };
 
 const getPoolMapLink = (poolName: string): string => {
@@ -1079,7 +1116,7 @@ const AboutModal: React.FC<AboutModalProps> = ({ metadata, onClose }) => {
                   className="btn btn-ghost btn-sm gap-1 text-sky-500"
                   title="Bluesky"
                 >
-                  <AtSign size={16} />
+                  <BlueskyIcon size={16} />
                 </a>
               </div>
             </div>
@@ -1184,32 +1221,37 @@ const GanttView: React.FC<GanttViewProps> = ({ data, selectedDay, onSessionClick
     const rowMap = new Map<number, number>();
     const EPSILON = 0.02; // ~1 minute tolerance for floating point issues
     
-    // When viewing multiple days, group by date first to avoid cross-day stacking
-    const sessionsByDate = new Map<string, SwimmingSession[]>();
-    sessions.forEach(session => {
-      const dateKey = session.date || session.dag;
-      if (!sessionsByDate.has(dateKey)) {
-        sessionsByDate.set(dateKey, []);
-      }
-      sessionsByDate.get(dateKey)!.push(session);
+    // Sort all sessions by start time, then by date for consistent ordering
+    const sortedSessions = [...sessions].sort((a, b) => {
+      // First sort by date
+      const dateA = a.date || a.dag;
+      const dateB = b.date || b.dag;
+      if (dateA !== dateB) return dateA.localeCompare(dateB);
+      // Then by start time
+      return a.start - b.start || a.end - b.end;
     });
     
-    // Process each day separately
-    sessionsByDate.forEach((daySessions) => {
-      const sortedSessions = [...daySessions].sort((a, b) => a.start - b.start || a.end - b.end);
-      const rowEndTimes: number[] = [];
+    const rowEndTimes: { date: string; endTime: number }[] = [];
+    
+    sortedSessions.forEach(session => {
+      const sessionDate = session.date || session.dag;
       
-      sortedSessions.forEach(session => {
-        // Find a row where the previous session ended before (or at) this session's start
-        let assignedRow = rowEndTimes.findIndex(endTime => endTime <= session.start + EPSILON);
-        if (assignedRow === -1) {
-          assignedRow = rowEndTimes.length;
-          rowEndTimes.push(session.end);
-        } else {
-          rowEndTimes[assignedRow] = session.end;
-        }
-        rowMap.set(session.id, assignedRow);
-      });
+      // Find a row where the previous session ended before this session's start
+      // AND is on the same day (different days can't share rows)
+      let assignedRow = rowEndTimes.findIndex(
+        slot => slot.date === sessionDate && slot.endTime <= session.start + EPSILON
+      );
+      
+      if (assignedRow === -1) {
+        // No suitable row found, create a new one
+        assignedRow = rowEndTimes.length;
+        rowEndTimes.push({ date: sessionDate, endTime: session.end });
+      } else {
+        // Update the row's end time
+        rowEndTimes[assignedRow] = { date: sessionDate, endTime: session.end };
+      }
+      
+      rowMap.set(session.id, assignedRow);
     });
     
     return rowMap;
@@ -1893,6 +1935,230 @@ const EmptyState: React.FC = () => (
 );
 
 // ============================================================================
+// Map View Component
+// ============================================================================
+
+interface MapViewProps {
+  data: SwimmingSession[];
+  onSessionClick: (session: SwimmingSession, color: string) => void;
+}
+
+// Custom marker icon creator
+const createPoolIcon = (color: string, isOpen: boolean) => {
+  return L.divIcon({
+    className: 'custom-pool-marker',
+    html: `
+      <div style="
+        width: 36px;
+        height: 36px;
+        background: ${color};
+        border: 3px solid white;
+        border-radius: 50%;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        ${isOpen ? 'animation: pulse 2s infinite;' : 'opacity: 0.6;'}
+      ">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="white" stroke="none">
+          <!-- Water droplet icon -->
+          <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+        </svg>
+      </div>
+    `,
+    iconSize: [36, 36],
+    iconAnchor: [18, 18],
+    popupAnchor: [0, -20],
+  });
+};
+
+// Component to fit bounds
+const FitBounds: React.FC<{ pools: string[] }> = ({ pools }) => {
+  const map = useMap();
+  
+  useEffect(() => {
+    const validCoords = pools
+      .map(pool => POOL_COORDINATES[pool])
+      .filter(Boolean) as [number, number][];
+    
+    if (validCoords.length > 0) {
+      const bounds = L.latLngBounds(validCoords.map(c => L.latLng(c[0], c[1])));
+      map.fitBounds(bounds, { padding: [50, 50] });
+    }
+  }, [pools, map]);
+  
+  return null;
+};
+
+const MapView: React.FC<MapViewProps> = ({ data, onSessionClick }) => {
+  const deduplicatedData = useMemo(() => deduplicateSessions(data), [data]);
+  
+  // Get unique pools from the data
+  const pools = useMemo(() => {
+    const uniquePools = new Set(deduplicatedData.map(s => s.bad));
+    return Array.from(uniquePools);
+  }, [deduplicatedData]);
+  
+  // Get current time for "open now" check
+  const now = new Date();
+  const currentHour = now.getHours() + now.getMinutes() / 60;
+  
+  // Check if a pool is currently open
+  const isPoolOpenNow = (poolName: string): boolean => {
+    const poolSessions = deduplicatedData.filter(s => s.bad === poolName);
+    return poolSessions.some(s => {
+      const category = getActivityCategory(s.activity);
+      return category !== 'closed' && category !== 'other' && s.start <= currentHour && s.end >= currentHour;
+    });
+  };
+  
+  // Get today's sessions for a pool
+  const getPoolSessions = (poolName: string): SwimmingSession[] => {
+    return deduplicatedData
+      .filter(s => s.bad === poolName)
+      .sort((a, b) => a.start - b.start);
+  };
+  
+  // Get pool index for color
+  const getPoolIndex = (poolName: string): number => {
+    const allPools = Object.keys(POOL_COLORS);
+    return allPools.indexOf(poolName);
+  };
+  
+  // Amsterdam center
+  const center: [number, number] = [52.3676, 4.9041];
+  
+  return (
+    <div className="bg-base-100 rounded-xl shadow-lg overflow-hidden border border-base-300">
+      <div className="h-[500px] md:h-[600px] relative">
+        <MapContainer
+          center={center}
+          zoom={12}
+          className="h-full w-full z-0"
+          scrollWheelZoom={true}
+        >
+          <TileLayer
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          />
+          <FitBounds pools={pools} />
+          
+          {pools.map((poolName) => {
+            const coords = POOL_COORDINATES[poolName];
+            if (!coords) return null;
+            
+            const poolIdx = getPoolIndex(poolName);
+            const color = getPoolColor(poolName, poolIdx >= 0 ? poolIdx : 0);
+            const isOpen = isPoolOpenNow(poolName);
+            const sessions = getPoolSessions(poolName);
+            
+            return (
+              <Marker
+                key={poolName}
+                position={coords}
+                icon={createPoolIcon(color, isOpen)}
+              >
+                <Popup className="pool-popup" maxWidth={300}>
+                  <div className="p-1">
+                    <div className="flex items-center gap-2 mb-2">
+                      <div
+                        className="w-4 h-4 rounded-full flex-shrink-0"
+                        style={{ backgroundColor: color }}
+                      />
+                      <h3 className="font-bold text-base">{poolName}</h3>
+                      {isOpen && (
+                        <span className="text-xs bg-success text-white px-2 py-0.5 rounded-full font-semibold">
+                          Nu open
+                        </span>
+                      )}
+                    </div>
+                    
+                    {sessions.length > 0 ? (
+                      <div className="space-y-1 max-h-48 overflow-y-auto">
+                        {sessions.slice(0, 6).map((session) => {
+                          const category = getActivityCategory(session.activity);
+                          const isClosed = category === 'closed';
+                          const isNow = session.start <= currentHour && session.end >= currentHour;
+                          const dayAbbr = DAY_ABBREVIATIONS[session.dag] || session.dag.slice(0, 2);
+
+                          return (
+                            <button
+                              key={session.id}
+                              onClick={() => onSessionClick(session, color)}
+                              className={`w-full text-left p-2 rounded-lg text-sm transition-colors relative ${
+                                isNow ? 'bg-success/20 border border-success' : 'bg-base-200 hover:bg-base-300'
+                              } ${isClosed ? 'opacity-50' : ''}`}
+                            >
+                              <span className="absolute top-1 right-1.5 text-[10px] text-base-content/40 font-medium uppercase">
+                                {dayAbbr}
+                              </span>
+                              <div className="flex items-center gap-2">
+                                <span className="font-semibold">
+                                  {formatTime(session.start)} - {formatTime(session.end)}
+                                </span>
+                                {isNow && <span className="text-success text-xs font-bold">NU</span>}
+                              </div>
+                              <div className="text-xs text-base-content/70 truncate pr-6">
+                                {session.activity}
+                              </div>
+                            </button>
+                          );
+                        })}
+                        {sessions.length > 6 && (
+                          <p className="text-xs text-center text-base-content/50 pt-1">
+                            +{sessions.length - 6} meer sessies
+                          </p>
+                        )}
+                      </div>
+                    ) : (
+                      <p className="text-sm text-base-content/60">Geen sessies vandaag</p>
+                    )}
+                    
+                    <div className="flex gap-2 mt-3 pt-2 border-t border-base-200">
+                      <a
+                        href={getPoolMapLink(poolName)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex-1 btn btn-xs btn-ghost gap-1"
+                      >
+                        <Navigation size={12} />
+                        Route
+                      </a>
+                      <a
+                        href={POOL_WEBSITES[poolName] || '#'}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex-1 btn btn-xs btn-ghost gap-1"
+                      >
+                        <ExternalLink size={12} />
+                        Website
+                      </a>
+                    </div>
+                  </div>
+                </Popup>
+              </Marker>
+            );
+          })}
+        </MapContainer>
+        
+        {/* Legend */}
+        <div className="absolute bottom-4 left-4 bg-base-100/95 backdrop-blur-sm rounded-lg shadow-lg p-3 z-10">
+          <h4 className="text-xs font-bold mb-2 text-base-content/70">Legenda</h4>
+          <div className="flex items-center gap-2 text-xs mb-1">
+            <div className="w-3 h-3 rounded-full bg-success animate-pulse" />
+            <span>Nu open voor banenzwemmen</span>
+          </div>
+          <div className="flex items-center gap-2 text-xs">
+            <div className="w-3 h-3 rounded-full bg-base-300" />
+            <span>Niet open / geen data</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// ============================================================================
 // Main App Component
 // ============================================================================
 
@@ -1901,14 +2167,52 @@ const App: React.FC = () => {
   const [filteredData, setFilteredData] = useState<SwimmingSession[]>([]);
   const [metadata, setMetadata] = useState<Metadata | null>(null);
   const [loading, setLoading] = useState(true);
-  // Default: calendar on mobile, timeline on desktop
-  const [viewMode, setViewMode] = useState<'timeline' | 'calendar' | 'list'>(() => {
-    if (typeof window !== 'undefined' && window.innerWidth < 768) {
-      return 'calendar';
+  
+  // Get view from URL path or default based on screen size
+  const getViewFromPath = (): 'timeline' | 'calendar' | 'list' | 'map' => {
+    if (typeof window === 'undefined') return 'timeline';
+    
+    // Handle SPA redirect from 404.html (GitHub Pages)
+    const redirectPath = sessionStorage.getItem('spa-redirect');
+    if (redirectPath) {
+      sessionStorage.removeItem('spa-redirect');
+      window.history.replaceState(null, '', redirectPath);
     }
-    return 'timeline';
-  });
+    
+    const path = window.location.pathname.toLowerCase();
+    if (path === '/map' || path === '/kaart') return 'map';
+    if (path === '/calendar' || path === '/kalender') return 'calendar';
+    if (path === '/list' || path === '/lijst') return 'list';
+    if (path === '/timeline' || path === '/tijdlijn') return 'timeline';
+    // Default: calendar on mobile, timeline on desktop
+    return window.innerWidth < 768 ? 'calendar' : 'timeline';
+  };
+  
+  const [viewMode, setViewMode] = useState<'timeline' | 'calendar' | 'list' | 'map'>(getViewFromPath);
   const [filtersExpanded, setFiltersExpanded] = useState(true);
+  
+  // Update URL when view mode changes
+  useEffect(() => {
+    const pathMap: Record<string, string> = {
+      'timeline': '/',
+      'calendar': '/calendar',
+      'list': '/list',
+      'map': '/map',
+    };
+    const newPath = pathMap[viewMode] || '/';
+    if (window.location.pathname !== newPath) {
+      window.history.pushState({ viewMode }, '', newPath);
+    }
+  }, [viewMode]);
+  
+  // Handle browser back/forward navigation
+  useEffect(() => {
+    const handlePopState = () => {
+      setViewMode(getViewFromPath());
+    };
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
   
   
   // Modals
@@ -1931,7 +2235,11 @@ const App: React.FC = () => {
       fetch(`${baseUrl}metadata.json`).then(res => res.json()).catch(() => null)
     ])
       .then(([jsonData, jsonMeta]) => {
-        setData(jsonData as SwimmingSession[]);
+        // Filter out temporarily closed pools
+        const filteredData = (jsonData as SwimmingSession[]).filter(
+          session => !isPoolTemporarilyClosed(session.bad)
+        );
+        setData(filteredData);
         setMetadata(jsonMeta as Metadata);
         setLoading(false);
       })
@@ -2083,6 +2391,17 @@ const App: React.FC = () => {
                 >
                   <List size={18} />
                   <span>Lijst</span>
+                </button>
+                <button
+                  onClick={() => setViewMode('map')}
+                  className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-base font-semibold transition-all duration-200 ${
+                    viewMode === 'map' 
+                      ? 'bg-white text-primary shadow-md' 
+                      : 'text-base-content/60 hover:text-base-content hover:bg-base-100/50'
+                  }`}
+                >
+                  <MapIcon size={18} />
+                  <span>Kaart</span>
                 </button>
               </div>
             </div>
@@ -2246,6 +2565,8 @@ const App: React.FC = () => {
           <GanttView data={filteredData} selectedDay={selectedDay} onSessionClick={handleSessionClick} />
         ) : viewMode === 'calendar' ? (
           <CalendarView data={filteredData} selectedDay={selectedDay} onSessionClick={handleSessionClick} />
+        ) : viewMode === 'map' ? (
+          <MapView data={filteredData} onSessionClick={handleSessionClick} />
         ) : (
           <ListView data={filteredData} onSessionClick={handleSessionClick} />
         )}
@@ -2293,6 +2614,15 @@ const App: React.FC = () => {
             <span className="text-[10px] mt-1 font-medium">Lijst</span>
           </button>
           <button
+            onClick={() => setViewMode('map')}
+            className={`flex flex-col items-center p-2 rounded-lg min-w-[48px] ${
+              viewMode === 'map' ? 'text-primary bg-primary/10' : 'text-base-content/60'
+            }`}
+          >
+            <MapIcon size={20} />
+            <span className="text-[10px] mt-1 font-medium">Kaart</span>
+          </button>
+          <button
             onClick={() => setShowAbout(true)}
             className="flex flex-col items-center p-2 rounded-lg min-w-[48px] text-base-content/60"
           >
@@ -2303,71 +2633,62 @@ const App: React.FC = () => {
       </nav>
       
       {/* Footer */}
-      <footer className="mt-12 px-4 md:px-6 py-6 border-t border-base-300 bg-base-200/30">
-        <div className="max-w-4xl mx-auto space-y-4">
-          {/* Main footer content */}
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            {/* Brand & creator */}
-            <div className="flex items-center gap-3">
+      <footer className="mt-8 px-4 md:px-6 py-4 border-t border-base-300 bg-base-200/30">
+        <div className="max-w-4xl mx-auto space-y-3">
+          {/* Warning banner - compact */}
+          <div className="flex items-center gap-2 p-2 bg-warning/10 border border-warning/20 rounded-lg text-sm">
+            <AlertTriangle size={16} className="text-warning flex-shrink-0" />
+            <span className="text-base-content/70">
+              <strong className="text-warning-content">Let op:</strong> Controleer altijd <button onClick={() => setShowAbout(true)} className="text-secondary hover:underline">officiële bronnen</button> — vooral tijdens feestdagen!
+            </span>
+          </div>
+          
+          {/* Main row: Brand | Donation | Social + Meta */}
+          <div className="flex flex-col md:flex-row items-center justify-between gap-3">
+            {/* Left: Brand */}
+            <div className="flex items-center gap-2">
               <WaveXXXLogo size="sm" />
-              <div className="text-center sm:text-left">
-                <span className="font-bold text-base-content">Zwemsterdam</span>
-                <p className="text-xs text-base-content/50">
-                  Door <a href="https://favstats.eu/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Fabio Votta</a> 🏊‍♂️
-                </p>
+              <div>
+                <span className="font-bold text-sm text-base-content">Zwemsterdam</span>
+                <span className="text-xs text-base-content/50 ml-1">door <a href="https://favstats.eu/" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Fabio Votta</a></span>
               </div>
             </div>
             
-            {/* Social links */}
-            <div className="flex items-center gap-1">
-              <a href="https://favstats.eu/" target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-sm btn-circle" title="Website">
-                <Globe size={16} />
-              </a>
-              <a href="https://github.com/favstats/zwemsterdam" target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-sm btn-circle" title="GitHub">
-                <Github size={16} />
-              </a>
-              <a href="https://www.linkedin.com/in/dr-fabio-votta-81a862131/" target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-sm btn-circle text-blue-600" title="LinkedIn">
-                <Linkedin size={16} />
-              </a>
-              <a href="https://bsky.app/profile/favstats.eu" target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-sm btn-circle text-sky-500" title="Bluesky">
-                <AtSign size={16} />
-              </a>
-              <div className="w-px h-6 bg-base-300 mx-1" />
-              <button onClick={() => setShowAbout(true)} className="btn btn-ghost btn-sm gap-1 text-secondary">
-                <Info size={14} />
-                Info
-              </button>
-            </div>
-          </div>
-          
-          {/* Donation & disclaimer row */}
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-3 pt-3 border-t border-base-300/50">
-            {/* Donation */}
-            <div className="flex items-center gap-2 text-xs text-base-content/60">
-              <span className="flex items-center gap-1">
-                <Heart size={12} className="text-red-400" />
-                Handig?
-              </span>
-              <a href="https://www.buymeacoffee.com/favstats" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-amber-600 hover:text-amber-700 font-medium">
+            {/* Center: Donation */}
+            <div className="flex items-center gap-2 text-xs">
+              <Heart size={12} className="text-red-400" />
+              <span className="text-base-content/50">Handig?</span>
+              <a href="https://www.buymeacoffee.com/favstats" target="_blank" rel="noopener noreferrer" className="btn btn-xs btn-ghost gap-1 text-amber-600">
                 <Coffee size={12} />
                 Coffee
               </a>
-              <span className="text-base-300">|</span>
-              <a href="https://paypal.me/FVotta" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-blue-600 hover:text-blue-700 font-medium">
+              <a href="https://paypal.me/FVotta" target="_blank" rel="noopener noreferrer" className="btn btn-xs btn-ghost gap-1 text-blue-600">
                 <Wallet size={12} />
                 PayPal
               </a>
             </div>
             
-            {/* Disclaimer & last updated */}
-            <div className="flex flex-col sm:flex-row items-center gap-2 text-xs text-base-content/50">
-              <span className="flex items-center gap-1">
-                <AlertTriangle size={12} className="text-warning" />
-                Controleer altijd <button onClick={() => setShowAbout(true)} className="text-secondary hover:underline">officiële bronnen</button>
-              </span>
+            {/* Right: Social + Info + Updated */}
+            <div className="flex items-center gap-2 text-xs text-base-content/50">
+              <div className="flex items-center gap-0.5">
+                <a href="https://github.com/favstats/zwemsterdam" target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-xs btn-circle" title="GitHub">
+                  <Github size={14} />
+                </a>
+                <a href="https://www.linkedin.com/in/dr-fabio-votta-81a862131/" target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-xs btn-circle text-blue-600" title="LinkedIn">
+                  <Linkedin size={14} />
+                </a>
+                <a href="https://bsky.app/profile/favstats.eu" target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-xs btn-circle text-sky-500" title="Bluesky">
+                  <BlueskyIcon size={14} />
+                </a>
+              </div>
+              <span className="text-base-300">|</span>
+              <button onClick={() => setShowAbout(true)} className="hover:text-secondary flex items-center gap-1">
+                <Info size={12} />
+                Info
+              </button>
               {metadata && (
                 <>
-                  <span className="hidden sm:inline text-base-300">•</span>
+                  <span className="text-base-300">|</span>
                   <span className="flex items-center gap-1">
                     <Database size={12} />
                     {formatLastUpdated(metadata.lastUpdated)}

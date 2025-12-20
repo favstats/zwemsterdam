@@ -164,3 +164,50 @@
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
+/* Map marker pulse animation */
+@keyframes pulse {
+  0%, 100% { 
+    box-shadow: 0 0 0 0 rgba(5, 150, 105, 0.4);
+    transform: scale(1);
+  }
+  50% { 
+    box-shadow: 0 0 0 8px rgba(5, 150, 105, 0);
+    transform: scale(1.05);
+  }
+}
+
+/* Leaflet popup styling */
+.leaflet-popup-content-wrapper {
+  border-radius: 12px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.leaflet-popup-content {
+  margin: 8px !important;
+  min-width: 200px;
+}
+
+.leaflet-popup-tip {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Custom pool marker styling */
+.custom-pool-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Leaflet container fix for z-index */
+.leaflet-container {
+  font-family: inherit;
+  z-index: 0;
+}
+
+.leaflet-pane {
+  z-index: 1;
+}
+
+.leaflet-control {
+  z-index: 2;
+}
