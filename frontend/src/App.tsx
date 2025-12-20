@@ -66,6 +66,7 @@ const DAY_ABBREVIATIONS: Record<string, string> = {
 // Temporarily closed pools (renovation, etc.) - will be filtered out until reopening date
 const TEMPORARILY_CLOSED_POOLS: Record<string, Date> = {
   'Brediusbad': new Date('2026-05-01'), // Closed until end of April 2026
+  'Flevoparkbad': new Date('2026-05-01'), // Closed until end of April 2026
 };
 
 // Check if a pool is currently closed for renovation
@@ -1956,17 +1957,59 @@ const ListView: React.FC<ListViewProps> = ({ data, onSessionClick }) => {
 // Empty State Component
 // ============================================================================
 
-const EmptyState: React.FC = () => (
-  <div className="flex flex-col items-center justify-center p-12 text-center bg-base-100 rounded-xl shadow-lg">
-    <div className="bg-base-200 p-6 rounded-full mb-4">
-      <Waves size={48} className="text-secondary" />
+interface EmptyStateProps {
+  closedPools?: string[];
+}
+
+const EmptyState: React.FC<EmptyStateProps> = ({ closedPools = [] }) => {
+  // Check if the only reason for empty is that all selected pools are closed
+  const hasOnlyClosedPools = closedPools.length > 0;
+  
+  if (hasOnlyClosedPools) {
+    const pool = closedPools[0];
+    const reopenDate = TEMPORARILY_CLOSED_POOLS[pool];
+    const reopenMonth = reopenDate ? reopenDate.toLocaleDateString('nl-NL', { month: 'long', year: 'numeric' }) : 'binnenkort';
+    
+    return (
+      <div className="flex flex-col items-center justify-center p-12 text-center bg-base-100 rounded-xl shadow-lg">
+        <div className="bg-warning/20 p-6 rounded-full mb-4">
+          <span className="text-5xl">🚧</span>
+        </div>
+        <h3 className="text-xl font-bold mb-2">
+          {closedPools.length === 1 ? `${pool} is tijdelijk gesloten` : 'Geselecteerde zwembaden zijn gesloten'}
+        </h3>
+        <p className="text-base-content/60 max-w-md mb-4">
+          {closedPools.length === 1 
+            ? `Dit zwembad wordt gerenoveerd en opent weer in ${reopenMonth}.`
+            : 'Deze zwembaden zijn momenteel gesloten voor renovatie.'}
+        </p>
+        {closedPools.length === 1 && POOL_WEBSITES[pool] && (
+          <a 
+            href={POOL_WEBSITES[pool]} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn btn-outline btn-sm gap-2"
+          >
+            <ExternalLink size={14} />
+            Meer info op amsterdam.nl
+          </a>
+        )}
+      </div>
+    );
+  }
+  
+  return (
+    <div className="flex flex-col items-center justify-center p-12 text-center bg-base-100 rounded-xl shadow-lg">
+      <div className="bg-base-200 p-6 rounded-full mb-4">
+        <Waves size={48} className="text-secondary" />
+      </div>
+      <h3 className="text-xl font-bold mb-2">Geen zwemtijden gevonden</h3>
+      <p className="text-base-content/60 max-w-md">
+        Er zijn geen sessies die overeenkomen met je filters. Probeer een andere dag of activiteit te selecteren.
+      </p>
     </div>
-    <h3 className="text-xl font-bold mb-2">Geen zwemtijden gevonden</h3>
-    <p className="text-base-content/60 max-w-md">
-      Er zijn geen sessies die overeenkomen met je filters. Probeer een andere dag of activiteit te selecteren.
-    </p>
-  </div>
-);
+  );
+};
 
 // ============================================================================
 // Map View Component
@@ -2344,8 +2387,13 @@ const App: React.FC = () => {
     setFilteredData(result);
   }, [data, searchTerm, selectedPools, selectedWeek, selectedDay, selectedActivity]);
 
-  // Derived state
-  const pools = useMemo(() => ['All Pools', ...new Set(data.map(item => item.bad))], [data]);
+  // Derived state - include temporarily closed pools so they're still visible
+  const pools = useMemo(() => {
+    const activePools = new Set(data.map(item => item.bad));
+    // Add temporarily closed pools to the list
+    Object.keys(TEMPORARILY_CLOSED_POOLS).forEach(pool => activePools.add(pool));
+    return ['All Pools', ...Array.from(activePools).sort()];
+  }, [data]);
   const availableDates = useMemo(() => [...new Set(data.map(item => item.date).filter((d): d is string => !!d))], [data]);
   const availableActivities = useMemo(() => [...new Set(data.map(item => item.activity))], [data]);
 
@@ -2565,6 +2613,8 @@ const App: React.FC = () => {
                 </button>
                 {pools.filter(p => p !== 'All Pools').map(pool => {
                   const isSelected = selectedPools.includes(pool);
+                  const isClosed = isPoolTemporarilyClosed(pool);
+                  const reopenDate = TEMPORARILY_CLOSED_POOLS[pool];
                   return (
                     <button
                       key={pool}
@@ -2578,10 +2628,14 @@ const App: React.FC = () => {
                       className={`px-3 py-1.5 rounded-full text-xs font-semibold transition-all ${
                         isSelected
                           ? 'bg-accent text-white shadow-md'
-                          : 'bg-base-200 text-base-content hover:bg-base-300'
+                          : isClosed
+                            ? 'bg-base-200/50 text-base-content/50 hover:bg-base-300/50'
+                            : 'bg-base-200 text-base-content hover:bg-base-300'
                       }`}
+                      title={isClosed && reopenDate ? `Gesloten tot ${reopenDate.toLocaleDateString('nl-NL', { month: 'long', year: 'numeric' })}` : undefined}
                     >
                       {pool}
+                      {isClosed && <span className="ml-1 opacity-60">🚧</span>}
                     </button>
                   );
                 })}
@@ -2594,7 +2648,7 @@ const App: React.FC = () => {
       {/* Main content */}
       <main className="px-4 md:px-6">
         {filteredData.length === 0 ? (
-          <EmptyState />
+          <EmptyState closedPools={selectedPools.filter(p => isPoolTemporarilyClosed(p))} />
         ) : viewMode === 'timeline' ? (
           <GanttView data={filteredData} selectedDay={selectedDay} onSessionClick={handleSessionClick} />
         ) : viewMode === 'calendar' ? (
