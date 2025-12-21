@@ -65,8 +65,8 @@ const DAY_ABBREVIATIONS: Record<string, string> = {
 // Note: Sloterparkbad & Bijlmer Sportcentrum (Optisport) require browser automation (Cloudflare)
 // Seasonal outdoor pools - closed during winter, reopen in spring
 const SEASONAL_OUTDOOR_POOLS: Record<string, Date> = {
-  'Brediusbad': new Date('2025-05-01'), // Outdoor pool, reopens May 2025
-  'Flevoparkbad': new Date('2025-05-01'), // Outdoor pool, reopens May 2025
+  'Brediusbad': new Date('2026-05-01'), // Outdoor pool, reopens May 2026
+  'Flevoparkbad': new Date('2026-05-01'), // Outdoor pool, reopens May 2026
 };
 
 // Check if a pool is currently closed (seasonal outdoor pool)
