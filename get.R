@@ -11,7 +11,7 @@ if (!dir.exists("frontend/public")) dir.create("frontend/public", recursive = TR
 pool_websites <- list(
   "Zuiderbad" = "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/",
   "Noorderparkbad" = "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/",
-  "De Mirandabad" = "https://www.amsterdam.nl/de-mirandabad/zwembadrooster-de-mirandabad/",
+  "De Mirandabad" = "https://www.amsterdam.nl/demirandabad/rooster/",
   "Flevoparkbad" = "https://www.amsterdam.nl/flevoparkbad/zwembadrooster-flevoparkbad/",
   "Brediusbad" = "https://www.amsterdam.nl/brediusbad/zwembadrooster-brediusbad/",
   "Het Marnix" = "https://hetmarnix.nl/zwemmen/",
