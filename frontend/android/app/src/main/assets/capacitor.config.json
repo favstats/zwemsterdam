@@ -1,0 +1,27 @@
+{
+	"appId": "nl.zwemsterdam.app",
+	"appName": "Zwemsterdam",
+	"webDir": "dist",
+	"server": {
+		"androidScheme": "https"
+	},
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 2000,
+			"launchAutoHide": true,
+			"backgroundColor": "#0077B6",
+			"androidSplashResourceName": "splash",
+			"androidScaleType": "CENTER_CROP",
+			"showSpinner": false
+		},
+		"StatusBar": {
+			"style": "LIGHT",
+			"backgroundColor": "#0077B6"
+		}
+	},
+	"android": {
+		"allowMixedContent": false,
+		"captureInput": true,
+		"webContentsDebuggingEnabled": false
+	}
+}

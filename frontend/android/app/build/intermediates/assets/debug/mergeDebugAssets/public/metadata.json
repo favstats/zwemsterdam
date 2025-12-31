@@ -1,0 +1,38 @@
+{
+  "lastUpdated": "2025-12-21T00:01:15Z",
+  "lastUpdatedLocal": "21-12-2025 00:01",
+  "totalSessions": 645,
+  "pools": ["Zuiderbad", "Noorderparkbad", "De Mirandabad", "Flevoparkbad", "Brediusbad", "Het Marnix", "Sportfondsenbad Oost", "Sportplaza Mercator", "Bijlmer Sportcentrum", "Sloterparkbad", "Duranbad (Diemen)"],
+  "dataSources": [
+    {
+      "name": "Gemeente Amsterdam",
+      "description": "Gemeentelijke zwembaden van Amsterdam",
+      "url": "https://www.amsterdam.nl/sport/zwembaden/",
+      "pools": ["Zuiderbad", "Noorderparkbad", "De Mirandabad", "Flevoparkbad", "Brediusbad"]
+    },
+    {
+      "name": "Het Marnix",
+      "description": "Zwembad in Amsterdam West",
+      "url": "https://hetmarnix.nl/",
+      "pools": "Het Marnix"
+    },
+    {
+      "name": "Sportfondsen Amsterdam",
+      "description": "Sportfondsen zwembaden",
+      "url": "https://www.sportfondsen.nl/",
+      "pools": ["Sportfondsenbad Oost", "Sportplaza Mercator"]
+    },
+    {
+      "name": "Optisport",
+      "description": "Optisport zwembaden",
+      "url": "https://www.optisport.nl/",
+      "pools": ["Bijlmer Sportcentrum", "Sloterparkbad"]
+    },
+    {
+      "name": "Duran Sportcentrum",
+      "description": "Zwembad in Diemen (bij Amsterdam)",
+      "url": "https://www.diemen.nl/zwembad/",
+      "pools": "Duranbad (Diemen)"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color -->
+    <item android:drawable="@color/splash_background"/>
+    
+    <!-- Centered logo -->
+    <item
+        android:width="200dp"
+        android:height="200dp"
+        android:gravity="center">
+        <vector
+            android:width="200dp"
+            android:height="200dp"
+            android:viewportWidth="64"
+            android:viewportHeight="64">
+            
+            <!-- Background circle -->
+            <path
+                android:pathData="M32,32m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0"
+                android:fillColor="#F0F7FA"/>
+            
+            <!-- Left wave-X -->
+            <path
+                android:pathData="M12,32 Q17,28 22,32"
+                android:strokeWidth="3"
+                android:strokeColor="#C8102E"
+                android:strokeLineCap="round"
+                android:fillColor="#00000000"/>
+            <path
+                android:pathData="M12,32 Q17,36 22,32"
+                android:strokeWidth="3"
+                android:strokeColor="#0077B6"
+                android:strokeLineCap="round"
+                android:strokeAlpha="0.8"
+                android:fillColor="#00000000"/>
+            
+            <!-- Center wave-X (larger) -->
+            <path
+                android:pathData="M26,32 Q33,26 40,32"
+                android:strokeWidth="3.5"
+                android:strokeColor="#C8102E"
+                android:strokeLineCap="round"
+                android:fillColor="#00000000"/>
+            <path
+                android:pathData="M26,32 Q33,38 40,32"
+                android:strokeWidth="3.5"
+                android:strokeColor="#0077B6"
+                android:strokeLineCap="round"
+                android:strokeAlpha="0.8"
+                android:fillColor="#00000000"/>
+            
+            <!-- Right wave-X -->
+            <path
+                android:pathData="M44,32 Q49,28 54,32"
+                android:strokeWidth="3"
+                android:strokeColor="#C8102E"
+                android:strokeLineCap="round"
+                android:fillColor="#00000000"/>
+            <path
+                android:pathData="M44,32 Q49,36 54,32"
+                android:strokeWidth="3"
+                android:strokeColor="#0077B6"
+                android:strokeLineCap="round"
+                android:strokeAlpha="0.8"
+                android:fillColor="#00000000"/>
+            
+            <!-- Water waves at bottom -->
+            <path
+                android:pathData="M8,48 Q16,44 24,48 Q32,52 40,48 Q48,44 56,48"
+                android:strokeWidth="2.5"
+                android:strokeColor="#06B6D4"
+                android:strokeLineCap="round"
+                android:strokeAlpha="0.6"
+                android:fillColor="#00000000"/>
+            <path
+                android:pathData="M4,52 Q12,48 20,52 Q28,56 36,52 Q44,48 52,52 Q60,56 64,52"
+                android:strokeWidth="2"
+                android:strokeColor="#06B6D4"
+                android:strokeLineCap="round"
+                android:strokeAlpha="0.4"
+                android:fillColor="#00000000"/>
+        </vector>
+    </item>
+</layer-list>

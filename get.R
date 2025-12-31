@@ -18,7 +18,7 @@ pool_websites <- list(
   "Sportfondsenbad Oost" = "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/",
   "Sportplaza Mercator" = "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/",
   "Bijlmer Sportcentrum" = "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost",
-  "Sloterparkbad" = "https://www.optisport.nl/sloterparkbad-amsterdam",
+  "Sloterparkbad" = "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam",
   "Duranbad (Diemen)" = "https://www.diemen.nl/zwembad/Openingstijden"
 )
 
