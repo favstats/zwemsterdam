@@ -3917,7 +3917,7 @@
         "dayName": "Maandag"
       }
     ],
-    "fetchedAt": "2026-01-02T06:04:55.426Z"
+    "fetchedAt": "2026-01-02T17:04:03.020Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -3943,6 +3943,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Familiezwemmen",
+            "internalLocation": "Recreatiebad",
+            "start": "2026-01-02T14:00:00+01:00",
+            "end": "2026-01-02T18:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam"
           },
           {
             "title": "Vrijzwemmen",
@@ -5935,6 +5944,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "02 januari",
+        "dayName": "Vrijdag"
+      },
+      {
+        "title": "Familiezwemmen",
+        "internalLocation": "Recreatiebad",
+        "start": "2026-01-02T14:00:00+01:00",
+        "end": "2026-01-02T18:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "02 januari",
         "dayName": "Vrijdag"
       },
@@ -8117,6 +8137,6 @@
         "dayName": "Maandag"
       }
     ],
-    "fetchedAt": "2026-01-02T06:04:57.054Z"
+    "fetchedAt": "2026-01-02T17:04:04.967Z"
   }
 }
