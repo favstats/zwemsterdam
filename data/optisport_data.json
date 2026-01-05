@@ -72,15 +72,6 @@
           {
             "title": "Aqua'Robic",
             "internalLocation": null,
-            "start": "2026-01-05T18:30:00+01:00",
-            "end": "2026-01-05T19:15:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
-            "title": "Aqua'Robic",
-            "internalLocation": null,
             "start": "2026-01-05T19:30:00+01:00",
             "end": "2026-01-05T20:15:00+01:00",
             "source": "Google Calendar",
@@ -2052,17 +2043,6 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "05 januari",
-        "dayName": "Maandag"
-      },
-      {
-        "title": "Aqua'Robic",
-        "internalLocation": null,
-        "start": "2026-01-05T18:30:00+01:00",
-        "end": "2026-01-05T19:15:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "05 januari",
         "dayName": "Maandag"
       },
@@ -4157,7 +4137,7 @@
         "dayName": "Donderdag"
       }
     ],
-    "fetchedAt": "2026-01-05T06:07:07.115Z"
+    "fetchedAt": "2026-01-05T17:06:17.852Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -4974,15 +4954,6 @@
             "url": "/activiteiten/aquarobic/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Vrijzwemmen",
-            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
-            "start": "2026-01-15T20:30:00+01:00",
-            "end": "2026-01-15T22:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Banenzwemmen",
             "internalLocation": "Wedstrijdbad (25m x 8 banen)",
             "start": "2026-01-15T20:30:00+01:00",
@@ -4990,6 +4961,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Vrijzwemmen",
+            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+            "start": "2026-01-15T20:30:00+01:00",
+            "end": "2026-01-15T22:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
       },
@@ -7268,17 +7248,6 @@
         "dayName": "Donderdag"
       },
       {
-        "title": "Vrijzwemmen",
-        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
-        "start": "2026-01-15T20:30:00+01:00",
-        "end": "2026-01-15T22:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "15 januari",
-        "dayName": "Donderdag"
-      },
-      {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad (25m x 8 banen)",
         "start": "2026-01-15T20:30:00+01:00",
@@ -7286,6 +7255,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "15 januari",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Vrijzwemmen",
+        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+        "start": "2026-01-15T20:30:00+01:00",
+        "end": "2026-01-15T22:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "15 januari",
         "dayName": "Donderdag"
       },
@@ -8797,6 +8777,6 @@
         "dayName": "Donderdag"
       }
     ],
-    "fetchedAt": "2026-01-05T06:07:08.988Z"
+    "fetchedAt": "2026-01-05T17:06:19.844Z"
   }
 }
