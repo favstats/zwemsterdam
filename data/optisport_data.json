@@ -718,15 +718,6 @@
         "day": "Zondag",
         "events": [
           {
-            "title": "Banenzwemmen",
-            "internalLocation": "Wedstrijdbad",
-            "start": "2026-01-18T10:00:00+01:00",
-            "end": "2026-01-18T12:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "1 op 5 personal training",
             "internalLocation": null,
             "start": "2026-01-18T10:00:00+01:00",
@@ -734,6 +725,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": null
+          },
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad",
+            "start": "2026-01-18T10:00:00+01:00",
+            "end": "2026-01-18T12:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Vrijzwemmen",
@@ -2724,17 +2724,6 @@
         "dayName": "Zaterdag"
       },
       {
-        "title": "Banenzwemmen",
-        "internalLocation": "Wedstrijdbad",
-        "start": "2026-01-18T10:00:00+01:00",
-        "end": "2026-01-18T12:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "18 januari",
-        "dayName": "Zondag"
-      },
-      {
         "title": "1 op 5 personal training",
         "internalLocation": null,
         "start": "2026-01-18T10:00:00+01:00",
@@ -2742,6 +2731,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": null,
+        "dateLabel": "18 januari",
+        "dayName": "Zondag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad",
+        "start": "2026-01-18T10:00:00+01:00",
+        "end": "2026-01-18T12:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "18 januari",
         "dayName": "Zondag"
       },
@@ -4077,7 +4077,7 @@
         "dayName": "Vrijdag"
       }
     ],
-    "fetchedAt": "2026-01-06T05:06:16.024Z"
+    "fetchedAt": "2026-01-06T06:05:01.638Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -8637,6 +8637,6 @@
         "dayName": "Vrijdag"
       }
     ],
-    "fetchedAt": "2026-01-06T05:06:17.902Z"
+    "fetchedAt": "2026-01-06T06:05:03.536Z"
   }
 }
