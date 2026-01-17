@@ -1639,15 +1639,6 @@
         "day": "Zondag",
         "events": [
           {
-            "title": "1 op 5 personal training",
-            "internalLocation": null,
-            "start": "2026-02-15T10:00:00+01:00",
-            "end": "2026-02-15T11:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": null
-          },
-          {
             "title": "Banenzwemmen",
             "internalLocation": "Wedstrijdbad",
             "start": "2026-02-15T10:00:00+01:00",
@@ -1655,6 +1646,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "1 op 5 personal training",
+            "internalLocation": null,
+            "start": "2026-02-15T10:00:00+01:00",
+            "end": "2026-02-15T11:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": null
           },
           {
             "title": "Vrijzwemmen",
@@ -3617,17 +3617,6 @@
         "dayName": "Zaterdag"
       },
       {
-        "title": "1 op 5 personal training",
-        "internalLocation": null,
-        "start": "2026-02-15T10:00:00+01:00",
-        "end": "2026-02-15T11:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": null,
-        "dateLabel": "15 februari",
-        "dayName": "Zondag"
-      },
-      {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad",
         "start": "2026-02-15T10:00:00+01:00",
@@ -3635,6 +3624,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "15 februari",
+        "dayName": "Zondag"
+      },
+      {
+        "title": "1 op 5 personal training",
+        "internalLocation": null,
+        "start": "2026-02-15T10:00:00+01:00",
+        "end": "2026-02-15T11:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": null,
         "dateLabel": "15 februari",
         "dayName": "Zondag"
       },
@@ -3837,7 +3837,7 @@
         "dayName": "Dinsdag"
       }
     ],
-    "fetchedAt": "2026-01-17T05:04:28.333Z"
+    "fetchedAt": "2026-01-17T06:04:40.139Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -7917,6 +7917,6 @@
         "dayName": "Dinsdag"
       }
     ],
-    "fetchedAt": "2026-01-17T05:04:30.370Z"
+    "fetchedAt": "2026-01-17T06:04:41.923Z"
   }
 }
