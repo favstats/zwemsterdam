@@ -367,15 +367,6 @@
             "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Zwemvaardigheid",
-            "internalLocation": null,
-            "start": "2026-01-26T17:30:00+01:00",
-            "end": "2026-01-26T18:15:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "Zwemles Volwassenen",
             "internalLocation": null,
             "start": "2026-01-26T17:30:00+01:00",
@@ -383,6 +374,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zwemvaardigheid",
+            "internalLocation": null,
+            "start": "2026-01-26T17:30:00+01:00",
+            "end": "2026-01-26T18:15:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Aqua'Robic",
@@ -2267,17 +2267,6 @@
         "dayName": "Maandag"
       },
       {
-        "title": "Zwemvaardigheid",
-        "internalLocation": null,
-        "start": "2026-01-26T17:30:00+01:00",
-        "end": "2026-01-26T18:15:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "26 januari",
-        "dayName": "Maandag"
-      },
-      {
         "title": "Zwemles Volwassenen",
         "internalLocation": null,
         "start": "2026-01-26T17:30:00+01:00",
@@ -2285,6 +2274,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "26 januari",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Zwemvaardigheid",
+        "internalLocation": null,
+        "start": "2026-01-26T17:30:00+01:00",
+        "end": "2026-01-26T18:15:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "26 januari",
         "dayName": "Maandag"
       },
@@ -3917,7 +3917,7 @@
         "dayName": "Vrijdag"
       }
     ],
-    "fetchedAt": "2026-01-20T06:06:00.598Z"
+    "fetchedAt": "2026-01-20T17:08:28.066Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -4147,7 +4147,7 @@
           },
           {
             "title": "Prikkelarm Zwemmen",
-            "internalLocation": "Prikkelarm banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+            "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
             "start": "2026-01-22T08:00:00+01:00",
             "end": "2026-01-22T09:30:00+01:00",
             "source": "Google Calendar",
@@ -4366,7 +4366,7 @@
           },
           {
             "title": "Prikkelarm Zwemmen",
-            "internalLocation": "Prikkelarm banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+            "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
             "start": "2026-01-27T08:00:00+01:00",
             "end": "2026-01-27T09:30:00+01:00",
             "source": "Google Calendar",
@@ -4576,7 +4576,7 @@
           },
           {
             "title": "Prikkelarm Zwemmen",
-            "internalLocation": "Prikkelarm banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+            "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
             "start": "2026-01-29T08:00:00+01:00",
             "end": "2026-01-29T09:30:00+01:00",
             "source": "Google Calendar",
@@ -4831,7 +4831,7 @@
           },
           {
             "title": "Prikkelarm Zwemmen",
-            "internalLocation": "Prikkelarm banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+            "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
             "start": "2026-02-03T08:00:00+01:00",
             "end": "2026-02-03T09:30:00+01:00",
             "source": "Google Calendar",
@@ -5041,7 +5041,7 @@
           },
           {
             "title": "Prikkelarm Zwemmen",
-            "internalLocation": "Prikkelarm banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+            "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
             "start": "2026-02-05T08:00:00+01:00",
             "end": "2026-02-05T09:30:00+01:00",
             "source": "Google Calendar",
@@ -5296,7 +5296,7 @@
           },
           {
             "title": "Prikkelarm Zwemmen",
-            "internalLocation": "Prikkelarm banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+            "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
             "start": "2026-02-10T08:00:00+01:00",
             "end": "2026-02-10T09:30:00+01:00",
             "source": "Google Calendar",
@@ -5506,7 +5506,7 @@
           },
           {
             "title": "Prikkelarm Zwemmen",
-            "internalLocation": "Prikkelarm banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+            "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
             "start": "2026-02-12T08:00:00+01:00",
             "end": "2026-02-12T09:30:00+01:00",
             "source": "Google Calendar",
@@ -5761,7 +5761,7 @@
           },
           {
             "title": "Prikkelarm Zwemmen",
-            "internalLocation": "Prikkelarm banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+            "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
             "start": "2026-02-17T08:00:00+01:00",
             "end": "2026-02-17T09:30:00+01:00",
             "source": "Google Calendar",
@@ -5971,7 +5971,7 @@
           },
           {
             "title": "Prikkelarm Zwemmen",
-            "internalLocation": "Prikkelarm banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+            "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
             "start": "2026-02-19T08:00:00+01:00",
             "end": "2026-02-19T09:30:00+01:00",
             "source": "Google Calendar",
@@ -6333,7 +6333,7 @@
       },
       {
         "title": "Prikkelarm Zwemmen",
-        "internalLocation": "Prikkelarm banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+        "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
         "start": "2026-01-22T08:00:00+01:00",
         "end": "2026-01-22T09:30:00+01:00",
         "source": "Google Calendar",
@@ -6564,7 +6564,7 @@
       },
       {
         "title": "Prikkelarm Zwemmen",
-        "internalLocation": "Prikkelarm banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+        "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
         "start": "2026-01-27T08:00:00+01:00",
         "end": "2026-01-27T09:30:00+01:00",
         "source": "Google Calendar",
@@ -6806,7 +6806,7 @@
       },
       {
         "title": "Prikkelarm Zwemmen",
-        "internalLocation": "Prikkelarm banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+        "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
         "start": "2026-01-29T08:00:00+01:00",
         "end": "2026-01-29T09:30:00+01:00",
         "source": "Google Calendar",
@@ -7081,7 +7081,7 @@
       },
       {
         "title": "Prikkelarm Zwemmen",
-        "internalLocation": "Prikkelarm banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+        "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
         "start": "2026-02-03T08:00:00+01:00",
         "end": "2026-02-03T09:30:00+01:00",
         "source": "Google Calendar",
@@ -7323,7 +7323,7 @@
       },
       {
         "title": "Prikkelarm Zwemmen",
-        "internalLocation": "Prikkelarm banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+        "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
         "start": "2026-02-05T08:00:00+01:00",
         "end": "2026-02-05T09:30:00+01:00",
         "source": "Google Calendar",
@@ -7598,7 +7598,7 @@
       },
       {
         "title": "Prikkelarm Zwemmen",
-        "internalLocation": "Prikkelarm banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+        "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
         "start": "2026-02-10T08:00:00+01:00",
         "end": "2026-02-10T09:30:00+01:00",
         "source": "Google Calendar",
@@ -7840,7 +7840,7 @@
       },
       {
         "title": "Prikkelarm Zwemmen",
-        "internalLocation": "Prikkelarm banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+        "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
         "start": "2026-02-12T08:00:00+01:00",
         "end": "2026-02-12T09:30:00+01:00",
         "source": "Google Calendar",
@@ -8115,7 +8115,7 @@
       },
       {
         "title": "Prikkelarm Zwemmen",
-        "internalLocation": "Prikkelarm banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+        "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
         "start": "2026-02-17T08:00:00+01:00",
         "end": "2026-02-17T09:30:00+01:00",
         "source": "Google Calendar",
@@ -8357,7 +8357,7 @@
       },
       {
         "title": "Prikkelarm Zwemmen",
-        "internalLocation": "Prikkelarm banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+        "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
         "start": "2026-02-19T08:00:00+01:00",
         "end": "2026-02-19T09:30:00+01:00",
         "source": "Google Calendar",
@@ -8477,6 +8477,6 @@
         "dayName": "Vrijdag"
       }
     ],
-    "fetchedAt": "2026-01-20T06:06:02.442Z"
+    "fetchedAt": "2026-01-20T17:08:30.023Z"
   }
 }
