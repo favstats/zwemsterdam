@@ -1171,15 +1171,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Zwemles Volwassenen",
-            "internalLocation": null,
-            "start": "2026-02-11T14:15:00+01:00",
-            "end": "2026-02-11T15:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "Zed & Sop Zwemles",
             "internalLocation": "regulier",
             "start": "2026-02-11T14:15:00+01:00",
@@ -1187,6 +1178,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zwemles Volwassenen",
+            "internalLocation": null,
+            "start": "2026-02-11T14:15:00+01:00",
+            "end": "2026-02-11T15:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Zwemvaardigheid",
@@ -1573,15 +1573,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Zwemles Volwassenen",
-            "internalLocation": null,
-            "start": "2026-02-18T14:15:00+01:00",
-            "end": "2026-02-18T15:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "Zed & Sop Zwemles",
             "internalLocation": "regulier",
             "start": "2026-02-18T14:15:00+01:00",
@@ -1589,6 +1580,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zwemles Volwassenen",
+            "internalLocation": null,
+            "start": "2026-02-18T14:15:00+01:00",
+            "end": "2026-02-18T15:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Zwemvaardigheid",
@@ -3075,17 +3075,6 @@
         "dayName": "Woensdag"
       },
       {
-        "title": "Zwemles Volwassenen",
-        "internalLocation": null,
-        "start": "2026-02-11T14:15:00+01:00",
-        "end": "2026-02-11T15:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "11 februari",
-        "dayName": "Woensdag"
-      },
-      {
         "title": "Zed & Sop Zwemles",
         "internalLocation": "regulier",
         "start": "2026-02-11T14:15:00+01:00",
@@ -3093,6 +3082,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "11 februari",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Zwemles Volwassenen",
+        "internalLocation": null,
+        "start": "2026-02-11T14:15:00+01:00",
+        "end": "2026-02-11T15:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "11 februari",
         "dayName": "Woensdag"
       },
@@ -3515,17 +3515,6 @@
         "dayName": "Woensdag"
       },
       {
-        "title": "Zwemles Volwassenen",
-        "internalLocation": null,
-        "start": "2026-02-18T14:15:00+01:00",
-        "end": "2026-02-18T15:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "18 februari",
-        "dayName": "Woensdag"
-      },
-      {
         "title": "Zed & Sop Zwemles",
         "internalLocation": "regulier",
         "start": "2026-02-18T14:15:00+01:00",
@@ -3533,6 +3522,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "18 februari",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Zwemles Volwassenen",
+        "internalLocation": null,
+        "start": "2026-02-18T14:15:00+01:00",
+        "end": "2026-02-18T15:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "18 februari",
         "dayName": "Woensdag"
       },
@@ -3757,7 +3757,7 @@
         "dayName": "Zondag"
       }
     ],
-    "fetchedAt": "2026-01-22T17:09:05.355Z"
+    "fetchedAt": "2026-01-22T18:05:04.087Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -3869,15 +3869,6 @@
         "day": "Zaterdag",
         "events": [
           {
-            "title": "Zwemfeestje",
-            "internalLocation": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
-            "start": "2026-01-24T13:00:00+01:00",
-            "end": "2026-01-24T16:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Familiezwemmen",
             "internalLocation": "Recreatiebad",
             "start": "2026-01-24T13:00:00+01:00",
@@ -3885,6 +3876,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zwemfeestje",
+            "internalLocation": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
+            "start": "2026-01-24T13:00:00+01:00",
+            "end": "2026-01-24T16:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
       },
@@ -3893,15 +3893,6 @@
         "day": "Zondag",
         "events": [
           {
-            "title": "Familiezwemmen",
-            "internalLocation": "Recreatiebad",
-            "start": "2026-01-25T10:00:00+01:00",
-            "end": "2026-01-25T16:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Zwemfeestje",
             "internalLocation": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
             "start": "2026-01-25T10:00:00+01:00",
@@ -3909,6 +3900,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Familiezwemmen",
+            "internalLocation": "Recreatiebad",
+            "start": "2026-01-25T10:00:00+01:00",
+            "end": "2026-01-25T16:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
       },
@@ -5885,6 +5885,17 @@
         "dayName": "Vrijdag"
       },
       {
+        "title": "Familiezwemmen",
+        "internalLocation": "Recreatiebad",
+        "start": "2026-01-24T13:00:00+01:00",
+        "end": "2026-01-24T16:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "24 januari",
+        "dayName": "Zaterdag"
+      },
+      {
         "title": "Zwemfeestje",
         "internalLocation": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
         "start": "2026-01-24T13:00:00+01:00",
@@ -5896,35 +5907,24 @@
         "dayName": "Zaterdag"
       },
       {
-        "title": "Familiezwemmen",
-        "internalLocation": "Recreatiebad",
-        "start": "2026-01-24T13:00:00+01:00",
-        "end": "2026-01-24T16:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "24 januari",
-        "dayName": "Zaterdag"
-      },
-      {
-        "title": "Familiezwemmen",
-        "internalLocation": "Recreatiebad",
+        "title": "Zwemfeestje",
+        "internalLocation": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
         "start": "2026-01-25T10:00:00+01:00",
         "end": "2026-01-25T16:00:00+01:00",
         "source": "Google Calendar",
         "themeColor": "bright-blue",
-        "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "25 januari",
         "dayName": "Zondag"
       },
       {
-        "title": "Zwemfeestje",
-        "internalLocation": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
+        "title": "Familiezwemmen",
+        "internalLocation": "Recreatiebad",
         "start": "2026-01-25T10:00:00+01:00",
         "end": "2026-01-25T16:00:00+01:00",
         "source": "Google Calendar",
         "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
+        "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "25 januari",
         "dayName": "Zondag"
       },
@@ -7997,6 +7997,6 @@
         "dayName": "Zondag"
       }
     ],
-    "fetchedAt": "2026-01-22T17:09:07.097Z"
+    "fetchedAt": "2026-01-22T18:05:06.279Z"
   }
 }
