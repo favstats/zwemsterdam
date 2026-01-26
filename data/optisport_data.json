@@ -3,39 +3,6 @@
     "locationId": 2202,
     "schedule": [
       {
-        "date": "25 januari",
-        "day": "Zondag",
-        "events": [
-          {
-            "title": "Banenzwemmen",
-            "internalLocation": "Wedstrijdbad",
-            "start": "2026-01-25T10:00:00+01:00",
-            "end": "2026-01-25T12:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
-            "title": "1 op 5 personal training",
-            "internalLocation": null,
-            "start": "2026-01-25T10:00:00+01:00",
-            "end": "2026-01-25T11:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": null
-          },
-          {
-            "title": "Vrijzwemmen",
-            "internalLocation": "Recreatiebad",
-            "start": "2026-01-25T12:00:00+01:00",
-            "end": "2026-01-25T15:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
-          }
-        ]
-      },
-      {
         "date": "26 januari",
         "day": "Maandag",
         "events": [
@@ -1858,42 +1825,78 @@
             "url": null
           }
         ]
+      },
+      {
+        "date": "26 februari",
+        "day": "Donderdag",
+        "events": [
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad",
+            "start": "2026-02-26T08:30:00+01:00",
+            "end": "2026-02-26T10:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Aqua'Vitaal",
+            "internalLocation": null,
+            "start": "2026-02-26T09:15:00+01:00",
+            "end": "2026-02-26T10:15:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aquavitaal/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zwemles Volwassenen",
+            "internalLocation": null,
+            "start": "2026-02-26T11:45:00+01:00",
+            "end": "2026-02-26T12:30:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zed & Sop Zwemles",
+            "internalLocation": null,
+            "start": "2026-02-26T16:00:00+01:00",
+            "end": "2026-02-26T17:30:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Aqua'Bootcamp",
+            "internalLocation": "Recreatiebad",
+            "start": "2026-02-26T18:30:00+01:00",
+            "end": "2026-02-26T19:15:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aquabootcamp/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Aqua'Robic",
+            "internalLocation": null,
+            "start": "2026-02-26T19:30:00+01:00",
+            "end": "2026-02-26T20:15:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad",
+            "start": "2026-02-26T20:15:00+01:00",
+            "end": "2026-02-26T21:45:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          }
+        ]
       }
     ],
     "events": [
-      {
-        "title": "Banenzwemmen",
-        "internalLocation": "Wedstrijdbad",
-        "start": "2026-01-25T10:00:00+01:00",
-        "end": "2026-01-25T12:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "25 januari",
-        "dayName": "Zondag"
-      },
-      {
-        "title": "1 op 5 personal training",
-        "internalLocation": null,
-        "start": "2026-01-25T10:00:00+01:00",
-        "end": "2026-01-25T11:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": null,
-        "dateLabel": "25 januari",
-        "dayName": "Zondag"
-      },
-      {
-        "title": "Vrijzwemmen",
-        "internalLocation": "Recreatiebad",
-        "start": "2026-01-25T12:00:00+01:00",
-        "end": "2026-01-25T15:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "25 januari",
-        "dayName": "Zondag"
-      },
       {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad",
@@ -3895,37 +3898,90 @@
         "url": null,
         "dateLabel": "25 februari",
         "dayName": "Woensdag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad",
+        "start": "2026-02-26T08:30:00+01:00",
+        "end": "2026-02-26T10:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "26 februari",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Aqua'Vitaal",
+        "internalLocation": null,
+        "start": "2026-02-26T09:15:00+01:00",
+        "end": "2026-02-26T10:15:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aquavitaal/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "26 februari",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Zwemles Volwassenen",
+        "internalLocation": null,
+        "start": "2026-02-26T11:45:00+01:00",
+        "end": "2026-02-26T12:30:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "26 februari",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Zed & Sop Zwemles",
+        "internalLocation": null,
+        "start": "2026-02-26T16:00:00+01:00",
+        "end": "2026-02-26T17:30:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "26 februari",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Aqua'Bootcamp",
+        "internalLocation": "Recreatiebad",
+        "start": "2026-02-26T18:30:00+01:00",
+        "end": "2026-02-26T19:15:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aquabootcamp/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "26 februari",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Aqua'Robic",
+        "internalLocation": null,
+        "start": "2026-02-26T19:30:00+01:00",
+        "end": "2026-02-26T20:15:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "26 februari",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad",
+        "start": "2026-02-26T20:15:00+01:00",
+        "end": "2026-02-26T21:45:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "26 februari",
+        "dayName": "Donderdag"
       }
     ],
-    "fetchedAt": "2026-01-25T18:04:36.111Z"
+    "fetchedAt": "2026-01-26T05:12:45.502Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
     "schedule": [
-      {
-        "date": "25 januari",
-        "day": "Zondag",
-        "events": [
-          {
-            "title": "Zwemfeestje",
-            "internalLocation": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
-            "start": "2026-01-25T10:00:00+01:00",
-            "end": "2026-01-25T16:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
-            "title": "Familiezwemmen",
-            "internalLocation": "Recreatiebad",
-            "start": "2026-01-25T10:00:00+01:00",
-            "end": "2026-01-25T16:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam"
-          }
-        ]
-      },
       {
         "date": "26 januari",
         "day": "Maandag",
@@ -6064,31 +6120,96 @@
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
+      },
+      {
+        "date": "26 februari",
+        "day": "Donderdag",
+        "events": [
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
+            "start": "2026-02-26T07:00:00+01:00",
+            "end": "2026-02-26T08:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Prikkelarm Zwemmen",
+            "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+            "start": "2026-02-26T08:00:00+01:00",
+            "end": "2026-02-26T09:30:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/prikkelarm-zwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Aqua'Vitaal",
+            "internalLocation": "Recreatiebad",
+            "start": "2026-02-26T10:00:00+01:00",
+            "end": "2026-02-26T12:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aquavitaal/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad (10:15 - 12:15 uur 50m x 8 banen, 12:15 - 13:00 uur 50m x 5 banen)",
+            "start": "2026-02-26T10:15:00+01:00",
+            "end": "2026-02-26T13:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zed & Sop Zwemles",
+            "internalLocation": "Regulier",
+            "start": "2026-02-26T16:00:00+01:00",
+            "end": "2026-02-26T16:45:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zed & Sop Zwemles",
+            "internalLocation": "Regulier",
+            "start": "2026-02-26T16:45:00+01:00",
+            "end": "2026-02-26T17:30:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Aqua'Robic",
+            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+            "start": "2026-02-26T19:00:00+01:00",
+            "end": "2026-02-26T20:30:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aquarobic/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad (25m x 8 banen)",
+            "start": "2026-02-26T20:30:00+01:00",
+            "end": "2026-02-26T21:30:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Vrijzwemmen",
+            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+            "start": "2026-02-26T20:30:00+01:00",
+            "end": "2026-02-26T22:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          }
+        ]
       }
     ],
     "events": [
-      {
-        "title": "Zwemfeestje",
-        "internalLocation": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
-        "start": "2026-01-25T10:00:00+01:00",
-        "end": "2026-01-25T16:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "25 januari",
-        "dayName": "Zondag"
-      },
-      {
-        "title": "Familiezwemmen",
-        "internalLocation": "Recreatiebad",
-        "start": "2026-01-25T10:00:00+01:00",
-        "end": "2026-01-25T16:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "25 januari",
-        "dayName": "Zondag"
-      },
       {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
@@ -8475,8 +8596,107 @@
         "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "25 februari",
         "dayName": "Woensdag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
+        "start": "2026-02-26T07:00:00+01:00",
+        "end": "2026-02-26T08:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "26 februari",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Prikkelarm Zwemmen",
+        "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+        "start": "2026-02-26T08:00:00+01:00",
+        "end": "2026-02-26T09:30:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/prikkelarm-zwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "26 februari",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Aqua'Vitaal",
+        "internalLocation": "Recreatiebad",
+        "start": "2026-02-26T10:00:00+01:00",
+        "end": "2026-02-26T12:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aquavitaal/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "26 februari",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad (10:15 - 12:15 uur 50m x 8 banen, 12:15 - 13:00 uur 50m x 5 banen)",
+        "start": "2026-02-26T10:15:00+01:00",
+        "end": "2026-02-26T13:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "26 februari",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Zed & Sop Zwemles",
+        "internalLocation": "Regulier",
+        "start": "2026-02-26T16:00:00+01:00",
+        "end": "2026-02-26T16:45:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "26 februari",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Zed & Sop Zwemles",
+        "internalLocation": "Regulier",
+        "start": "2026-02-26T16:45:00+01:00",
+        "end": "2026-02-26T17:30:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "26 februari",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Aqua'Robic",
+        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+        "start": "2026-02-26T19:00:00+01:00",
+        "end": "2026-02-26T20:30:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aquarobic/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "26 februari",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad (25m x 8 banen)",
+        "start": "2026-02-26T20:30:00+01:00",
+        "end": "2026-02-26T21:30:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "26 februari",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Vrijzwemmen",
+        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+        "start": "2026-02-26T20:30:00+01:00",
+        "end": "2026-02-26T22:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "26 februari",
+        "dayName": "Donderdag"
       }
     ],
-    "fetchedAt": "2026-01-25T18:04:37.906Z"
+    "fetchedAt": "2026-01-26T05:12:47.479Z"
   }
 }
