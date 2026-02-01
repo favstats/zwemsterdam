@@ -3897,7 +3897,7 @@
         "dayName": "Woensdag"
       }
     ],
-    "fetchedAt": "2026-02-01T17:06:18.623Z"
+    "fetchedAt": "2026-02-01T18:06:06.957Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -5776,15 +5776,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Zwemfeestje",
-            "internalLocation": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
-            "start": "2026-03-01T10:00:00+01:00",
-            "end": "2026-03-01T16:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Familiezwemmen",
             "internalLocation": "Recreatiebad",
             "start": "2026-03-01T10:00:00+01:00",
@@ -5792,6 +5783,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zwemfeestje",
+            "internalLocation": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
+            "start": "2026-03-01T10:00:00+01:00",
+            "end": "2026-03-01T16:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
       },
@@ -8156,17 +8156,6 @@
         "dayName": "Zondag"
       },
       {
-        "title": "Zwemfeestje",
-        "internalLocation": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
-        "start": "2026-03-01T10:00:00+01:00",
-        "end": "2026-03-01T16:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "01 maart",
-        "dayName": "Zondag"
-      },
-      {
         "title": "Familiezwemmen",
         "internalLocation": "Recreatiebad",
         "start": "2026-03-01T10:00:00+01:00",
@@ -8174,6 +8163,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "01 maart",
+        "dayName": "Zondag"
+      },
+      {
+        "title": "Zwemfeestje",
+        "internalLocation": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
+        "start": "2026-03-01T10:00:00+01:00",
+        "end": "2026-03-01T16:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "01 maart",
         "dayName": "Zondag"
       },
@@ -8497,6 +8497,6 @@
         "dayName": "Woensdag"
       }
     ],
-    "fetchedAt": "2026-02-01T17:06:20.424Z"
+    "fetchedAt": "2026-02-01T18:06:09.200Z"
   }
 }
