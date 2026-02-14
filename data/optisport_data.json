@@ -238,15 +238,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Zed & Sop Zwemles",
-            "internalLocation": "regulier",
-            "start": "2026-02-18T14:15:00+01:00",
-            "end": "2026-02-18T17:15:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "Zwemles Volwassenen",
             "internalLocation": "",
             "start": "2026-02-18T14:15:00+01:00",
@@ -254,6 +245,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zed & Sop Zwemles",
+            "internalLocation": "regulier",
+            "start": "2026-02-18T14:15:00+01:00",
+            "end": "2026-02-18T17:15:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Zwemvaardigheid",
@@ -495,8 +495,8 @@
           {
             "title": "Banenzwemmen",
             "internalLocation": "Wedstrijdbad",
-            "start": "2026-02-23T11:30:00+01:00",
-            "end": "2026-02-23T12:30:00+01:00",
+            "start": "2026-02-23T11:00:00+01:00",
+            "end": "2026-02-23T12:00:00+01:00",
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
@@ -556,7 +556,7 @@
             "title": "Banenzwemmen",
             "internalLocation": "Wedstrijdbad",
             "start": "2026-02-24T07:30:00+01:00",
-            "end": "2026-02-24T09:30:00+01:00",
+            "end": "2026-02-24T12:00:00+01:00",
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
@@ -640,15 +640,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Zed & Sop Zwemles",
-            "internalLocation": "regulier",
-            "start": "2026-02-25T14:15:00+01:00",
-            "end": "2026-02-25T17:15:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "Zwemles Volwassenen",
             "internalLocation": "",
             "start": "2026-02-25T14:15:00+01:00",
@@ -656,6 +647,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zed & Sop Zwemles",
+            "internalLocation": "regulier",
+            "start": "2026-02-25T14:15:00+01:00",
+            "end": "2026-02-25T17:15:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Zwemvaardigheid",
@@ -1444,15 +1444,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Zed & Sop Zwemles",
-            "internalLocation": "regulier",
-            "start": "2026-03-11T14:15:00+01:00",
-            "end": "2026-03-11T17:15:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "Zwemles Volwassenen",
             "internalLocation": "",
             "start": "2026-03-11T14:15:00+01:00",
@@ -1460,6 +1451,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zed & Sop Zwemles",
+            "internalLocation": "regulier",
+            "start": "2026-03-11T14:15:00+01:00",
+            "end": "2026-03-11T17:15:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Zwemvaardigheid",
@@ -2088,17 +2088,6 @@
         "dayName": "Woensdag"
       },
       {
-        "title": "Zed & Sop Zwemles",
-        "internalLocation": "regulier",
-        "start": "2026-02-18T14:15:00+01:00",
-        "end": "2026-02-18T17:15:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "18 februari",
-        "dayName": "Woensdag"
-      },
-      {
         "title": "Zwemles Volwassenen",
         "internalLocation": "",
         "start": "2026-02-18T14:15:00+01:00",
@@ -2106,6 +2095,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "18 februari",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Zed & Sop Zwemles",
+        "internalLocation": "regulier",
+        "start": "2026-02-18T14:15:00+01:00",
+        "end": "2026-02-18T17:15:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "18 februari",
         "dayName": "Woensdag"
       },
@@ -2365,8 +2365,8 @@
       {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad",
-        "start": "2026-02-23T11:30:00+01:00",
-        "end": "2026-02-23T12:30:00+01:00",
+        "start": "2026-02-23T11:00:00+01:00",
+        "end": "2026-02-23T12:00:00+01:00",
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
@@ -2432,7 +2432,7 @@
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad",
         "start": "2026-02-24T07:30:00+01:00",
-        "end": "2026-02-24T09:30:00+01:00",
+        "end": "2026-02-24T12:00:00+01:00",
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
@@ -2528,17 +2528,6 @@
         "dayName": "Woensdag"
       },
       {
-        "title": "Zed & Sop Zwemles",
-        "internalLocation": "regulier",
-        "start": "2026-02-25T14:15:00+01:00",
-        "end": "2026-02-25T17:15:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "25 februari",
-        "dayName": "Woensdag"
-      },
-      {
         "title": "Zwemles Volwassenen",
         "internalLocation": "",
         "start": "2026-02-25T14:15:00+01:00",
@@ -2546,6 +2535,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "25 februari",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Zed & Sop Zwemles",
+        "internalLocation": "regulier",
+        "start": "2026-02-25T14:15:00+01:00",
+        "end": "2026-02-25T17:15:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "25 februari",
         "dayName": "Woensdag"
       },
@@ -3408,17 +3408,6 @@
         "dayName": "Woensdag"
       },
       {
-        "title": "Zed & Sop Zwemles",
-        "internalLocation": "regulier",
-        "start": "2026-03-11T14:15:00+01:00",
-        "end": "2026-03-11T17:15:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "11 maart",
-        "dayName": "Woensdag"
-      },
-      {
         "title": "Zwemles Volwassenen",
         "internalLocation": "",
         "start": "2026-03-11T14:15:00+01:00",
@@ -3426,6 +3415,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "11 maart",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Zed & Sop Zwemles",
+        "internalLocation": "regulier",
+        "start": "2026-03-11T14:15:00+01:00",
+        "end": "2026-03-11T17:15:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "11 maart",
         "dayName": "Woensdag"
       },
@@ -3837,7 +3837,7 @@
         "dayName": "Dinsdag"
       }
     ],
-    "fetchedAt": "2026-02-14T06:12:29.449Z"
+    "fetchedAt": "2026-02-14T17:06:38.920Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -8217,6 +8217,6 @@
         "dayName": "Dinsdag"
       }
     ],
-    "fetchedAt": "2026-02-14T06:12:31.382Z"
+    "fetchedAt": "2026-02-14T17:06:40.654Z"
   }
 }
