@@ -1,24 +1,13 @@
 [
   {
     "bad": "Zuiderbad",
-    "dag": "Zaterdag",
-    "date": "2026-02-21",
-    "activity": "Banenzwemmen",
-    "extra": "In verband met zwemlessen minder water beschikbaar",
-    "start": 8,
-    "end": 15,
-    "id": 1,
-    "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
-  },
-  {
-    "bad": "Zuiderbad",
     "dag": "Zondag",
     "date": "2026-02-22",
     "activity": "Recreatiezwemmen",
     "extra": "Alle leeftijden",
     "start": 10,
     "end": 12.5,
-    "id": 2,
+    "id": 1,
     "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
   },
   {
@@ -29,7 +18,7 @@
     "extra": "",
     "start": 13,
     "end": 15.5,
-    "id": 3,
+    "id": 2,
     "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
   },
   {
@@ -40,6 +29,17 @@
     "extra": "Naaktzwemmen - kassa gaat open om 16:25 ",
     "start": 16.5,
     "end": 17.5,
+    "id": 3,
+    "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
+  },
+  {
+    "bad": "Zuiderbad",
+    "dag": "Maandag",
+    "date": "2026-02-23",
+    "activity": "Banenzwemmen",
+    "extra": "",
+    "start": 7,
+    "end": 13,
     "id": 4,
     "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
   },
@@ -48,21 +48,10 @@
     "dag": "Maandag",
     "date": "2026-02-23",
     "activity": "Banenzwemmen",
-    "extra": "",
-    "start": 7,
-    "end": 13,
-    "id": 5,
-    "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
-  },
-  {
-    "bad": "Zuiderbad",
-    "dag": "Maandag",
-    "date": "2026-02-23",
-    "activity": "Banenzwemmen",
     "extra": "Voor chronisch zieken",
     "start": 13,
     "end": 14,
-    "id": 6,
+    "id": 5,
     "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
   },
   {
@@ -73,6 +62,17 @@
     "extra": "2 banen beschikbaar voor banenzwemmen",
     "start": 14,
     "end": 17,
+    "id": 6,
+    "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
+  },
+  {
+    "bad": "Zuiderbad",
+    "dag": "Dinsdag",
+    "date": "2026-02-24",
+    "activity": "Banenzwemmen",
+    "extra": "",
+    "start": 7,
+    "end": 13,
     "id": 7,
     "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
   },
@@ -81,21 +81,10 @@
     "dag": "Dinsdag",
     "date": "2026-02-24",
     "activity": "Banenzwemmen",
-    "extra": "",
-    "start": 7,
-    "end": 13,
-    "id": 8,
-    "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
-  },
-  {
-    "bad": "Zuiderbad",
-    "dag": "Dinsdag",
-    "date": "2026-02-24",
-    "activity": "Banenzwemmen",
     "extra": "Voor chronisch zieken",
     "start": 13,
     "end": 14,
-    "id": 9,
+    "id": 8,
     "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
   },
   {
@@ -106,7 +95,7 @@
     "extra": "2 banen beschikbaar voor banenzwemmen",
     "start": 14,
     "end": 17,
-    "id": 10,
+    "id": 9,
     "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
   },
   {
@@ -117,7 +106,7 @@
     "extra": "",
     "start": 18,
     "end": 22,
-    "id": 11,
+    "id": 10,
     "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
   },
   {
@@ -128,7 +117,7 @@
     "extra": "",
     "start": 7,
     "end": 13,
-    "id": 12,
+    "id": 11,
     "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
   },
   {
@@ -139,6 +128,17 @@
     "extra": "Banenzwemmen voor senioren 55+",
     "start": 13,
     "end": 14,
+    "id": 12,
+    "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
+  },
+  {
+    "bad": "Zuiderbad",
+    "dag": "Woensdag",
+    "date": "2026-02-25",
+    "activity": "Recreatiezwemmen",
+    "extra": "2 banen beschikbaar voor banenzwemmen",
+    "start": 14,
+    "end": 17,
     "id": 13,
     "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
   },
@@ -146,21 +146,21 @@
     "bad": "Zuiderbad",
     "dag": "Woensdag",
     "date": "2026-02-25",
-    "activity": "Recreatiezwemmen",
-    "extra": "2 banen beschikbaar voor banenzwemmen",
-    "start": 14,
-    "end": 17,
+    "activity": "Banenzwemmen",
+    "extra": "",
+    "start": 18,
+    "end": 22,
     "id": 14,
     "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
   },
   {
     "bad": "Zuiderbad",
-    "dag": "Woensdag",
-    "date": "2026-02-25",
+    "dag": "Donderdag",
+    "date": "2026-02-26",
     "activity": "Banenzwemmen",
     "extra": "",
-    "start": 18,
-    "end": 22,
+    "start": 7,
+    "end": 14,
     "id": 15,
     "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
   },
@@ -168,10 +168,10 @@
     "bad": "Zuiderbad",
     "dag": "Donderdag",
     "date": "2026-02-26",
-    "activity": "Banenzwemmen",
-    "extra": "",
-    "start": 7,
-    "end": 14,
+    "activity": "Recreatiezwemmen",
+    "extra": "2 banen beschikbaar voor banenzwemmen",
+    "start": 14,
+    "end": 17,
     "id": 16,
     "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
   },
@@ -179,22 +179,11 @@
     "bad": "Zuiderbad",
     "dag": "Donderdag",
     "date": "2026-02-26",
-    "activity": "Recreatiezwemmen",
-    "extra": "2 banen beschikbaar voor banenzwemmen",
-    "start": 14,
-    "end": 17,
-    "id": 17,
-    "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
-  },
-  {
-    "bad": "Zuiderbad",
-    "dag": "Donderdag",
-    "date": "2026-02-26",
     "activity": "Banenzwemmen",
     "extra": "",
     "start": 18,
     "end": 22,
-    "id": 18,
+    "id": 17,
     "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
   },
   {
@@ -205,7 +194,7 @@
     "extra": "",
     "start": 7,
     "end": 14,
-    "id": 19,
+    "id": 18,
     "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
   },
   {
@@ -216,7 +205,7 @@
     "extra": "2 banen beschikbaar voor banenzwemmen",
     "start": 14,
     "end": 17,
-    "id": 20,
+    "id": 19,
     "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
   },
   {
@@ -227,7 +216,7 @@
     "extra": "",
     "start": 18,
     "end": 22,
-    "id": 21,
+    "id": 20,
     "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
   },
   {
@@ -238,7 +227,7 @@
     "extra": "",
     "start": 8,
     "end": 12,
-    "id": 22,
+    "id": 21,
     "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
   },
   {
@@ -249,63 +238,41 @@
     "extra": "Alle leeftijden",
     "start": 12,
     "end": 15,
+    "id": 22,
+    "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
+  },
+  {
+    "bad": "Zuiderbad",
+    "dag": "Zondag",
+    "date": "2026-03-01",
+    "activity": "Recreatiezwemmen",
+    "extra": "Alle leeftijden",
+    "start": 10,
+    "end": 12.5,
     "id": 23,
     "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
   },
   {
-    "bad": "Noorderparkbad",
-    "dag": "Zaterdag",
-    "date": "2026-02-21",
-    "activity": "Zwemles voor kinderen tot en met 12 jaar ",
-    "extra": "voor het A, B en C diploma",
-    "start": 9,
-    "end": 12,
-    "id": 24,
-    "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
-  },
-  {
-    "bad": "Noorderparkbad",
-    "dag": "Zaterdag",
-    "date": "2026-02-21",
-    "activity": "Peuter-kleuterzwemmen",
-    "extra": "Babyzwemmen 12 weken - 1,5 jaar",
+    "bad": "Zuiderbad",
+    "dag": "Zondag",
+    "date": "2026-03-01",
+    "activity": "Banenzwemmen",
+    "extra": "",
     "start": 13,
-    "end": 13.5,
+    "end": 15.5,
+    "id": 24,
+    "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
+  },
+  {
+    "bad": "Zuiderbad",
+    "dag": "Zondag",
+    "date": "2026-03-01",
+    "activity": "Banenzwemmen",
+    "extra": "Naaktzwemmen - kassa gaat open om 16:25 ",
+    "start": 16.5,
+    "end": 17.5,
     "id": 25,
-    "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
-  },
-  {
-    "bad": "Noorderparkbad",
-    "dag": "Zaterdag",
-    "date": "2026-02-21",
-    "activity": "Zwemles voor kinderen tot en met 12 jaar ",
-    "extra": "Aan de slag met zwemles",
-    "start": 13.25,
-    "end": 14,
-    "id": 26,
-    "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
-  },
-  {
-    "bad": "Noorderparkbad",
-    "dag": "Zaterdag",
-    "date": "2026-02-21",
-    "activity": "Peuter-kleuterzwemmen",
-    "extra": "Peuterzwemmen 1 á 1,5 - 2,5 jaar, kind moet kunnen lopen",
-    "start": 13.5,
-    "end": 14,
-    "id": 27,
-    "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
-  },
-  {
-    "bad": "Noorderparkbad",
-    "dag": "Zaterdag",
-    "date": "2026-02-21",
-    "activity": "Peuter-kleuterzwemmen",
-    "extra": "Kleutersurvival (vanaf 3 tot 4 jaar)",
-    "start": 14.25,
-    "end": 14.75,
-    "id": 28,
-    "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
+    "website": "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/"
   },
   {
     "bad": "Noorderparkbad",
@@ -315,7 +282,7 @@
     "extra": "Doelgroepenbad",
     "start": 10.5,
     "end": 12,
-    "id": 29,
+    "id": 26,
     "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
   },
   {
@@ -326,7 +293,7 @@
     "extra": "Sportbad",
     "start": 10.5,
     "end": 12,
-    "id": 30,
+    "id": 27,
     "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
   },
   {
@@ -337,7 +304,7 @@
     "extra": "Verenigingsbad",
     "start": 10.5,
     "end": 14,
-    "id": 31,
+    "id": 28,
     "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
   },
   {
@@ -348,7 +315,7 @@
     "extra": "Doelgroepenbad en Sportbad",
     "start": 12,
     "end": 16,
-    "id": 32,
+    "id": 29,
     "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
   },
   {
@@ -359,7 +326,7 @@
     "extra": "25-meterbad binnen",
     "start": 7,
     "end": 14,
-    "id": 33,
+    "id": 30,
     "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
   },
   {
@@ -370,7 +337,7 @@
     "extra": "Doelgroepenbad",
     "start": 7,
     "end": 8.75,
-    "id": 34,
+    "id": 31,
     "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
   },
   {
@@ -381,7 +348,7 @@
     "extra": "Doelgroepenbad en Sportbad",
     "start": 13,
     "end": 17,
-    "id": 35,
+    "id": 32,
     "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
   },
   {
@@ -392,7 +359,7 @@
     "extra": "25-meterbad binnen",
     "start": 20,
     "end": 22,
-    "id": 36,
+    "id": 33,
     "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
   },
   {
@@ -403,6 +370,39 @@
     "extra": "Doelgroepenbad",
     "start": 20.5,
     "end": 22,
+    "id": 34,
+    "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
+  },
+  {
+    "bad": "Noorderparkbad",
+    "dag": "Dinsdag",
+    "date": "2026-02-24",
+    "activity": "Banenzwemmen",
+    "extra": "25-meterbad binnen",
+    "start": 7,
+    "end": 14,
+    "id": 35,
+    "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
+  },
+  {
+    "bad": "Noorderparkbad",
+    "dag": "Dinsdag",
+    "date": "2026-02-24",
+    "activity": "Recreatiezwemmen",
+    "extra": "Doelgroepenbad",
+    "start": 7,
+    "end": 8.75,
+    "id": 36,
+    "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
+  },
+  {
+    "bad": "Noorderparkbad",
+    "dag": "Dinsdag",
+    "date": "2026-02-24",
+    "activity": "Recreatiezwemmen",
+    "extra": "Doelgroepenbad",
+    "start": 13,
+    "end": 17,
     "id": 37,
     "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
   },
@@ -412,8 +412,8 @@
     "date": "2026-02-24",
     "activity": "Banenzwemmen",
     "extra": "25-meterbad binnen",
-    "start": 7,
-    "end": 14,
+    "start": 20,
+    "end": 22,
     "id": 38,
     "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
   },
@@ -423,42 +423,9 @@
     "date": "2026-02-24",
     "activity": "Recreatiezwemmen",
     "extra": "Doelgroepenbad",
-    "start": 7,
-    "end": 8.75,
+    "start": 20,
+    "end": 22,
     "id": 39,
-    "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
-  },
-  {
-    "bad": "Noorderparkbad",
-    "dag": "Dinsdag",
-    "date": "2026-02-24",
-    "activity": "Recreatiezwemmen",
-    "extra": "Doelgroepenbad",
-    "start": 13,
-    "end": 17,
-    "id": 40,
-    "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
-  },
-  {
-    "bad": "Noorderparkbad",
-    "dag": "Dinsdag",
-    "date": "2026-02-24",
-    "activity": "Banenzwemmen",
-    "extra": "25-meterbad binnen",
-    "start": 20,
-    "end": 22,
-    "id": 41,
-    "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
-  },
-  {
-    "bad": "Noorderparkbad",
-    "dag": "Dinsdag",
-    "date": "2026-02-24",
-    "activity": "Recreatiezwemmen",
-    "extra": "Doelgroepenbad",
-    "start": 20,
-    "end": 22,
-    "id": 42,
     "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
   },
   {
@@ -469,7 +436,7 @@
     "extra": "25-meterbad binnen",
     "start": 7,
     "end": 14,
-    "id": 43,
+    "id": 40,
     "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
   },
   {
@@ -480,7 +447,7 @@
     "extra": "Doelgroepenbad",
     "start": 7,
     "end": 8.75,
-    "id": 44,
+    "id": 41,
     "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
   },
   {
@@ -491,7 +458,7 @@
     "extra": "Doelgroepenbad",
     "start": 13,
     "end": 17,
-    "id": 45,
+    "id": 42,
     "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
   },
   {
@@ -502,7 +469,7 @@
     "extra": "Doelgroepenbad",
     "start": 20,
     "end": 22,
-    "id": 46,
+    "id": 43,
     "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
   },
   {
@@ -513,7 +480,7 @@
     "extra": "25-meterbad binnen",
     "start": 8,
     "end": 14,
-    "id": 47,
+    "id": 44,
     "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
   },
   {
@@ -524,7 +491,7 @@
     "extra": "Doelgroepenbad",
     "start": 13,
     "end": 17,
-    "id": 48,
+    "id": 45,
     "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
   },
   {
@@ -535,7 +502,7 @@
     "extra": "25-meterbad binnen",
     "start": 7,
     "end": 14,
-    "id": 49,
+    "id": 46,
     "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
   },
   {
@@ -546,7 +513,7 @@
     "extra": "Doelgroepenbad",
     "start": 7,
     "end": 8.75,
-    "id": 50,
+    "id": 47,
     "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
   },
   {
@@ -557,28 +524,61 @@
     "extra": "Doelgroepenbad en Sportbad",
     "start": 13,
     "end": 17,
+    "id": 48,
+    "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
+  },
+  {
+    "bad": "Noorderparkbad",
+    "dag": "Zondag",
+    "date": "2026-03-01",
+    "activity": "Recreatiezwemmen",
+    "extra": "Doelgroepenbad",
+    "start": 10.5,
+    "end": 12,
+    "id": 49,
+    "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
+  },
+  {
+    "bad": "Noorderparkbad",
+    "dag": "Zondag",
+    "date": "2026-03-01",
+    "activity": "Banenzwemmen",
+    "extra": "Sportbad",
+    "start": 10.5,
+    "end": 12,
+    "id": 50,
+    "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
+  },
+  {
+    "bad": "Noorderparkbad",
+    "dag": "Zondag",
+    "date": "2026-03-01",
+    "activity": "Banenzwemmen",
+    "extra": "Verenigingsbad",
+    "start": 10.5,
+    "end": 14,
     "id": 51,
     "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
   },
   {
+    "bad": "Noorderparkbad",
+    "dag": "Zondag",
+    "date": "2026-03-01",
+    "activity": "Recreatiezwemmen",
+    "extra": "Doelgroepenbad en Sportbad",
+    "start": 12,
+    "end": 16,
+    "id": 52,
+    "website": "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/"
+  },
+  {
     "bad": "De Mirandabad",
-    "dag": "Zaterdag",
-    "date": "2026-02-21",
+    "dag": "Zondag",
+    "date": "2026-02-22",
     "activity": "Recreatiezwemmen",
     "extra": "Recreatie zwemmen golfslagbad alle leeftijden",
     "start": 10,
     "end": 17,
-    "id": 52,
-    "website": "https://www.amsterdam.nl/demirandabad/rooster/"
-  },
-  {
-    "bad": "De Mirandabad",
-    "dag": "Zaterdag",
-    "date": "2026-02-21",
-    "activity": "Squash",
-    "extra": "Squash",
-    "start": 10.5,
-    "end": 16.5,
     "id": 53,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
@@ -586,22 +586,11 @@
     "bad": "De Mirandabad",
     "dag": "Zondag",
     "date": "2026-02-22",
-    "activity": "Recreatiezwemmen",
-    "extra": "Recreatie zwemmen golfslagbad alle leeftijden",
-    "start": 10,
-    "end": 17,
-    "id": 54,
-    "website": "https://www.amsterdam.nl/demirandabad/rooster/"
-  },
-  {
-    "bad": "De Mirandabad",
-    "dag": "Zondag",
-    "date": "2026-02-22",
     "activity": "Squash",
     "extra": "Squash",
     "start": 10.5,
     "end": 16.5,
-    "id": 55,
+    "id": 54,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -612,7 +601,7 @@
     "extra": "25-meterbad binnen",
     "start": 12.75,
     "end": 14.5,
-    "id": 56,
+    "id": 55,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -623,7 +612,7 @@
     "extra": "25-meterbad binnen",
     "start": 7,
     "end": 9,
-    "id": 57,
+    "id": 56,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -634,7 +623,7 @@
     "extra": "Squash",
     "start": 7.5,
     "end": 21.75,
-    "id": 58,
+    "id": 57,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -645,7 +634,7 @@
     "extra": "Snelcursus",
     "start": 9.5,
     "end": 11.75,
-    "id": 59,
+    "id": 58,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -656,7 +645,7 @@
     "extra": "Recreatie zwemmen golfslagbad alle leeftijden",
     "start": 10,
     "end": 18,
-    "id": 60,
+    "id": 59,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -667,7 +656,7 @@
     "extra": "25-meterbad binnen",
     "start": 12,
     "end": 22,
-    "id": 61,
+    "id": 60,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -678,6 +667,17 @@
     "extra": "Golfslagbad",
     "start": 19,
     "end": 21,
+    "id": 61,
+    "website": "https://www.amsterdam.nl/demirandabad/rooster/"
+  },
+  {
+    "bad": "De Mirandabad",
+    "dag": "Dinsdag",
+    "date": "2026-02-24",
+    "activity": "Banenzwemmen",
+    "extra": "25-meterbad binnen",
+    "start": 7,
+    "end": 9,
     "id": 62,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
@@ -685,10 +685,10 @@
     "bad": "De Mirandabad",
     "dag": "Dinsdag",
     "date": "2026-02-24",
-    "activity": "Banenzwemmen",
-    "extra": "25-meterbad binnen",
-    "start": 7,
-    "end": 9,
+    "activity": "Squash",
+    "extra": "Squash",
+    "start": 7.5,
+    "end": 21.75,
     "id": 63,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
@@ -696,10 +696,10 @@
     "bad": "De Mirandabad",
     "dag": "Dinsdag",
     "date": "2026-02-24",
-    "activity": "Squash",
-    "extra": "Squash",
-    "start": 7.5,
-    "end": 21.75,
+    "activity": "Zwemles voor kinderen tot en met 12 jaar ",
+    "extra": "Snelcursus",
+    "start": 9.5,
+    "end": 11.75,
     "id": 64,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
@@ -707,10 +707,10 @@
     "bad": "De Mirandabad",
     "dag": "Dinsdag",
     "date": "2026-02-24",
-    "activity": "Zwemles voor kinderen tot en met 12 jaar ",
-    "extra": "Snelcursus",
-    "start": 9.5,
-    "end": 11.75,
+    "activity": "Recreatiezwemmen",
+    "extra": "Recreatie zwemmen golfslagbad alle leeftijden",
+    "start": 10,
+    "end": 18,
     "id": 65,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
@@ -718,10 +718,10 @@
     "bad": "De Mirandabad",
     "dag": "Dinsdag",
     "date": "2026-02-24",
-    "activity": "Recreatiezwemmen",
-    "extra": "Recreatie zwemmen golfslagbad alle leeftijden",
-    "start": 10,
-    "end": 18,
+    "activity": "Banenzwemmen",
+    "extra": "25-meterbad binnen",
+    "start": 12,
+    "end": 19,
     "id": 66,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
@@ -729,21 +729,21 @@
     "bad": "De Mirandabad",
     "dag": "Dinsdag",
     "date": "2026-02-24",
-    "activity": "Banenzwemmen",
-    "extra": "25-meterbad binnen",
-    "start": 12,
-    "end": 19,
+    "activity": "Recreatiezwemmen",
+    "extra": "Recreatie zwemmen golfslagbad alle leeftijden",
+    "start": 19,
+    "end": 21,
     "id": 67,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
     "bad": "De Mirandabad",
-    "dag": "Dinsdag",
-    "date": "2026-02-24",
-    "activity": "Recreatiezwemmen",
-    "extra": "Recreatie zwemmen golfslagbad alle leeftijden",
-    "start": 19,
-    "end": 21,
+    "dag": "Woensdag",
+    "date": "2026-02-25",
+    "activity": "Banenzwemmen",
+    "extra": "25-meterbad binnen",
+    "start": 7,
+    "end": 9,
     "id": 68,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
@@ -751,22 +751,11 @@
     "bad": "De Mirandabad",
     "dag": "Woensdag",
     "date": "2026-02-25",
-    "activity": "Banenzwemmen",
-    "extra": "25-meterbad binnen",
-    "start": 7,
-    "end": 9,
-    "id": 69,
-    "website": "https://www.amsterdam.nl/demirandabad/rooster/"
-  },
-  {
-    "bad": "De Mirandabad",
-    "dag": "Woensdag",
-    "date": "2026-02-25",
     "activity": "Squash",
     "extra": "Squash",
     "start": 7.5,
     "end": 21.75,
-    "id": 70,
+    "id": 69,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -777,7 +766,7 @@
     "extra": "Snelcursus",
     "start": 9.5,
     "end": 11.75,
-    "id": 71,
+    "id": 70,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -788,7 +777,7 @@
     "extra": "Recreatie zwemmen golfslagbad alle leeftijden",
     "start": 10,
     "end": 18,
-    "id": 72,
+    "id": 71,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -799,7 +788,7 @@
     "extra": "25-meterbad binnen",
     "start": 12,
     "end": 19,
-    "id": 73,
+    "id": 72,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -810,7 +799,7 @@
     "extra": "Golfslagbad",
     "start": 19,
     "end": 21,
-    "id": 74,
+    "id": 73,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -821,7 +810,7 @@
     "extra": "25-meterbad binnen",
     "start": 7,
     "end": 9,
-    "id": 75,
+    "id": 74,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -832,7 +821,7 @@
     "extra": "Squash",
     "start": 7.5,
     "end": 21.75,
-    "id": 76,
+    "id": 75,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -843,7 +832,7 @@
     "extra": "Snelcursus",
     "start": 9.5,
     "end": 11.75,
-    "id": 77,
+    "id": 76,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -854,7 +843,7 @@
     "extra": "Golfslagbad",
     "start": 10,
     "end": 18,
-    "id": 78,
+    "id": 77,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -865,7 +854,7 @@
     "extra": "25-meterbad binnen",
     "start": 12,
     "end": 20,
-    "id": 79,
+    "id": 78,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -876,7 +865,7 @@
     "extra": "Golfslagbad",
     "start": 19,
     "end": 21,
-    "id": 80,
+    "id": 79,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -887,7 +876,7 @@
     "extra": "25-meterbad binnen",
     "start": 7,
     "end": 9,
-    "id": 81,
+    "id": 80,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -898,7 +887,7 @@
     "extra": "Squash",
     "start": 7.5,
     "end": 21.75,
-    "id": 82,
+    "id": 81,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -909,7 +898,7 @@
     "extra": "Snelcursus",
     "start": 9.5,
     "end": 11.75,
-    "id": 83,
+    "id": 82,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -920,7 +909,7 @@
     "extra": "Golfslagbad",
     "start": 10,
     "end": 18,
-    "id": 84,
+    "id": 83,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -931,7 +920,7 @@
     "extra": "25-meterbad binnen",
     "start": 12,
     "end": 15,
-    "id": 85,
+    "id": 84,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -942,7 +931,7 @@
     "extra": "Golfslagbad",
     "start": 19,
     "end": 21,
-    "id": 86,
+    "id": 85,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -953,7 +942,7 @@
     "extra": "25-meterbad binnen",
     "start": 19,
     "end": 22,
-    "id": 87,
+    "id": 86,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -964,7 +953,7 @@
     "extra": "Recreatie zwemmen golfslagbad alle leeftijden",
     "start": 10,
     "end": 17,
-    "id": 88,
+    "id": 87,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
@@ -975,35 +964,46 @@
     "extra": "Squash",
     "start": 10.5,
     "end": 16.5,
+    "id": 88,
+    "website": "https://www.amsterdam.nl/demirandabad/rooster/"
+  },
+  {
+    "bad": "De Mirandabad",
+    "dag": "Zondag",
+    "date": "2026-03-01",
+    "activity": "Recreatiezwemmen",
+    "extra": "Recreatie zwemmen golfslagbad alle leeftijden",
+    "start": 10,
+    "end": 17,
     "id": 89,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
-    "bad": "Flevoparkbad",
-    "dag": "Zaterdag",
-    "date": "2026-02-21",
-    "activity": "Gesloten",
-    "extra": "Het Flevoparkbad is op dit moment gesloten",
-    "start": 9.5,
-    "end": 17.5,
+    "bad": "De Mirandabad",
+    "dag": "Zondag",
+    "date": "2026-03-01",
+    "activity": "Squash",
+    "extra": "Squash",
+    "start": 10.5,
+    "end": 16.5,
     "id": 90,
-    "website": "https://www.amsterdam.nl/flevoparkbad/zwembadrooster-flevoparkbad/"
+    "website": "https://www.amsterdam.nl/demirandabad/rooster/"
+  },
+  {
+    "bad": "De Mirandabad",
+    "dag": "Zondag",
+    "date": "2026-03-01",
+    "activity": "Banenzwemmen",
+    "extra": "25-meterbad binnen",
+    "start": 12.75,
+    "end": 14.5,
+    "id": 91,
+    "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
   {
     "bad": "Flevoparkbad",
     "dag": "Zondag",
     "date": "2026-02-22",
-    "activity": "Gesloten",
-    "extra": "Het Flevoparkbad is op dit moment gesloten",
-    "start": 9.5,
-    "end": 17.5,
-    "id": 91,
-    "website": "https://www.amsterdam.nl/flevoparkbad/zwembadrooster-flevoparkbad/"
-  },
-  {
-    "bad": "Flevoparkbad",
-    "dag": "Maandag",
-    "date": "2026-02-23",
     "activity": "Gesloten",
     "extra": "Het Flevoparkbad is op dit moment gesloten",
     "start": 9.5,
@@ -1013,13 +1013,24 @@
   },
   {
     "bad": "Flevoparkbad",
+    "dag": "Maandag",
+    "date": "2026-02-23",
+    "activity": "Gesloten",
+    "extra": "Het Flevoparkbad is op dit moment gesloten",
+    "start": 9.5,
+    "end": 17.5,
+    "id": 93,
+    "website": "https://www.amsterdam.nl/flevoparkbad/zwembadrooster-flevoparkbad/"
+  },
+  {
+    "bad": "Flevoparkbad",
     "dag": "Dinsdag",
     "date": "2026-02-24",
     "activity": "Gesloten",
     "extra": "Het Flevoparkbad is op dit moment gesloten",
     "start": 9.5,
     "end": 17.5,
-    "id": 93,
+    "id": 94,
     "website": "https://www.amsterdam.nl/flevoparkbad/zwembadrooster-flevoparkbad/"
   },
   {
@@ -1030,7 +1041,7 @@
     "extra": "Het Flevoparkbad is op dit moment gesloten",
     "start": 9.5,
     "end": 17.5,
-    "id": 94,
+    "id": 95,
     "website": "https://www.amsterdam.nl/flevoparkbad/zwembadrooster-flevoparkbad/"
   },
   {
@@ -1041,7 +1052,7 @@
     "extra": "Het Flevoparkbad is op dit moment gesloten",
     "start": 9.5,
     "end": 17.5,
-    "id": 95,
+    "id": 96,
     "website": "https://www.amsterdam.nl/flevoparkbad/zwembadrooster-flevoparkbad/"
   },
   {
@@ -1052,7 +1063,7 @@
     "extra": "Het Flevoparkbad is op dit moment gesloten",
     "start": 9.5,
     "end": 17.5,
-    "id": 96,
+    "id": 97,
     "website": "https://www.amsterdam.nl/flevoparkbad/zwembadrooster-flevoparkbad/"
   },
   {
@@ -1063,19 +1074,19 @@
     "extra": "Het Flevoparkbad is op dit moment gesloten",
     "start": 9.5,
     "end": 17.5,
-    "id": 97,
+    "id": 98,
     "website": "https://www.amsterdam.nl/flevoparkbad/zwembadrooster-flevoparkbad/"
   },
   {
-    "bad": "Brediusbad",
-    "dag": "Zaterdag",
-    "date": "2026-02-21",
-    "activity": "Recreatie zwemmen buitenbad",
-    "extra": "Het Brediusbad is op dit moment gesloten",
+    "bad": "Flevoparkbad",
+    "dag": "Zondag",
+    "date": "2026-03-01",
+    "activity": "Gesloten",
+    "extra": "Het Flevoparkbad is op dit moment gesloten",
     "start": 9.5,
     "end": 17.5,
-    "id": 98,
-    "website": "https://www.amsterdam.nl/brediusbad/zwembadrooster-brediusbad/"
+    "id": 99,
+    "website": "https://www.amsterdam.nl/flevoparkbad/zwembadrooster-flevoparkbad/"
   },
   {
     "bad": "Brediusbad",
@@ -1085,7 +1096,7 @@
     "extra": "Het Brediusbad is op dit moment gesloten",
     "start": 9.5,
     "end": 17.5,
-    "id": 99,
+    "id": 100,
     "website": "https://www.amsterdam.nl/brediusbad/zwembadrooster-brediusbad/"
   },
   {
@@ -1096,7 +1107,7 @@
     "extra": "Het Brediusbad is op dit moment gesloten",
     "start": 9.5,
     "end": 17.5,
-    "id": 100,
+    "id": 101,
     "website": "https://www.amsterdam.nl/brediusbad/zwembadrooster-brediusbad/"
   },
   {
@@ -1107,7 +1118,7 @@
     "extra": "Het Brediusbad is op dit moment gesloten",
     "start": 9.5,
     "end": 17.5,
-    "id": 101,
+    "id": 102,
     "website": "https://www.amsterdam.nl/brediusbad/zwembadrooster-brediusbad/"
   },
   {
@@ -1118,7 +1129,7 @@
     "extra": "Het Brediusbad is op dit moment gesloten",
     "start": 9.5,
     "end": 17.5,
-    "id": 102,
+    "id": 103,
     "website": "https://www.amsterdam.nl/brediusbad/zwembadrooster-brediusbad/"
   },
   {
@@ -1129,7 +1140,7 @@
     "extra": "Het Brediusbad is op dit moment gesloten",
     "start": 9.5,
     "end": 17.5,
-    "id": 103,
+    "id": 104,
     "website": "https://www.amsterdam.nl/brediusbad/zwembadrooster-brediusbad/"
   },
   {
@@ -1140,7 +1151,7 @@
     "extra": "Het Brediusbad is op dit moment gesloten",
     "start": 9.5,
     "end": 17.5,
-    "id": 104,
+    "id": 105,
     "website": "https://www.amsterdam.nl/brediusbad/zwembadrooster-brediusbad/"
   },
   {
@@ -1151,7 +1162,18 @@
     "extra": "Het Brediusbad is op dit moment gesloten",
     "start": 9.5,
     "end": 17.5,
-    "id": 105,
+    "id": 106,
+    "website": "https://www.amsterdam.nl/brediusbad/zwembadrooster-brediusbad/"
+  },
+  {
+    "bad": "Brediusbad",
+    "dag": "Zondag",
+    "date": "2026-03-01",
+    "activity": "Gesloten",
+    "extra": "Het Brediusbad is op dit moment gesloten",
+    "start": 9.5,
+    "end": 17.5,
+    "id": 107,
     "website": "https://www.amsterdam.nl/brediusbad/zwembadrooster-brediusbad/"
   },
   {
@@ -1162,7 +1184,7 @@
     "extra": "",
     "start": 11,
     "end": 17,
-    "id": 106,
+    "id": 108,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1173,7 +1195,7 @@
     "extra": "",
     "start": 8,
     "end": 9,
-    "id": 107,
+    "id": 109,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1184,7 +1206,7 @@
     "extra": "",
     "start": 9,
     "end": 10,
-    "id": 108,
+    "id": 110,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1195,7 +1217,7 @@
     "extra": "",
     "start": 10,
     "end": 11,
-    "id": 109,
+    "id": 111,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1206,7 +1228,7 @@
     "extra": "",
     "start": 11,
     "end": 12,
-    "id": 110,
+    "id": 112,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1217,7 +1239,7 @@
     "extra": "",
     "start": 12,
     "end": 13,
-    "id": 111,
+    "id": 113,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1228,7 +1250,7 @@
     "extra": "",
     "start": 7,
     "end": 10,
-    "id": 112,
+    "id": 114,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1239,7 +1261,7 @@
     "extra": "",
     "start": 13,
     "end": 15,
-    "id": 113,
+    "id": 115,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1250,7 +1272,7 @@
     "extra": "",
     "start": 18,
     "end": 19,
-    "id": 114,
+    "id": 116,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1261,7 +1283,7 @@
     "extra": "",
     "start": 7,
     "end": 16.5,
-    "id": 115,
+    "id": 117,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1272,7 +1294,7 @@
     "extra": "",
     "start": 20,
     "end": 22.25,
-    "id": 116,
+    "id": 118,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1283,7 +1305,7 @@
     "extra": "",
     "start": 7.5,
     "end": 8.5,
-    "id": 117,
+    "id": 119,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1294,7 +1316,7 @@
     "extra": "",
     "start": 10,
     "end": 11,
-    "id": 118,
+    "id": 120,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1305,7 +1327,7 @@
     "extra": "",
     "start": 11,
     "end": 12,
-    "id": 119,
+    "id": 121,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1316,7 +1338,7 @@
     "extra": "",
     "start": 13,
     "end": 14,
-    "id": 120,
+    "id": 122,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1327,7 +1349,7 @@
     "extra": "",
     "start": 17,
     "end": 18,
-    "id": 121,
+    "id": 123,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1338,7 +1360,7 @@
     "extra": "",
     "start": 19,
     "end": 20,
-    "id": 122,
+    "id": 124,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1349,7 +1371,7 @@
     "extra": "",
     "start": 20,
     "end": 21,
-    "id": 123,
+    "id": 125,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1360,7 +1382,7 @@
     "extra": "",
     "start": 21,
     "end": 22.25,
-    "id": 124,
+    "id": 126,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1371,7 +1393,7 @@
     "extra": "",
     "start": 12,
     "end": 13,
-    "id": 125,
+    "id": 127,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1382,7 +1404,7 @@
     "extra": "",
     "start": 7,
     "end": 16,
-    "id": 126,
+    "id": 128,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1393,7 +1415,7 @@
     "extra": "",
     "start": 21,
     "end": 22,
-    "id": 127,
+    "id": 129,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1404,7 +1426,7 @@
     "extra": "",
     "start": 9,
     "end": 10,
-    "id": 128,
+    "id": 130,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1415,7 +1437,7 @@
     "extra": "",
     "start": 10,
     "end": 11,
-    "id": 129,
+    "id": 131,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1426,7 +1448,7 @@
     "extra": "",
     "start": 11,
     "end": 12,
-    "id": 130,
+    "id": 132,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1437,7 +1459,7 @@
     "extra": "",
     "start": 12,
     "end": 13,
-    "id": 131,
+    "id": 133,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1448,7 +1470,7 @@
     "extra": "",
     "start": 19.25,
     "end": 19.75,
-    "id": 132,
+    "id": 134,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1459,7 +1481,7 @@
     "extra": "",
     "start": 18.75,
     "end": 19.25,
-    "id": 133,
+    "id": 135,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1470,7 +1492,7 @@
     "extra": "",
     "start": 20,
     "end": 21,
-    "id": 134,
+    "id": 136,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1481,7 +1503,7 @@
     "extra": "",
     "start": 19,
     "end": 20,
-    "id": 135,
+    "id": 137,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1492,7 +1514,7 @@
     "extra": "",
     "start": 16,
     "end": 17.5,
-    "id": 136,
+    "id": 138,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1503,7 +1525,7 @@
     "extra": "",
     "start": 18.75,
     "end": 19.25,
-    "id": 137,
+    "id": 139,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1514,7 +1536,7 @@
     "extra": "",
     "start": 7,
     "end": 9,
-    "id": 138,
+    "id": 140,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1525,7 +1547,7 @@
     "extra": "",
     "start": 10,
     "end": 13,
-    "id": 139,
+    "id": 141,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1536,7 +1558,7 @@
     "extra": "",
     "start": 15,
     "end": 15.75,
-    "id": 140,
+    "id": 142,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1547,7 +1569,7 @@
     "extra": "",
     "start": 10.5,
     "end": 11.5,
-    "id": 141,
+    "id": 143,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1558,7 +1580,7 @@
     "extra": "",
     "start": 11.5,
     "end": 12.5,
-    "id": 142,
+    "id": 144,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1569,7 +1591,7 @@
     "extra": "",
     "start": 12.5,
     "end": 13.5,
-    "id": 143,
+    "id": 145,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1580,7 +1602,7 @@
     "extra": "",
     "start": 13.5,
     "end": 14.75,
-    "id": 144,
+    "id": 146,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1591,7 +1613,7 @@
     "extra": "",
     "start": 19,
     "end": 20,
-    "id": 145,
+    "id": 147,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1602,7 +1624,7 @@
     "extra": "",
     "start": 9,
     "end": 10,
-    "id": 146,
+    "id": 148,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1613,7 +1635,7 @@
     "extra": "",
     "start": 7,
     "end": 10,
-    "id": 147,
+    "id": 149,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1624,7 +1646,7 @@
     "extra": "",
     "start": 11,
     "end": 14,
-    "id": 148,
+    "id": 150,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1635,7 +1657,7 @@
     "extra": "",
     "start": 10,
     "end": 11,
-    "id": 149,
+    "id": 151,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1646,7 +1668,7 @@
     "extra": "",
     "start": 11,
     "end": 12,
-    "id": 150,
+    "id": 152,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1657,7 +1679,7 @@
     "extra": "",
     "start": 12,
     "end": 13,
-    "id": 151,
+    "id": 153,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1668,7 +1690,7 @@
     "extra": "",
     "start": 14.75,
     "end": 17,
-    "id": 152,
+    "id": 154,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1679,7 +1701,7 @@
     "extra": "",
     "start": 11.75,
     "end": 15.75,
-    "id": 153,
+    "id": 155,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1690,7 +1712,7 @@
     "extra": "",
     "start": 10,
     "end": 11,
-    "id": 154,
+    "id": 156,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1701,7 +1723,7 @@
     "extra": "",
     "start": 8.5,
     "end": 9.5,
-    "id": 155,
+    "id": 157,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1712,7 +1734,7 @@
     "extra": "",
     "start": 11,
     "end": 11.5,
-    "id": 156,
+    "id": 158,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1723,7 +1745,7 @@
     "extra": "",
     "start": 15.75,
     "end": 16.75,
-    "id": 157,
+    "id": 159,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1734,7 +1756,7 @@
     "extra": "",
     "start": 9,
     "end": 12,
-    "id": 158,
+    "id": 160,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1745,7 +1767,7 @@
     "extra": "",
     "start": 12,
     "end": 15,
-    "id": 159,
+    "id": 161,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1756,7 +1778,7 @@
     "extra": "",
     "start": 12,
     "end": 17,
-    "id": 160,
+    "id": 162,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1767,7 +1789,7 @@
     "extra": "",
     "start": 11,
     "end": 17,
-    "id": 161,
+    "id": 163,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1778,7 +1800,7 @@
     "extra": "",
     "start": 8,
     "end": 9,
-    "id": 162,
+    "id": 164,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1789,7 +1811,7 @@
     "extra": "",
     "start": 9,
     "end": 10,
-    "id": 163,
+    "id": 165,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1800,7 +1822,7 @@
     "extra": "",
     "start": 10,
     "end": 11,
-    "id": 164,
+    "id": 166,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1811,7 +1833,7 @@
     "extra": "",
     "start": 11,
     "end": 12,
-    "id": 165,
+    "id": 167,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1822,7 +1844,7 @@
     "extra": "",
     "start": 12,
     "end": 13,
-    "id": 166,
+    "id": 168,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1833,7 +1855,7 @@
     "extra": "",
     "start": 7,
     "end": 10,
-    "id": 167,
+    "id": 169,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1844,7 +1866,7 @@
     "extra": "",
     "start": 13,
     "end": 15,
-    "id": 168,
+    "id": 170,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1855,7 +1877,7 @@
     "extra": "",
     "start": 18,
     "end": 19,
-    "id": 169,
+    "id": 171,
     "website": "https://hetmarnix.nl/zwemmen/"
   },
   {
@@ -1866,7 +1888,7 @@
     "extra": "Meestal druk",
     "start": 12,
     "end": 13,
-    "id": 170,
+    "id": 172,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -1877,7 +1899,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 15.5,
     "end": 21,
-    "id": 171,
+    "id": 173,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -1888,7 +1910,7 @@
     "extra": "",
     "start": 15.75,
     "end": 18.75,
-    "id": 172,
+    "id": 174,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -1899,7 +1921,7 @@
     "extra": "",
     "start": 19,
     "end": 19.75,
-    "id": 173,
+    "id": 175,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -1910,7 +1932,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 8,
     "end": 13,
-    "id": 174,
+    "id": 176,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -1921,7 +1943,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 9.5,
     "end": 10,
-    "id": 175,
+    "id": 177,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -1932,7 +1954,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 10,
     "end": 10.5,
-    "id": 176,
+    "id": 178,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -1943,7 +1965,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 10.5,
     "end": 11,
-    "id": 177,
+    "id": 179,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -1954,7 +1976,7 @@
     "extra": "Meestal druk",
     "start": 11,
     "end": 11.5,
-    "id": 178,
+    "id": 180,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -1965,7 +1987,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 11,
     "end": 12,
-    "id": 179,
+    "id": 181,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -1976,7 +1998,7 @@
     "extra": "Meestal druk",
     "start": 11.5,
     "end": 12,
-    "id": 180,
+    "id": 182,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -1987,7 +2009,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 15.5,
     "end": 18.75,
-    "id": 181,
+    "id": 183,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -1998,7 +2020,7 @@
     "extra": "",
     "start": 15.75,
     "end": 18,
-    "id": 182,
+    "id": 184,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2009,7 +2031,7 @@
     "extra": "Meestal rustig",
     "start": 18,
     "end": 18.75,
-    "id": 183,
+    "id": 185,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2020,7 +2042,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 7.5,
     "end": 10,
-    "id": 184,
+    "id": 186,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2031,7 +2053,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 9.75,
     "end": 12.5,
-    "id": 185,
+    "id": 187,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2042,7 +2064,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 10,
     "end": 12,
-    "id": 186,
+    "id": 188,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2053,7 +2075,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 10,
     "end": 10.75,
-    "id": 187,
+    "id": 189,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2064,7 +2086,7 @@
     "extra": "",
     "start": 10.25,
     "end": 11,
-    "id": 188,
+    "id": 190,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2075,7 +2097,7 @@
     "extra": "",
     "start": 11,
     "end": 11.75,
-    "id": 189,
+    "id": 191,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2086,7 +2108,7 @@
     "extra": "Meestal druk",
     "start": 12,
     "end": 13,
-    "id": 190,
+    "id": 192,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2097,7 +2119,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 13,
     "end": 15,
-    "id": 191,
+    "id": 193,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2108,7 +2130,7 @@
     "extra": "",
     "start": 13.5,
     "end": 18.25,
-    "id": 192,
+    "id": 194,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2119,7 +2141,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 17.5,
     "end": 18.5,
-    "id": 193,
+    "id": 195,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2130,7 +2152,7 @@
     "extra": "Meestal druk",
     "start": 19.5,
     "end": 21,
-    "id": 194,
+    "id": 196,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2141,7 +2163,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 8,
     "end": 13,
-    "id": 195,
+    "id": 197,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2152,7 +2174,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 9.5,
     "end": 10,
-    "id": 196,
+    "id": 198,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2163,7 +2185,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 10,
     "end": 10.5,
-    "id": 197,
+    "id": 199,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2174,7 +2196,7 @@
     "extra": "Meestal druk",
     "start": 10,
     "end": 12,
-    "id": 198,
+    "id": 200,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2185,7 +2207,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 10.5,
     "end": 11,
-    "id": 199,
+    "id": 201,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2196,7 +2218,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 11,
     "end": 12,
-    "id": 200,
+    "id": 202,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2207,7 +2229,7 @@
     "extra": "Meestal rustig",
     "start": 11,
     "end": 11.5,
-    "id": 201,
+    "id": 203,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2218,7 +2240,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 15.5,
     "end": 18,
-    "id": 202,
+    "id": 204,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2229,7 +2251,7 @@
     "extra": "",
     "start": 15.75,
     "end": 18,
-    "id": 203,
+    "id": 205,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2240,7 +2262,7 @@
     "extra": "Meestal druk",
     "start": 12,
     "end": 13,
-    "id": 204,
+    "id": 206,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2251,7 +2273,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 15.5,
     "end": 20.5,
-    "id": 205,
+    "id": 207,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2262,7 +2284,7 @@
     "extra": "",
     "start": 15.75,
     "end": 18,
-    "id": 206,
+    "id": 208,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2273,7 +2295,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 18.5,
     "end": 20.5,
-    "id": 207,
+    "id": 209,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2284,7 +2306,7 @@
     "extra": "",
     "start": 8.25,
     "end": 11.25,
-    "id": 208,
+    "id": 210,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2295,7 +2317,7 @@
     "extra": "Meestal druk",
     "start": 9,
     "end": 10.5,
-    "id": 209,
+    "id": 211,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2306,7 +2328,7 @@
     "extra": "Meestal druk",
     "start": 11.5,
     "end": 12.5,
-    "id": 210,
+    "id": 212,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2317,7 +2339,7 @@
     "extra": "Meestal rustig",
     "start": 11.5,
     "end": 12.5,
-    "id": 211,
+    "id": 213,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2328,7 +2350,7 @@
     "extra": "",
     "start": 8.5,
     "end": 9.75,
-    "id": 212,
+    "id": 214,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2339,7 +2361,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 9.5,
     "end": 12.5,
-    "id": 213,
+    "id": 215,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2350,7 +2372,7 @@
     "extra": "Meestal druk",
     "start": 10,
     "end": 11,
-    "id": 214,
+    "id": 216,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2361,7 +2383,7 @@
     "extra": "Meestal druk",
     "start": 11,
     "end": 13,
-    "id": 215,
+    "id": 217,
     "website": "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/"
   },
   {
@@ -2372,7 +2394,7 @@
     "extra": "Meestal druk",
     "start": 9,
     "end": 18,
-    "id": 216,
+    "id": 218,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2383,7 +2405,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 9,
     "end": 18,
-    "id": 217,
+    "id": 219,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2394,7 +2416,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 12,
     "end": 13,
-    "id": 218,
+    "id": 220,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2405,7 +2427,7 @@
     "extra": "Meestal druk",
     "start": 15.75,
     "end": 18.75,
-    "id": 219,
+    "id": 221,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2416,7 +2438,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 19,
     "end": 21,
-    "id": 220,
+    "id": 222,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2427,7 +2449,7 @@
     "extra": "Meestal druk",
     "start": 19.25,
     "end": 20,
-    "id": 221,
+    "id": 223,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2438,7 +2460,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 19.25,
     "end": 20,
-    "id": 222,
+    "id": 224,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2449,7 +2471,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 20,
     "end": 20.75,
-    "id": 223,
+    "id": 225,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2460,7 +2482,7 @@
     "extra": "",
     "start": 20.25,
     "end": 21,
-    "id": 224,
+    "id": 226,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2471,7 +2493,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 7,
     "end": 11,
-    "id": 225,
+    "id": 227,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2482,7 +2504,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 9,
     "end": 9.75,
-    "id": 226,
+    "id": 228,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2493,7 +2515,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 9.75,
     "end": 10.5,
-    "id": 227,
+    "id": 229,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2504,7 +2526,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 10.5,
     "end": 11.25,
-    "id": 228,
+    "id": 230,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2515,7 +2537,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 11.25,
     "end": 12,
-    "id": 229,
+    "id": 231,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2526,7 +2548,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 12,
     "end": 18,
-    "id": 230,
+    "id": 232,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2537,7 +2559,7 @@
     "extra": "Meestal druk",
     "start": 12,
     "end": 18,
-    "id": 231,
+    "id": 233,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2548,7 +2570,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 12,
     "end": 14,
-    "id": 232,
+    "id": 234,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2559,7 +2581,7 @@
     "extra": "",
     "start": 13,
     "end": 13.75,
-    "id": 233,
+    "id": 235,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2570,7 +2592,7 @@
     "extra": "",
     "start": 13.75,
     "end": 14.5,
-    "id": 234,
+    "id": 236,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2581,7 +2603,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 14,
     "end": 15,
-    "id": 235,
+    "id": 237,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2592,7 +2614,7 @@
     "extra": "Meestal druk",
     "start": 15.75,
     "end": 18.75,
-    "id": 236,
+    "id": 238,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2603,7 +2625,7 @@
     "extra": "",
     "start": 18,
     "end": 18.75,
-    "id": 237,
+    "id": 239,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2614,7 +2636,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 19.25,
     "end": 20,
-    "id": 238,
+    "id": 240,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2625,7 +2647,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 20.25,
     "end": 21,
-    "id": 239,
+    "id": 241,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2636,7 +2658,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 9,
     "end": 15.25,
-    "id": 240,
+    "id": 242,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2647,7 +2669,7 @@
     "extra": "Meestal druk",
     "start": 9,
     "end": 15.25,
-    "id": 241,
+    "id": 243,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2658,7 +2680,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 12,
     "end": 13,
-    "id": 242,
+    "id": 244,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2669,7 +2691,7 @@
     "extra": "Meestal druk",
     "start": 13,
     "end": 18,
-    "id": 243,
+    "id": 245,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2680,7 +2702,7 @@
     "extra": "",
     "start": 17.25,
     "end": 18,
-    "id": 244,
+    "id": 246,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2691,7 +2713,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 19,
     "end": 21,
-    "id": 245,
+    "id": 247,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2702,7 +2724,7 @@
     "extra": "Meestal druk",
     "start": 19.25,
     "end": 20,
-    "id": 246,
+    "id": 248,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2713,7 +2735,7 @@
     "extra": "Meestal druk",
     "start": 20.25,
     "end": 21,
-    "id": 247,
+    "id": 249,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2724,7 +2746,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 7,
     "end": 11,
-    "id": 248,
+    "id": 250,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2735,7 +2757,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 9,
     "end": 9.75,
-    "id": 249,
+    "id": 251,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2746,7 +2768,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 9,
     "end": 20.5,
-    "id": 250,
+    "id": 252,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2757,7 +2779,7 @@
     "extra": "",
     "start": 9,
     "end": 20.5,
-    "id": 251,
+    "id": 253,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2768,7 +2790,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 9.75,
     "end": 10.5,
-    "id": 252,
+    "id": 254,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2779,7 +2801,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 10.5,
     "end": 11.25,
-    "id": 253,
+    "id": 255,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2790,7 +2812,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 11.25,
     "end": 12,
-    "id": 254,
+    "id": 256,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2801,7 +2823,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 12,
     "end": 14,
-    "id": 255,
+    "id": 257,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2812,7 +2834,7 @@
     "extra": "Meestal druk",
     "start": 15.75,
     "end": 18.75,
-    "id": 256,
+    "id": 258,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2823,7 +2845,7 @@
     "extra": "",
     "start": 18,
     "end": 18.75,
-    "id": 257,
+    "id": 259,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2834,7 +2856,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 18.25,
     "end": 19,
-    "id": 258,
+    "id": 260,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2845,7 +2867,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 19,
     "end": 21,
-    "id": 259,
+    "id": 261,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2856,7 +2878,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 19.25,
     "end": 20,
-    "id": 260,
+    "id": 262,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2867,7 +2889,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 9,
     "end": 13,
-    "id": 261,
+    "id": 263,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2878,7 +2900,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 9,
     "end": 12,
-    "id": 262,
+    "id": 264,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2889,7 +2911,7 @@
     "extra": "Meestal druk",
     "start": 9,
     "end": 14.75,
-    "id": 263,
+    "id": 265,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2900,7 +2922,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 10.25,
     "end": 11,
-    "id": 264,
+    "id": 266,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2911,7 +2933,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 11.25,
     "end": 12,
-    "id": 265,
+    "id": 267,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2922,7 +2944,7 @@
     "extra": "Meestal druk",
     "start": 15.75,
     "end": 18.75,
-    "id": 266,
+    "id": 268,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2933,7 +2955,7 @@
     "extra": "",
     "start": 18,
     "end": 18.75,
-    "id": 267,
+    "id": 269,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2944,7 +2966,7 @@
     "extra": "",
     "start": 19.5,
     "end": 20.25,
-    "id": 268,
+    "id": 270,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2955,7 +2977,7 @@
     "extra": "",
     "start": 20.25,
     "end": 21,
-    "id": 269,
+    "id": 271,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2966,7 +2988,7 @@
     "extra": "Meestal druk",
     "start": 8.75,
     "end": 12,
-    "id": 270,
+    "id": 272,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2977,7 +2999,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 12,
     "end": 13,
-    "id": 271,
+    "id": 273,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2988,7 +3010,7 @@
     "extra": "",
     "start": 13,
     "end": 13.75,
-    "id": 272,
+    "id": 274,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -2999,7 +3021,7 @@
     "extra": "Meestal druk",
     "start": 15,
     "end": 16,
-    "id": 273,
+    "id": 275,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -3010,7 +3032,7 @@
     "extra": "Meestal druk",
     "start": 16,
     "end": 17,
-    "id": 274,
+    "id": 276,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -3021,7 +3043,7 @@
     "extra": "",
     "start": 9,
     "end": 9.75,
-    "id": 275,
+    "id": 277,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -3032,7 +3054,7 @@
     "extra": "Meestal redelijk rustig",
     "start": 9,
     "end": 11,
-    "id": 276,
+    "id": 278,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -3043,7 +3065,7 @@
     "extra": "",
     "start": 9.75,
     "end": 10.5,
-    "id": 277,
+    "id": 279,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -3054,7 +3076,7 @@
     "extra": "",
     "start": 10.5,
     "end": 11.25,
-    "id": 278,
+    "id": 280,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -3065,7 +3087,7 @@
     "extra": "",
     "start": 11,
     "end": 14,
-    "id": 279,
+    "id": 281,
     "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
@@ -3076,30 +3098,8 @@
     "extra": "Meestal redelijk rustig",
     "start": 11.25,
     "end": 12,
-    "id": 280,
-    "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
-  },
-  {
-    "bad": "Bijlmer Sportcentrum",
-    "dag": "Zaterdag",
-    "date": "2026-02-21",
-    "activity": "Banenzwemmen",
-    "extra": "Wedstrijdbad",
-    "start": 7.75,
-    "end": 8.75,
-    "id": 281,
-    "website": "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost"
-  },
-  {
-    "bad": "Bijlmer Sportcentrum",
-    "dag": "Zaterdag",
-    "date": "2026-02-21",
-    "activity": "Zed & Sop Zwemles",
-    "extra": "regulier",
-    "start": 9,
-    "end": 14,
     "id": 282,
-    "website": "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost"
+    "website": "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/"
   },
   {
     "bad": "Bijlmer Sportcentrum",
@@ -3193,7 +3193,7 @@
     "bad": "Bijlmer Sportcentrum",
     "dag": "Maandag",
     "date": "2026-02-23",
-    "activity": "Zwemvaardigheid",
+    "activity": "Zwemles Volwassenen",
     "extra": "",
     "start": 17.5,
     "end": 18.25,
@@ -3204,7 +3204,7 @@
     "bad": "Bijlmer Sportcentrum",
     "dag": "Maandag",
     "date": "2026-02-23",
-    "activity": "Zwemles Volwassenen",
+    "activity": "Zwemvaardigheid",
     "extra": "",
     "start": 17.5,
     "end": 18.25,
@@ -3336,10 +3336,10 @@
     "bad": "Bijlmer Sportcentrum",
     "dag": "Woensdag",
     "date": "2026-02-25",
-    "activity": "Zed & Sop Zwemles",
-    "extra": "regulier",
+    "activity": "Zwemles Volwassenen",
+    "extra": "",
     "start": 14.25,
-    "end": 17.25,
+    "end": 15,
     "id": 304,
     "website": "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost"
   },
@@ -3347,10 +3347,10 @@
     "bad": "Bijlmer Sportcentrum",
     "dag": "Woensdag",
     "date": "2026-02-25",
-    "activity": "Zwemles Volwassenen",
-    "extra": "",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "regulier",
     "start": 14.25,
-    "end": 15,
+    "end": 17.25,
     "id": 305,
     "website": "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost"
   },
@@ -4216,10 +4216,10 @@
     "bad": "Bijlmer Sportcentrum",
     "dag": "Woensdag",
     "date": "2026-03-11",
-    "activity": "Zed & Sop Zwemles",
-    "extra": "regulier",
+    "activity": "Zwemles Volwassenen",
+    "extra": "",
     "start": 14.25,
-    "end": 17.25,
+    "end": 15,
     "id": 384,
     "website": "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost"
   },
@@ -4227,10 +4227,10 @@
     "bad": "Bijlmer Sportcentrum",
     "dag": "Woensdag",
     "date": "2026-03-11",
-    "activity": "Zwemles Volwassenen",
-    "extra": "",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "regulier",
     "start": 14.25,
-    "end": 15,
+    "end": 17.25,
     "id": 385,
     "website": "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost"
   },
@@ -4953,7 +4953,7 @@
     "bad": "Bijlmer Sportcentrum",
     "dag": "Maandag",
     "date": "2026-03-23",
-    "activity": "Zwemvaardigheid",
+    "activity": "Zwemles Volwassenen",
     "extra": "",
     "start": 17.5,
     "end": 18.25,
@@ -4964,7 +4964,7 @@
     "bad": "Bijlmer Sportcentrum",
     "dag": "Maandag",
     "date": "2026-03-23",
-    "activity": "Zwemles Volwassenen",
+    "activity": "Zwemvaardigheid",
     "extra": "",
     "start": 17.5,
     "end": 18.25,
@@ -5082,37 +5082,59 @@
     "website": "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost"
   },
   {
-    "bad": "Sloterparkbad",
-    "dag": "Zaterdag",
-    "date": "2026-02-21",
+    "bad": "Bijlmer Sportcentrum",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
     "activity": "Banenzwemmen",
-    "extra": "Wedstrijdbad (25m x 8 banen)",
-    "start": 10.25,
-    "end": 12.25,
+    "extra": "Wedstrijdbad",
+    "start": 7.5,
+    "end": 9.5,
     "id": 463,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+    "website": "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost"
   },
   {
-    "bad": "Sloterparkbad",
-    "dag": "Zaterdag",
-    "date": "2026-02-21",
-    "activity": "Zwemfeestje",
-    "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
-    "start": 13,
-    "end": 16,
+    "bad": "Bijlmer Sportcentrum",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
+    "activity": "Zwemles Volwassenen",
+    "extra": "",
+    "start": 14.25,
+    "end": 15,
     "id": 464,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+    "website": "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost"
   },
   {
-    "bad": "Sloterparkbad",
-    "dag": "Zaterdag",
-    "date": "2026-02-21",
-    "activity": "Familiezwemmen",
-    "extra": "Recreatiebad",
-    "start": 13,
-    "end": 16,
+    "bad": "Bijlmer Sportcentrum",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "regulier",
+    "start": 14.25,
+    "end": 17.25,
     "id": 465,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+    "website": "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost"
+  },
+  {
+    "bad": "Bijlmer Sportcentrum",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
+    "activity": "Zwemvaardigheid",
+    "extra": "",
+    "start": 16.5,
+    "end": 17.25,
+    "id": 466,
+    "website": "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost"
+  },
+  {
+    "bad": "Bijlmer Sportcentrum",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
+    "activity": "BBB",
+    "extra": "",
+    "start": 19,
+    "end": 19.5,
+    "id": 467,
+    "website": "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost"
   },
   {
     "bad": "Sloterparkbad",
@@ -5122,7 +5144,7 @@
     "extra": "Wedstrijdbad (50m x 8 banen)",
     "start": 9,
     "end": 12,
-    "id": 466,
+    "id": 468,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5133,7 +5155,7 @@
     "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
     "start": 10,
     "end": 16,
-    "id": 467,
+    "id": 469,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5144,7 +5166,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 16,
-    "id": 468,
+    "id": 470,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5155,7 +5177,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 469,
+    "id": 471,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5166,7 +5188,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 470,
+    "id": 472,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5177,7 +5199,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 8 banen, 12:15 - 13:00 uur 50m x 5 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 471,
+    "id": 473,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5188,7 +5210,7 @@
     "extra": "Regulier",
     "start": 16,
     "end": 16.75,
-    "id": 472,
+    "id": 474,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5199,7 +5221,7 @@
     "extra": "Regulier",
     "start": 16.75,
     "end": 17.5,
-    "id": 473,
+    "id": 475,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5210,7 +5232,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 19,
     "end": 20.5,
-    "id": 474,
+    "id": 476,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5221,7 +5243,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 20.5,
     "end": 22,
-    "id": 475,
+    "id": 477,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5232,7 +5254,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 5 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 476,
+    "id": 478,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5243,7 +5265,7 @@
     "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
     "start": 8,
     "end": 9.5,
-    "id": 477,
+    "id": 479,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5254,7 +5276,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 478,
+    "id": 480,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5265,7 +5287,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 8 banen, 12:15 - 13:00 uur 50m x 5 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 479,
+    "id": 481,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5276,7 +5298,7 @@
     "extra": "Recreatiebad",
     "start": 14,
     "end": 18,
-    "id": 480,
+    "id": 482,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5287,7 +5309,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 12+",
     "start": 19,
     "end": 22,
-    "id": 481,
+    "id": 483,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5298,7 +5320,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20.5,
     "end": 21.5,
-    "id": 482,
+    "id": 484,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5309,7 +5331,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 7 banen, 07:30 - 08:00 uur 50m x 8 banen)",
     "start": 7,
     "end": 8,
-    "id": 483,
+    "id": 485,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5320,7 +5342,7 @@
     "extra": "0 jaar - lopend Recreatiebad",
     "start": 9,
     "end": 9.75,
-    "id": 484,
+    "id": 486,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5331,7 +5353,7 @@
     "extra": "lopend - 2 jaar Recreatiebad",
     "start": 9.75,
     "end": 10.5,
-    "id": 485,
+    "id": 487,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5342,7 +5364,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 486,
+    "id": 488,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5353,7 +5375,7 @@
     "extra": "2 - 3 jaar Recreatiebad",
     "start": 10.5,
     "end": 11.25,
-    "id": 487,
+    "id": 489,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5364,28 +5386,6 @@
     "extra": "3 - 4 jaar Recreatiebad",
     "start": 11.25,
     "end": 12,
-    "id": 488,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Woensdag",
-    "date": "2026-02-25",
-    "activity": "Zed & Sop Zwemles",
-    "extra": "Regulier",
-    "start": 13,
-    "end": 13.75,
-    "id": 489,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Woensdag",
-    "date": "2026-02-25",
-    "activity": "Oefenuur",
-    "extra": "Recreatiebad (in ondiep water; oefenen voor A-diploma, B-diploma en C-diploma)",
-    "start": 13.5,
-    "end": 14,
     "id": 490,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
@@ -5395,9 +5395,31 @@
     "date": "2026-02-25",
     "activity": "Zed & Sop Zwemles",
     "extra": "Regulier",
+    "start": 13,
+    "end": 13.75,
+    "id": 491,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-02-25",
+    "activity": "Oefenuur",
+    "extra": "Recreatiebad (in ondiep water; oefenen voor A-diploma, B-diploma en C-diploma)",
+    "start": 13.5,
+    "end": 14,
+    "id": 492,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-02-25",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "Regulier",
     "start": 13.75,
     "end": 14.5,
-    "id": 491,
+    "id": 493,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5408,7 +5430,7 @@
     "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
     "start": 14,
     "end": 18,
-    "id": 492,
+    "id": 494,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5419,7 +5441,7 @@
     "extra": "Recreatiebad",
     "start": 14,
     "end": 18,
-    "id": 493,
+    "id": 495,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5430,7 +5452,7 @@
     "extra": "Wedstrijdbad (In diep water; oefenen voor eind A-diploma, B- diploma en C-diploma)",
     "start": 14.25,
     "end": 14.75,
-    "id": 494,
+    "id": 496,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5441,7 +5463,7 @@
     "extra": "Regulier",
     "start": 14.5,
     "end": 15.25,
-    "id": 495,
+    "id": 497,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5452,7 +5474,7 @@
     "extra": "Regulier",
     "start": 15.5,
     "end": 16.25,
-    "id": 496,
+    "id": 498,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5463,7 +5485,7 @@
     "extra": "Regulier",
     "start": 16.25,
     "end": 17,
-    "id": 497,
+    "id": 499,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5474,7 +5496,7 @@
     "extra": "Wedstrijdbad (50m x 8 banen)",
     "start": 20,
     "end": 21,
-    "id": 498,
+    "id": 500,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5485,7 +5507,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 499,
+    "id": 501,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5496,7 +5518,7 @@
     "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
     "start": 8,
     "end": 9.5,
-    "id": 500,
+    "id": 502,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5507,7 +5529,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 501,
+    "id": 503,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5518,7 +5540,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 8 banen, 12:15 - 13:00 uur 50m x 5 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 502,
+    "id": 504,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5529,7 +5551,7 @@
     "extra": "Recreatiebad",
     "start": 14,
     "end": 18,
-    "id": 503,
+    "id": 505,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5540,7 +5562,7 @@
     "extra": "Regulier",
     "start": 16,
     "end": 16.75,
-    "id": 504,
+    "id": 506,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5551,7 +5573,7 @@
     "extra": "Regulier",
     "start": 16.75,
     "end": 17.5,
-    "id": 505,
+    "id": 507,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5562,7 +5584,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 19,
     "end": 20.5,
-    "id": 506,
+    "id": 508,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5573,7 +5595,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20.5,
     "end": 21.5,
-    "id": 507,
+    "id": 509,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5584,7 +5606,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 20.5,
     "end": 22,
-    "id": 508,
+    "id": 510,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5595,7 +5617,7 @@
     "extra": "Wedstrijdbad (50m x 8 banen)",
     "start": 7,
     "end": 8,
-    "id": 509,
+    "id": 511,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5606,7 +5628,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 8 banen, 12:15 - 13:00 uur 50m x 5 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 510,
+    "id": 512,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5617,7 +5639,7 @@
     "extra": "Recreatiebad",
     "start": 14,
     "end": 18,
-    "id": 511,
+    "id": 513,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5628,7 +5650,7 @@
     "extra": "Recreatiebad. Let op; Gentlemen Only 18+",
     "start": 20,
     "end": 22,
-    "id": 512,
+    "id": 514,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5639,7 +5661,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 10.25,
     "end": 12.25,
-    "id": 513,
+    "id": 515,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5650,7 +5672,7 @@
     "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
     "start": 13,
     "end": 16,
-    "id": 514,
+    "id": 516,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5661,7 +5683,7 @@
     "extra": "Recreatiebad",
     "start": 13,
     "end": 16,
-    "id": 515,
+    "id": 517,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5672,7 +5694,7 @@
     "extra": "Wedstrijdbad (50m x 8 banen)",
     "start": 9,
     "end": 12,
-    "id": 516,
+    "id": 518,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5683,7 +5705,7 @@
     "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
     "start": 10,
     "end": 16,
-    "id": 517,
+    "id": 519,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5694,7 +5716,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 16,
-    "id": 518,
+    "id": 520,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5705,7 +5727,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 519,
+    "id": 521,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5716,7 +5738,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 520,
+    "id": 522,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5727,7 +5749,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 521,
+    "id": 523,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5738,7 +5760,7 @@
     "extra": "Regulier",
     "start": 16,
     "end": 16.75,
-    "id": 522,
+    "id": 524,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5749,7 +5771,7 @@
     "extra": "Regulier",
     "start": 16.75,
     "end": 17.5,
-    "id": 523,
+    "id": 525,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5760,7 +5782,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 19,
     "end": 20.5,
-    "id": 524,
+    "id": 526,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5771,7 +5793,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 20.5,
     "end": 22,
-    "id": 525,
+    "id": 527,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5782,7 +5804,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 5 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 526,
+    "id": 528,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5793,7 +5815,7 @@
     "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
     "start": 8,
     "end": 9,
-    "id": 527,
+    "id": 529,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5804,7 +5826,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 528,
+    "id": 530,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5815,7 +5837,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 529,
+    "id": 531,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5826,7 +5848,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 12+",
     "start": 19,
     "end": 22,
-    "id": 530,
+    "id": 532,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5837,7 +5859,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20.5,
     "end": 21.5,
-    "id": 531,
+    "id": 533,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5848,7 +5870,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 7 banen, 07:30 - 08:00 uur 50m x 8 banen)",
     "start": 7,
     "end": 8,
-    "id": 532,
+    "id": 534,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5859,7 +5881,7 @@
     "extra": "0 jaar - lopend Recreatiebad",
     "start": 9,
     "end": 9.75,
-    "id": 533,
+    "id": 535,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5870,7 +5892,7 @@
     "extra": "lopend - 2 jaar Recreatiebad",
     "start": 9.75,
     "end": 10.5,
-    "id": 534,
+    "id": 536,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5881,7 +5903,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 535,
+    "id": 537,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5892,7 +5914,7 @@
     "extra": "2 - 3 jaar Recreatiebad",
     "start": 10.5,
     "end": 11.25,
-    "id": 536,
+    "id": 538,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5903,28 +5925,6 @@
     "extra": "3 - 4 jaar Recreatiebad",
     "start": 11.25,
     "end": 12,
-    "id": 537,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Woensdag",
-    "date": "2026-03-04",
-    "activity": "Zed & Sop Zwemles",
-    "extra": "Regulier",
-    "start": 13,
-    "end": 13.75,
-    "id": 538,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Woensdag",
-    "date": "2026-03-04",
-    "activity": "Oefenuur",
-    "extra": "Recreatiebad (in ondiep water; oefenen voor A-diploma, B-diploma en C-diploma)",
-    "start": 13.5,
-    "end": 14,
     "id": 539,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
@@ -5934,9 +5934,31 @@
     "date": "2026-03-04",
     "activity": "Zed & Sop Zwemles",
     "extra": "Regulier",
+    "start": 13,
+    "end": 13.75,
+    "id": 540,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-04",
+    "activity": "Oefenuur",
+    "extra": "Recreatiebad (in ondiep water; oefenen voor A-diploma, B-diploma en C-diploma)",
+    "start": 13.5,
+    "end": 14,
+    "id": 541,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-04",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "Regulier",
     "start": 13.75,
     "end": 14.5,
-    "id": 540,
+    "id": 542,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5947,7 +5969,7 @@
     "extra": "Recreatiebad",
     "start": 14,
     "end": 18,
-    "id": 541,
+    "id": 543,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5958,7 +5980,7 @@
     "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
     "start": 14,
     "end": 18,
-    "id": 542,
+    "id": 544,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5969,28 +5991,6 @@
     "extra": "Wedstrijdbad (In diep water; oefenen voor eind A-diploma, B- diploma en C-diploma)",
     "start": 14.25,
     "end": 14.75,
-    "id": 543,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Woensdag",
-    "date": "2026-03-04",
-    "activity": "Zed & Sop Zwemles",
-    "extra": "Regulier",
-    "start": 14.5,
-    "end": 15.25,
-    "id": 544,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Woensdag",
-    "date": "2026-03-04",
-    "activity": "Zed & Sop Zwemles",
-    "extra": "Regulier",
-    "start": 15.5,
-    "end": 16.25,
     "id": 545,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
@@ -6000,9 +6000,31 @@
     "date": "2026-03-04",
     "activity": "Zed & Sop Zwemles",
     "extra": "Regulier",
+    "start": 14.5,
+    "end": 15.25,
+    "id": 546,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-04",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "Regulier",
+    "start": 15.5,
+    "end": 16.25,
+    "id": 547,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-04",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "Regulier",
     "start": 16.25,
     "end": 17,
-    "id": 546,
+    "id": 548,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6013,7 +6035,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20,
     "end": 21,
-    "id": 547,
+    "id": 549,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6024,7 +6046,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 548,
+    "id": 550,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6035,7 +6057,7 @@
     "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
     "start": 8,
     "end": 9,
-    "id": 549,
+    "id": 551,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6046,7 +6068,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 550,
+    "id": 552,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6057,7 +6079,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 551,
+    "id": 553,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6068,7 +6090,7 @@
     "extra": "Regulier",
     "start": 16,
     "end": 16.75,
-    "id": 552,
+    "id": 554,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6079,7 +6101,7 @@
     "extra": "Regulier",
     "start": 16.75,
     "end": 17.5,
-    "id": 553,
+    "id": 555,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6090,7 +6112,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 19,
     "end": 20.5,
-    "id": 554,
+    "id": 556,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6101,7 +6123,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20.5,
     "end": 21.5,
-    "id": 555,
+    "id": 557,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6112,7 +6134,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 20.5,
     "end": 22,
-    "id": 556,
+    "id": 558,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6123,7 +6145,7 @@
     "extra": "Wedstrijdbad (50m x 8 banen)",
     "start": 7,
     "end": 8,
-    "id": 557,
+    "id": 559,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6134,7 +6156,7 @@
     "extra": "Wedstrijdbad (50m x 5 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 558,
+    "id": 560,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6145,7 +6167,7 @@
     "extra": "Recreatiebad. Let op; Gentlemen Only 18+",
     "start": 20,
     "end": 22,
-    "id": 559,
+    "id": 561,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6156,7 +6178,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 10.25,
     "end": 12.25,
-    "id": 560,
+    "id": 562,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6167,7 +6189,7 @@
     "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
     "start": 13,
     "end": 16,
-    "id": 561,
+    "id": 563,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6178,7 +6200,7 @@
     "extra": "Recreatiebad",
     "start": 13,
     "end": 16,
-    "id": 562,
+    "id": 564,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6189,7 +6211,7 @@
     "extra": "Wedstrijdbad (50m x 8 banen)",
     "start": 9,
     "end": 12,
-    "id": 563,
+    "id": 565,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6200,7 +6222,7 @@
     "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
     "start": 10,
     "end": 16,
-    "id": 564,
+    "id": 566,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6211,7 +6233,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 16,
-    "id": 565,
+    "id": 567,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6222,7 +6244,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 566,
+    "id": 568,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6233,7 +6255,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 567,
+    "id": 569,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6244,7 +6266,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 568,
+    "id": 570,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6255,7 +6277,7 @@
     "extra": "Regulier",
     "start": 16,
     "end": 16.75,
-    "id": 569,
+    "id": 571,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6266,7 +6288,7 @@
     "extra": "Regulier",
     "start": 16.75,
     "end": 17.5,
-    "id": 570,
+    "id": 572,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6277,7 +6299,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 19,
     "end": 20.5,
-    "id": 571,
+    "id": 573,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6288,7 +6310,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 20.5,
     "end": 22,
-    "id": 572,
+    "id": 574,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6299,7 +6321,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 5 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 573,
+    "id": 575,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6310,7 +6332,7 @@
     "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
     "start": 8,
     "end": 9,
-    "id": 574,
+    "id": 576,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6321,7 +6343,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 575,
+    "id": 577,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6332,7 +6354,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 576,
+    "id": 578,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6343,7 +6365,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 12+",
     "start": 19,
     "end": 22,
-    "id": 577,
+    "id": 579,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6354,7 +6376,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20.5,
     "end": 21.5,
-    "id": 578,
+    "id": 580,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6365,7 +6387,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 7 banen, 07:30 - 08:00 uur 50m x 8 banen)",
     "start": 7,
     "end": 8,
-    "id": 579,
+    "id": 581,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6376,7 +6398,7 @@
     "extra": "0 jaar - lopend Recreatiebad",
     "start": 9,
     "end": 9.75,
-    "id": 580,
+    "id": 582,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6387,7 +6409,7 @@
     "extra": "lopend - 2 jaar Recreatiebad",
     "start": 9.75,
     "end": 10.5,
-    "id": 581,
+    "id": 583,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6398,7 +6420,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 582,
+    "id": 584,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6409,7 +6431,7 @@
     "extra": "2 - 3 jaar Recreatiebad",
     "start": 10.5,
     "end": 11.25,
-    "id": 583,
+    "id": 585,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6420,28 +6442,6 @@
     "extra": "3 - 4 jaar Recreatiebad",
     "start": 11.25,
     "end": 12,
-    "id": 584,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Woensdag",
-    "date": "2026-03-11",
-    "activity": "Zed & Sop Zwemles",
-    "extra": "Regulier",
-    "start": 13,
-    "end": 13.75,
-    "id": 585,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Woensdag",
-    "date": "2026-03-11",
-    "activity": "Oefenuur",
-    "extra": "Recreatiebad (in ondiep water; oefenen voor A-diploma, B-diploma en C-diploma)",
-    "start": 13.5,
-    "end": 14,
     "id": 586,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
@@ -6451,9 +6451,31 @@
     "date": "2026-03-11",
     "activity": "Zed & Sop Zwemles",
     "extra": "Regulier",
+    "start": 13,
+    "end": 13.75,
+    "id": 587,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-11",
+    "activity": "Oefenuur",
+    "extra": "Recreatiebad (in ondiep water; oefenen voor A-diploma, B-diploma en C-diploma)",
+    "start": 13.5,
+    "end": 14,
+    "id": 588,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-11",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "Regulier",
     "start": 13.75,
     "end": 14.5,
-    "id": 587,
+    "id": 589,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6464,7 +6486,7 @@
     "extra": "Recreatiebad",
     "start": 14,
     "end": 18,
-    "id": 588,
+    "id": 590,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6475,7 +6497,7 @@
     "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
     "start": 14,
     "end": 18,
-    "id": 589,
+    "id": 591,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6486,7 +6508,7 @@
     "extra": "Wedstrijdbad (In diep water; oefenen voor eind A-diploma, B- diploma en C-diploma)",
     "start": 14.25,
     "end": 14.75,
-    "id": 590,
+    "id": 592,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6497,7 +6519,7 @@
     "extra": "Regulier",
     "start": 14.5,
     "end": 15.25,
-    "id": 591,
+    "id": 593,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6508,7 +6530,7 @@
     "extra": "Regulier",
     "start": 15.5,
     "end": 16.25,
-    "id": 592,
+    "id": 594,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6519,7 +6541,7 @@
     "extra": "Regulier",
     "start": 16.25,
     "end": 17,
-    "id": 593,
+    "id": 595,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6530,7 +6552,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20,
     "end": 21,
-    "id": 594,
+    "id": 596,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6541,7 +6563,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 595,
+    "id": 597,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6552,7 +6574,7 @@
     "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
     "start": 8,
     "end": 9,
-    "id": 596,
+    "id": 598,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6563,7 +6585,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 597,
+    "id": 599,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6574,7 +6596,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 598,
+    "id": 600,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6585,7 +6607,7 @@
     "extra": "Regulier",
     "start": 16,
     "end": 16.75,
-    "id": 599,
+    "id": 601,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6596,7 +6618,7 @@
     "extra": "Regulier",
     "start": 16.75,
     "end": 17.5,
-    "id": 600,
+    "id": 602,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6607,7 +6629,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 19,
     "end": 20.5,
-    "id": 601,
+    "id": 603,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6618,7 +6640,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20.5,
     "end": 21.5,
-    "id": 602,
+    "id": 604,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6629,7 +6651,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 20.5,
     "end": 22,
-    "id": 603,
+    "id": 605,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6640,7 +6662,7 @@
     "extra": "Wedstrijdbad (50m x 8 banen)",
     "start": 7,
     "end": 8,
-    "id": 604,
+    "id": 606,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6651,7 +6673,7 @@
     "extra": "Wedstrijdbad (50m x 5 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 605,
+    "id": 607,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6662,7 +6684,7 @@
     "extra": "Recreatiebad. Let op; Gentlemen Only 18+",
     "start": 20,
     "end": 22,
-    "id": 606,
+    "id": 608,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6673,7 +6695,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 10.25,
     "end": 12.25,
-    "id": 607,
+    "id": 609,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6684,7 +6706,7 @@
     "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
     "start": 13,
     "end": 16,
-    "id": 608,
+    "id": 610,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6695,7 +6717,7 @@
     "extra": "Recreatiebad",
     "start": 13,
     "end": 16,
-    "id": 609,
+    "id": 611,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6706,7 +6728,7 @@
     "extra": "Wedstrijdbad (50m x 8 banen)",
     "start": 9,
     "end": 12,
-    "id": 610,
+    "id": 612,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6717,7 +6739,7 @@
     "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
     "start": 10,
     "end": 16,
-    "id": 611,
+    "id": 613,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6728,7 +6750,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 16,
-    "id": 612,
+    "id": 614,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6739,7 +6761,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 613,
+    "id": 615,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6750,7 +6772,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 614,
+    "id": 616,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6761,7 +6783,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 615,
+    "id": 617,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6772,7 +6794,7 @@
     "extra": "Regulier",
     "start": 16,
     "end": 16.75,
-    "id": 616,
+    "id": 618,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6783,7 +6805,7 @@
     "extra": "Regulier",
     "start": 16.75,
     "end": 17.5,
-    "id": 617,
+    "id": 619,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6794,7 +6816,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 19,
     "end": 20.5,
-    "id": 618,
+    "id": 620,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6805,7 +6827,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 20.5,
     "end": 22,
-    "id": 619,
+    "id": 621,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6816,7 +6838,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 5 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 620,
+    "id": 622,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6827,7 +6849,7 @@
     "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
     "start": 8,
     "end": 9,
-    "id": 621,
+    "id": 623,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6838,7 +6860,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 622,
+    "id": 624,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6849,7 +6871,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 623,
+    "id": 625,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6860,7 +6882,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 12+",
     "start": 19,
     "end": 22,
-    "id": 624,
+    "id": 626,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6871,7 +6893,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20.5,
     "end": 21.5,
-    "id": 625,
+    "id": 627,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6882,7 +6904,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 7 banen, 07:30 - 08:00 uur 50m x 8 banen)",
     "start": 7,
     "end": 8,
-    "id": 626,
+    "id": 628,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6893,7 +6915,7 @@
     "extra": "0 jaar - lopend Recreatiebad",
     "start": 9,
     "end": 9.75,
-    "id": 627,
+    "id": 629,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6904,7 +6926,7 @@
     "extra": "lopend - 2 jaar Recreatiebad",
     "start": 9.75,
     "end": 10.5,
-    "id": 628,
+    "id": 630,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6915,7 +6937,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 629,
+    "id": 631,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6926,7 +6948,7 @@
     "extra": "2 - 3 jaar Recreatiebad",
     "start": 10.5,
     "end": 11.25,
-    "id": 630,
+    "id": 632,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6937,7 +6959,7 @@
     "extra": "3 - 4 jaar Recreatiebad",
     "start": 11.25,
     "end": 12,
-    "id": 631,
+    "id": 633,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6948,7 +6970,7 @@
     "extra": "Regulier",
     "start": 13,
     "end": 13.75,
-    "id": 632,
+    "id": 634,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6959,7 +6981,7 @@
     "extra": "Recreatiebad (in ondiep water; oefenen voor A-diploma, B-diploma en C-diploma)",
     "start": 13.5,
     "end": 14,
-    "id": 633,
+    "id": 635,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6970,7 +6992,7 @@
     "extra": "Regulier",
     "start": 13.75,
     "end": 14.5,
-    "id": 634,
+    "id": 636,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6981,7 +7003,7 @@
     "extra": "Recreatiebad",
     "start": 14,
     "end": 18,
-    "id": 635,
+    "id": 637,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6992,7 +7014,7 @@
     "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
     "start": 14,
     "end": 18,
-    "id": 636,
+    "id": 638,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7003,7 +7025,7 @@
     "extra": "Wedstrijdbad (In diep water; oefenen voor eind A-diploma, B- diploma en C-diploma)",
     "start": 14.25,
     "end": 14.75,
-    "id": 637,
+    "id": 639,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7014,7 +7036,7 @@
     "extra": "Regulier",
     "start": 14.5,
     "end": 15.25,
-    "id": 638,
+    "id": 640,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7025,7 +7047,7 @@
     "extra": "Regulier",
     "start": 15.5,
     "end": 16.25,
-    "id": 639,
+    "id": 641,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7036,7 +7058,7 @@
     "extra": "Regulier",
     "start": 16.25,
     "end": 17,
-    "id": 640,
+    "id": 642,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7047,7 +7069,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20,
     "end": 21,
-    "id": 641,
+    "id": 643,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7058,7 +7080,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 642,
+    "id": 644,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7069,7 +7091,7 @@
     "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
     "start": 8,
     "end": 9,
-    "id": 643,
+    "id": 645,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7080,7 +7102,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 644,
+    "id": 646,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7091,7 +7113,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 645,
+    "id": 647,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7102,7 +7124,7 @@
     "extra": "Regulier",
     "start": 16,
     "end": 16.75,
-    "id": 646,
+    "id": 648,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7113,7 +7135,7 @@
     "extra": "Regulier",
     "start": 16.75,
     "end": 17.5,
-    "id": 647,
+    "id": 649,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7124,7 +7146,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 19,
     "end": 20.5,
-    "id": 648,
+    "id": 650,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7135,7 +7157,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20.5,
     "end": 21.5,
-    "id": 649,
+    "id": 651,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7146,7 +7168,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 20.5,
     "end": 22,
-    "id": 650,
+    "id": 652,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7157,7 +7179,7 @@
     "extra": "Wedstrijdbad (50m x 8 banen)",
     "start": 7,
     "end": 8,
-    "id": 651,
+    "id": 653,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7168,7 +7190,7 @@
     "extra": "Wedstrijdbad (50m x 5 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 652,
+    "id": 654,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7179,7 +7201,7 @@
     "extra": "Recreatiebad. Let op; Gentlemen Only 18+",
     "start": 20,
     "end": 22,
-    "id": 653,
+    "id": 655,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7190,51 +7212,51 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 10.25,
     "end": 12.25,
-    "id": 654,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Zaterdag",
-    "date": "2026-03-21",
-    "activity": "Zwemfeestje",
-    "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
-    "start": 13,
-    "end": 16,
-    "id": 655,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Zaterdag",
-    "date": "2026-03-21",
-    "activity": "Familiezwemmen",
-    "extra": "Recreatiebad",
-    "start": 13,
-    "end": 16,
     "id": 656,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
     "bad": "Sloterparkbad",
-    "dag": "Zondag",
-    "date": "2026-03-22",
+    "dag": "Zaterdag",
+    "date": "2026-03-21",
     "activity": "Zwemfeestje",
     "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
-    "start": 10,
+    "start": 13,
     "end": 16,
     "id": 657,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
     "bad": "Sloterparkbad",
+    "dag": "Zaterdag",
+    "date": "2026-03-21",
+    "activity": "Familiezwemmen",
+    "extra": "Recreatiebad",
+    "start": 13,
+    "end": 16,
+    "id": 658,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Zondag",
+    "date": "2026-03-22",
+    "activity": "Zwemfeestje",
+    "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
+    "start": 10,
+    "end": 16,
+    "id": 659,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
     "dag": "Zondag",
     "date": "2026-03-22",
     "activity": "Familiezwemmen",
     "extra": "Recreatiebad",
     "start": 10,
     "end": 16,
-    "id": 658,
+    "id": 660,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7245,7 +7267,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 659,
+    "id": 661,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7256,7 +7278,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 660,
+    "id": 662,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7267,7 +7289,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 661,
+    "id": 663,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7278,7 +7300,7 @@
     "extra": "Regulier",
     "start": 16,
     "end": 16.75,
-    "id": 662,
+    "id": 664,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7289,7 +7311,7 @@
     "extra": "Regulier",
     "start": 16.75,
     "end": 17.5,
-    "id": 663,
+    "id": 665,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7300,7 +7322,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 19,
     "end": 20.5,
-    "id": 664,
+    "id": 666,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7311,7 +7333,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 20.5,
     "end": 22,
-    "id": 665,
+    "id": 667,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7322,7 +7344,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 5 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 666,
+    "id": 668,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7333,7 +7355,7 @@
     "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
     "start": 8,
     "end": 9,
-    "id": 667,
+    "id": 669,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7344,7 +7366,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 668,
+    "id": 670,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7355,7 +7377,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 669,
+    "id": 671,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7366,7 +7388,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 12+",
     "start": 19,
     "end": 22,
-    "id": 670,
+    "id": 672,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7377,7 +7399,183 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20.5,
     "end": 21.5,
-    "id": 671,
+    "id": 673,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 7 banen, 07:30 - 08:00 uur 50m x 8 banen)",
+    "start": 7,
+    "end": 8,
+    "id": 674,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
+    "activity": "Liz & Wes Spetterles",
+    "extra": "0 jaar - lopend Recreatiebad",
+    "start": 9,
+    "end": 9.75,
+    "id": 675,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
+    "activity": "Liz & Wes Spetterles",
+    "extra": "lopend - 2 jaar Recreatiebad",
+    "start": 9.75,
+    "end": 10.5,
+    "id": 676,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
+    "start": 10.25,
+    "end": 13,
+    "id": 677,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
+    "activity": "Liz & Wes Spetterles",
+    "extra": "2 - 3 jaar Recreatiebad",
+    "start": 10.5,
+    "end": 11.25,
+    "id": 678,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
+    "activity": "Liz & Wes Spetterles",
+    "extra": "3 - 4 jaar Recreatiebad",
+    "start": 11.25,
+    "end": 12,
+    "id": 679,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "Regulier",
+    "start": 13,
+    "end": 13.75,
+    "id": 680,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
+    "activity": "Oefenuur",
+    "extra": "Recreatiebad (in ondiep water; oefenen voor A-diploma, B-diploma en C-diploma)",
+    "start": 13.5,
+    "end": 14,
+    "id": 681,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "Regulier",
+    "start": 13.75,
+    "end": 14.5,
+    "id": 682,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
+    "activity": "Vrijzwemmen",
+    "extra": "Recreatiebad",
+    "start": 14,
+    "end": 18,
+    "id": 683,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
+    "activity": "Zwemfeestje",
+    "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
+    "start": 14,
+    "end": 18,
+    "id": 684,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
+    "activity": "Oefenuur",
+    "extra": "Wedstrijdbad (In diep water; oefenen voor eind A-diploma, B- diploma en C-diploma)",
+    "start": 14.25,
+    "end": 14.75,
+    "id": 685,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "Regulier",
+    "start": 14.5,
+    "end": 15.25,
+    "id": 686,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "Regulier",
+    "start": 15.5,
+    "end": 16.25,
+    "id": 687,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "Regulier",
+    "start": 16.25,
+    "end": 17,
+    "id": 688,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (25m x 8 banen)",
+    "start": 20,
+    "end": 21,
+    "id": 689,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7388,7 +7586,7 @@
     "extra": "vier banen alleen diep",
     "start": 9.5,
     "end": 10.5,
-    "id": 672,
+    "id": 690,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7399,7 +7597,7 @@
     "extra": "diep",
     "start": 10.5,
     "end": 12,
-    "id": 673,
+    "id": 691,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7410,7 +7608,7 @@
     "extra": "3 banen en ondiep alleen voor 14.00 uur en na 14.30 uur",
     "start": 12.5,
     "end": 15.25,
-    "id": 674,
+    "id": 692,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7421,7 +7619,7 @@
     "extra": "drie middelste banen",
     "start": 15.5,
     "end": 16.25,
-    "id": 675,
+    "id": 693,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7432,7 +7630,7 @@
     "extra": "vier banen",
     "start": 16.25,
     "end": 17,
-    "id": 676,
+    "id": 694,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7443,7 +7641,7 @@
     "extra": "twee middelste banen",
     "start": 17,
     "end": 17.5,
-    "id": 677,
+    "id": 695,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7454,7 +7652,7 @@
     "extra": "vier banen",
     "start": 17.5,
     "end": 18,
-    "id": 678,
+    "id": 696,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7465,7 +7663,7 @@
     "extra": "drie banen",
     "start": 20,
     "end": 21,
-    "id": 679,
+    "id": 697,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7476,7 +7674,7 @@
     "extra": "drie banen",
     "start": 7,
     "end": 8,
-    "id": 680,
+    "id": 698,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7487,7 +7685,7 @@
     "extra": "",
     "start": 8,
     "end": 8.75,
-    "id": 681,
+    "id": 699,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7498,7 +7696,7 @@
     "extra": "drie banen diep en ondiep",
     "start": 13.75,
     "end": 15.25,
-    "id": 682,
+    "id": 700,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7509,7 +7707,7 @@
     "extra": "één baan in het midden",
     "start": 15.5,
     "end": 16.25,
-    "id": 683,
+    "id": 701,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7520,7 +7718,7 @@
     "extra": "twee middelste banen",
     "start": 16.25,
     "end": 17.5,
-    "id": 684,
+    "id": 702,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7531,7 +7729,7 @@
     "extra": "vier banen",
     "start": 17.5,
     "end": 18,
-    "id": 685,
+    "id": 703,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7542,7 +7740,7 @@
     "extra": "vier banen",
     "start": 20,
     "end": 21.25,
-    "id": 686,
+    "id": 704,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7553,7 +7751,7 @@
     "extra": "",
     "start": 11,
     "end": 11.75,
-    "id": 687,
+    "id": 705,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7564,7 +7762,7 @@
     "extra": "vier banen",
     "start": 11.75,
     "end": 14,
-    "id": 688,
+    "id": 706,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7575,7 +7773,7 @@
     "extra": "vier banen",
     "start": 7,
     "end": 7.75,
-    "id": 689,
+    "id": 707,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7586,7 +7784,7 @@
     "extra": "",
     "start": 7.75,
     "end": 9,
-    "id": 690,
+    "id": 708,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7597,7 +7795,7 @@
     "extra": "vier banen",
     "start": 11,
     "end": 12,
-    "id": 691,
+    "id": 709,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7608,7 +7806,7 @@
     "extra": "drie banen diep en ondiep",
     "start": 12.5,
     "end": 15.25,
-    "id": 692,
+    "id": 710,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7619,7 +7817,7 @@
     "extra": "twee middelste banen",
     "start": 15.5,
     "end": 16.5,
-    "id": 693,
+    "id": 711,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7630,7 +7828,7 @@
     "extra": "één baan in het midden",
     "start": 16.5,
     "end": 17.25,
-    "id": 694,
+    "id": 712,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7641,7 +7839,7 @@
     "extra": "vier banen",
     "start": 20.25,
     "end": 22,
-    "id": 695,
+    "id": 713,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7652,7 +7850,7 @@
     "extra": "",
     "start": 8,
     "end": 12,
-    "id": 696,
+    "id": 714,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7663,7 +7861,7 @@
     "extra": "",
     "start": 12.5,
     "end": 13,
-    "id": 697,
+    "id": 715,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7674,7 +7872,7 @@
     "extra": "",
     "start": 12.5,
     "end": 14.75,
-    "id": 698,
+    "id": 716,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7685,7 +7883,7 @@
     "extra": "vier banen",
     "start": 13,
     "end": 13.75,
-    "id": 699,
+    "id": 717,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7696,7 +7894,7 @@
     "extra": "3 banen",
     "start": 13.75,
     "end": 15.25,
-    "id": 700,
+    "id": 718,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7707,7 +7905,7 @@
     "extra": "één baan in het midden",
     "start": 15.5,
     "end": 16.25,
-    "id": 701,
+    "id": 719,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7718,7 +7916,7 @@
     "extra": "twee middelste banen",
     "start": 16.25,
     "end": 17.25,
-    "id": 702,
+    "id": 720,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7729,7 +7927,7 @@
     "extra": "vier banen",
     "start": 17.25,
     "end": 18,
-    "id": 703,
+    "id": 721,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7740,7 +7938,7 @@
     "extra": "Let op: iedere laatste vrijdag van de maand discozwemmen en geen les of banenzwemmen",
     "start": 19.5,
     "end": 20.25,
-    "id": 704,
+    "id": 722,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7751,7 +7949,7 @@
     "extra": "vier banen  Let op iedere laatste vrijdag van de maand discozwemmen en geen les of banenzwemmen Let op: iedere laatste vrijdag van de maand discozwemmen en geen les of banenzwemmen",
     "start": 20.25,
     "end": 21.25,
-    "id": 705,
+    "id": 723,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7762,7 +7960,7 @@
     "extra": "drie banen",
     "start": 9,
     "end": 9.75,
-    "id": 706,
+    "id": 724,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7773,7 +7971,7 @@
     "extra": "vier banen",
     "start": 9.75,
     "end": 11.25,
-    "id": 707,
+    "id": 725,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7784,7 +7982,7 @@
     "extra": "twee middelste banen",
     "start": 11.25,
     "end": 11.5,
-    "id": 708,
+    "id": 726,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7795,7 +7993,7 @@
     "extra": "vier banen",
     "start": 11.5,
     "end": 12,
-    "id": 709,
+    "id": 727,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7806,7 +8004,7 @@
     "extra": "vier banen",
     "start": 9.75,
     "end": 10.5,
-    "id": 710,
+    "id": 728,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7817,7 +8015,7 @@
     "extra": "drie banen",
     "start": 10.5,
     "end": 11.25,
-    "id": 711,
+    "id": 729,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7828,7 +8026,7 @@
     "extra": "vier banen",
     "start": 11.25,
     "end": 13.25,
-    "id": 712,
+    "id": 730,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7839,7 +8037,7 @@
     "extra": "",
     "start": 12.25,
     "end": 15,
-    "id": 713,
+    "id": 731,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -7850,7 +8048,7 @@
     "extra": "vier banen",
     "start": 13.25,
     "end": 15,
-    "id": 714,
+    "id": 732,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   }
 ]
