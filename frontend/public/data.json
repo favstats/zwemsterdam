@@ -1073,7 +1073,7 @@
     "activity": "Banenzwemmen",
     "extra": "25-meterbad binnen",
     "start": 12,
-    "end": 20,
+    "end": 15,
     "id": 98,
     "website": "https://www.amsterdam.nl/demirandabad/rooster/"
   },
@@ -5734,11 +5734,22 @@
     "bad": "Sloterparkbad",
     "dag": "Woensdag",
     "date": "2026-02-25",
+    "activity": "Zwemfeestje",
+    "extra": "",
+    "start": 14,
+    "end": 18,
+    "id": 522,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-02-25",
     "activity": "Oefenuur",
     "extra": "Wedstrijdbad (In diep water; oefenen voor eind A-diploma, B- diploma en C-diploma)",
     "start": 14.25,
     "end": 14.75,
-    "id": 522,
+    "id": 523,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5749,7 +5760,7 @@
     "extra": "Regulier",
     "start": 14.5,
     "end": 15.25,
-    "id": 523,
+    "id": 524,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5760,7 +5771,7 @@
     "extra": "Regulier",
     "start": 15.5,
     "end": 16.25,
-    "id": 524,
+    "id": 525,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5771,7 +5782,7 @@
     "extra": "Regulier",
     "start": 16.25,
     "end": 17,
-    "id": 525,
+    "id": 526,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5782,7 +5793,7 @@
     "extra": "Wedstrijdbad (50m x 8 banen)",
     "start": 20,
     "end": 21,
-    "id": 526,
+    "id": 527,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5793,7 +5804,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 527,
+    "id": 528,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5804,7 +5815,7 @@
     "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
     "start": 8,
     "end": 9.5,
-    "id": 528,
+    "id": 529,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5815,7 +5826,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 529,
+    "id": 530,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5826,7 +5837,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 8 banen, 12:15 - 13:00 uur 50m x 5 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 530,
+    "id": 531,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5837,7 +5848,7 @@
     "extra": "Recreatiebad",
     "start": 14,
     "end": 18,
-    "id": 531,
+    "id": 532,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5848,7 +5859,7 @@
     "extra": "Regulier",
     "start": 16,
     "end": 16.75,
-    "id": 532,
+    "id": 533,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5859,7 +5870,7 @@
     "extra": "Regulier",
     "start": 16.75,
     "end": 17.5,
-    "id": 533,
+    "id": 534,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5870,17 +5881,6 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 19,
     "end": 20.5,
-    "id": 534,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Donderdag",
-    "date": "2026-02-26",
-    "activity": "Banenzwemmen",
-    "extra": "Wedstrijdbad (25m x 8 banen)",
-    "start": 20.5,
-    "end": 21.5,
     "id": 535,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
@@ -5897,13 +5897,24 @@
   },
   {
     "bad": "Sloterparkbad",
+    "dag": "Donderdag",
+    "date": "2026-02-26",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (25m x 8 banen)",
+    "start": 20.5,
+    "end": 21.5,
+    "id": 537,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
     "dag": "Vrijdag",
     "date": "2026-02-27",
     "activity": "Banenzwemmen",
     "extra": "Wedstrijdbad (50m x 8 banen)",
     "start": 7,
     "end": 8,
-    "id": 537,
+    "id": 538,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5914,7 +5925,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 8 banen, 12:15 - 13:00 uur 50m x 5 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 538,
+    "id": 539,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5925,7 +5936,7 @@
     "extra": "Recreatiebad",
     "start": 14,
     "end": 18,
-    "id": 539,
+    "id": 540,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5936,7 +5947,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 10.25,
     "end": 12.25,
-    "id": 540,
+    "id": 541,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5947,7 +5958,7 @@
     "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
     "start": 13,
     "end": 16,
-    "id": 541,
+    "id": 542,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -5958,27 +5969,16 @@
     "extra": "Recreatiebad",
     "start": 13,
     "end": 16,
-    "id": 542,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Zondag",
-    "date": "2026-03-01",
-    "activity": "Banenzwemmen",
-    "extra": "Wedstrijdbad (50m x 8 banen)",
-    "start": 9,
-    "end": 12,
     "id": 543,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
     "bad": "Sloterparkbad",
-    "dag": "Zondag",
-    "date": "2026-03-01",
+    "dag": "Zaterdag",
+    "date": "2026-02-28",
     "activity": "Zwemfeestje",
-    "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
-    "start": 10,
+    "extra": "",
+    "start": 13,
     "end": 16,
     "id": 544,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
@@ -5987,11 +5987,44 @@
     "bad": "Sloterparkbad",
     "dag": "Zondag",
     "date": "2026-03-01",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (50m x 8 banen)",
+    "start": 9,
+    "end": 12,
+    "id": 545,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Zondag",
+    "date": "2026-03-01",
+    "activity": "Zwemfeestje",
+    "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
+    "start": 10,
+    "end": 16,
+    "id": 546,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Zondag",
+    "date": "2026-03-01",
     "activity": "Familiezwemmen",
     "extra": "Recreatiebad",
     "start": 10,
     "end": 16,
-    "id": 545,
+    "id": 547,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Zondag",
+    "date": "2026-03-01",
+    "activity": "Zwemfeestje",
+    "extra": "",
+    "start": 10,
+    "end": 16,
+    "id": 548,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6002,7 +6035,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 546,
+    "id": 549,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6013,7 +6046,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 547,
+    "id": 550,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6024,7 +6057,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 548,
+    "id": 551,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6035,7 +6068,7 @@
     "extra": "Regulier",
     "start": 16,
     "end": 16.75,
-    "id": 549,
+    "id": 552,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6046,7 +6079,7 @@
     "extra": "Regulier",
     "start": 16.75,
     "end": 17.5,
-    "id": 550,
+    "id": 553,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6057,7 +6090,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 19,
     "end": 20.5,
-    "id": 551,
+    "id": 554,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6068,39 +6101,6 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 20.5,
     "end": 22,
-    "id": 552,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Dinsdag",
-    "date": "2026-03-03",
-    "activity": "Banenzwemmen",
-    "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 5 banen, 07:30 - 08:00 uur 50m x 7 banen)",
-    "start": 7,
-    "end": 8,
-    "id": 553,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Dinsdag",
-    "date": "2026-03-03",
-    "activity": "Prikkelarm Zwemmen",
-    "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
-    "start": 8,
-    "end": 9,
-    "id": 554,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Dinsdag",
-    "date": "2026-03-03",
-    "activity": "Aqua'Vitaal",
-    "extra": "Recreatiebad",
-    "start": 10,
-    "end": 12,
     "id": 555,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
@@ -6109,10 +6109,43 @@
     "dag": "Dinsdag",
     "date": "2026-03-03",
     "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 5 banen, 07:30 - 08:00 uur 50m x 7 banen)",
+    "start": 7,
+    "end": 8,
+    "id": 556,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Dinsdag",
+    "date": "2026-03-03",
+    "activity": "Prikkelarm Zwemmen",
+    "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+    "start": 8,
+    "end": 9,
+    "id": 557,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Dinsdag",
+    "date": "2026-03-03",
+    "activity": "Aqua'Vitaal",
+    "extra": "Recreatiebad",
+    "start": 10,
+    "end": 12,
+    "id": 558,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Dinsdag",
+    "date": "2026-03-03",
+    "activity": "Banenzwemmen",
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 556,
+    "id": 559,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6123,7 +6156,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 12+",
     "start": 19,
     "end": 22,
-    "id": 557,
+    "id": 560,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6134,39 +6167,6 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20.5,
     "end": 21.5,
-    "id": 558,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Woensdag",
-    "date": "2026-03-04",
-    "activity": "Banenzwemmen",
-    "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 7 banen, 07:30 - 08:00 uur 50m x 8 banen)",
-    "start": 7,
-    "end": 8,
-    "id": 559,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Woensdag",
-    "date": "2026-03-04",
-    "activity": "Liz & Wes Spetterles",
-    "extra": "0 jaar - lopend Recreatiebad",
-    "start": 9,
-    "end": 9.75,
-    "id": 560,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Woensdag",
-    "date": "2026-03-04",
-    "activity": "Liz & Wes Spetterles",
-    "extra": "lopend - 2 jaar Recreatiebad",
-    "start": 9.75,
-    "end": 10.5,
     "id": 561,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
@@ -6175,9 +6175,9 @@
     "dag": "Woensdag",
     "date": "2026-03-04",
     "activity": "Banenzwemmen",
-    "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
-    "start": 10.25,
-    "end": 13,
+    "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 7 banen, 07:30 - 08:00 uur 50m x 8 banen)",
+    "start": 7,
+    "end": 8,
     "id": 562,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
@@ -6186,9 +6186,9 @@
     "dag": "Woensdag",
     "date": "2026-03-04",
     "activity": "Liz & Wes Spetterles",
-    "extra": "2 - 3 jaar Recreatiebad",
-    "start": 10.5,
-    "end": 11.25,
+    "extra": "0 jaar - lopend Recreatiebad",
+    "start": 9,
+    "end": 9.75,
     "id": 563,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
@@ -6197,10 +6197,43 @@
     "dag": "Woensdag",
     "date": "2026-03-04",
     "activity": "Liz & Wes Spetterles",
+    "extra": "lopend - 2 jaar Recreatiebad",
+    "start": 9.75,
+    "end": 10.5,
+    "id": 564,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-04",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
+    "start": 10.25,
+    "end": 13,
+    "id": 565,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-04",
+    "activity": "Liz & Wes Spetterles",
+    "extra": "2 - 3 jaar Recreatiebad",
+    "start": 10.5,
+    "end": 11.25,
+    "id": 566,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-04",
+    "activity": "Liz & Wes Spetterles",
     "extra": "3 - 4 jaar Recreatiebad",
     "start": 11.25,
     "end": 12,
-    "id": 564,
+    "id": 567,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6211,7 +6244,7 @@
     "extra": "Regulier",
     "start": 13,
     "end": 13.75,
-    "id": 565,
+    "id": 568,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6222,7 +6255,7 @@
     "extra": "Recreatiebad (in ondiep water; oefenen voor A-diploma, B-diploma en C-diploma)",
     "start": 13.5,
     "end": 14,
-    "id": 566,
+    "id": 569,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6233,18 +6266,7 @@
     "extra": "Regulier",
     "start": 13.75,
     "end": 14.5,
-    "id": 567,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Woensdag",
-    "date": "2026-03-04",
-    "activity": "Zwemfeestje",
-    "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
-    "start": 14,
-    "end": 18,
-    "id": 568,
+    "id": 570,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6255,7 +6277,18 @@
     "extra": "Recreatiebad",
     "start": 14,
     "end": 18,
-    "id": 569,
+    "id": 571,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-04",
+    "activity": "Zwemfeestje",
+    "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
+    "start": 14,
+    "end": 18,
+    "id": 572,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6266,7 +6299,7 @@
     "extra": "Wedstrijdbad (In diep water; oefenen voor eind A-diploma, B- diploma en C-diploma)",
     "start": 14.25,
     "end": 14.75,
-    "id": 570,
+    "id": 573,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6277,7 +6310,7 @@
     "extra": "Regulier",
     "start": 14.5,
     "end": 15.25,
-    "id": 571,
+    "id": 574,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6288,7 +6321,7 @@
     "extra": "Regulier",
     "start": 15.5,
     "end": 16.25,
-    "id": 572,
+    "id": 575,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6299,7 +6332,7 @@
     "extra": "Regulier",
     "start": 16.25,
     "end": 17,
-    "id": 573,
+    "id": 576,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6310,39 +6343,6 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20,
     "end": 21,
-    "id": 574,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Donderdag",
-    "date": "2026-03-05",
-    "activity": "Banenzwemmen",
-    "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
-    "start": 7,
-    "end": 8,
-    "id": 575,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Donderdag",
-    "date": "2026-03-05",
-    "activity": "Prikkelarm Zwemmen",
-    "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
-    "start": 8,
-    "end": 9,
-    "id": 576,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Donderdag",
-    "date": "2026-03-05",
-    "activity": "Aqua'Vitaal",
-    "extra": "Recreatiebad",
-    "start": 10,
-    "end": 12,
     "id": 577,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
@@ -6351,10 +6351,43 @@
     "dag": "Donderdag",
     "date": "2026-03-05",
     "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
+    "start": 7,
+    "end": 8,
+    "id": 578,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Donderdag",
+    "date": "2026-03-05",
+    "activity": "Prikkelarm Zwemmen",
+    "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+    "start": 8,
+    "end": 9,
+    "id": 579,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Donderdag",
+    "date": "2026-03-05",
+    "activity": "Aqua'Vitaal",
+    "extra": "Recreatiebad",
+    "start": 10,
+    "end": 12,
+    "id": 580,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Donderdag",
+    "date": "2026-03-05",
+    "activity": "Banenzwemmen",
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 578,
+    "id": 581,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6365,7 +6398,7 @@
     "extra": "Regulier",
     "start": 16,
     "end": 16.75,
-    "id": 579,
+    "id": 582,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6376,7 +6409,7 @@
     "extra": "Regulier",
     "start": 16.75,
     "end": 17.5,
-    "id": 580,
+    "id": 583,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6387,7 +6420,18 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 19,
     "end": 20.5,
-    "id": 581,
+    "id": 584,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Donderdag",
+    "date": "2026-03-05",
+    "activity": "Vrijzwemmen",
+    "extra": "Recreatiebad. Let op; Ladies Only 18+",
+    "start": 20.5,
+    "end": 22,
+    "id": 585,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6398,18 +6442,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20.5,
     "end": 21.5,
-    "id": 582,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Donderdag",
-    "date": "2026-03-05",
-    "activity": "Vrijzwemmen",
-    "extra": "Recreatiebad. Let op; Ladies Only 18+",
-    "start": 20.5,
-    "end": 22,
-    "id": 583,
+    "id": 586,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6420,7 +6453,7 @@
     "extra": "Wedstrijdbad (50m x 8 banen)",
     "start": 7,
     "end": 8,
-    "id": 584,
+    "id": 587,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6431,7 +6464,7 @@
     "extra": "Wedstrijdbad (50m x 5 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 585,
+    "id": 588,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6442,7 +6475,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 10.25,
     "end": 12.25,
-    "id": 586,
+    "id": 589,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6453,7 +6486,7 @@
     "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
     "start": 13,
     "end": 16,
-    "id": 587,
+    "id": 590,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6464,7 +6497,7 @@
     "extra": "Recreatiebad",
     "start": 13,
     "end": 16,
-    "id": 588,
+    "id": 591,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6475,7 +6508,7 @@
     "extra": "Wedstrijdbad (50m x 8 banen)",
     "start": 9,
     "end": 12,
-    "id": 589,
+    "id": 592,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6486,7 +6519,7 @@
     "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
     "start": 10,
     "end": 16,
-    "id": 590,
+    "id": 593,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6497,7 +6530,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 16,
-    "id": 591,
+    "id": 594,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6508,7 +6541,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 592,
+    "id": 595,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6519,7 +6552,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 593,
+    "id": 596,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6530,7 +6563,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 594,
+    "id": 597,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6541,7 +6574,7 @@
     "extra": "Regulier",
     "start": 16,
     "end": 16.75,
-    "id": 595,
+    "id": 598,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6552,7 +6585,7 @@
     "extra": "Regulier",
     "start": 16.75,
     "end": 17.5,
-    "id": 596,
+    "id": 599,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6563,7 +6596,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 19,
     "end": 20.5,
-    "id": 597,
+    "id": 600,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6574,39 +6607,6 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 20.5,
     "end": 22,
-    "id": 598,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Dinsdag",
-    "date": "2026-03-10",
-    "activity": "Banenzwemmen",
-    "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 5 banen, 07:30 - 08:00 uur 50m x 7 banen)",
-    "start": 7,
-    "end": 8,
-    "id": 599,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Dinsdag",
-    "date": "2026-03-10",
-    "activity": "Prikkelarm Zwemmen",
-    "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
-    "start": 8,
-    "end": 9,
-    "id": 600,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Dinsdag",
-    "date": "2026-03-10",
-    "activity": "Aqua'Vitaal",
-    "extra": "Recreatiebad",
-    "start": 10,
-    "end": 12,
     "id": 601,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
@@ -6615,10 +6615,43 @@
     "dag": "Dinsdag",
     "date": "2026-03-10",
     "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 5 banen, 07:30 - 08:00 uur 50m x 7 banen)",
+    "start": 7,
+    "end": 8,
+    "id": 602,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Dinsdag",
+    "date": "2026-03-10",
+    "activity": "Prikkelarm Zwemmen",
+    "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+    "start": 8,
+    "end": 9,
+    "id": 603,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Dinsdag",
+    "date": "2026-03-10",
+    "activity": "Aqua'Vitaal",
+    "extra": "Recreatiebad",
+    "start": 10,
+    "end": 12,
+    "id": 604,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Dinsdag",
+    "date": "2026-03-10",
+    "activity": "Banenzwemmen",
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 602,
+    "id": 605,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6629,7 +6662,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 12+",
     "start": 19,
     "end": 22,
-    "id": 603,
+    "id": 606,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6640,39 +6673,6 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20.5,
     "end": 21.5,
-    "id": 604,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Woensdag",
-    "date": "2026-03-11",
-    "activity": "Banenzwemmen",
-    "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 7 banen, 07:30 - 08:00 uur 50m x 8 banen)",
-    "start": 7,
-    "end": 8,
-    "id": 605,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Woensdag",
-    "date": "2026-03-11",
-    "activity": "Liz & Wes Spetterles",
-    "extra": "0 jaar - lopend Recreatiebad",
-    "start": 9,
-    "end": 9.75,
-    "id": 606,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Woensdag",
-    "date": "2026-03-11",
-    "activity": "Liz & Wes Spetterles",
-    "extra": "lopend - 2 jaar Recreatiebad",
-    "start": 9.75,
-    "end": 10.5,
     "id": 607,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
@@ -6681,9 +6681,9 @@
     "dag": "Woensdag",
     "date": "2026-03-11",
     "activity": "Banenzwemmen",
-    "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
-    "start": 10.25,
-    "end": 13,
+    "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 7 banen, 07:30 - 08:00 uur 50m x 8 banen)",
+    "start": 7,
+    "end": 8,
     "id": 608,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
@@ -6692,9 +6692,9 @@
     "dag": "Woensdag",
     "date": "2026-03-11",
     "activity": "Liz & Wes Spetterles",
-    "extra": "2 - 3 jaar Recreatiebad",
-    "start": 10.5,
-    "end": 11.25,
+    "extra": "0 jaar - lopend Recreatiebad",
+    "start": 9,
+    "end": 9.75,
     "id": 609,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
@@ -6703,10 +6703,43 @@
     "dag": "Woensdag",
     "date": "2026-03-11",
     "activity": "Liz & Wes Spetterles",
+    "extra": "lopend - 2 jaar Recreatiebad",
+    "start": 9.75,
+    "end": 10.5,
+    "id": 610,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-11",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
+    "start": 10.25,
+    "end": 13,
+    "id": 611,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-11",
+    "activity": "Liz & Wes Spetterles",
+    "extra": "2 - 3 jaar Recreatiebad",
+    "start": 10.5,
+    "end": 11.25,
+    "id": 612,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-11",
+    "activity": "Liz & Wes Spetterles",
     "extra": "3 - 4 jaar Recreatiebad",
     "start": 11.25,
     "end": 12,
-    "id": 610,
+    "id": 613,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6717,7 +6750,7 @@
     "extra": "Regulier",
     "start": 13,
     "end": 13.75,
-    "id": 611,
+    "id": 614,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6728,7 +6761,7 @@
     "extra": "Recreatiebad (in ondiep water; oefenen voor A-diploma, B-diploma en C-diploma)",
     "start": 13.5,
     "end": 14,
-    "id": 612,
+    "id": 615,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6739,7 +6772,7 @@
     "extra": "Regulier",
     "start": 13.75,
     "end": 14.5,
-    "id": 613,
+    "id": 616,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6750,7 +6783,7 @@
     "extra": "Recreatiebad",
     "start": 14,
     "end": 18,
-    "id": 614,
+    "id": 617,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6761,7 +6794,7 @@
     "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
     "start": 14,
     "end": 18,
-    "id": 615,
+    "id": 618,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6772,7 +6805,7 @@
     "extra": "Wedstrijdbad (In diep water; oefenen voor eind A-diploma, B- diploma en C-diploma)",
     "start": 14.25,
     "end": 14.75,
-    "id": 616,
+    "id": 619,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6783,7 +6816,7 @@
     "extra": "Regulier",
     "start": 14.5,
     "end": 15.25,
-    "id": 617,
+    "id": 620,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6794,7 +6827,7 @@
     "extra": "Regulier",
     "start": 15.5,
     "end": 16.25,
-    "id": 618,
+    "id": 621,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6805,7 +6838,7 @@
     "extra": "Regulier",
     "start": 16.25,
     "end": 17,
-    "id": 619,
+    "id": 622,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6816,39 +6849,6 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20,
     "end": 21,
-    "id": 620,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Donderdag",
-    "date": "2026-03-12",
-    "activity": "Banenzwemmen",
-    "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
-    "start": 7,
-    "end": 8,
-    "id": 621,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Donderdag",
-    "date": "2026-03-12",
-    "activity": "Prikkelarm Zwemmen",
-    "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
-    "start": 8,
-    "end": 9,
-    "id": 622,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Donderdag",
-    "date": "2026-03-12",
-    "activity": "Aqua'Vitaal",
-    "extra": "Recreatiebad",
-    "start": 10,
-    "end": 12,
     "id": 623,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
@@ -6857,10 +6857,43 @@
     "dag": "Donderdag",
     "date": "2026-03-12",
     "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
+    "start": 7,
+    "end": 8,
+    "id": 624,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Donderdag",
+    "date": "2026-03-12",
+    "activity": "Prikkelarm Zwemmen",
+    "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+    "start": 8,
+    "end": 9,
+    "id": 625,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Donderdag",
+    "date": "2026-03-12",
+    "activity": "Aqua'Vitaal",
+    "extra": "Recreatiebad",
+    "start": 10,
+    "end": 12,
+    "id": 626,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Donderdag",
+    "date": "2026-03-12",
+    "activity": "Banenzwemmen",
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 624,
+    "id": 627,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6871,7 +6904,7 @@
     "extra": "Regulier",
     "start": 16,
     "end": 16.75,
-    "id": 625,
+    "id": 628,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6882,7 +6915,7 @@
     "extra": "Regulier",
     "start": 16.75,
     "end": 17.5,
-    "id": 626,
+    "id": 629,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6893,7 +6926,18 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 19,
     "end": 20.5,
-    "id": 627,
+    "id": 630,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Donderdag",
+    "date": "2026-03-12",
+    "activity": "Vrijzwemmen",
+    "extra": "Recreatiebad. Let op; Ladies Only 18+",
+    "start": 20.5,
+    "end": 22,
+    "id": 631,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6904,18 +6948,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20.5,
     "end": 21.5,
-    "id": 628,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Donderdag",
-    "date": "2026-03-12",
-    "activity": "Vrijzwemmen",
-    "extra": "Recreatiebad. Let op; Ladies Only 18+",
-    "start": 20.5,
-    "end": 22,
-    "id": 629,
+    "id": 632,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6926,7 +6959,7 @@
     "extra": "Wedstrijdbad (50m x 8 banen)",
     "start": 7,
     "end": 8,
-    "id": 630,
+    "id": 633,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6937,7 +6970,7 @@
     "extra": "Wedstrijdbad (50m x 5 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 631,
+    "id": 634,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6948,7 +6981,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 10.25,
     "end": 12.25,
-    "id": 632,
+    "id": 635,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6959,7 +6992,7 @@
     "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
     "start": 13,
     "end": 16,
-    "id": 633,
+    "id": 636,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6970,7 +7003,7 @@
     "extra": "Recreatiebad",
     "start": 13,
     "end": 16,
-    "id": 634,
+    "id": 637,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6981,7 +7014,7 @@
     "extra": "Wedstrijdbad (50m x 8 banen)",
     "start": 9,
     "end": 12,
-    "id": 635,
+    "id": 638,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -6992,7 +7025,7 @@
     "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
     "start": 10,
     "end": 16,
-    "id": 636,
+    "id": 639,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7003,7 +7036,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 16,
-    "id": 637,
+    "id": 640,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7014,7 +7047,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 638,
+    "id": 641,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7025,7 +7058,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 639,
+    "id": 642,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7036,7 +7069,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 640,
+    "id": 643,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7047,7 +7080,7 @@
     "extra": "Regulier",
     "start": 16,
     "end": 16.75,
-    "id": 641,
+    "id": 644,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7058,7 +7091,7 @@
     "extra": "Regulier",
     "start": 16.75,
     "end": 17.5,
-    "id": 642,
+    "id": 645,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7069,7 +7102,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 19,
     "end": 20.5,
-    "id": 643,
+    "id": 646,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7080,39 +7113,6 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 20.5,
     "end": 22,
-    "id": 644,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Dinsdag",
-    "date": "2026-03-17",
-    "activity": "Banenzwemmen",
-    "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 5 banen, 07:30 - 08:00 uur 50m x 7 banen)",
-    "start": 7,
-    "end": 8,
-    "id": 645,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Dinsdag",
-    "date": "2026-03-17",
-    "activity": "Prikkelarm Zwemmen",
-    "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
-    "start": 8,
-    "end": 9,
-    "id": 646,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Dinsdag",
-    "date": "2026-03-17",
-    "activity": "Aqua'Vitaal",
-    "extra": "Recreatiebad",
-    "start": 10,
-    "end": 12,
     "id": 647,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
@@ -7121,10 +7121,43 @@
     "dag": "Dinsdag",
     "date": "2026-03-17",
     "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 5 banen, 07:30 - 08:00 uur 50m x 7 banen)",
+    "start": 7,
+    "end": 8,
+    "id": 648,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Dinsdag",
+    "date": "2026-03-17",
+    "activity": "Prikkelarm Zwemmen",
+    "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+    "start": 8,
+    "end": 9,
+    "id": 649,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Dinsdag",
+    "date": "2026-03-17",
+    "activity": "Aqua'Vitaal",
+    "extra": "Recreatiebad",
+    "start": 10,
+    "end": 12,
+    "id": 650,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Dinsdag",
+    "date": "2026-03-17",
+    "activity": "Banenzwemmen",
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 648,
+    "id": 651,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7135,7 +7168,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 12+",
     "start": 19,
     "end": 22,
-    "id": 649,
+    "id": 652,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7146,7 +7179,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20.5,
     "end": 21.5,
-    "id": 650,
+    "id": 653,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7157,7 +7190,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 7 banen, 07:30 - 08:00 uur 50m x 8 banen)",
     "start": 7,
     "end": 8,
-    "id": 651,
+    "id": 654,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7168,7 +7201,7 @@
     "extra": "0 jaar - lopend Recreatiebad",
     "start": 9,
     "end": 9.75,
-    "id": 652,
+    "id": 655,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7179,7 +7212,7 @@
     "extra": "lopend - 2 jaar Recreatiebad",
     "start": 9.75,
     "end": 10.5,
-    "id": 653,
+    "id": 656,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7190,7 +7223,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 654,
+    "id": 657,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7201,7 +7234,7 @@
     "extra": "2 - 3 jaar Recreatiebad",
     "start": 10.5,
     "end": 11.25,
-    "id": 655,
+    "id": 658,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7212,7 +7245,7 @@
     "extra": "3 - 4 jaar Recreatiebad",
     "start": 11.25,
     "end": 12,
-    "id": 656,
+    "id": 659,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7223,7 +7256,7 @@
     "extra": "Regulier",
     "start": 13,
     "end": 13.75,
-    "id": 657,
+    "id": 660,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7234,7 +7267,7 @@
     "extra": "Recreatiebad (in ondiep water; oefenen voor A-diploma, B-diploma en C-diploma)",
     "start": 13.5,
     "end": 14,
-    "id": 658,
+    "id": 661,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7245,18 +7278,7 @@
     "extra": "Regulier",
     "start": 13.75,
     "end": 14.5,
-    "id": 659,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Woensdag",
-    "date": "2026-03-18",
-    "activity": "Zwemfeestje",
-    "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
-    "start": 14,
-    "end": 18,
-    "id": 660,
+    "id": 662,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7267,7 +7289,18 @@
     "extra": "Recreatiebad",
     "start": 14,
     "end": 18,
-    "id": 661,
+    "id": 663,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-18",
+    "activity": "Zwemfeestje",
+    "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
+    "start": 14,
+    "end": 18,
+    "id": 664,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7278,7 +7311,7 @@
     "extra": "Wedstrijdbad (In diep water; oefenen voor eind A-diploma, B- diploma en C-diploma)",
     "start": 14.25,
     "end": 14.75,
-    "id": 662,
+    "id": 665,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7289,7 +7322,7 @@
     "extra": "Regulier",
     "start": 14.5,
     "end": 15.25,
-    "id": 663,
+    "id": 666,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7300,7 +7333,7 @@
     "extra": "Regulier",
     "start": 15.5,
     "end": 16.25,
-    "id": 664,
+    "id": 667,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7311,7 +7344,7 @@
     "extra": "Regulier",
     "start": 16.25,
     "end": 17,
-    "id": 665,
+    "id": 668,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7322,7 +7355,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20,
     "end": 21,
-    "id": 666,
+    "id": 669,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7333,7 +7366,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 667,
+    "id": 670,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7344,7 +7377,7 @@
     "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
     "start": 8,
     "end": 9,
-    "id": 668,
+    "id": 671,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7355,7 +7388,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 669,
+    "id": 672,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7366,7 +7399,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 670,
+    "id": 673,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7377,7 +7410,7 @@
     "extra": "Regulier",
     "start": 16,
     "end": 16.75,
-    "id": 671,
+    "id": 674,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7388,7 +7421,7 @@
     "extra": "Regulier",
     "start": 16.75,
     "end": 17.5,
-    "id": 672,
+    "id": 675,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7399,7 +7432,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 19,
     "end": 20.5,
-    "id": 673,
+    "id": 676,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7410,7 +7443,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20.5,
     "end": 21.5,
-    "id": 674,
+    "id": 677,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7421,7 +7454,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 20.5,
     "end": 22,
-    "id": 675,
+    "id": 678,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7432,7 +7465,7 @@
     "extra": "Wedstrijdbad (50m x 8 banen)",
     "start": 7,
     "end": 8,
-    "id": 676,
+    "id": 679,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7443,7 +7476,7 @@
     "extra": "Wedstrijdbad (50m x 5 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 677,
+    "id": 680,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7454,7 +7487,7 @@
     "extra": "Recreatiebad. Let op; Gentlemen Only 18+",
     "start": 20,
     "end": 22,
-    "id": 678,
+    "id": 681,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7465,51 +7498,51 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 10.25,
     "end": 12.25,
-    "id": 679,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Zaterdag",
-    "date": "2026-03-21",
-    "activity": "Zwemfeestje",
-    "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
-    "start": 13,
-    "end": 16,
-    "id": 680,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Zaterdag",
-    "date": "2026-03-21",
-    "activity": "Familiezwemmen",
-    "extra": "Recreatiebad",
-    "start": 13,
-    "end": 16,
-    "id": 681,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Zondag",
-    "date": "2026-03-22",
-    "activity": "Zwemfeestje",
-    "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
-    "start": 10,
-    "end": 16,
     "id": 682,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
     "bad": "Sloterparkbad",
+    "dag": "Zaterdag",
+    "date": "2026-03-21",
+    "activity": "Zwemfeestje",
+    "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
+    "start": 13,
+    "end": 16,
+    "id": 683,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Zaterdag",
+    "date": "2026-03-21",
+    "activity": "Familiezwemmen",
+    "extra": "Recreatiebad",
+    "start": 13,
+    "end": 16,
+    "id": 684,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Zondag",
+    "date": "2026-03-22",
+    "activity": "Zwemfeestje",
+    "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
+    "start": 10,
+    "end": 16,
+    "id": 685,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
     "dag": "Zondag",
     "date": "2026-03-22",
     "activity": "Familiezwemmen",
     "extra": "Recreatiebad",
     "start": 10,
     "end": 16,
-    "id": 683,
+    "id": 686,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7520,7 +7553,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 684,
+    "id": 687,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7531,7 +7564,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 685,
+    "id": 688,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7542,7 +7575,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 686,
+    "id": 689,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7553,7 +7586,7 @@
     "extra": "Regulier",
     "start": 16,
     "end": 16.75,
-    "id": 687,
+    "id": 690,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7564,7 +7597,7 @@
     "extra": "Regulier",
     "start": 16.75,
     "end": 17.5,
-    "id": 688,
+    "id": 691,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7575,7 +7608,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 19,
     "end": 20.5,
-    "id": 689,
+    "id": 692,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7586,7 +7619,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 20.5,
     "end": 22,
-    "id": 690,
+    "id": 693,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7597,7 +7630,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 5 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 691,
+    "id": 694,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7608,7 +7641,7 @@
     "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
     "start": 8,
     "end": 9,
-    "id": 692,
+    "id": 695,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7619,7 +7652,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 693,
+    "id": 696,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7630,7 +7663,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 694,
+    "id": 697,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7641,7 +7674,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 12+",
     "start": 19,
     "end": 22,
-    "id": 695,
+    "id": 698,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7652,7 +7685,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20.5,
     "end": 21.5,
-    "id": 696,
+    "id": 699,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7663,7 +7696,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 7 banen, 07:30 - 08:00 uur 50m x 8 banen)",
     "start": 7,
     "end": 8,
-    "id": 697,
+    "id": 700,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7674,7 +7707,7 @@
     "extra": "0 jaar - lopend Recreatiebad",
     "start": 9,
     "end": 9.75,
-    "id": 698,
+    "id": 701,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7685,7 +7718,7 @@
     "extra": "lopend - 2 jaar Recreatiebad",
     "start": 9.75,
     "end": 10.5,
-    "id": 699,
+    "id": 702,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7696,7 +7729,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 700,
+    "id": 703,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7707,7 +7740,7 @@
     "extra": "2 - 3 jaar Recreatiebad",
     "start": 10.5,
     "end": 11.25,
-    "id": 701,
+    "id": 704,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7718,7 +7751,7 @@
     "extra": "3 - 4 jaar Recreatiebad",
     "start": 11.25,
     "end": 12,
-    "id": 702,
+    "id": 705,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7729,7 +7762,7 @@
     "extra": "Regulier",
     "start": 13,
     "end": 13.75,
-    "id": 703,
+    "id": 706,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7740,7 +7773,7 @@
     "extra": "Recreatiebad (in ondiep water; oefenen voor A-diploma, B-diploma en C-diploma)",
     "start": 13.5,
     "end": 14,
-    "id": 704,
+    "id": 707,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7751,18 +7784,7 @@
     "extra": "Regulier",
     "start": 13.75,
     "end": 14.5,
-    "id": 705,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Woensdag",
-    "date": "2026-03-25",
-    "activity": "Zwemfeestje",
-    "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
-    "start": 14,
-    "end": 18,
-    "id": 706,
+    "id": 708,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7773,7 +7795,18 @@
     "extra": "Recreatiebad",
     "start": 14,
     "end": 18,
-    "id": 707,
+    "id": 709,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-03-25",
+    "activity": "Zwemfeestje",
+    "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
+    "start": 14,
+    "end": 18,
+    "id": 710,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7784,7 +7817,7 @@
     "extra": "Wedstrijdbad (In diep water; oefenen voor eind A-diploma, B- diploma en C-diploma)",
     "start": 14.25,
     "end": 14.75,
-    "id": 708,
+    "id": 711,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7795,7 +7828,7 @@
     "extra": "Regulier",
     "start": 14.5,
     "end": 15.25,
-    "id": 709,
+    "id": 712,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7806,7 +7839,7 @@
     "extra": "Regulier",
     "start": 15.5,
     "end": 16.25,
-    "id": 710,
+    "id": 713,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7817,7 +7850,7 @@
     "extra": "Regulier",
     "start": 16.25,
     "end": 17,
-    "id": 711,
+    "id": 714,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7828,7 +7861,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 20,
     "end": 21,
-    "id": 712,
+    "id": 715,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7839,7 +7872,7 @@
     "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 6 banen, 07:30 - 08:00 uur 50m x 7 banen)",
     "start": 7,
     "end": 8,
-    "id": 713,
+    "id": 716,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7850,7 +7883,7 @@
     "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
     "start": 8,
     "end": 9,
-    "id": 714,
+    "id": 717,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7861,7 +7894,7 @@
     "extra": "Recreatiebad",
     "start": 10,
     "end": 12,
-    "id": 715,
+    "id": 718,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7872,7 +7905,7 @@
     "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 716,
+    "id": 719,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7883,7 +7916,7 @@
     "extra": "Regulier",
     "start": 16,
     "end": 16.75,
-    "id": 717,
+    "id": 720,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7894,7 +7927,7 @@
     "extra": "Regulier",
     "start": 16.75,
     "end": 17.5,
-    "id": 718,
+    "id": 721,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7905,18 +7938,7 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 19,
     "end": 20.5,
-    "id": 719,
-    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
-  },
-  {
-    "bad": "Sloterparkbad",
-    "dag": "Donderdag",
-    "date": "2026-03-26",
-    "activity": "Banenzwemmen",
-    "extra": "Wedstrijdbad (25m x 8 banen)",
-    "start": 20.5,
-    "end": 21.5,
-    "id": 720,
+    "id": 722,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7927,7 +7949,18 @@
     "extra": "Recreatiebad. Let op; Ladies Only 18+",
     "start": 20.5,
     "end": 22,
-    "id": 721,
+    "id": 723,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Donderdag",
+    "date": "2026-03-26",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (25m x 8 banen)",
+    "start": 20.5,
+    "end": 21.5,
+    "id": 724,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7938,7 +7971,7 @@
     "extra": "Wedstrijdbad (50m x 8 banen)",
     "start": 7,
     "end": 8,
-    "id": 722,
+    "id": 725,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7949,7 +7982,7 @@
     "extra": "Wedstrijdbad (50m x 5 banen)",
     "start": 10.25,
     "end": 13,
-    "id": 723,
+    "id": 726,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7960,7 +7993,7 @@
     "extra": "Recreatiebad. Let op; Gentlemen Only 18+",
     "start": 20,
     "end": 22,
-    "id": 724,
+    "id": 727,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7971,7 +8004,7 @@
     "extra": "Wedstrijdbad (25m x 8 banen)",
     "start": 10.25,
     "end": 12.25,
-    "id": 725,
+    "id": 728,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7982,7 +8015,7 @@
     "extra": "Neem contact op met onze receptie om de mogelijkheden te bespreken",
     "start": 13,
     "end": 16,
-    "id": 726,
+    "id": 729,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -7993,7 +8026,7 @@
     "extra": "Recreatiebad",
     "start": 13,
     "end": 16,
-    "id": 727,
+    "id": 730,
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
@@ -8004,7 +8037,7 @@
     "extra": "vier banen",
     "start": 9,
     "end": 12,
-    "id": 728,
+    "id": 731,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8015,7 +8048,7 @@
     "extra": "drie banen",
     "start": 12.5,
     "end": 15.25,
-    "id": 729,
+    "id": 732,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8026,7 +8059,7 @@
     "extra": "drie middelste banen",
     "start": 15.5,
     "end": 16.25,
-    "id": 730,
+    "id": 733,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8037,7 +8070,7 @@
     "extra": "vier banen",
     "start": 16.25,
     "end": 17,
-    "id": 731,
+    "id": 734,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8048,7 +8081,7 @@
     "extra": "twee middelste banen",
     "start": 17,
     "end": 17.5,
-    "id": 732,
+    "id": 735,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8059,7 +8092,7 @@
     "extra": "vier banen",
     "start": 17.5,
     "end": 18,
-    "id": 733,
+    "id": 736,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8070,7 +8103,7 @@
     "extra": "",
     "start": 20,
     "end": 21,
-    "id": 734,
+    "id": 737,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8081,7 +8114,7 @@
     "extra": "vier banen",
     "start": 7,
     "end": 8,
-    "id": 735,
+    "id": 738,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8092,7 +8125,7 @@
     "extra": "",
     "start": 8,
     "end": 9,
-    "id": 736,
+    "id": 739,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8103,7 +8136,7 @@
     "extra": "vier banen",
     "start": 9,
     "end": 12,
-    "id": 737,
+    "id": 740,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8114,7 +8147,7 @@
     "extra": "drie banen diep en ondiep",
     "start": 12.5,
     "end": 15.25,
-    "id": 738,
+    "id": 741,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8125,7 +8158,7 @@
     "extra": "één baan in het midden",
     "start": 15.5,
     "end": 16.25,
-    "id": 739,
+    "id": 742,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8136,7 +8169,7 @@
     "extra": "twee middelste banen",
     "start": 16.25,
     "end": 17.5,
-    "id": 740,
+    "id": 743,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8147,7 +8180,7 @@
     "extra": "vier banen",
     "start": 17.5,
     "end": 18,
-    "id": 741,
+    "id": 744,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8158,7 +8191,7 @@
     "extra": "vier banen",
     "start": 20,
     "end": 21.25,
-    "id": 742,
+    "id": 745,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8169,7 +8202,7 @@
     "extra": "vier banen",
     "start": 9,
     "end": 12,
-    "id": 743,
+    "id": 746,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8180,7 +8213,7 @@
     "extra": "",
     "start": 12,
     "end": 13.25,
-    "id": 744,
+    "id": 747,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8191,7 +8224,7 @@
     "extra": "vier banen Geen Aquafit en Baby- Peuterzwemmen",
     "start": 13.25,
     "end": 14,
-    "id": 745,
+    "id": 748,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8202,7 +8235,7 @@
     "extra": "vier banen",
     "start": 7,
     "end": 8,
-    "id": 746,
+    "id": 749,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8213,7 +8246,7 @@
     "extra": "",
     "start": 8,
     "end": 9,
-    "id": 747,
+    "id": 750,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8224,7 +8257,7 @@
     "extra": "vier banen",
     "start": 9,
     "end": 12,
-    "id": 748,
+    "id": 751,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8235,7 +8268,7 @@
     "extra": "drie banen diep en ondiep",
     "start": 12.5,
     "end": 15.25,
-    "id": 749,
+    "id": 752,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8246,7 +8279,7 @@
     "extra": "twee middelste banen",
     "start": 15.5,
     "end": 16.5,
-    "id": 750,
+    "id": 753,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8257,7 +8290,7 @@
     "extra": "één baan in het midden",
     "start": 16.5,
     "end": 17.25,
-    "id": 751,
+    "id": 754,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8268,7 +8301,7 @@
     "extra": "vier banen Geen Baby-, peuterzwemmen",
     "start": 20.25,
     "end": 22,
-    "id": 752,
+    "id": 755,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8279,7 +8312,7 @@
     "extra": "vier banen",
     "start": 8,
     "end": 12,
-    "id": 753,
+    "id": 756,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8290,7 +8323,7 @@
     "extra": "drie banen diep en ondiep",
     "start": 12.5,
     "end": 15.25,
-    "id": 754,
+    "id": 757,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8301,7 +8334,7 @@
     "extra": "één baan in het midden",
     "start": 15.5,
     "end": 16.25,
-    "id": 755,
+    "id": 758,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8312,7 +8345,7 @@
     "extra": "twee middelste banen",
     "start": 16.25,
     "end": 17.25,
-    "id": 756,
+    "id": 759,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8323,7 +8356,7 @@
     "extra": "vier banen",
     "start": 17.25,
     "end": 18,
-    "id": 757,
+    "id": 760,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8334,7 +8367,7 @@
     "extra": "",
     "start": 19.5,
     "end": 21,
-    "id": 758,
+    "id": 761,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8345,7 +8378,7 @@
     "extra": "drie banen",
     "start": 9,
     "end": 9.75,
-    "id": 759,
+    "id": 762,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8356,7 +8389,7 @@
     "extra": "vier banen",
     "start": 9.75,
     "end": 11.25,
-    "id": 760,
+    "id": 763,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8367,7 +8400,7 @@
     "extra": "twee middelste banen",
     "start": 11.25,
     "end": 11.5,
-    "id": 761,
+    "id": 764,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8378,7 +8411,7 @@
     "extra": "vier banen",
     "start": 11.5,
     "end": 12,
-    "id": 762,
+    "id": 765,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8389,7 +8422,7 @@
     "extra": "",
     "start": 9.75,
     "end": 10.5,
-    "id": 763,
+    "id": 766,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8400,7 +8433,7 @@
     "extra": "drie banen",
     "start": 10.5,
     "end": 11.25,
-    "id": 764,
+    "id": 767,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8411,7 +8444,7 @@
     "extra": "",
     "start": 11.25,
     "end": 13.25,
-    "id": 765,
+    "id": 768,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8422,7 +8455,7 @@
     "extra": "",
     "start": 12.25,
     "end": 15,
-    "id": 766,
+    "id": 769,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -8433,7 +8466,7 @@
     "extra": "vier banen",
     "start": 13.25,
     "end": 15,
-    "id": 767,
+    "id": 770,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   }
 ]
