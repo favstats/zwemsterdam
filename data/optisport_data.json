@@ -982,15 +982,6 @@
             "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Zwemles Volwassenen",
-            "internalLocation": "",
-            "start": "2026-04-20T17:30:00+02:00",
-            "end": "2026-04-20T18:15:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "Zwemvaardigheid",
             "internalLocation": "",
             "start": "2026-04-20T17:30:00+02:00",
@@ -998,6 +989,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zwemles Volwassenen",
+            "internalLocation": "",
+            "start": "2026-04-20T17:30:00+02:00",
+            "end": "2026-04-20T18:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Aqua'Robic",
@@ -2695,17 +2695,6 @@
         "dayName": "Maandag"
       },
       {
-        "title": "Zwemles Volwassenen",
-        "internalLocation": "",
-        "start": "2026-04-20T17:30:00+02:00",
-        "end": "2026-04-20T18:15:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "20 april",
-        "dayName": "Maandag"
-      },
-      {
         "title": "Zwemvaardigheid",
         "internalLocation": "",
         "start": "2026-04-20T17:30:00+02:00",
@@ -2713,6 +2702,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "20 april",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Zwemles Volwassenen",
+        "internalLocation": "",
+        "start": "2026-04-20T17:30:00+02:00",
+        "end": "2026-04-20T18:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "20 april",
         "dayName": "Maandag"
       },
@@ -3399,7 +3399,7 @@
         "dayName": "Zaterdag"
       }
     ],
-    "fetchedAt": "2026-04-01T17:19:21.946Z"
+    "fetchedAt": "2026-04-01T18:16:34.708Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -7547,6 +7547,6 @@
         "dayName": "Zaterdag"
       }
     ],
-    "fetchedAt": "2026-04-01T17:19:23.845Z"
+    "fetchedAt": "2026-04-01T18:16:36.756Z"
   }
 }
