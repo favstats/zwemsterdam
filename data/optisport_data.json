@@ -982,15 +982,6 @@
             "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Aqua'9maanden",
-            "internalLocation": "doelgroepenbad",
-            "start": "2026-05-12T18:30:00+02:00",
-            "end": "2026-05-12T19:15:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/aqua9maanden/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "Zwemles Volwassenen",
             "internalLocation": "",
             "start": "2026-05-12T18:30:00+02:00",
@@ -998,6 +989,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Aqua'9maanden",
+            "internalLocation": "doelgroepenbad",
+            "start": "2026-05-12T18:30:00+02:00",
+            "end": "2026-05-12T19:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aqua9maanden/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Jumping Fitness",
@@ -1261,15 +1261,6 @@
             "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Zwemvaardigheid",
-            "internalLocation": "",
-            "start": "2026-05-18T17:30:00+02:00",
-            "end": "2026-05-18T18:15:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "Zwemles Volwassenen",
             "internalLocation": "",
             "start": "2026-05-18T17:30:00+02:00",
@@ -1277,6 +1268,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zwemvaardigheid",
+            "internalLocation": "",
+            "start": "2026-05-18T17:30:00+02:00",
+            "end": "2026-05-18T18:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Aqua'Robic",
@@ -1357,15 +1357,6 @@
             "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Aqua'9maanden",
-            "internalLocation": "doelgroepenbad",
-            "start": "2026-05-19T18:30:00+02:00",
-            "end": "2026-05-19T19:15:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/aqua9maanden/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "Zwemles Volwassenen",
             "internalLocation": "",
             "start": "2026-05-19T18:30:00+02:00",
@@ -1373,6 +1364,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Aqua'9maanden",
+            "internalLocation": "doelgroepenbad",
+            "start": "2026-05-19T18:30:00+02:00",
+            "end": "2026-05-19T19:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aqua9maanden/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Jumping Fitness",
@@ -2719,17 +2719,6 @@
         "dayName": "Dinsdag"
       },
       {
-        "title": "Aqua'9maanden",
-        "internalLocation": "doelgroepenbad",
-        "start": "2026-05-12T18:30:00+02:00",
-        "end": "2026-05-12T19:15:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/aqua9maanden/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "12 mei",
-        "dayName": "Dinsdag"
-      },
-      {
         "title": "Zwemles Volwassenen",
         "internalLocation": "",
         "start": "2026-05-12T18:30:00+02:00",
@@ -2737,6 +2726,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "12 mei",
+        "dayName": "Dinsdag"
+      },
+      {
+        "title": "Aqua'9maanden",
+        "internalLocation": "doelgroepenbad",
+        "start": "2026-05-12T18:30:00+02:00",
+        "end": "2026-05-12T19:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aqua9maanden/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "12 mei",
         "dayName": "Dinsdag"
       },
@@ -3016,17 +3016,6 @@
         "dayName": "Maandag"
       },
       {
-        "title": "Zwemvaardigheid",
-        "internalLocation": "",
-        "start": "2026-05-18T17:30:00+02:00",
-        "end": "2026-05-18T18:15:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "18 mei",
-        "dayName": "Maandag"
-      },
-      {
         "title": "Zwemles Volwassenen",
         "internalLocation": "",
         "start": "2026-05-18T17:30:00+02:00",
@@ -3034,6 +3023,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "18 mei",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Zwemvaardigheid",
+        "internalLocation": "",
+        "start": "2026-05-18T17:30:00+02:00",
+        "end": "2026-05-18T18:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "18 mei",
         "dayName": "Maandag"
       },
@@ -3126,17 +3126,6 @@
         "dayName": "Dinsdag"
       },
       {
-        "title": "Aqua'9maanden",
-        "internalLocation": "doelgroepenbad",
-        "start": "2026-05-19T18:30:00+02:00",
-        "end": "2026-05-19T19:15:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/aqua9maanden/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "19 mei",
-        "dayName": "Dinsdag"
-      },
-      {
         "title": "Zwemles Volwassenen",
         "internalLocation": "",
         "start": "2026-05-19T18:30:00+02:00",
@@ -3144,6 +3133,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "19 mei",
+        "dayName": "Dinsdag"
+      },
+      {
+        "title": "Aqua'9maanden",
+        "internalLocation": "doelgroepenbad",
+        "start": "2026-05-19T18:30:00+02:00",
+        "end": "2026-05-19T19:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aqua9maanden/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "19 mei",
         "dayName": "Dinsdag"
       },
@@ -3445,7 +3445,7 @@
         "dayName": "Maandag"
       }
     ],
-    "fetchedAt": "2026-04-24T05:47:59.756Z"
+    "fetchedAt": "2026-04-24T06:37:16.841Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -7513,6 +7513,6 @@
         "dayName": "Maandag"
       }
     ],
-    "fetchedAt": "2026-04-24T05:48:01.732Z"
+    "fetchedAt": "2026-04-24T06:37:18.494Z"
   }
 }
