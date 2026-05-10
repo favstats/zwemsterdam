@@ -3,39 +3,6 @@
     "locationId": 2202,
     "schedule": [
       {
-        "date": "09 mei",
-        "day": "Zaterdag",
-        "events": [
-          {
-            "title": "Banenzwemmen",
-            "internalLocation": "Wedstrijdbad",
-            "start": "2026-05-09T07:45:00+02:00",
-            "end": "2026-05-09T08:45:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
-            "title": "Zed & Sop Zwemles",
-            "internalLocation": "regulier",
-            "start": "2026-05-09T09:00:00+02:00",
-            "end": "2026-05-09T14:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
-            "title": "Boxercise",
-            "internalLocation": "",
-            "start": "2026-05-09T12:00:00+02:00",
-            "end": "2026-05-09T13:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": null
-          }
-        ]
-      },
-      {
         "date": "10 mei",
         "day": "Zondag",
         "events": [
@@ -353,7 +320,7 @@
           },
           {
             "title": "Liz & Wes Baby en Peuter Zwemmen",
-            "internalLocation": "Doelgroepenbad 3-4 jaar",
+            "internalLocation": "doelgroepenbad 2-3 jaar",
             "start": "2026-05-15T10:45:00+02:00",
             "end": "2026-05-15T11:30:00+02:00",
             "source": "Google Calendar",
@@ -362,7 +329,7 @@
           },
           {
             "title": "Liz & Wes Baby en Peuter Zwemmen",
-            "internalLocation": "doelgroepenbad 2-3 jaar",
+            "internalLocation": "Doelgroepenbad 3-4 jaar",
             "start": "2026-05-15T10:45:00+02:00",
             "end": "2026-05-15T11:30:00+02:00",
             "source": "Google Calendar",
@@ -809,7 +776,7 @@
           },
           {
             "title": "Liz & Wes Baby en Peuter Zwemmen",
-            "internalLocation": "Doelgroepenbad 3-4 jaar",
+            "internalLocation": "doelgroepenbad 2-3 jaar",
             "start": "2026-05-22T10:45:00+02:00",
             "end": "2026-05-22T11:30:00+02:00",
             "source": "Google Calendar",
@@ -818,7 +785,7 @@
           },
           {
             "title": "Liz & Wes Baby en Peuter Zwemmen",
-            "internalLocation": "doelgroepenbad 2-3 jaar",
+            "internalLocation": "Doelgroepenbad 3-4 jaar",
             "start": "2026-05-22T10:45:00+02:00",
             "end": "2026-05-22T11:30:00+02:00",
             "source": "Google Calendar",
@@ -1918,42 +1885,60 @@
             "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           }
         ]
+      },
+      {
+        "date": "10 juni",
+        "day": "Woensdag",
+        "events": [
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad",
+            "start": "2026-06-10T07:30:00+02:00",
+            "end": "2026-06-10T09:30:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zwemles Volwassenen",
+            "internalLocation": "",
+            "start": "2026-06-10T09:15:00+02:00",
+            "end": "2026-06-10T10:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zed & Sop Zwemles",
+            "internalLocation": "regulier",
+            "start": "2026-06-10T15:00:00+02:00",
+            "end": "2026-06-10T17:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zwemvaardigheid",
+            "internalLocation": "",
+            "start": "2026-06-10T16:30:00+02:00",
+            "end": "2026-06-10T17:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Aqua'Robic",
+            "internalLocation": "",
+            "start": "2026-06-10T19:30:00+02:00",
+            "end": "2026-06-10T20:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
+          }
+        ]
       }
     ],
     "events": [
-      {
-        "title": "Banenzwemmen",
-        "internalLocation": "Wedstrijdbad",
-        "start": "2026-05-09T07:45:00+02:00",
-        "end": "2026-05-09T08:45:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "09 mei",
-        "dayName": "Zaterdag"
-      },
-      {
-        "title": "Zed & Sop Zwemles",
-        "internalLocation": "regulier",
-        "start": "2026-05-09T09:00:00+02:00",
-        "end": "2026-05-09T14:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "09 mei",
-        "dayName": "Zaterdag"
-      },
-      {
-        "title": "Boxercise",
-        "internalLocation": "",
-        "start": "2026-05-09T12:00:00+02:00",
-        "end": "2026-05-09T13:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": null,
-        "dateLabel": "09 mei",
-        "dayName": "Zaterdag"
-      },
       {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad",
@@ -2308,7 +2293,7 @@
       },
       {
         "title": "Liz & Wes Baby en Peuter Zwemmen",
-        "internalLocation": "Doelgroepenbad 3-4 jaar",
+        "internalLocation": "doelgroepenbad 2-3 jaar",
         "start": "2026-05-15T10:45:00+02:00",
         "end": "2026-05-15T11:30:00+02:00",
         "source": "Google Calendar",
@@ -2319,7 +2304,7 @@
       },
       {
         "title": "Liz & Wes Baby en Peuter Zwemmen",
-        "internalLocation": "doelgroepenbad 2-3 jaar",
+        "internalLocation": "Doelgroepenbad 3-4 jaar",
         "start": "2026-05-15T10:45:00+02:00",
         "end": "2026-05-15T11:30:00+02:00",
         "source": "Google Calendar",
@@ -2814,7 +2799,7 @@
       },
       {
         "title": "Liz & Wes Baby en Peuter Zwemmen",
-        "internalLocation": "Doelgroepenbad 3-4 jaar",
+        "internalLocation": "doelgroepenbad 2-3 jaar",
         "start": "2026-05-22T10:45:00+02:00",
         "end": "2026-05-22T11:30:00+02:00",
         "source": "Google Calendar",
@@ -2825,7 +2810,7 @@
       },
       {
         "title": "Liz & Wes Baby en Peuter Zwemmen",
-        "internalLocation": "doelgroepenbad 2-3 jaar",
+        "internalLocation": "Doelgroepenbad 3-4 jaar",
         "start": "2026-05-22T10:45:00+02:00",
         "end": "2026-05-22T11:30:00+02:00",
         "source": "Google Calendar",
@@ -4043,28 +4028,68 @@
         "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "09 juni",
         "dayName": "Dinsdag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad",
+        "start": "2026-06-10T07:30:00+02:00",
+        "end": "2026-06-10T09:30:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "10 juni",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Zwemles Volwassenen",
+        "internalLocation": "",
+        "start": "2026-06-10T09:15:00+02:00",
+        "end": "2026-06-10T10:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "10 juni",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Zed & Sop Zwemles",
+        "internalLocation": "regulier",
+        "start": "2026-06-10T15:00:00+02:00",
+        "end": "2026-06-10T17:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "10 juni",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Zwemvaardigheid",
+        "internalLocation": "",
+        "start": "2026-06-10T16:30:00+02:00",
+        "end": "2026-06-10T17:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "10 juni",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Aqua'Robic",
+        "internalLocation": "",
+        "start": "2026-06-10T19:30:00+02:00",
+        "end": "2026-06-10T20:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "10 juni",
+        "dayName": "Woensdag"
       }
     ],
-    "fetchedAt": "2026-05-09T18:17:59.303Z"
+    "fetchedAt": "2026-05-10T06:01:58.494Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
     "schedule": [
-      {
-        "date": "09 mei",
-        "day": "Zaterdag",
-        "events": [
-          {
-            "title": "Banenzwemmen",
-            "internalLocation": "Wedstrijdbad (25m x 8 banen)",
-            "start": "2026-05-09T10:15:00+02:00",
-            "end": "2026-05-09T12:15:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
-          }
-        ]
-      },
       {
         "date": "10 mei",
         "day": "Zondag",
@@ -5234,15 +5259,6 @@
             "url": "/activiteiten/aquarobic/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Vrijzwemmen",
-            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
-            "start": "2026-05-28T20:30:00+02:00",
-            "end": "2026-05-28T22:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Banenzwemmen",
             "internalLocation": "Wedstrijdbad (25m x 8 banen)",
             "start": "2026-05-28T20:30:00+02:00",
@@ -5250,6 +5266,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Vrijzwemmen",
+            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+            "start": "2026-05-28T20:30:00+02:00",
+            "end": "2026-05-28T22:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
       },
@@ -5699,15 +5724,6 @@
             "url": "/activiteiten/aquarobic/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Vrijzwemmen",
-            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
-            "start": "2026-06-04T20:30:00+02:00",
-            "end": "2026-06-04T22:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Banenzwemmen",
             "internalLocation": "Wedstrijdbad (25m x 8 banen)",
             "start": "2026-06-04T20:30:00+02:00",
@@ -5715,6 +5731,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Vrijzwemmen",
+            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+            "start": "2026-06-04T20:30:00+02:00",
+            "end": "2026-06-04T22:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
       },
@@ -5945,20 +5970,159 @@
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
+      },
+      {
+        "date": "10 juni",
+        "day": "Woensdag",
+        "events": [
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad (07:00 - 07:30 uur 50m x 7 banen, 07:30 - 08:00 uur 50m x 8 banen)",
+            "start": "2026-06-10T07:00:00+02:00",
+            "end": "2026-06-10T08:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Liz & Wes Baby en Peuter Zwemmen",
+            "internalLocation": "0 jaar - lopend Recreatiebad",
+            "start": "2026-06-10T09:00:00+02:00",
+            "end": "2026-06-10T09:45:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Liz & Wes Baby en Peuter Zwemmen",
+            "internalLocation": "lopend - 2 jaar Recreatiebad",
+            "start": "2026-06-10T09:45:00+02:00",
+            "end": "2026-06-10T10:30:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
+            "start": "2026-06-10T10:15:00+02:00",
+            "end": "2026-06-10T13:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Liz & Wes Baby en Peuter Zwemmen",
+            "internalLocation": "2 - 3 jaar Recreatiebad",
+            "start": "2026-06-10T10:30:00+02:00",
+            "end": "2026-06-10T11:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Liz & Wes Baby en Peuter Zwemmen",
+            "internalLocation": "3 - 4 jaar Recreatiebad",
+            "start": "2026-06-10T11:15:00+02:00",
+            "end": "2026-06-10T12:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zed & Sop Zwemles",
+            "internalLocation": "Regulier",
+            "start": "2026-06-10T13:00:00+02:00",
+            "end": "2026-06-10T13:45:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Oefenuur",
+            "internalLocation": "Recreatiebad (in ondiep water; oefenen voor A-diploma, B-diploma en C-diploma)",
+            "start": "2026-06-10T13:30:00+02:00",
+            "end": "2026-06-10T14:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/oefenuur/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zed & Sop Zwemles",
+            "internalLocation": "Regulier",
+            "start": "2026-06-10T13:45:00+02:00",
+            "end": "2026-06-10T14:30:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Vrijzwemmen",
+            "internalLocation": "Recreatiebad",
+            "start": "2026-06-10T14:00:00+02:00",
+            "end": "2026-06-10T18:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zwemfeestje",
+            "internalLocation": "",
+            "start": "2026-06-10T14:00:00+02:00",
+            "end": "2026-06-10T18:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Oefenuur",
+            "internalLocation": "Wedstrijdbad (In diep water; oefenen voor eind A-diploma, B- diploma en C-diploma)",
+            "start": "2026-06-10T14:15:00+02:00",
+            "end": "2026-06-10T14:45:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/oefenuur/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zed & Sop Zwemles",
+            "internalLocation": "Regulier",
+            "start": "2026-06-10T14:30:00+02:00",
+            "end": "2026-06-10T15:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zed & Sop Zwemles",
+            "internalLocation": "Regulier",
+            "start": "2026-06-10T15:30:00+02:00",
+            "end": "2026-06-10T16:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zed & Sop Zwemles",
+            "internalLocation": "Regulier",
+            "start": "2026-06-10T16:15:00+02:00",
+            "end": "2026-06-10T17:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad (25m x 8 banen)",
+            "start": "2026-06-10T20:00:00+02:00",
+            "end": "2026-06-10T21:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          }
+        ]
       }
     ],
     "events": [
-      {
-        "title": "Banenzwemmen",
-        "internalLocation": "Wedstrijdbad (25m x 8 banen)",
-        "start": "2026-05-09T10:15:00+02:00",
-        "end": "2026-05-09T12:15:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "09 mei",
-        "dayName": "Zaterdag"
-      },
       {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad (50m x 8 banen)",
@@ -7258,17 +7422,6 @@
         "dayName": "Donderdag"
       },
       {
-        "title": "Vrijzwemmen",
-        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
-        "start": "2026-05-28T20:30:00+02:00",
-        "end": "2026-05-28T22:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "28 mei",
-        "dayName": "Donderdag"
-      },
-      {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad (25m x 8 banen)",
         "start": "2026-05-28T20:30:00+02:00",
@@ -7276,6 +7429,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "28 mei",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Vrijzwemmen",
+        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+        "start": "2026-05-28T20:30:00+02:00",
+        "end": "2026-05-28T22:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "28 mei",
         "dayName": "Donderdag"
       },
@@ -7775,17 +7939,6 @@
         "dayName": "Donderdag"
       },
       {
-        "title": "Vrijzwemmen",
-        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
-        "start": "2026-06-04T20:30:00+02:00",
-        "end": "2026-06-04T22:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "04 juni",
-        "dayName": "Donderdag"
-      },
-      {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad (25m x 8 banen)",
         "start": "2026-06-04T20:30:00+02:00",
@@ -7793,6 +7946,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "04 juni",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Vrijzwemmen",
+        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+        "start": "2026-06-04T20:30:00+02:00",
+        "end": "2026-06-04T22:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "04 juni",
         "dayName": "Donderdag"
       },
@@ -8037,8 +8201,184 @@
         "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "09 juni",
         "dayName": "Dinsdag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad (07:00 - 07:30 uur 50m x 7 banen, 07:30 - 08:00 uur 50m x 8 banen)",
+        "start": "2026-06-10T07:00:00+02:00",
+        "end": "2026-06-10T08:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "10 juni",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Liz & Wes Baby en Peuter Zwemmen",
+        "internalLocation": "0 jaar - lopend Recreatiebad",
+        "start": "2026-06-10T09:00:00+02:00",
+        "end": "2026-06-10T09:45:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "10 juni",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Liz & Wes Baby en Peuter Zwemmen",
+        "internalLocation": "lopend - 2 jaar Recreatiebad",
+        "start": "2026-06-10T09:45:00+02:00",
+        "end": "2026-06-10T10:30:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "10 juni",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
+        "start": "2026-06-10T10:15:00+02:00",
+        "end": "2026-06-10T13:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "10 juni",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Liz & Wes Baby en Peuter Zwemmen",
+        "internalLocation": "2 - 3 jaar Recreatiebad",
+        "start": "2026-06-10T10:30:00+02:00",
+        "end": "2026-06-10T11:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "10 juni",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Liz & Wes Baby en Peuter Zwemmen",
+        "internalLocation": "3 - 4 jaar Recreatiebad",
+        "start": "2026-06-10T11:15:00+02:00",
+        "end": "2026-06-10T12:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "10 juni",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Zed & Sop Zwemles",
+        "internalLocation": "Regulier",
+        "start": "2026-06-10T13:00:00+02:00",
+        "end": "2026-06-10T13:45:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "10 juni",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Oefenuur",
+        "internalLocation": "Recreatiebad (in ondiep water; oefenen voor A-diploma, B-diploma en C-diploma)",
+        "start": "2026-06-10T13:30:00+02:00",
+        "end": "2026-06-10T14:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/oefenuur/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "10 juni",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Zed & Sop Zwemles",
+        "internalLocation": "Regulier",
+        "start": "2026-06-10T13:45:00+02:00",
+        "end": "2026-06-10T14:30:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "10 juni",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Vrijzwemmen",
+        "internalLocation": "Recreatiebad",
+        "start": "2026-06-10T14:00:00+02:00",
+        "end": "2026-06-10T18:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "10 juni",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Zwemfeestje",
+        "internalLocation": "",
+        "start": "2026-06-10T14:00:00+02:00",
+        "end": "2026-06-10T18:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "10 juni",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Oefenuur",
+        "internalLocation": "Wedstrijdbad (In diep water; oefenen voor eind A-diploma, B- diploma en C-diploma)",
+        "start": "2026-06-10T14:15:00+02:00",
+        "end": "2026-06-10T14:45:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/oefenuur/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "10 juni",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Zed & Sop Zwemles",
+        "internalLocation": "Regulier",
+        "start": "2026-06-10T14:30:00+02:00",
+        "end": "2026-06-10T15:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "10 juni",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Zed & Sop Zwemles",
+        "internalLocation": "Regulier",
+        "start": "2026-06-10T15:30:00+02:00",
+        "end": "2026-06-10T16:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "10 juni",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Zed & Sop Zwemles",
+        "internalLocation": "Regulier",
+        "start": "2026-06-10T16:15:00+02:00",
+        "end": "2026-06-10T17:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "10 juni",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad (25m x 8 banen)",
+        "start": "2026-06-10T20:00:00+02:00",
+        "end": "2026-06-10T21:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "10 juni",
+        "dayName": "Woensdag"
       }
     ],
-    "fetchedAt": "2026-05-09T18:18:01.425Z"
+    "fetchedAt": "2026-05-10T06:02:00.728Z"
   }
 }
