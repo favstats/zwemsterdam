@@ -19,7 +19,8 @@ pool_websites <- list(
   "Sportplaza Mercator" = "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/",
   "Bijlmer Sportcentrum" = "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost",
   "Sloterparkbad" = "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam",
-  "Duranbad (Diemen)" = "https://www.diemen.nl/zwembad/Openingstijden"
+  "Duranbad (Diemen)" = "https://www.diemen.nl/zwembad/Openingstijden",
+  "De Meerkamp (Amstelveen)" = "https://amstelveensport.nl/zwembad-de-meerkamp/"
 )
 
 # 1. Municipal Pools (Amsterdam.nl API)
@@ -58,8 +59,13 @@ optisport_data <- get_optisport_data()
 print("Fetching Duranbad (Diemen)...")
 duranbad_data <- get_duranbad_timetable()
 
+# 6. De Meerkamp (Amstelveen)
+# Modern Events Calendar timetable from amstelveensport.nl
+print("Fetching De Meerkamp (Amstelveen)...")
+meerkamp_data <- get_meerkamp_timetable()
+
 # Combine all data
-all_swimming_data <- bind_rows(muni_data, marnix_data, sportfondsen_data, optisport_data, duranbad_data) %>%
+all_swimming_data <- bind_rows(muni_data, marnix_data, sportfondsen_data, optisport_data, duranbad_data, meerkamp_data) %>%
   mutate(
     # Ensure consistency in day names
     dag = str_to_title(dag),
@@ -110,6 +116,12 @@ metadata <- list(
       description = "Zwembad in Diemen (bij Amsterdam)",
       url = "https://www.diemen.nl/zwembad/",
       pools = c("Duranbad (Diemen)")
+    ),
+    list(
+      name = "AmstelveenSport",
+      description = "Zwembad in Amstelveen (bij Amsterdam)",
+      url = "https://amstelveensport.nl/zwembad-de-meerkamp/",
+      pools = c("De Meerkamp (Amstelveen)")
     )
   )
 )

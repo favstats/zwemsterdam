@@ -63,6 +63,7 @@ const DAY_ABBREVIATIONS: Record<string, string> = {
 // - Het Marnix (own API)
 // - Sportfondsen: Sportfondsenbad Oost, Sportplaza Mercator
 // Note: Sloterparkbad & Bijlmer Sportcentrum (Optisport) require browser automation (Cloudflare)
+// - AmstelveenSport: De Meerkamp (Amstelveen)
 // Seasonal outdoor pools - closed during winter, reopen in spring
 const SEASONAL_OUTDOOR_POOLS: Record<string, Date> = {
   'Brediusbad': new Date('2026-05-01'), // Outdoor pool, reopens May 2026
@@ -89,6 +90,7 @@ const POOL_COLORS: Record<string, string> = {
   'Sportfondsenbad Oost': '#A855F7', // Violet
   'Bijlmer Sportcentrum': '#DB2777', // Pink
   'Duranbad (Diemen)': '#6366F1',   // Indigo
+  'De Meerkamp (Amstelveen)': '#0F766E', // Deep Teal
 };
 
 // Day colors for multi-day view
@@ -115,6 +117,7 @@ const POOL_WEBSITES: Record<string, string> = {
   'Bijlmer Sportcentrum': 'https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost',
   'Sloterparkbad': 'https://www.optisport.nl/sloterparkbad-amsterdam',
   'Duranbad (Diemen)': 'https://www.diemen.nl/zwembad/Openingstijden',
+  'De Meerkamp (Amstelveen)': 'https://amstelveensport.nl/zwembad-de-meerkamp/',
 };
 
 // Google Maps links for each pool
@@ -130,6 +133,7 @@ const POOL_MAPS: Record<string, string> = {
   'Bijlmer Sportcentrum': 'https://maps.google.com/?q=Bijlmer+Sportcentrum+Amsterdam',
   'Sloterparkbad': 'https://maps.google.com/?q=Sloterparkbad+Amsterdam',
   'Duranbad (Diemen)': 'https://maps.google.com/?q=Duran+Sportcentrum+Diemen',
+  'De Meerkamp (Amstelveen)': 'https://maps.google.com/?q=Zwembad+De+Meerkamp+Amstelveen',
 };
 
 // Pool coordinates for map view [lat, lng] - manually verified
@@ -145,6 +149,7 @@ const POOL_COORDINATES: Record<string, [number, number]> = {
   'Bijlmer Sportcentrum': [52.31535, 4.95803],
   'Sloterparkbad': [52.37007, 4.81765],
   'Duranbad (Diemen)': [52.33611, 4.95870],
+  'De Meerkamp (Amstelveen)': [52.28804, 4.85243],
 };
 
 const getPoolMapLink = (poolName: string): string => {
@@ -2809,4 +2814,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-

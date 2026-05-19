@@ -33,6 +33,7 @@ Zwemsterdam is een web-app die automatisch zwemtijden verzamelt van alle openbar
 - [Het Marnix](https://hetmarnix.nl/)
 - [Sportfondsenbad Oost](https://www.sportfondsenbadamsterdamoost.nl/)
 - [Sportplaza Mercator](https://www.sportplazamercator.nl/)
+- [De Meerkamp (Amstelveen)](https://amstelveensport.nl/zwembad-de-meerkamp/)
 
 ### Nog niet ondersteund
 - **Sloterparkbad** & **Bijlmer Sportcentrum** - Beheerd door Optisport, vereist browser automation (Cloudflare)
@@ -143,4 +144,3 @@ MIT License – Vrij te gebruiken, aanpassen en delen.
 ---
 
 *Veel zwemplezier! 🏊‍♂️💦*
-

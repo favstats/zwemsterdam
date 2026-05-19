@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-19T06:24:33Z",
-  "lastUpdatedLocal": "19-05-2026 06:24",
-  "totalSessions": 830,
-  "pools": ["Zuiderbad", "Noorderparkbad", "De Mirandabad", "Flevoparkbad", "Brediusbad", "Het Marnix", "Sportfondsenbad Oost", "Sportplaza Mercator", "Bijlmer Sportcentrum", "Sloterparkbad", "Duranbad (Diemen)"],
+  "lastUpdated": "2026-05-19T10:33:14Z",
+  "lastUpdatedLocal": "19-05-2026 12:33",
+  "totalSessions": 885,
+  "pools": ["Zuiderbad", "Noorderparkbad", "De Mirandabad", "Flevoparkbad", "Brediusbad", "Het Marnix", "Sportfondsenbad Oost", "Sportplaza Mercator", "Bijlmer Sportcentrum", "Sloterparkbad", "Duranbad (Diemen)", "De Meerkamp (Amstelveen)"],
   "dataSources": [
     {
       "name": "Gemeente Amsterdam",
@@ -33,6 +33,12 @@
       "description": "Zwembad in Diemen (bij Amsterdam)",
       "url": "https://www.diemen.nl/zwembad/",
       "pools": "Duranbad (Diemen)"
+    },
+    {
+      "name": "AmstelveenSport",
+      "description": "Zwembad in Amstelveen (bij Amsterdam)",
+      "url": "https://amstelveensport.nl/zwembad-de-meerkamp/",
+      "pools": "De Meerkamp (Amstelveen)"
     }
   ]
 }
