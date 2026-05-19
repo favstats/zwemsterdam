@@ -25,7 +25,7 @@ Zwemsterdam is een web-app die automatisch zwemtijden verzamelt van alle openbar
 ### Gemeente Amsterdam (via Amsterdam API)
 - [Zuiderbad](https://www.amsterdam.nl/zuiderbad/)
 - [Noorderparkbad](https://www.amsterdam.nl/noorderparkbad/)
-- [De Mirandabad](https://www.amsterdam.nl/de-mirandabad/)
+- [De Mirandabad](https://www.amsterdam.nl/demirandabad/rooster/)
 - [Flevoparkbad](https://www.amsterdam.nl/flevoparkbad/)
 - [Brediusbad](https://www.amsterdam.nl/brediusbad/)
 

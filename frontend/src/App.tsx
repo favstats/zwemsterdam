@@ -108,7 +108,7 @@ const DAY_COLORS: Record<string, string> = {
 const POOL_WEBSITES: Record<string, string> = {
   'Zuiderbad': 'https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/',
   'Noorderparkbad': 'https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/',
-  'De Mirandabad': 'https://www.amsterdam.nl/de-mirandabad/zwembadrooster-de-mirandabad/',
+  'De Mirandabad': 'https://www.amsterdam.nl/demirandabad/rooster/',
   'Flevoparkbad': 'https://www.amsterdam.nl/flevoparkbad/zwembadrooster-flevoparkbad/',
   'Brediusbad': 'https://www.amsterdam.nl/brediusbad/zwembadrooster-brediusbad/',
   'Het Marnix': 'https://hetmarnix.nl/schedule/tijden/',
