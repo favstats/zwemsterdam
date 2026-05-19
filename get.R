@@ -20,7 +20,11 @@ pool_websites <- list(
   "Bijlmer Sportcentrum" = "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost",
   "Sloterparkbad" = "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam",
   "Duranbad (Diemen)" = "https://www.diemen.nl/zwembad/Openingstijden",
-  "De Meerkamp (Amstelveen)" = "https://amstelveensport.nl/zwembad-de-meerkamp/"
+  "De Meerkamp (Amstelveen)" = "https://amstelveensport.nl/zwembad-de-meerkamp/",
+  "De Sporthoeve (Badhoevedorp)" = "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/",
+  "De Waterlelie (Aalsmeer)" = "https://sportinaalsmeer.nl/zwembad-de-waterlelie",
+  "De Slag (Zaandam)" = "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/",
+  "Amstelbad (Ouderkerk aan de Amstel)" = "https://www.amstelbad.nl/praktische-info/openingstijden/"
 )
 
 # 1. Municipal Pools (Amsterdam.nl API)
@@ -64,8 +68,26 @@ duranbad_data <- get_duranbad_timetable()
 print("Fetching De Meerkamp (Amstelveen)...")
 meerkamp_data <- get_meerkamp_timetable()
 
+# 7. Nearby pools around Amsterdam
+print("Fetching nearby regional pools...")
+sporthoeve_data <- get_sporthoeve_timetable()
+waterlelie_data <- get_waterlelie_timetable()
+de_slag_data <- get_de_slag_timetable()
+amstelbad_data <- get_amstelbad_timetable()
+
 # Combine all data
-all_swimming_data <- bind_rows(muni_data, marnix_data, sportfondsen_data, optisport_data, duranbad_data, meerkamp_data) %>%
+all_swimming_data <- bind_rows(
+  muni_data,
+  marnix_data,
+  sportfondsen_data,
+  optisport_data,
+  duranbad_data,
+  meerkamp_data,
+  sporthoeve_data,
+  waterlelie_data,
+  de_slag_data,
+  amstelbad_data
+) %>%
   mutate(
     # Ensure consistency in day names
     dag = str_to_title(dag),
@@ -122,6 +144,30 @@ metadata <- list(
       description = "Zwembad in Amstelveen (bij Amsterdam)",
       url = "https://amstelveensport.nl/zwembad-de-meerkamp/",
       pools = c("De Meerkamp (Amstelveen)")
+    ),
+    list(
+      name = "Sportfondsen De Sporthoeve",
+      description = "Zwembad in Badhoevedorp (bij Amsterdam)",
+      url = "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/",
+      pools = c("De Sporthoeve (Badhoevedorp)")
+    ),
+    list(
+      name = "Sport in Aalsmeer",
+      description = "Zwembad in Aalsmeer (bij Amsterdam)",
+      url = "https://sportinaalsmeer.nl/zwembad-de-waterlelie",
+      pools = c("De Waterlelie (Aalsmeer)")
+    ),
+    list(
+      name = "Sportbedrijf Zaanstad",
+      description = "Zwembad in Zaandam (bij Amsterdam)",
+      url = "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/",
+      pools = c("De Slag (Zaandam)")
+    ),
+    list(
+      name = "Het Amstelbad",
+      description = "Seizoensgebonden openluchtzwembad in Ouderkerk aan de Amstel",
+      url = "https://www.amstelbad.nl/praktische-info/openingstijden/",
+      pools = c("Amstelbad (Ouderkerk aan de Amstel)")
     )
   )
 )

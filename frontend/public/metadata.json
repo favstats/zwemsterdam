@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-19T10:39:23Z",
-  "lastUpdatedLocal": "19-05-2026 10:39",
-  "totalSessions": 830,
-  "pools": ["Zuiderbad", "Noorderparkbad", "De Mirandabad", "Flevoparkbad", "Brediusbad", "Het Marnix", "Sportfondsenbad Oost", "Sportplaza Mercator", "Bijlmer Sportcentrum", "Sloterparkbad", "Duranbad (Diemen)"],
+  "lastUpdated": "2026-05-19T10:54:03Z",
+  "lastUpdatedLocal": "19-05-2026 12:54",
+  "totalSessions": 993,
+  "pools": ["Zuiderbad", "Noorderparkbad", "De Mirandabad", "Flevoparkbad", "Brediusbad", "Het Marnix", "Sportfondsenbad Oost", "Sportplaza Mercator", "Bijlmer Sportcentrum", "Sloterparkbad", "Duranbad (Diemen)", "De Meerkamp (Amstelveen)", "De Sporthoeve (Badhoevedorp)", "De Waterlelie (Aalsmeer)", "De Slag (Zaandam)", "Amstelbad (Ouderkerk aan de Amstel)"],
   "dataSources": [
     {
       "name": "Gemeente Amsterdam",
@@ -39,6 +39,30 @@
       "description": "Zwembad in Amstelveen (bij Amsterdam)",
       "url": "https://amstelveensport.nl/zwembad-de-meerkamp/",
       "pools": "De Meerkamp (Amstelveen)"
+    },
+    {
+      "name": "Sportfondsen De Sporthoeve",
+      "description": "Zwembad in Badhoevedorp (bij Amsterdam)",
+      "url": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/",
+      "pools": "De Sporthoeve (Badhoevedorp)"
+    },
+    {
+      "name": "Sport in Aalsmeer",
+      "description": "Zwembad in Aalsmeer (bij Amsterdam)",
+      "url": "https://sportinaalsmeer.nl/zwembad-de-waterlelie",
+      "pools": "De Waterlelie (Aalsmeer)"
+    },
+    {
+      "name": "Sportbedrijf Zaanstad",
+      "description": "Zwembad in Zaandam (bij Amsterdam)",
+      "url": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/",
+      "pools": "De Slag (Zaandam)"
+    },
+    {
+      "name": "Het Amstelbad",
+      "description": "Seizoensgebonden openluchtzwembad in Ouderkerk aan de Amstel",
+      "url": "https://www.amstelbad.nl/praktische-info/openingstijden/",
+      "pools": "Amstelbad (Ouderkerk aan de Amstel)"
     }
   ]
 }

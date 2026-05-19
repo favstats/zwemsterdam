@@ -31,12 +31,16 @@ Zwemsterdam is een web-app die automatisch zwemtijden verzamelt van alle openbar
 
 ### Overige Zwembaden
 - [Het Marnix](https://hetmarnix.nl/)
-- [Sportfondsenbad Oost](https://www.sportfondsenbadamsterdamoost.nl/)
-- [Sportplaza Mercator](https://www.sportplazamercator.nl/)
+- [Sportfondsenbad Oost](https://amsterdamoost.sportfondsen.nl/tijden-tarieven/)
+- [Sportplaza Mercator](https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/)
+- [Bijlmer Sportcentrum](https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost)
+- [Sloterparkbad](https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam)
+- [Duranbad (Diemen)](https://www.diemen.nl/zwembad/Openingstijden)
 - [De Meerkamp (Amstelveen)](https://amstelveensport.nl/zwembad-de-meerkamp/)
-
-### Nog niet ondersteund
-- **Sloterparkbad** & **Bijlmer Sportcentrum** - Beheerd door Optisport, vereist browser automation (Cloudflare)
+- [De Sporthoeve (Badhoevedorp)](https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/)
+- [De Waterlelie (Aalsmeer)](https://sportinaalsmeer.nl/zwembad-de-waterlelie)
+- [De Slag (Zaandam)](https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/)
+- [Amstelbad (Ouderkerk aan de Amstel)](https://www.amstelbad.nl/praktische-info/openingstijden/)
 
 ---
 

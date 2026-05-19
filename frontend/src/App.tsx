@@ -42,6 +42,11 @@ interface Metadata {
   dataSources: DataSource[];
 }
 
+interface SeasonalPoolSchedule {
+  opens: Date;
+  closes?: Date;
+}
+
 // ============================================================================
 // Constants
 // ============================================================================
@@ -64,17 +69,37 @@ const DAY_ABBREVIATIONS: Record<string, string> = {
 // - Sportfondsen: Sportfondsenbad Oost, Sportplaza Mercator
 // Note: Sloterparkbad & Bijlmer Sportcentrum (Optisport) require browser automation (Cloudflare)
 // - AmstelveenSport: De Meerkamp (Amstelveen)
+// - Nearby region: De Sporthoeve, De Waterlelie, De Slag, Amstelbad
 // Seasonal outdoor pools - closed during winter, reopen in spring
-const SEASONAL_OUTDOOR_POOLS: Record<string, Date> = {
-  'Brediusbad': new Date('2026-05-01'), // Outdoor pool, reopens May 2026
-  'Flevoparkbad': new Date('2026-05-01'), // Outdoor pool, reopens May 2026
+const SEASONAL_OUTDOOR_POOLS: Record<string, SeasonalPoolSchedule> = {
+  'Brediusbad': { opens: new Date('2026-05-01') }, // Outdoor pool, reopens May 2026
+  'Flevoparkbad': { opens: new Date('2026-05-01') }, // Outdoor pool, reopens May 2026
+  'Amstelbad (Ouderkerk aan de Amstel)': {
+    opens: new Date('2026-04-25'),
+    closes: new Date('2026-09-20'),
+  },
+};
+
+const getSeasonalPoolStatus = (poolName: string): { isClosed: boolean; message?: string } => {
+  const season = SEASONAL_OUTDOOR_POOLS[poolName];
+  if (!season) return { isClosed: false };
+
+  const today = new Date();
+  if (today < season.opens) {
+    const opensMonth = season.opens.toLocaleDateString('nl-NL', { month: 'long', year: 'numeric' });
+    return { isClosed: true, message: `opent weer in ${opensMonth}` };
+  }
+
+  if (season.closes && today > season.closes) {
+    return { isClosed: true, message: 'is gesloten buiten het seizoen' };
+  }
+
+  return { isClosed: false };
 };
 
 // Check if a pool is currently closed (seasonal outdoor pool)
 const isPoolSeasonallyClosed = (poolName: string): boolean => {
-  const reopenDate = SEASONAL_OUTDOOR_POOLS[poolName];
-  if (!reopenDate) return false;
-  return new Date() < reopenDate;
+  return getSeasonalPoolStatus(poolName).isClosed;
 };
 
 // Pool colors - 11 distinct colors, warm and vibrant palette
@@ -91,6 +116,10 @@ const POOL_COLORS: Record<string, string> = {
   'Bijlmer Sportcentrum': '#DB2777', // Pink
   'Duranbad (Diemen)': '#6366F1',   // Indigo
   'De Meerkamp (Amstelveen)': '#0F766E', // Deep Teal
+  'De Sporthoeve (Badhoevedorp)': '#0891B2', // Cyan
+  'De Waterlelie (Aalsmeer)': '#059669', // Emerald
+  'De Slag (Zaandam)': '#D97706', // Amber
+  'Amstelbad (Ouderkerk aan de Amstel)': '#65A30D', // Lime
 };
 
 // Day colors for multi-day view
@@ -118,6 +147,10 @@ const POOL_WEBSITES: Record<string, string> = {
   'Sloterparkbad': 'https://www.optisport.nl/sloterparkbad-amsterdam',
   'Duranbad (Diemen)': 'https://www.diemen.nl/zwembad/Openingstijden',
   'De Meerkamp (Amstelveen)': 'https://amstelveensport.nl/zwembad-de-meerkamp/',
+  'De Sporthoeve (Badhoevedorp)': 'https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/',
+  'De Waterlelie (Aalsmeer)': 'https://sportinaalsmeer.nl/zwembad-de-waterlelie',
+  'De Slag (Zaandam)': 'https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/',
+  'Amstelbad (Ouderkerk aan de Amstel)': 'https://www.amstelbad.nl/praktische-info/openingstijden/',
 };
 
 // Google Maps links for each pool
@@ -134,6 +167,10 @@ const POOL_MAPS: Record<string, string> = {
   'Sloterparkbad': 'https://maps.google.com/?q=Sloterparkbad+Amsterdam',
   'Duranbad (Diemen)': 'https://maps.google.com/?q=Duran+Sportcentrum+Diemen',
   'De Meerkamp (Amstelveen)': 'https://maps.google.com/?q=Zwembad+De+Meerkamp+Amstelveen',
+  'De Sporthoeve (Badhoevedorp)': 'https://maps.google.com/?q=Sporthoeve+Badhoevedorp',
+  'De Waterlelie (Aalsmeer)': 'https://maps.google.com/?q=Zwembad+De+Waterlelie+Aalsmeer',
+  'De Slag (Zaandam)': 'https://maps.google.com/?q=Zwembad+De+Slag+Zaandam',
+  'Amstelbad (Ouderkerk aan de Amstel)': 'https://maps.google.com/?q=Amstelbad+Ouderkerk+aan+de+Amstel',
 };
 
 // Pool coordinates for map view [lat, lng] - manually verified
@@ -150,6 +187,10 @@ const POOL_COORDINATES: Record<string, [number, number]> = {
   'Sloterparkbad': [52.37007, 4.81765],
   'Duranbad (Diemen)': [52.33611, 4.95870],
   'De Meerkamp (Amstelveen)': [52.28804, 4.85243],
+  'De Sporthoeve (Badhoevedorp)': [52.34312, 4.77441],
+  'De Waterlelie (Aalsmeer)': [52.25563, 4.76741],
+  'De Slag (Zaandam)': [52.44274, 4.83846],
+  'Amstelbad (Ouderkerk aan de Amstel)': [52.30256, 4.92082],
 };
 
 const getPoolMapLink = (poolName: string): string => {
@@ -1972,8 +2013,8 @@ const EmptyState: React.FC<EmptyStateProps> = ({ closedPools = [] }) => {
   
   if (hasOnlyClosedPools) {
     const pool = closedPools[0];
-    const reopenDate = SEASONAL_OUTDOOR_POOLS[pool];
-    const reopenMonth = reopenDate ? reopenDate.toLocaleDateString('nl-NL', { month: 'long', year: 'numeric' }) : 'binnenkort';
+    const seasonalStatus = getSeasonalPoolStatus(pool);
+    const seasonalMessage = seasonalStatus.message || 'opent weer binnenkort';
     
     return (
       <div className="flex flex-col items-center justify-center p-12 text-center bg-base-100 rounded-xl shadow-lg">
@@ -1985,7 +2026,7 @@ const EmptyState: React.FC<EmptyStateProps> = ({ closedPools = [] }) => {
         </h3>
         <p className="text-base-content/60 max-w-md mb-4">
           {closedPools.length === 1 
-            ? `Dit is een buitenbad en opent weer in ${reopenMonth}.`
+            ? `Dit is een buitenbad en ${seasonalMessage}.`
             : 'Deze buitenbaden zijn gesloten tijdens de winter.'}
         </p>
         {closedPools.length === 1 && POOL_WEBSITES[pool] && (
@@ -2619,7 +2660,7 @@ const App: React.FC = () => {
                 {pools.filter(p => p !== 'All Pools').map(pool => {
                   const isSelected = selectedPools.includes(pool);
                   const isClosed = isPoolSeasonallyClosed(pool);
-                  const reopenDate = SEASONAL_OUTDOOR_POOLS[pool];
+                  const seasonalStatus = getSeasonalPoolStatus(pool);
                   return (
                     <button
                       key={pool}
@@ -2637,7 +2678,7 @@ const App: React.FC = () => {
                             ? 'bg-base-200/50 text-base-content/50 hover:bg-base-300/50'
                             : 'bg-base-200 text-base-content hover:bg-base-300'
                       }`}
-                      title={isClosed && reopenDate ? `Buitenbad - opent weer ${reopenDate.toLocaleDateString('nl-NL', { month: 'long', year: 'numeric' })}` : undefined}
+                      title={isClosed && seasonalStatus.message ? `Buitenbad - ${seasonalStatus.message}` : undefined}
                     >
                       {pool}
                       {isClosed && <span className="ml-1 opacity-60">❄️</span>}

@@ -15,6 +15,47 @@ aggregate_timeframes <- function(df) {
     )
 }
 
+zwemsterdam_day_names <- c("Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag")
+
+get_dutch_day_name <- function(date) {
+  zwemsterdam_day_names[wday(date, week_start = 1)]
+}
+
+parse_pool_time <- function(time_str) {
+  clean_time <- str_replace_all(as.character(time_str), "\\.", ":")
+  parts <- str_split(clean_time, ":", simplify = TRUE)
+  as.numeric(parts[, 1]) + as.numeric(parts[, 2]) / 60
+}
+
+expand_weekly_pool_schedule <- function(pool_name, schedule, target_dates = seq(Sys.Date(), Sys.Date() + 7, by = "1 day")) {
+  if (length(target_dates) == 0) {
+    return(tibble(
+      bad = character(),
+      dag = character(),
+      date = character(),
+      activity = character(),
+      extra = character(),
+      start = numeric(),
+      end = numeric()
+    ))
+  }
+
+  map_dfr(target_dates, function(slot_date) {
+    day_name <- get_dutch_day_name(slot_date)
+
+    schedule %>%
+      filter(.data$dag == day_name) %>%
+      mutate(
+        bad = pool_name,
+        date = as.character(slot_date),
+        start = parse_pool_time(.data$start_time),
+        end = parse_pool_time(.data$end_time),
+        .before = "dag"
+      )
+  }) %>%
+    select(all_of(c("bad", "dag", "date", "activity", "extra", "start", "end")))
+}
+
 # New function for Amsterdam Municipal Pools
 get_amsterdam_timetables <- function(pool_slug) {
   # Get dates for the next 7 days
@@ -442,6 +483,258 @@ get_meerkamp_timetable <- function() {
   }
 
   return(all_sessions)
+}
+
+# Function for De Sporthoeve (Badhoevedorp)
+# Based on the official 2026 openingstijden PDF linked from Sportfondsen.
+get_sporthoeve_timetable <- function() {
+  message("Fetching De Sporthoeve (Badhoevedorp)...")
+
+  target_dates <- seq(Sys.Date(), Sys.Date() + 7, by = "1 day")
+  # Sporthoeve explicitly lists Eerste and Tweede Pinksterdag 2026 as closed.
+  closed_dates <- as.Date(c("2026-05-24", "2026-05-25"))
+  target_dates <- target_dates[!target_dates %in% closed_dates]
+
+  schedule <- tribble(
+    ~dag, ~activity, ~extra, ~start_time, ~end_time,
+    "Maandag", "Banenzwemmen", "", "07:00", "08:50",
+    "Maandag", "Banenzwemmen", "", "11:30", "13:25",
+    "Maandag", "Aqua Power diep/ondiep", "", "09:00", "09:45",
+    "Maandag", "Aqua Power diep/ondiep", "", "10:00", "10:45",
+    "Maandag", "Aquavitaal", "", "11:00", "11:30",
+    "Dinsdag", "Banenzwemmen", "", "12:00", "13:25",
+    "Dinsdag", "Banenzwemmen", "", "20:45", "21:50",
+    "Dinsdag", "Aqua Power diep/ondiep", "", "20:00", "20:45",
+    "Woensdag", "Banenzwemmen", "", "07:00", "08:50",
+    "Woensdag", "Banenzwemmen", "", "11:30", "13:25",
+    "Woensdag", "Baby- peuterzwemmen", "", "09:00", "10:30",
+    "Woensdag", "Aquavitaal", "Alleen op woensdag volgens rooster", "09:00", "09:30",
+    "Donderdag", "Banenzwemmen", "", "12:00", "13:25",
+    "Donderdag", "Banenzwemmen", "", "20:45", "21:50",
+    "Donderdag", "Aqua Power diep/ondiep", "", "20:00", "20:45",
+    "Vrijdag", "Banenzwemmen", "", "11:30", "13:25",
+    "Vrijdag", "Baby- peuterzwemmen", "", "09:00", "10:30",
+    "Vrijdag", "Aqua Power diep/ondiep", "", "09:00", "09:45",
+    "Vrijdag", "Aqua Dance (ondiep)", "", "10:00", "10:45",
+    "Vrijdag", "Aquavitaal", "", "11:00", "11:30",
+    "Zaterdag", "Banenzwemmen", "", "08:00", "10:50",
+    "Zondag", "Banenzwemmen", "", "09:00", "10:25",
+    "Zondag", "Familiezwemmen", "", "10:30", "13:50",
+    "Zondag", "Baby-Peuter vrijzwemmen", "", "09:15", "10:30",
+    "Zondag", "Vrijzwemmen", "", "11:30", "13:50",
+    "Zondag", "Jip's oefenuur", "", "10:30", "11:30"
+  )
+
+  sessions <- expand_weekly_pool_schedule("De Sporthoeve (Badhoevedorp)", schedule, target_dates)
+  message(paste("Found", nrow(sessions), "slots for De Sporthoeve"))
+  sessions
+}
+
+# Function for Zwembad De Waterlelie (Aalsmeer)
+# Based on the official "Openingstijden per 2 september" PDF.
+get_waterlelie_timetable <- function() {
+  message("Fetching De Waterlelie (Aalsmeer)...")
+
+  schedule <- tribble(
+    ~dag, ~activity, ~extra, ~start_time, ~end_time,
+    "Maandag", "Banenzwemmen", "Banenbad", "07:00", "14:00",
+    "Maandag", "Banenzwemmen", "Recreatiebad", "11:00", "13:00",
+    "Maandag", "Banenzwemmen", "Banenbad", "20:00", "21:30",
+    "Maandag", "AquaJoggen", "Recreatiebad", "19:45", "20:30",
+    "Maandag", "AquaVitaal", "Recreatiebad", "09:00", "11:00",
+    "Maandag", "Zwemles", "Alle baden", "15:00", "18:00",
+    "Maandag", "Baby & Peuterzwemmen", "Instructiebad", "09:00", "09:30",
+    "Maandag", "Baby & Peuterzwemmen", "Instructiebad", "09:30", "10:15",
+    "Maandag", "Baby & Peuterzwemmen", "Instructiebad", "10:15", "11:00",
+    "Dinsdag", "Banenzwemmen", "Banenbad", "07:00", "14:00",
+    "Dinsdag", "Banenzwemmen", "Recreatiebad", "11:00", "13:00",
+    "Dinsdag", "Banenzwemmen", "Banenbad", "20:00", "21:30",
+    "Dinsdag", "Borstcrawlles", "Recreatiebad", "19:00", "19:45",
+    "Dinsdag", "Borstcrawlles", "Recreatiebad", "19:45", "20:30",
+    "Dinsdag", "Borstcrawlles", "Recreatiebad", "20:30", "21:15",
+    "Dinsdag", "Borstcrawlles", "Recreatiebad", "21:15", "22:00",
+    "Dinsdag", "AquaVitaal", "Recreatiebad", "09:00", "11:00",
+    "Dinsdag", "Zwemles", "Alle baden", "15:00", "18:00",
+    "Dinsdag", "Baby & Peuterzwemmen", "Instructiebad", "09:00", "09:30",
+    "Dinsdag", "Baby & Peuterzwemmen", "Instructiebad", "09:30", "10:15",
+    "Dinsdag", "Baby & Peuterzwemmen", "Instructiebad", "10:15", "11:00",
+    "Woensdag", "Banenzwemmen", "Banenbad", "07:00", "14:00",
+    "Woensdag", "Banenzwemmen", "Banenbad", "20:00", "21:30",
+    "Woensdag", "AquaEnergy", "Recreatiebad", "20:15", "21:00",
+    "Woensdag", "Zwemles", "Alle baden", "15:00", "18:00",
+    "Donderdag", "Banenzwemmen", "Banenbad", "07:00", "14:00",
+    "Donderdag", "Banenzwemmen", "Recreatiebad", "11:00", "13:00",
+    "Donderdag", "Banenzwemmen", "Banenbad", "20:00", "21:30",
+    "Donderdag", "Borstcrawlles", "Recreatiebad", "20:45", "21:30",
+    "Donderdag", "AquaJoggen", "Recreatiebad", "14:00", "14:45",
+    "Donderdag", "AquaEnergy", "Recreatiebad", "19:45", "20:30",
+    "Donderdag", "AquaVitaal", "Recreatiebad", "09:00", "11:00",
+    "Donderdag", "Zwemles", "Alle baden", "15:00", "18:00",
+    "Donderdag", "Baby & Peuterzwemmen", "Instructiebad", "09:00", "09:30",
+    "Donderdag", "Baby & Peuterzwemmen", "Instructiebad", "09:30", "10:15",
+    "Donderdag", "Baby & Peuterzwemmen", "Instructiebad", "10:15", "11:00",
+    "Vrijdag", "Banenzwemmen", "Banenbad", "07:00", "14:00",
+    "Vrijdag", "Banenzwemmen", "Recreatiebad", "11:00", "13:00",
+    "Vrijdag", "AquaEnergy", "Recreatiebad", "09:00", "09:45",
+    "Vrijdag", "Zwemles", "Alle baden", "14:00", "18:00",
+    "Vrijdag", "Kleuterzwemmen", "Recreatiebad & instructiebad", "13:15", "14:00",
+    "Vrijdag", "Baby & Peuterzwemmen", "Instructiebad", "09:00", "09:30",
+    "Vrijdag", "Baby & Peuterzwemmen", "Instructiebad", "09:30", "10:15",
+    "Vrijdag", "Baby & Peuterzwemmen", "Instructiebad", "10:15", "11:00",
+    "Zaterdag", "Banenzwemmen", "Banenbad", "10:00", "12:30",
+    "Zaterdag", "Zwemles", "Recreatiebad & instructiebad", "07:45", "12:30",
+    "Zaterdag", "Recreatief zwemmen", "Recreatiebad & instructiebad", "12:30", "14:30",
+    "Zondag", "Banenzwemmen", "Banenbad", "10:00", "13:00",
+    "Zondag", "Oefenuurtje", "Recreatiebad", "09:00", "10:00",
+    "Zondag", "Recreatief zwemmen", "Recreatiebad & instructiebad", "10:00", "13:00"
+  )
+
+  sessions <- expand_weekly_pool_schedule("De Waterlelie (Aalsmeer)", schedule)
+  message(paste("Found", nrow(sessions), "slots for De Waterlelie"))
+  sessions
+}
+
+# Function for De Slag (Zaandam)
+# Parses the embedded schedule JSON from the official Sportbedrijf Zaanstad page.
+get_de_slag_timetable <- function() {
+  main_url <- "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
+  message("Fetching De Slag (Zaandam)...")
+
+  response <- GET(main_url, user_agent("Mozilla/5.0"))
+  if (status_code(response) != 200) {
+    message(paste("Could not fetch De Slag schedule - Status:", status_code(response)))
+    return(NULL)
+  }
+
+  page_content <- content(response, "text", encoding = "UTF-8")
+  lessons_json <- str_match(page_content, regex("const\\s+lessen\\s*=\\s*(\\[.*?\\]);", dotall = TRUE))[1, 2]
+  if (is.na(lessons_json)) {
+    message("Could not find De Slag embedded lesson data")
+    return(NULL)
+  }
+
+  lessons <- tryCatch(
+    jsonlite::fromJSON(lessons_json, simplifyVector = FALSE),
+    error = function(e) {
+      message(paste("Could not parse De Slag lesson data:", e$message))
+      NULL
+    }
+  )
+  if (is.null(lessons) || length(lessons) == 0) return(NULL)
+
+  target_dates <- seq(Sys.Date(), Sys.Date() + 7, by = "1 day")
+  closed_dates <- as.Date(c("2026-05-24", "2026-05-25"))
+  target_dates <- target_dates[!target_dates %in% closed_dates]
+
+  lesson_value <- function(lesson, field, default = "") {
+    value <- lesson[[field]]
+    if (is.null(value) || identical(value, FALSE) || length(value) == 0) default else value
+  }
+
+  get_week_lessons <- function(week_number) {
+    slots_by_day <- list()
+
+    for (lesson in lessons) {
+      day <- lesson_value(lesson, "dag")
+      if (!nzchar(day)) next
+      key <- paste0(lesson_value(lesson, "starttijd"), "-", lesson_value(lesson, "eindtijd"), lesson_value(lesson, "groep"))
+
+      if (is.null(slots_by_day[[day]])) slots_by_day[[day]] <- list()
+
+      frequency <- lesson_value(lesson, "frequentie")
+      if (frequency == "eenmalig") {
+        exception_week <- suppressWarnings(as.integer(lesson_value(lesson, "uitzondering", NA)))
+        if (!is.na(exception_week) && exception_week == week_number) {
+          slots_by_day[[day]][[key]] <- lesson
+        }
+      } else if (frequency == "wekelijks" && is.null(slots_by_day[[day]][[key]])) {
+        slots_by_day[[day]][[key]] <- lesson
+      }
+    }
+
+    slots_by_day
+  }
+
+  sessions <- map_dfr(target_dates, function(slot_date) {
+    day_name <- get_dutch_day_name(slot_date)
+    week_lessons <- get_week_lessons(isoweek(slot_date))
+    day_lessons <- week_lessons[[day_name]]
+    if (is.null(day_lessons) || length(day_lessons) == 0) return(NULL)
+
+    map_dfr(day_lessons, function(lesson) {
+      change <- lesson_value(lesson, "wijziging")
+      if (change == "gaat niet door") return(NULL)
+
+      extra <- c(lesson_value(lesson, "locatie"), lesson_value(lesson, "opmerking"))
+      extra <- extra[nzchar(extra)]
+
+      tibble(
+        bad = "De Slag (Zaandam)",
+        dag = day_name,
+        date = as.character(slot_date),
+        activity = lesson_value(lesson, "groep", "Onbekend"),
+        extra = paste(extra, collapse = " - "),
+        start = parse_pool_time(lesson_value(lesson, "starttijd")),
+        end = parse_pool_time(lesson_value(lesson, "eindtijd"))
+      )
+    })
+  }) %>%
+    distinct(date, activity, extra, start, end, .keep_all = TRUE) %>%
+    arrange(date, start)
+
+  message(paste("Found", nrow(sessions), "slots for De Slag"))
+  sessions
+}
+
+# Function for Het Amstelbad (Ouderkerk aan de Amstel)
+# Seasonal outdoor pool. The 2026 season page lists daily opening hours.
+get_amstelbad_timetable <- function() {
+  message("Fetching Amstelbad (Ouderkerk aan de Amstel)...")
+
+  target_dates <- seq(Sys.Date(), Sys.Date() + 7, by = "1 day")
+  season_start <- as.Date("2026-04-25")
+  season_end <- as.Date("2026-09-20")
+  target_dates <- target_dates[target_dates >= season_start & target_dates <= season_end]
+
+  if (length(target_dates) == 0) {
+    message("Amstelbad is outside its 2026 outdoor season")
+    return(NULL)
+  }
+
+  regular_schedule <- tribble(
+    ~dag, ~activity, ~extra, ~start_time, ~end_time,
+    "Maandag", "Recreatief zwemmen", "Openluchtzwembad. Tenminste een baan open voor banenzwemmen.", "08:00", "20:00",
+    "Dinsdag", "Recreatief zwemmen", "Openluchtzwembad. Tenminste een baan open voor banenzwemmen.", "08:00", "20:00",
+    "Woensdag", "Recreatief zwemmen", "Openluchtzwembad. Tenminste een baan open voor banenzwemmen.", "08:00", "19:00",
+    "Donderdag", "Recreatief zwemmen", "Openluchtzwembad. Tenminste een baan open voor banenzwemmen.", "08:00", "20:00",
+    "Vrijdag", "Recreatief zwemmen", "Openluchtzwembad. Tenminste een baan open voor banenzwemmen.", "08:00", "19:00",
+    "Zaterdag", "Recreatief zwemmen", "Openluchtzwembad. Tenminste een baan open voor banenzwemmen.", "10:00", "18:00",
+    "Zondag", "Recreatief zwemmen", "Openluchtzwembad. Tenminste een baan open voor banenzwemmen.", "10:00", "18:00"
+  )
+
+  extended_season_schedule <- tibble(
+    dag = zwemsterdam_day_names,
+    activity = "Recreatief zwemmen",
+    extra = "Verlengde seizoensweek. Openluchtzwembad.",
+    start_time = "10:00",
+    end_time = "18:00"
+  )
+
+  sessions <- bind_rows(
+    expand_weekly_pool_schedule(
+      "Amstelbad (Ouderkerk aan de Amstel)",
+      regular_schedule,
+      target_dates[target_dates < as.Date("2026-09-14")]
+    ),
+    expand_weekly_pool_schedule(
+      "Amstelbad (Ouderkerk aan de Amstel)",
+      extended_season_schedule,
+      target_dates[target_dates >= as.Date("2026-09-14")]
+    )
+  )
+
+  message(paste("Found", nrow(sessions), "slots for Amstelbad"))
+  sessions
 }
 
 # Function for Sportfondsen (Oost, Mercator, etc.)
