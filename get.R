@@ -19,6 +19,86 @@ previous_data <- if (file.exists("frontend/public/data.json")) {
   NULL
 }
 
+empty_swimming_data <- function() {
+  tibble(
+    bad = character(),
+    dag = character(),
+    date = character(),
+    activity = character(),
+    extra = character(),
+    start = numeric(),
+    end = numeric()
+  )
+}
+
+append_cached_pool_rows <- function(current_data, required_pools, source_name) {
+  found_pools <- if (!is.null(current_data) && nrow(current_data) > 0) {
+    unique(current_data$bad)
+  } else {
+    character()
+  }
+
+  missing_pools <- setdiff(required_pools, found_pools)
+
+  if (length(missing_pools) > 0) {
+    target_dates <- as.character(seq(Sys.Date(), Sys.Date() + 7, by = "1 day"))
+    cached_pool_data <- if (!is.null(previous_data) && nrow(previous_data) > 0) {
+      previous_data %>%
+        filter(
+          bad %in% missing_pools,
+          date %in% target_dates
+        ) %>%
+        select(any_of(c("bad", "dag", "date", "activity", "extra", "start", "end")))
+    } else {
+      empty_swimming_data()
+    }
+
+    if (nrow(cached_pool_data) > 0) {
+      message(
+        paste(
+          source_name,
+          "source unavailable or incomplete for:",
+          paste(missing_pools, collapse = ", "),
+          "- using rows from the last committed data cache."
+        )
+      )
+
+      cache_note <- paste(
+        "Laatste succesvolle",
+        source_name,
+        "update; officiële site tijdelijk niet bereikbaar"
+      )
+
+      cached_pool_data <- cached_pool_data %>%
+        mutate(
+          extra = case_when(
+            is.na(extra) | extra == "" ~ cache_note,
+            str_detect(extra, fixed(cache_note)) ~ extra,
+            TRUE ~ paste(extra, cache_note, sep = " - ")
+          )
+        )
+
+      current_data <- bind_rows(current_data, cached_pool_data)
+    } else {
+      message(
+        paste(
+          source_name,
+          "source unavailable or incomplete for:",
+          paste(missing_pools, collapse = ", "),
+          "- no cached rows available for the current date window."
+        )
+      )
+    }
+  }
+
+  if (!is.null(current_data) && nrow(current_data) > 0) {
+    current_data %>%
+      distinct(bad, date, activity, extra, start, end, .keep_all = TRUE)
+  } else {
+    empty_swimming_data()
+  }
+}
+
 # Pool website URLs for linking
 pool_websites <- list(
   "Zuiderbad" = "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/",
@@ -66,70 +146,11 @@ sportfondsen_data <- sportfondsen_pools %>%
   map_dfr(~get_sportfondsen_timetable(.x$url, .x$name, .x$path))
 
 required_sportfondsen_pools <- c("Sportfondsenbad Oost", "Sportplaza Mercator")
-found_sportfondsen_pools <- if (!is.null(sportfondsen_data) && nrow(sportfondsen_data) > 0) {
-  unique(sportfondsen_data$bad)
-} else {
-  character()
-}
-missing_sportfondsen_pools <- setdiff(required_sportfondsen_pools, found_sportfondsen_pools)
-
-if (length(missing_sportfondsen_pools) > 0) {
-  target_dates <- as.character(seq(Sys.Date(), Sys.Date() + 7, by = "1 day"))
-  cached_sportfondsen_data <- if (!is.null(previous_data) && nrow(previous_data) > 0) {
-    previous_data %>%
-      filter(
-        bad %in% missing_sportfondsen_pools,
-        date %in% target_dates
-      ) %>%
-      select(any_of(c("bad", "dag", "date", "activity", "extra", "start", "end")))
-  } else {
-    tibble()
-  }
-
-  if (nrow(cached_sportfondsen_data) > 0) {
-    message(
-      paste(
-        "Sportfondsen source unavailable or incomplete for:",
-        paste(missing_sportfondsen_pools, collapse = ", "),
-        "- using rows from the last committed data cache."
-      )
-    )
-
-    cached_sportfondsen_data <- cached_sportfondsen_data %>%
-      mutate(
-        extra = if_else(
-          is.na(extra) | extra == "",
-          "Laatste succesvolle Sportfondsen-update; officiële site tijdelijk niet bereikbaar",
-          paste(extra, "Laatste succesvolle Sportfondsen-update; officiële site tijdelijk niet bereikbaar", sep = " - ")
-        )
-      )
-
-    sportfondsen_data <- bind_rows(sportfondsen_data, cached_sportfondsen_data)
-  } else {
-    message(
-      paste(
-        "Sportfondsen source unavailable or incomplete for:",
-        paste(missing_sportfondsen_pools, collapse = ", "),
-        "- no cached rows available for the current date window."
-      )
-    )
-  }
-}
-
-if (!is.null(sportfondsen_data) && nrow(sportfondsen_data) > 0) {
-  sportfondsen_data <- sportfondsen_data %>%
-    distinct(bad, date, activity, extra, start, end, .keep_all = TRUE)
-} else {
-  sportfondsen_data <- tibble(
-    bad = character(),
-    dag = character(),
-    date = character(),
-    activity = character(),
-    extra = character(),
-    start = numeric(),
-    end = numeric()
-  )
-}
+sportfondsen_data <- append_cached_pool_rows(
+  sportfondsen_data,
+  required_sportfondsen_pools,
+  "Sportfondsen"
+)
 
 # 4. Optisport Pools (Bijlmer, Sloterparkbad)
 # These require Playwright to bypass Cloudflare - data fetched separately
@@ -145,6 +166,11 @@ duranbad_data <- get_duranbad_timetable()
 # Modern Events Calendar timetable from amstelveensport.nl
 print("Fetching De Meerkamp (Amstelveen)...")
 meerkamp_data <- get_meerkamp_timetable()
+meerkamp_data <- append_cached_pool_rows(
+  meerkamp_data,
+  "De Meerkamp (Amstelveen)",
+  "De Meerkamp"
+)
 
 # 7. Nearby pools around Amsterdam
 print("Fetching nearby regional pools...")
