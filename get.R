@@ -7,6 +7,18 @@ source("utils.R")
 if (!dir.exists("data")) dir.create("data")
 if (!dir.exists("frontend/public")) dir.create("frontend/public", recursive = TRUE)
 
+previous_data <- if (file.exists("frontend/public/data.json")) {
+  tryCatch(
+    jsonlite::fromJSON("frontend/public/data.json"),
+    error = function(e) {
+      message(paste("Could not load previous data cache:", e$message))
+      NULL
+    }
+  )
+} else {
+  NULL
+}
+
 # Pool website URLs for linking
 pool_websites <- list(
   "Zuiderbad" = "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/",
@@ -62,12 +74,60 @@ found_sportfondsen_pools <- if (!is.null(sportfondsen_data) && nrow(sportfondsen
 missing_sportfondsen_pools <- setdiff(required_sportfondsen_pools, found_sportfondsen_pools)
 
 if (length(missing_sportfondsen_pools) > 0) {
-  stop(
-    paste(
-      "Sportfondsen source unavailable or incomplete for:",
-      paste(missing_sportfondsen_pools, collapse = ", "),
-      "- refusing to publish partial data."
+  target_dates <- as.character(seq(Sys.Date(), Sys.Date() + 7, by = "1 day"))
+  cached_sportfondsen_data <- if (!is.null(previous_data) && nrow(previous_data) > 0) {
+    previous_data %>%
+      filter(
+        bad %in% missing_sportfondsen_pools,
+        date %in% target_dates
+      ) %>%
+      select(any_of(c("bad", "dag", "date", "activity", "extra", "start", "end")))
+  } else {
+    tibble()
+  }
+
+  if (nrow(cached_sportfondsen_data) > 0) {
+    message(
+      paste(
+        "Sportfondsen source unavailable or incomplete for:",
+        paste(missing_sportfondsen_pools, collapse = ", "),
+        "- using rows from the last committed data cache."
+      )
     )
+
+    cached_sportfondsen_data <- cached_sportfondsen_data %>%
+      mutate(
+        extra = if_else(
+          is.na(extra) | extra == "",
+          "Laatste succesvolle Sportfondsen-update; officiële site tijdelijk niet bereikbaar",
+          paste(extra, "Laatste succesvolle Sportfondsen-update; officiële site tijdelijk niet bereikbaar", sep = " - ")
+        )
+      )
+
+    sportfondsen_data <- bind_rows(sportfondsen_data, cached_sportfondsen_data)
+  } else {
+    message(
+      paste(
+        "Sportfondsen source unavailable or incomplete for:",
+        paste(missing_sportfondsen_pools, collapse = ", "),
+        "- no cached rows available for the current date window."
+      )
+    )
+  }
+}
+
+if (!is.null(sportfondsen_data) && nrow(sportfondsen_data) > 0) {
+  sportfondsen_data <- sportfondsen_data %>%
+    distinct(bad, date, activity, extra, start, end, .keep_all = TRUE)
+} else {
+  sportfondsen_data <- tibble(
+    bad = character(),
+    dag = character(),
+    date = character(),
+    activity = character(),
+    extra = character(),
+    start = numeric(),
+    end = numeric()
   )
 }
 
