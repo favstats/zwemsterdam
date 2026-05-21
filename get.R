@@ -53,6 +53,24 @@ sportfondsen_pools <- list(
 sportfondsen_data <- sportfondsen_pools %>%
   map_dfr(~get_sportfondsen_timetable(.x$url, .x$name, .x$path))
 
+required_sportfondsen_pools <- c("Sportfondsenbad Oost", "Sportplaza Mercator")
+found_sportfondsen_pools <- if (!is.null(sportfondsen_data) && nrow(sportfondsen_data) > 0) {
+  unique(sportfondsen_data$bad)
+} else {
+  character()
+}
+missing_sportfondsen_pools <- setdiff(required_sportfondsen_pools, found_sportfondsen_pools)
+
+if (length(missing_sportfondsen_pools) > 0) {
+  stop(
+    paste(
+      "Sportfondsen source unavailable or incomplete for:",
+      paste(missing_sportfondsen_pools, collapse = ", "),
+      "- refusing to publish partial data."
+    )
+  )
+}
+
 # 4. Optisport Pools (Bijlmer, Sloterparkbad)
 # These require Playwright to bypass Cloudflare - data fetched separately
 print("Loading Optisport pools (requires 'node explore_optisport.js' to be run first)...")
