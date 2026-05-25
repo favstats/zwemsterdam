@@ -42,9 +42,12 @@ expand_weekly_pool_schedule <- function(pool_name, schedule, target_dates = seq(
 
   map_dfr(target_dates, function(slot_date) {
     day_name <- get_dutch_day_name(slot_date)
+    day_schedule <- schedule %>%
+      filter(.data$dag == day_name)
 
-    schedule %>%
-      filter(.data$dag == day_name) %>%
+    if (nrow(day_schedule) == 0) return(NULL)
+
+    day_schedule %>%
       mutate(
         bad = pool_name,
         date = as.character(slot_date),
@@ -683,6 +686,152 @@ get_de_slag_timetable <- function() {
     arrange(date, start)
 
   message(paste("Found", nrow(sessions), "slots for De Slag"))
+  sessions
+}
+
+# Function for Zwembad De Breek (Landsmeer)
+# Seasonal outdoor pool. Based on the official 2026 openingstijden poster.
+# IMPORTANT FOR FUTURE AI/CODEX: De Breek publishes the actual schedule as a
+# PNG poster, not as structured HTML or API data. Do not pretend these times
+# are scraped dynamically. The check below only warns when the source poster on
+# the official page appears to have changed by filename or response metadata;
+# the timetable rows are intentionally encoded from the official 2026 poster to
+# avoid brittle OCR.
+get_de_breek_timetable <- function() {
+  message("Fetching De Breek (Landsmeer)...")
+
+  source_url <- "https://www.debreek.nl/openingstijden/"
+  expected_poster <- "Poster-Entree-A1-2.png"
+  expected_poster_length <- "187287"
+  expected_poster_last_modified <- "Tue, 17 Mar 2026 09:06:50 GMT"
+  target_dates <- seq(Sys.Date(), Sys.Date() + 7, by = "1 day")
+  activity <- "Banenzwemmen / recreatief zwemmen"
+  extra <- "Openluchtzwembad. Banenzwemmen mogelijk tijdens reguliere openingstijden."
+
+  source_response <- tryCatch(
+    GET(source_url, user_agent("Mozilla/5.0")),
+    error = function(e) {
+      message(paste("IMPORTANT: Could not check De Breek source page:", e$message))
+      NULL
+    }
+  )
+
+  if (!is.null(source_response)) {
+    if (status_code(source_response) == 200) {
+      source_content <- content(source_response, "text", encoding = "UTF-8")
+      poster_urls <- str_extract_all(
+        source_content,
+        "https://www\\.debreek\\.nl/wp-content/uploads/[0-9]{4}/[0-9]{2}/[^\"'<> ]+\\.(png|jpg|jpeg|pdf)"
+      )[[1]]
+      matching_poster <- poster_urls[str_detect(poster_urls, fixed(expected_poster))]
+
+      if (length(matching_poster) == 0) {
+        message(
+          paste(
+            "IMPORTANT: De Breek source poster may have changed.",
+            "Re-check the official openingstijden page before trusting the encoded timetable:",
+            source_url
+          )
+        )
+      } else {
+        poster_head <- tryCatch(
+          HEAD(matching_poster[[1]], user_agent("Mozilla/5.0")),
+          error = function(e) {
+            message(paste("IMPORTANT: Could not check De Breek poster metadata:", e$message))
+            NULL
+          }
+        )
+
+        if (!is.null(poster_head) && status_code(poster_head) == 200) {
+          poster_headers <- headers(poster_head)
+          poster_length <- poster_headers[["content-length"]]
+          poster_last_modified <- poster_headers[["last-modified"]]
+
+          if (
+            is.null(poster_length) ||
+              is.null(poster_last_modified) ||
+              poster_length != expected_poster_length ||
+              poster_last_modified != expected_poster_last_modified
+          ) {
+            message(
+              paste(
+                "IMPORTANT: De Breek source poster metadata changed.",
+                "Re-check the official openingstijden page before trusting the encoded timetable:",
+                source_url
+              )
+            )
+          }
+        } else if (!is.null(poster_head)) {
+          message(paste("IMPORTANT: Could not check De Breek poster metadata - Status:", status_code(poster_head)))
+        }
+      }
+    } else {
+      message(paste("IMPORTANT: Could not check De Breek source page - Status:", status_code(source_response)))
+    }
+  }
+
+  make_schedule <- function(...) {
+    tribble(
+      ~dag, ~activity, ~extra, ~start_time, ~end_time,
+      ...
+    )
+  }
+
+  roster_1 <- make_schedule(
+    "Dinsdag", activity, extra, "07:00", "11:00",
+    "Dinsdag", activity, extra, "14:00", "19:00",
+    "Woensdag", activity, extra, "09:00", "11:00",
+    "Woensdag", activity, extra, "14:00", "19:00",
+    "Donderdag", activity, extra, "07:00", "11:00",
+    "Donderdag", activity, extra, "14:00", "19:00",
+    "Vrijdag", activity, extra, "09:00", "11:00",
+    "Vrijdag", activity, extra, "14:00", "19:00",
+    "Zaterdag", activity, extra, "11:00", "18:00",
+    "Zondag", activity, extra, "11:00", "18:00"
+  )
+
+  roster_2 <- make_schedule(
+    "Dinsdag", activity, extra, "07:00", "11:00",
+    "Dinsdag", activity, extra, "14:00", "17:00",
+    "Dinsdag", activity, extra, "19:00", "20:00",
+    "Woensdag", activity, extra, "09:00", "11:00",
+    "Woensdag", activity, extra, "14:00", "20:00",
+    "Donderdag", activity, extra, "07:00", "11:00",
+    "Donderdag", activity, extra, "14:00", "20:00",
+    "Vrijdag", activity, extra, "09:00", "11:00",
+    "Vrijdag", activity, extra, "14:00", "20:00",
+    "Zaterdag", activity, extra, "11:00", "18:00",
+    "Zondag", activity, extra, "11:00", "18:00"
+  )
+
+  roster_3 <- make_schedule(
+    "Maandag", activity, extra, "10:00", "17:00",
+    "Dinsdag", activity, extra, "07:00", "17:00",
+    "Dinsdag", activity, extra, "19:00", "20:00",
+    "Woensdag", activity, extra, "09:00", "20:00",
+    "Donderdag", activity, extra, "07:00", "20:00",
+    "Vrijdag", activity, extra, "09:00", "20:00",
+    "Zaterdag", activity, extra, "11:00", "18:00",
+    "Zondag", activity, extra, "11:00", "18:00"
+  )
+
+  roster_4 <- roster_2
+
+  seasons <- list(
+    list(start = as.Date("2026-05-02"), end = as.Date("2026-06-01"), schedule = roster_1),
+    list(start = as.Date("2026-06-02"), end = as.Date("2026-07-05"), schedule = roster_2),
+    list(start = as.Date("2026-07-06"), end = as.Date("2026-08-16"), schedule = roster_3),
+    list(start = as.Date("2026-08-17"), end = as.Date("2026-08-30"), schedule = roster_4)
+  )
+
+  sessions <- map_dfr(seasons, function(season) {
+    season_dates <- target_dates[target_dates >= season$start & target_dates <= season$end]
+    expand_weekly_pool_schedule("De Breek (Landsmeer)", season$schedule, season_dates)
+  }) %>%
+    distinct(date, activity, extra, start, end, .keep_all = TRUE) %>%
+    arrange(date, start)
+
+  message(paste("Found", nrow(sessions), "slots for De Breek"))
   sessions
 }
 

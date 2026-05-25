@@ -116,6 +116,7 @@ pool_websites <- list(
   "De Sporthoeve (Badhoevedorp)" = "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/",
   "De Waterlelie (Aalsmeer)" = "https://sportinaalsmeer.nl/zwembad-de-waterlelie",
   "De Slag (Zaandam)" = "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/",
+  "De Breek (Landsmeer)" = "https://www.debreek.nl/openingstijden/",
   "Amstelbad (Ouderkerk aan de Amstel)" = "https://www.amstelbad.nl/praktische-info/openingstijden/"
 )
 
@@ -177,6 +178,7 @@ print("Fetching nearby regional pools...")
 sporthoeve_data <- get_sporthoeve_timetable()
 waterlelie_data <- get_waterlelie_timetable()
 de_slag_data <- get_de_slag_timetable()
+de_breek_data <- get_de_breek_timetable()
 amstelbad_data <- get_amstelbad_timetable()
 
 # Combine all data
@@ -190,6 +192,7 @@ all_swimming_data <- bind_rows(
   sporthoeve_data,
   waterlelie_data,
   de_slag_data,
+  de_breek_data,
   amstelbad_data
 ) %>%
   mutate(
@@ -266,6 +269,12 @@ metadata <- list(
       description = "Zwembad in Zaandam (bij Amsterdam)",
       url = "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/",
       pools = c("De Slag (Zaandam)")
+    ),
+    list(
+      name = "Zwembad De Breek",
+      description = "Seizoensgebonden openluchtzwembad in Landsmeer",
+      url = "https://www.debreek.nl/openingstijden/",
+      pools = c("De Breek (Landsmeer)")
     ),
     list(
       name = "Het Amstelbad",

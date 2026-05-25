@@ -69,11 +69,15 @@ const DAY_ABBREVIATIONS: Record<string, string> = {
 // - Sportfondsen: Sportfondsenbad Oost, Sportplaza Mercator
 // Note: Sloterparkbad & Bijlmer Sportcentrum (Optisport) require browser automation (Cloudflare)
 // - AmstelveenSport: De Meerkamp (Amstelveen)
-// - Nearby region: De Sporthoeve, De Waterlelie, De Slag, Amstelbad
+// - Nearby region: De Sporthoeve, De Waterlelie, De Slag, De Breek, Amstelbad
 // Seasonal outdoor pools - closed during winter, reopen in spring
 const SEASONAL_OUTDOOR_POOLS: Record<string, SeasonalPoolSchedule> = {
   'Brediusbad': { opens: new Date('2026-05-01') }, // Outdoor pool, reopens May 2026
   'Flevoparkbad': { opens: new Date('2026-05-01') }, // Outdoor pool, reopens May 2026
+  'De Breek (Landsmeer)': {
+    opens: new Date('2026-05-02'),
+    closes: new Date('2026-08-30'),
+  },
   'Amstelbad (Ouderkerk aan de Amstel)': {
     opens: new Date('2026-04-25'),
     closes: new Date('2026-09-20'),
@@ -102,7 +106,7 @@ const isPoolSeasonallyClosed = (poolName: string): boolean => {
   return getSeasonalPoolStatus(poolName).isClosed;
 };
 
-// Pool colors - 11 distinct colors, warm and vibrant palette
+// Pool colors - distinct colors, warm and vibrant palette
 const POOL_COLORS: Record<string, string> = {
   'Zuiderbad': '#C8102E',           // Amsterdam Red
   'Brediusbad': '#E11D48',          // Rose Red
@@ -119,6 +123,7 @@ const POOL_COLORS: Record<string, string> = {
   'De Sporthoeve (Badhoevedorp)': '#0891B2', // Cyan
   'De Waterlelie (Aalsmeer)': '#059669', // Emerald
   'De Slag (Zaandam)': '#D97706', // Amber
+  'De Breek (Landsmeer)': '#06B6D4', // Bright Cyan
   'Amstelbad (Ouderkerk aan de Amstel)': '#65A30D', // Lime
 };
 
@@ -150,6 +155,7 @@ const POOL_WEBSITES: Record<string, string> = {
   'De Sporthoeve (Badhoevedorp)': 'https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/',
   'De Waterlelie (Aalsmeer)': 'https://sportinaalsmeer.nl/zwembad-de-waterlelie',
   'De Slag (Zaandam)': 'https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/',
+  'De Breek (Landsmeer)': 'https://www.debreek.nl/openingstijden/',
   'Amstelbad (Ouderkerk aan de Amstel)': 'https://www.amstelbad.nl/praktische-info/openingstijden/',
 };
 
@@ -170,6 +176,7 @@ const POOL_MAPS: Record<string, string> = {
   'De Sporthoeve (Badhoevedorp)': 'https://maps.google.com/?q=Sporthoeve+Badhoevedorp',
   'De Waterlelie (Aalsmeer)': 'https://maps.google.com/?q=Zwembad+De+Waterlelie+Aalsmeer',
   'De Slag (Zaandam)': 'https://maps.google.com/?q=Zwembad+De+Slag+Zaandam',
+  'De Breek (Landsmeer)': 'https://maps.google.com/?q=Zwembad+De+Breek+Landsmeer',
   'Amstelbad (Ouderkerk aan de Amstel)': 'https://maps.google.com/?q=Amstelbad+Ouderkerk+aan+de+Amstel',
 };
 
@@ -190,6 +197,7 @@ const POOL_COORDINATES: Record<string, [number, number]> = {
   'De Sporthoeve (Badhoevedorp)': [52.34312, 4.77441],
   'De Waterlelie (Aalsmeer)': [52.25563, 4.76741],
   'De Slag (Zaandam)': [52.44274, 4.83846],
+  'De Breek (Landsmeer)': [52.43215, 4.90543],
   'Amstelbad (Ouderkerk aan de Amstel)': [52.30256, 4.92082],
 };
 

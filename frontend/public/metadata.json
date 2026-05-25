@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-21T07:11:46Z",
-  "lastUpdatedLocal": "21-05-2026 07:11",
-  "totalSessions": 960,
-  "pools": ["Zuiderbad", "Noorderparkbad", "De Mirandabad", "Flevoparkbad", "Brediusbad", "Het Marnix", "Sportfondsenbad Oost", "Sportplaza Mercator", "Bijlmer Sportcentrum", "Sloterparkbad", "Duranbad (Diemen)", "De Meerkamp (Amstelveen)", "De Sporthoeve (Badhoevedorp)", "De Waterlelie (Aalsmeer)", "De Slag (Zaandam)", "Amstelbad (Ouderkerk aan de Amstel)"],
+  "lastUpdated": "2026-05-25T06:00:11Z",
+  "lastUpdatedLocal": "25-05-2026 08:00",
+  "totalSessions": 986,
+  "pools": ["Zuiderbad", "Noorderparkbad", "De Mirandabad", "Flevoparkbad", "Brediusbad", "Het Marnix", "Sportfondsenbad Oost", "Sportplaza Mercator", "Bijlmer Sportcentrum", "Sloterparkbad", "Duranbad (Diemen)", "De Meerkamp (Amstelveen)", "De Sporthoeve (Badhoevedorp)", "De Waterlelie (Aalsmeer)", "De Slag (Zaandam)", "De Breek (Landsmeer)", "Amstelbad (Ouderkerk aan de Amstel)"],
   "dataSources": [
     {
       "name": "Gemeente Amsterdam",
@@ -57,6 +57,12 @@
       "description": "Zwembad in Zaandam (bij Amsterdam)",
       "url": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/",
       "pools": "De Slag (Zaandam)"
+    },
+    {
+      "name": "Zwembad De Breek",
+      "description": "Seizoensgebonden openluchtzwembad in Landsmeer",
+      "url": "https://www.debreek.nl/openingstijden/",
+      "pools": "De Breek (Landsmeer)"
     },
     {
       "name": "Het Amstelbad",

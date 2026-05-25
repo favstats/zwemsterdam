@@ -40,6 +40,7 @@ Zwemsterdam is een web-app die automatisch zwemtijden verzamelt van alle openbar
 - [De Sporthoeve (Badhoevedorp)](https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/)
 - [De Waterlelie (Aalsmeer)](https://sportinaalsmeer.nl/zwembad-de-waterlelie)
 - [De Slag (Zaandam)](https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/)
+- [De Breek (Landsmeer)](https://www.debreek.nl/openingstijden/)
 - [Amstelbad (Ouderkerk aan de Amstel)](https://www.amstelbad.nl/praktische-info/openingstijden/)
 
 ---
