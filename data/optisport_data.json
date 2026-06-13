@@ -4397,7 +4397,7 @@
         "dayName": "Dinsdag"
       }
     ],
-    "fetchedAt": "2026-06-13T17:29:59.767Z"
+    "fetchedAt": "2026-06-13T18:27:09.425Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -5148,15 +5148,6 @@
             "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Zwemfeestje",
-            "internalLocation": "",
-            "start": "2026-06-24T14:00:00+02:00",
-            "end": "2026-06-24T18:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Vrijzwemmen",
             "internalLocation": "Recreatiebad, bij mooi weer is ook het buitenbad geopend",
             "start": "2026-06-24T14:00:00+02:00",
@@ -5164,6 +5155,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zwemfeestje",
+            "internalLocation": "",
+            "start": "2026-06-24T14:00:00+02:00",
+            "end": "2026-06-24T18:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
           },
           {
             "title": "Oefenuur",
@@ -6625,17 +6625,6 @@
         "dayName": "Woensdag"
       },
       {
-        "title": "Zwemfeestje",
-        "internalLocation": "",
-        "start": "2026-06-24T14:00:00+02:00",
-        "end": "2026-06-24T18:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "24 juni",
-        "dayName": "Woensdag"
-      },
-      {
         "title": "Vrijzwemmen",
         "internalLocation": "Recreatiebad, bij mooi weer is ook het buitenbad geopend",
         "start": "2026-06-24T14:00:00+02:00",
@@ -6643,6 +6632,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "24 juni",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Zwemfeestje",
+        "internalLocation": "",
+        "start": "2026-06-24T14:00:00+02:00",
+        "end": "2026-06-24T18:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "24 juni",
         "dayName": "Woensdag"
       },
@@ -7351,6 +7351,6 @@
         "dayName": "Vrijdag"
       }
     ],
-    "fetchedAt": "2026-06-13T17:30:01.969Z"
+    "fetchedAt": "2026-06-13T18:27:11.439Z"
   }
 }
