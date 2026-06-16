@@ -1420,15 +1420,6 @@
             "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Aqua'9maanden",
-            "internalLocation": "doelgroepenbad",
-            "start": "2026-07-07T18:30:00+02:00",
-            "end": "2026-07-07T19:15:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/aqua9maanden/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "Zwemles Volwassenen",
             "internalLocation": "",
             "start": "2026-07-07T18:30:00+02:00",
@@ -1436,6 +1427,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Aqua'9maanden",
+            "internalLocation": "doelgroepenbad",
+            "start": "2026-07-07T18:30:00+02:00",
+            "end": "2026-07-07T19:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aqua9maanden/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Jumping Fitness",
@@ -2093,7 +2093,7 @@
           },
           {
             "title": "Liz & Wes Baby en Peuter Zwemmen",
-            "internalLocation": "doelgroepenbad 2-3 jaar",
+            "internalLocation": "Doelgroepenbad 3-4 jaar",
             "start": "2026-07-17T10:45:00+02:00",
             "end": "2026-07-17T11:30:00+02:00",
             "source": "Google Calendar",
@@ -2102,7 +2102,7 @@
           },
           {
             "title": "Liz & Wes Baby en Peuter Zwemmen",
-            "internalLocation": "Doelgroepenbad 3-4 jaar",
+            "internalLocation": "doelgroepenbad 2-3 jaar",
             "start": "2026-07-17T10:45:00+02:00",
             "end": "2026-07-17T11:30:00+02:00",
             "source": "Google Calendar",
@@ -3696,17 +3696,6 @@
         "dayName": "Dinsdag"
       },
       {
-        "title": "Aqua'9maanden",
-        "internalLocation": "doelgroepenbad",
-        "start": "2026-07-07T18:30:00+02:00",
-        "end": "2026-07-07T19:15:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/aqua9maanden/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "07 juli",
-        "dayName": "Dinsdag"
-      },
-      {
         "title": "Zwemles Volwassenen",
         "internalLocation": "",
         "start": "2026-07-07T18:30:00+02:00",
@@ -3714,6 +3703,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "07 juli",
+        "dayName": "Dinsdag"
+      },
+      {
+        "title": "Aqua'9maanden",
+        "internalLocation": "doelgroepenbad",
+        "start": "2026-07-07T18:30:00+02:00",
+        "end": "2026-07-07T19:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aqua9maanden/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "07 juli",
         "dayName": "Dinsdag"
       },
@@ -4445,7 +4445,7 @@
       },
       {
         "title": "Liz & Wes Baby en Peuter Zwemmen",
-        "internalLocation": "doelgroepenbad 2-3 jaar",
+        "internalLocation": "Doelgroepenbad 3-4 jaar",
         "start": "2026-07-17T10:45:00+02:00",
         "end": "2026-07-17T11:30:00+02:00",
         "source": "Google Calendar",
@@ -4456,7 +4456,7 @@
       },
       {
         "title": "Liz & Wes Baby en Peuter Zwemmen",
-        "internalLocation": "Doelgroepenbad 3-4 jaar",
+        "internalLocation": "doelgroepenbad 2-3 jaar",
         "start": "2026-07-17T10:45:00+02:00",
         "end": "2026-07-17T11:30:00+02:00",
         "source": "Google Calendar",
@@ -4477,7 +4477,7 @@
         "dayName": "Vrijdag"
       }
     ],
-    "fetchedAt": "2026-06-16T06:48:13.817Z"
+    "fetchedAt": "2026-06-16T18:29:56.212Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -7153,6 +7153,6 @@
         "dayName": "Vrijdag"
       }
     ],
-    "fetchedAt": "2026-06-16T06:48:15.875Z"
+    "fetchedAt": "2026-06-16T18:29:57.901Z"
   }
 }
