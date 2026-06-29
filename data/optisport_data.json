@@ -157,15 +157,6 @@
             "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Aqua'9maanden",
-            "internalLocation": "doelgroepenbad",
-            "start": "2026-06-30T18:30:00+02:00",
-            "end": "2026-06-30T19:15:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/aqua9maanden/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "Zwemles Volwassenen",
             "internalLocation": "",
             "start": "2026-06-30T18:30:00+02:00",
@@ -173,6 +164,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Aqua'9maanden",
+            "internalLocation": "doelgroepenbad",
+            "start": "2026-06-30T18:30:00+02:00",
+            "end": "2026-06-30T19:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aqua9maanden/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Jumping Fitness",
@@ -2335,17 +2335,6 @@
         "dayName": "Dinsdag"
       },
       {
-        "title": "Aqua'9maanden",
-        "internalLocation": "doelgroepenbad",
-        "start": "2026-06-30T18:30:00+02:00",
-        "end": "2026-06-30T19:15:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/aqua9maanden/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "30 juni",
-        "dayName": "Dinsdag"
-      },
-      {
         "title": "Zwemles Volwassenen",
         "internalLocation": "",
         "start": "2026-06-30T18:30:00+02:00",
@@ -2353,6 +2342,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "30 juni",
+        "dayName": "Dinsdag"
+      },
+      {
+        "title": "Aqua'9maanden",
+        "internalLocation": "doelgroepenbad",
+        "start": "2026-06-30T18:30:00+02:00",
+        "end": "2026-06-30T19:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aqua9maanden/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "30 juni",
         "dayName": "Dinsdag"
       },
@@ -4557,7 +4557,7 @@
         "dayName": "Donderdag"
       }
     ],
-    "fetchedAt": "2026-06-29T17:51:24.660Z"
+    "fetchedAt": "2026-06-29T18:39:01.879Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -4777,15 +4777,6 @@
             "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Vrijzwemmen",
-            "internalLocation": "Recreatiebad, bij mooi weer is ook het buitenbad geopend",
-            "start": "2026-07-01T14:00:00+02:00",
-            "end": "2026-07-01T18:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Zwemfeestje",
             "internalLocation": "",
             "start": "2026-07-01T14:00:00+02:00",
@@ -4793,6 +4784,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Vrijzwemmen",
+            "internalLocation": "Recreatiebad, bij mooi weer is ook het buitenbad geopend",
+            "start": "2026-07-01T14:00:00+02:00",
+            "end": "2026-07-01T18:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
           },
           {
             "title": "Oefenuur",
@@ -5512,17 +5512,6 @@
         "dayName": "Woensdag"
       },
       {
-        "title": "Vrijzwemmen",
-        "internalLocation": "Recreatiebad, bij mooi weer is ook het buitenbad geopend",
-        "start": "2026-07-01T14:00:00+02:00",
-        "end": "2026-07-01T18:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "01 juli",
-        "dayName": "Woensdag"
-      },
-      {
         "title": "Zwemfeestje",
         "internalLocation": "",
         "start": "2026-07-01T14:00:00+02:00",
@@ -5530,6 +5519,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "01 juli",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Vrijzwemmen",
+        "internalLocation": "Recreatiebad, bij mooi weer is ook het buitenbad geopend",
+        "start": "2026-07-01T14:00:00+02:00",
+        "end": "2026-07-01T18:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "01 juli",
         "dayName": "Woensdag"
       },
@@ -6029,6 +6029,6 @@
         "dayName": "Zondag"
       }
     ],
-    "fetchedAt": "2026-06-29T17:51:26.508Z"
+    "fetchedAt": "2026-06-29T18:39:03.383Z"
   }
 }
