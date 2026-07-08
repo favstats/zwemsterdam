@@ -3,39 +3,6 @@
     "locationId": 2202,
     "schedule": [
       {
-        "date": "07 juli",
-        "day": "Dinsdag",
-        "events": [
-          {
-            "title": "Banenzwemmen",
-            "internalLocation": "Wedstrijdbad",
-            "start": "2026-07-07T07:30:00+02:00",
-            "end": "2026-07-07T08:45:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
-            "title": "Aqua'Vitaal",
-            "internalLocation": "",
-            "start": "2026-07-07T11:15:00+02:00",
-            "end": "2026-07-07T12:15:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/aquavitaal/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
-            "title": "Jumping Fitness",
-            "internalLocation": "",
-            "start": "2026-07-07T19:00:00+02:00",
-            "end": "2026-07-07T20:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": null
-          }
-        ]
-      },
-      {
         "date": "08 juli",
         "day": "Woensdag",
         "events": [
@@ -1138,42 +1105,24 @@
             "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           }
         ]
+      },
+      {
+        "date": "08 augustus",
+        "day": "Zaterdag",
+        "events": [
+          {
+            "title": "Boxercise",
+            "internalLocation": "",
+            "start": "2026-08-08T12:00:00+02:00",
+            "end": "2026-08-08T13:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": null
+          }
+        ]
       }
     ],
     "events": [
-      {
-        "title": "Banenzwemmen",
-        "internalLocation": "Wedstrijdbad",
-        "start": "2026-07-07T07:30:00+02:00",
-        "end": "2026-07-07T08:45:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "07 juli",
-        "dayName": "Dinsdag"
-      },
-      {
-        "title": "Aqua'Vitaal",
-        "internalLocation": "",
-        "start": "2026-07-07T11:15:00+02:00",
-        "end": "2026-07-07T12:15:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/aquavitaal/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "07 juli",
-        "dayName": "Dinsdag"
-      },
-      {
-        "title": "Jumping Fitness",
-        "internalLocation": "",
-        "start": "2026-07-07T19:00:00+02:00",
-        "end": "2026-07-07T20:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": null,
-        "dateLabel": "07 juli",
-        "dayName": "Dinsdag"
-      },
       {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad",
@@ -2317,64 +2266,24 @@
         "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "07 augustus",
         "dayName": "Vrijdag"
+      },
+      {
+        "title": "Boxercise",
+        "internalLocation": "",
+        "start": "2026-08-08T12:00:00+02:00",
+        "end": "2026-08-08T13:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": null,
+        "dateLabel": "08 augustus",
+        "dayName": "Zaterdag"
       }
     ],
-    "fetchedAt": "2026-07-07T18:39:21.368Z"
+    "fetchedAt": "2026-07-08T05:59:21.699Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
     "schedule": [
-      {
-        "date": "07 juli",
-        "day": "Dinsdag",
-        "events": [
-          {
-            "title": "Banenzwemmen",
-            "internalLocation": "Wedstrijdbad (50m x 8 banen)",
-            "start": "2026-07-07T07:00:00+02:00",
-            "end": "2026-07-07T08:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
-            "title": "Banenzwemmen",
-            "internalLocation": "Wedstrijdbad (50m x 5 banen)",
-            "start": "2026-07-07T10:00:00+02:00",
-            "end": "2026-07-07T11:30:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
-            "title": "Familiezwemmen",
-            "internalLocation": "Recreatiebad, bij mooi weer is ook het buitenbad geopend",
-            "start": "2026-07-07T13:00:00+02:00",
-            "end": "2026-07-07T18:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
-            "title": "Banenzwemmen",
-            "internalLocation": "Wedstrijdbad (25m x 8 banen)",
-            "start": "2026-07-07T19:00:00+02:00",
-            "end": "2026-07-07T21:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
-            "title": "Vrijzwemmen",
-            "internalLocation": "Recreatiebad. Let op; Ladies Only 12+",
-            "start": "2026-07-07T19:00:00+02:00",
-            "end": "2026-07-07T21:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
-          }
-        ]
-      },
       {
         "date": "08 juli",
         "day": "Woensdag",
@@ -2545,61 +2454,6 @@
       {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad (50m x 8 banen)",
-        "start": "2026-07-07T07:00:00+02:00",
-        "end": "2026-07-07T08:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "07 juli",
-        "dayName": "Dinsdag"
-      },
-      {
-        "title": "Banenzwemmen",
-        "internalLocation": "Wedstrijdbad (50m x 5 banen)",
-        "start": "2026-07-07T10:00:00+02:00",
-        "end": "2026-07-07T11:30:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "07 juli",
-        "dayName": "Dinsdag"
-      },
-      {
-        "title": "Familiezwemmen",
-        "internalLocation": "Recreatiebad, bij mooi weer is ook het buitenbad geopend",
-        "start": "2026-07-07T13:00:00+02:00",
-        "end": "2026-07-07T18:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "07 juli",
-        "dayName": "Dinsdag"
-      },
-      {
-        "title": "Banenzwemmen",
-        "internalLocation": "Wedstrijdbad (25m x 8 banen)",
-        "start": "2026-07-07T19:00:00+02:00",
-        "end": "2026-07-07T21:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "07 juli",
-        "dayName": "Dinsdag"
-      },
-      {
-        "title": "Vrijzwemmen",
-        "internalLocation": "Recreatiebad. Let op; Ladies Only 12+",
-        "start": "2026-07-07T19:00:00+02:00",
-        "end": "2026-07-07T21:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "07 juli",
-        "dayName": "Dinsdag"
-      },
-      {
-        "title": "Banenzwemmen",
-        "internalLocation": "Wedstrijdbad (50m x 8 banen)",
         "start": "2026-07-08T07:00:00+02:00",
         "end": "2026-07-08T08:00:00+02:00",
         "source": "Google Calendar",
@@ -2763,6 +2617,6 @@
         "dayName": "Zondag"
       }
     ],
-    "fetchedAt": "2026-07-07T18:39:23.458Z"
+    "fetchedAt": "2026-07-08T05:59:23.458Z"
   }
 }
