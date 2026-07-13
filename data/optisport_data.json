@@ -76,6 +76,15 @@
             "url": "/activiteiten/aquavitaal/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
+            "title": "Vrijzwemmen",
+            "internalLocation": "Recreatiebad",
+            "start": "2026-07-14T13:00:00+02:00",
+            "end": "2026-07-14T16:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
             "title": "Jumping Fitness",
             "internalLocation": "",
             "start": "2026-07-14T19:00:00+02:00",
@@ -124,13 +133,13 @@
             "url": "/activiteiten/aquavitaal/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Aqua'Bootcamp",
+            "title": "Vrijzwemmen",
             "internalLocation": "Recreatiebad",
-            "start": "2026-07-16T18:30:00+02:00",
-            "end": "2026-07-16T19:15:00+02:00",
+            "start": "2026-07-16T13:00:00+02:00",
+            "end": "2026-07-16T16:00:00+02:00",
             "source": "Google Calendar",
             "themeColor": "bright-blue",
-            "url": "/activiteiten/aquabootcamp/zwembad-bijlmer-amsterdam-zuidoost"
+            "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Banenzwemmen",
@@ -142,22 +151,13 @@
             "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Aqua'Robic",
-            "internalLocation": "",
-            "start": "2026-07-16T19:30:00+02:00",
-            "end": "2026-07-16T20:15:00+02:00",
+            "title": "Aqua'Bootcamp",
+            "internalLocation": "Recreatiebad",
+            "start": "2026-07-16T18:30:00+02:00",
+            "end": "2026-07-16T19:15:00+02:00",
             "source": "Google Calendar",
             "themeColor": "bright-blue",
-            "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
-            "title": "Aqua'Robic",
-            "internalLocation": "",
-            "start": "2026-07-16T19:30:00+02:00",
-            "end": "2026-07-16T20:15:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
+            "url": "/activiteiten/aquabootcamp/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Boxercise",
@@ -167,6 +167,24 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": null
+          },
+          {
+            "title": "Aqua'Robic",
+            "internalLocation": "",
+            "start": "2026-07-16T19:30:00+02:00",
+            "end": "2026-07-16T20:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Aqua'Robic",
+            "internalLocation": "",
+            "start": "2026-07-16T19:30:00+02:00",
+            "end": "2026-07-16T20:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
           }
         ]
       },
@@ -250,24 +268,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Banenzwemmen",
-            "internalLocation": "Wedstrijdbad",
-            "start": "2026-07-20T18:30:00+02:00",
-            "end": "2026-07-20T20:30:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
-            "title": "Banenzwemmen",
-            "internalLocation": "Wedstrijdbad",
-            "start": "2026-07-20T18:30:00+02:00",
-            "end": "2026-07-20T20:30:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "Aqua'Robic",
             "internalLocation": "",
             "start": "2026-07-20T18:30:00+02:00",
@@ -275,6 +275,24 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad",
+            "start": "2026-07-20T18:30:00+02:00",
+            "end": "2026-07-20T20:30:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad",
+            "start": "2026-07-20T18:30:00+02:00",
+            "end": "2026-07-20T20:30:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Aqua'Yoga",
@@ -308,6 +326,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/aquavitaal/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Vrijzwemmen",
+            "internalLocation": "Recreatiebad",
+            "start": "2026-07-21T13:00:00+02:00",
+            "end": "2026-07-21T16:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Jumping Fitness",
@@ -358,6 +385,15 @@
             "url": "/activiteiten/aquavitaal/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
+            "title": "Vrijzwemmen",
+            "internalLocation": "Recreatiebad",
+            "start": "2026-07-23T13:00:00+02:00",
+            "end": "2026-07-23T16:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
             "title": "Aqua'Bootcamp",
             "internalLocation": "Recreatiebad",
             "start": "2026-07-23T18:30:00+02:00",
@@ -376,15 +412,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Aqua'Robic",
-            "internalLocation": "",
-            "start": "2026-07-23T19:30:00+02:00",
-            "end": "2026-07-23T20:15:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "Boxercise",
             "internalLocation": "",
             "start": "2026-07-23T19:30:00+02:00",
@@ -392,6 +419,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": null
+          },
+          {
+            "title": "Aqua'Robic",
+            "internalLocation": "",
+            "start": "2026-07-23T19:30:00+02:00",
+            "end": "2026-07-23T20:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Aqua'Robic",
@@ -544,6 +580,15 @@
             "url": "/activiteiten/aquavitaal/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
+            "title": "Vrijzwemmen",
+            "internalLocation": "Recreatiebad",
+            "start": "2026-07-28T13:00:00+02:00",
+            "end": "2026-07-28T16:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
             "title": "Jumping Fitness",
             "internalLocation": "",
             "start": "2026-07-28T19:00:00+02:00",
@@ -592,6 +637,15 @@
             "url": "/activiteiten/aquavitaal/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
+            "title": "Vrijzwemmen",
+            "internalLocation": "Recreatiebad",
+            "start": "2026-07-30T13:00:00+02:00",
+            "end": "2026-07-30T16:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
             "title": "Aqua'Bootcamp",
             "internalLocation": "Recreatiebad",
             "start": "2026-07-30T18:30:00+02:00",
@@ -610,15 +664,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Aqua'Robic",
-            "internalLocation": "",
-            "start": "2026-07-30T19:30:00+02:00",
-            "end": "2026-07-30T20:15:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "Boxercise",
             "internalLocation": "",
             "start": "2026-07-30T19:30:00+02:00",
@@ -626,6 +671,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": null
+          },
+          {
+            "title": "Aqua'Robic",
+            "internalLocation": "",
+            "start": "2026-07-30T19:30:00+02:00",
+            "end": "2026-07-30T20:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Aqua'Robic",
@@ -778,6 +832,15 @@
             "url": "/activiteiten/aquavitaal/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
+            "title": "Vrijzwemmen",
+            "internalLocation": "Recreatiebad",
+            "start": "2026-08-04T13:00:00+02:00",
+            "end": "2026-08-04T16:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
             "title": "Jumping Fitness",
             "internalLocation": "",
             "start": "2026-08-04T19:00:00+02:00",
@@ -826,13 +889,13 @@
             "url": "/activiteiten/aquavitaal/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Banenzwemmen",
-            "internalLocation": "Wedstrijdbad",
-            "start": "2026-08-06T18:30:00+02:00",
-            "end": "2026-08-06T20:30:00+02:00",
+            "title": "Vrijzwemmen",
+            "internalLocation": "Recreatiebad",
+            "start": "2026-08-06T13:00:00+02:00",
+            "end": "2026-08-06T16:00:00+02:00",
             "source": "Google Calendar",
             "themeColor": "bright-blue",
-            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+            "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Aqua'Bootcamp",
@@ -844,13 +907,13 @@
             "url": "/activiteiten/aquabootcamp/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Aqua'Robic",
-            "internalLocation": "",
-            "start": "2026-08-06T19:30:00+02:00",
-            "end": "2026-08-06T20:15:00+02:00",
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad",
+            "start": "2026-08-06T18:30:00+02:00",
+            "end": "2026-08-06T20:30:00+02:00",
             "source": "Google Calendar",
             "themeColor": "bright-blue",
-            "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
+            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Boxercise",
@@ -860,6 +923,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": null
+          },
+          {
+            "title": "Aqua'Robic",
+            "internalLocation": "",
+            "start": "2026-08-06T19:30:00+02:00",
+            "end": "2026-08-06T20:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Aqua'Robic",
@@ -1087,15 +1159,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Aqua'Robic",
-            "internalLocation": "",
-            "start": "2026-08-13T19:30:00+02:00",
-            "end": "2026-08-13T20:15:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "Boxercise",
             "internalLocation": "",
             "start": "2026-08-13T19:30:00+02:00",
@@ -1103,6 +1166,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": null
+          },
+          {
+            "title": "Aqua'Robic",
+            "internalLocation": "",
+            "start": "2026-08-13T19:30:00+02:00",
+            "end": "2026-08-13T20:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Aqua'Robic",
@@ -1195,6 +1267,17 @@
         "dayName": "Dinsdag"
       },
       {
+        "title": "Vrijzwemmen",
+        "internalLocation": "Recreatiebad",
+        "start": "2026-07-14T13:00:00+02:00",
+        "end": "2026-07-14T16:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "14 juli",
+        "dayName": "Dinsdag"
+      },
+      {
         "title": "Jumping Fitness",
         "internalLocation": "",
         "start": "2026-07-14T19:00:00+02:00",
@@ -1239,13 +1322,13 @@
         "dayName": "Donderdag"
       },
       {
-        "title": "Aqua'Bootcamp",
+        "title": "Vrijzwemmen",
         "internalLocation": "Recreatiebad",
-        "start": "2026-07-16T18:30:00+02:00",
-        "end": "2026-07-16T19:15:00+02:00",
+        "start": "2026-07-16T13:00:00+02:00",
+        "end": "2026-07-16T16:00:00+02:00",
         "source": "Google Calendar",
         "themeColor": "bright-blue",
-        "url": "/activiteiten/aquabootcamp/zwembad-bijlmer-amsterdam-zuidoost",
+        "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "16 juli",
         "dayName": "Donderdag"
       },
@@ -1261,24 +1344,13 @@
         "dayName": "Donderdag"
       },
       {
-        "title": "Aqua'Robic",
-        "internalLocation": "",
-        "start": "2026-07-16T19:30:00+02:00",
-        "end": "2026-07-16T20:15:00+02:00",
+        "title": "Aqua'Bootcamp",
+        "internalLocation": "Recreatiebad",
+        "start": "2026-07-16T18:30:00+02:00",
+        "end": "2026-07-16T19:15:00+02:00",
         "source": "Google Calendar",
         "themeColor": "bright-blue",
-        "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "16 juli",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Aqua'Robic",
-        "internalLocation": "",
-        "start": "2026-07-16T19:30:00+02:00",
-        "end": "2026-07-16T20:15:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
+        "url": "/activiteiten/aquabootcamp/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "16 juli",
         "dayName": "Donderdag"
       },
@@ -1290,6 +1362,28 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": null,
+        "dateLabel": "16 juli",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Aqua'Robic",
+        "internalLocation": "",
+        "start": "2026-07-16T19:30:00+02:00",
+        "end": "2026-07-16T20:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "16 juli",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Aqua'Robic",
+        "internalLocation": "",
+        "start": "2026-07-16T19:30:00+02:00",
+        "end": "2026-07-16T20:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "16 juli",
         "dayName": "Donderdag"
       },
@@ -1371,28 +1465,6 @@
         "dayName": "Maandag"
       },
       {
-        "title": "Banenzwemmen",
-        "internalLocation": "Wedstrijdbad",
-        "start": "2026-07-20T18:30:00+02:00",
-        "end": "2026-07-20T20:30:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "20 juli",
-        "dayName": "Maandag"
-      },
-      {
-        "title": "Banenzwemmen",
-        "internalLocation": "Wedstrijdbad",
-        "start": "2026-07-20T18:30:00+02:00",
-        "end": "2026-07-20T20:30:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "20 juli",
-        "dayName": "Maandag"
-      },
-      {
         "title": "Aqua'Robic",
         "internalLocation": "",
         "start": "2026-07-20T18:30:00+02:00",
@@ -1400,6 +1472,28 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "20 juli",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad",
+        "start": "2026-07-20T18:30:00+02:00",
+        "end": "2026-07-20T20:30:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "20 juli",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad",
+        "start": "2026-07-20T18:30:00+02:00",
+        "end": "2026-07-20T20:30:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "20 juli",
         "dayName": "Maandag"
       },
@@ -1433,6 +1527,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/aquavitaal/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "21 juli",
+        "dayName": "Dinsdag"
+      },
+      {
+        "title": "Vrijzwemmen",
+        "internalLocation": "Recreatiebad",
+        "start": "2026-07-21T13:00:00+02:00",
+        "end": "2026-07-21T16:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "21 juli",
         "dayName": "Dinsdag"
       },
@@ -1481,6 +1586,17 @@
         "dayName": "Donderdag"
       },
       {
+        "title": "Vrijzwemmen",
+        "internalLocation": "Recreatiebad",
+        "start": "2026-07-23T13:00:00+02:00",
+        "end": "2026-07-23T16:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "23 juli",
+        "dayName": "Donderdag"
+      },
+      {
         "title": "Aqua'Bootcamp",
         "internalLocation": "Recreatiebad",
         "start": "2026-07-23T18:30:00+02:00",
@@ -1503,17 +1619,6 @@
         "dayName": "Donderdag"
       },
       {
-        "title": "Aqua'Robic",
-        "internalLocation": "",
-        "start": "2026-07-23T19:30:00+02:00",
-        "end": "2026-07-23T20:15:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "23 juli",
-        "dayName": "Donderdag"
-      },
-      {
         "title": "Boxercise",
         "internalLocation": "",
         "start": "2026-07-23T19:30:00+02:00",
@@ -1521,6 +1626,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": null,
+        "dateLabel": "23 juli",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Aqua'Robic",
+        "internalLocation": "",
+        "start": "2026-07-23T19:30:00+02:00",
+        "end": "2026-07-23T20:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "23 juli",
         "dayName": "Donderdag"
       },
@@ -1679,6 +1795,17 @@
         "dayName": "Dinsdag"
       },
       {
+        "title": "Vrijzwemmen",
+        "internalLocation": "Recreatiebad",
+        "start": "2026-07-28T13:00:00+02:00",
+        "end": "2026-07-28T16:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "28 juli",
+        "dayName": "Dinsdag"
+      },
+      {
         "title": "Jumping Fitness",
         "internalLocation": "",
         "start": "2026-07-28T19:00:00+02:00",
@@ -1723,6 +1850,17 @@
         "dayName": "Donderdag"
       },
       {
+        "title": "Vrijzwemmen",
+        "internalLocation": "Recreatiebad",
+        "start": "2026-07-30T13:00:00+02:00",
+        "end": "2026-07-30T16:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "30 juli",
+        "dayName": "Donderdag"
+      },
+      {
         "title": "Aqua'Bootcamp",
         "internalLocation": "Recreatiebad",
         "start": "2026-07-30T18:30:00+02:00",
@@ -1745,17 +1883,6 @@
         "dayName": "Donderdag"
       },
       {
-        "title": "Aqua'Robic",
-        "internalLocation": "",
-        "start": "2026-07-30T19:30:00+02:00",
-        "end": "2026-07-30T20:15:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "30 juli",
-        "dayName": "Donderdag"
-      },
-      {
         "title": "Boxercise",
         "internalLocation": "",
         "start": "2026-07-30T19:30:00+02:00",
@@ -1763,6 +1890,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": null,
+        "dateLabel": "30 juli",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Aqua'Robic",
+        "internalLocation": "",
+        "start": "2026-07-30T19:30:00+02:00",
+        "end": "2026-07-30T20:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "30 juli",
         "dayName": "Donderdag"
       },
@@ -1921,6 +2059,17 @@
         "dayName": "Dinsdag"
       },
       {
+        "title": "Vrijzwemmen",
+        "internalLocation": "Recreatiebad",
+        "start": "2026-08-04T13:00:00+02:00",
+        "end": "2026-08-04T16:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "04 augustus",
+        "dayName": "Dinsdag"
+      },
+      {
         "title": "Jumping Fitness",
         "internalLocation": "",
         "start": "2026-08-04T19:00:00+02:00",
@@ -1965,13 +2114,13 @@
         "dayName": "Donderdag"
       },
       {
-        "title": "Banenzwemmen",
-        "internalLocation": "Wedstrijdbad",
-        "start": "2026-08-06T18:30:00+02:00",
-        "end": "2026-08-06T20:30:00+02:00",
+        "title": "Vrijzwemmen",
+        "internalLocation": "Recreatiebad",
+        "start": "2026-08-06T13:00:00+02:00",
+        "end": "2026-08-06T16:00:00+02:00",
         "source": "Google Calendar",
         "themeColor": "bright-blue",
-        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "06 augustus",
         "dayName": "Donderdag"
       },
@@ -1987,13 +2136,13 @@
         "dayName": "Donderdag"
       },
       {
-        "title": "Aqua'Robic",
-        "internalLocation": "",
-        "start": "2026-08-06T19:30:00+02:00",
-        "end": "2026-08-06T20:15:00+02:00",
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad",
+        "start": "2026-08-06T18:30:00+02:00",
+        "end": "2026-08-06T20:30:00+02:00",
         "source": "Google Calendar",
         "themeColor": "bright-blue",
-        "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
+        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "06 augustus",
         "dayName": "Donderdag"
       },
@@ -2005,6 +2154,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": null,
+        "dateLabel": "06 augustus",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Aqua'Robic",
+        "internalLocation": "",
+        "start": "2026-08-06T19:30:00+02:00",
+        "end": "2026-08-06T20:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "06 augustus",
         "dayName": "Donderdag"
       },
@@ -2240,17 +2400,6 @@
         "dayName": "Donderdag"
       },
       {
-        "title": "Aqua'Robic",
-        "internalLocation": "",
-        "start": "2026-08-13T19:30:00+02:00",
-        "end": "2026-08-13T20:15:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "13 augustus",
-        "dayName": "Donderdag"
-      },
-      {
         "title": "Boxercise",
         "internalLocation": "",
         "start": "2026-08-13T19:30:00+02:00",
@@ -2271,9 +2420,20 @@
         "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "13 augustus",
         "dayName": "Donderdag"
+      },
+      {
+        "title": "Aqua'Robic",
+        "internalLocation": "",
+        "start": "2026-08-13T19:30:00+02:00",
+        "end": "2026-08-13T20:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "13 augustus",
+        "dayName": "Donderdag"
       }
     ],
-    "fetchedAt": "2026-07-13T06:02:14.410Z"
+    "fetchedAt": "2026-07-13T17:37:47.680Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -2579,6 +2739,6 @@
         "dayName": "Donderdag"
       }
     ],
-    "fetchedAt": "2026-07-13T06:02:16.259Z"
+    "fetchedAt": "2026-07-13T17:37:49.879Z"
   }
 }
