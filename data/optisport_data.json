@@ -2799,7 +2799,7 @@
         "dayName": "Donderdag"
       }
     ],
-    "fetchedAt": "2026-07-20T07:53:08.965Z"
+    "fetchedAt": "2026-07-20T18:49:07.597Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -2836,15 +2836,6 @@
             "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Banenzwemmen",
-            "internalLocation": "Wedstrijdbad (25m x 8 banen)",
-            "start": "2026-08-11T19:00:00+02:00",
-            "end": "2026-08-11T21:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Vrijzwemmen",
             "internalLocation": "Recreatiebad. Let op; Ladies Only 12+",
             "start": "2026-08-11T19:00:00+02:00",
@@ -2852,6 +2843,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad (25m x 8 banen)",
+            "start": "2026-08-11T19:00:00+02:00",
+            "end": "2026-08-11T21:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
       },
@@ -2911,15 +2911,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Aqua'Vitaal",
-            "internalLocation": "Recreatiebad",
-            "start": "2026-08-13T10:00:00+02:00",
-            "end": "2026-08-13T12:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/aquavitaal/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Banenzwemmen",
             "internalLocation": "Wedstrijdbad (50m x 5 banen)",
             "start": "2026-08-13T10:00:00+02:00",
@@ -2927,6 +2918,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Aqua'Vitaal",
+            "internalLocation": "Recreatiebad",
+            "start": "2026-08-13T10:00:00+02:00",
+            "end": "2026-08-13T12:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aquavitaal/zwembad-het-sloterparkbad-amsterdam"
           },
           {
             "title": "Familiezwemmen",
@@ -3010,15 +3010,6 @@
         "day": "Zondag",
         "events": [
           {
-            "title": "Familiezwemmen",
-            "internalLocation": "Recreatiebad, bij mooi weer is ook het buitenbad geopend",
-            "start": "2026-08-16T10:00:00+02:00",
-            "end": "2026-08-16T18:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Banenzwemmen",
             "internalLocation": "Wedstrijdbad (50m x 8 banen)",
             "start": "2026-08-16T10:00:00+02:00",
@@ -3026,6 +3017,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Familiezwemmen",
+            "internalLocation": "Recreatiebad, bij mooi weer is ook het buitenbad geopend",
+            "start": "2026-08-16T10:00:00+02:00",
+            "end": "2026-08-16T18:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
       }
@@ -3065,17 +3065,6 @@
         "dayName": "Dinsdag"
       },
       {
-        "title": "Banenzwemmen",
-        "internalLocation": "Wedstrijdbad (25m x 8 banen)",
-        "start": "2026-08-11T19:00:00+02:00",
-        "end": "2026-08-11T21:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "11 augustus",
-        "dayName": "Dinsdag"
-      },
-      {
         "title": "Vrijzwemmen",
         "internalLocation": "Recreatiebad. Let op; Ladies Only 12+",
         "start": "2026-08-11T19:00:00+02:00",
@@ -3083,6 +3072,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "11 augustus",
+        "dayName": "Dinsdag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad (25m x 8 banen)",
+        "start": "2026-08-11T19:00:00+02:00",
+        "end": "2026-08-11T21:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "11 augustus",
         "dayName": "Dinsdag"
       },
@@ -3142,17 +3142,6 @@
         "dayName": "Donderdag"
       },
       {
-        "title": "Aqua'Vitaal",
-        "internalLocation": "Recreatiebad",
-        "start": "2026-08-13T10:00:00+02:00",
-        "end": "2026-08-13T12:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/aquavitaal/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "13 augustus",
-        "dayName": "Donderdag"
-      },
-      {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad (50m x 5 banen)",
         "start": "2026-08-13T10:00:00+02:00",
@@ -3160,6 +3149,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "13 augustus",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Aqua'Vitaal",
+        "internalLocation": "Recreatiebad",
+        "start": "2026-08-13T10:00:00+02:00",
+        "end": "2026-08-13T12:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aquavitaal/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "13 augustus",
         "dayName": "Donderdag"
       },
@@ -3241,17 +3241,6 @@
         "dayName": "Zaterdag"
       },
       {
-        "title": "Familiezwemmen",
-        "internalLocation": "Recreatiebad, bij mooi weer is ook het buitenbad geopend",
-        "start": "2026-08-16T10:00:00+02:00",
-        "end": "2026-08-16T18:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "16 augustus",
-        "dayName": "Zondag"
-      },
-      {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad (50m x 8 banen)",
         "start": "2026-08-16T10:00:00+02:00",
@@ -3261,8 +3250,19 @@
         "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "16 augustus",
         "dayName": "Zondag"
+      },
+      {
+        "title": "Familiezwemmen",
+        "internalLocation": "Recreatiebad, bij mooi weer is ook het buitenbad geopend",
+        "start": "2026-08-16T10:00:00+02:00",
+        "end": "2026-08-16T18:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "16 augustus",
+        "dayName": "Zondag"
       }
     ],
-    "fetchedAt": "2026-07-20T07:53:09.556Z"
+    "fetchedAt": "2026-07-20T18:49:09.594Z"
   }
 }
