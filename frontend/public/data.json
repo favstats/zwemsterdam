@@ -3644,10 +3644,10 @@
     "bad": "Bijlmer Sportcentrum",
     "dag": "Donderdag",
     "date": "2026-08-13",
-    "activity": "Aqua'Robic",
+    "activity": "Boxercise",
     "extra": "",
     "start": 19.5,
-    "end": 20.25,
+    "end": 20.5,
     "id": 332,
     "website": "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost"
   },
@@ -3666,10 +3666,10 @@
     "bad": "Bijlmer Sportcentrum",
     "dag": "Donderdag",
     "date": "2026-08-13",
-    "activity": "Boxercise",
+    "activity": "Aqua'Robic",
     "extra": "",
     "start": 19.5,
-    "end": 20.5,
+    "end": 20.25,
     "id": 334,
     "website": "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost"
   },
@@ -3743,10 +3743,10 @@
     "bad": "Bijlmer Sportcentrum",
     "dag": "Zaterdag",
     "date": "2026-08-15",
-    "activity": "Vrijzwemmen",
-    "extra": "Recreatiebad",
+    "activity": "Boxercise",
+    "extra": "",
     "start": 12,
-    "end": 15,
+    "end": 13,
     "id": 341,
     "website": "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost"
   },
@@ -3754,10 +3754,10 @@
     "bad": "Bijlmer Sportcentrum",
     "dag": "Zaterdag",
     "date": "2026-08-15",
-    "activity": "Boxercise",
-    "extra": "",
+    "activity": "Vrijzwemmen",
+    "extra": "Recreatiebad",
     "start": 12,
-    "end": 13,
+    "end": 15,
     "id": 342,
     "website": "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost"
   },
@@ -4106,10 +4106,10 @@
     "bad": "Bijlmer Sportcentrum",
     "dag": "Donderdag",
     "date": "2026-08-20",
-    "activity": "Boxercise",
+    "activity": "Aqua'Robic",
     "extra": "",
     "start": 19.5,
-    "end": 20.5,
+    "end": 20.25,
     "id": 374,
     "website": "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost"
   },
@@ -4117,10 +4117,10 @@
     "bad": "Bijlmer Sportcentrum",
     "dag": "Donderdag",
     "date": "2026-08-20",
-    "activity": "Aqua'Robic",
+    "activity": "Boxercise",
     "extra": "",
     "start": 19.5,
-    "end": 20.25,
+    "end": 20.5,
     "id": 375,
     "website": "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost"
   },
@@ -4161,8 +4161,8 @@
     "bad": "Bijlmer Sportcentrum",
     "dag": "Vrijdag",
     "date": "2026-08-21",
-    "activity": "Aqua'Trimmen",
-    "extra": "Wedstrijdbad",
+    "activity": "Liz & Wes Baby en Peuter Zwemmen",
+    "extra": "doelgroepenbad, lopend - 2 jaar",
     "start": 9.75,
     "end": 10.5,
     "id": 379,
@@ -4172,8 +4172,8 @@
     "bad": "Bijlmer Sportcentrum",
     "dag": "Vrijdag",
     "date": "2026-08-21",
-    "activity": "Liz & Wes Baby en Peuter Zwemmen",
-    "extra": "doelgroepenbad, lopend - 2 jaar",
+    "activity": "Aqua'Trimmen",
+    "extra": "Wedstrijdbad",
     "start": 9.75,
     "end": 10.5,
     "id": 380,
@@ -4488,6 +4488,523 @@
     "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
   },
   {
+    "bad": "Sloterparkbad",
+    "dag": "Maandag",
+    "date": "2026-08-17",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (50m x 7 banen)",
+    "start": 7,
+    "end": 8,
+    "id": 409,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Maandag",
+    "date": "2026-08-17",
+    "activity": "Aqua'Vitaal",
+    "extra": "Recreatiebad",
+    "start": 10,
+    "end": 12,
+    "id": 410,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Maandag",
+    "date": "2026-08-17",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
+    "start": 10.25,
+    "end": 13,
+    "id": 411,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Maandag",
+    "date": "2026-08-17",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "Regulier",
+    "start": 16,
+    "end": 16.75,
+    "id": 412,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Maandag",
+    "date": "2026-08-17",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "Regulier",
+    "start": 16.75,
+    "end": 17.5,
+    "id": 413,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Maandag",
+    "date": "2026-08-17",
+    "activity": "Aqua'Robic",
+    "extra": "Recreatiebad. Let op; Ladies Only 18+",
+    "start": 19,
+    "end": 20.5,
+    "id": 414,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Maandag",
+    "date": "2026-08-17",
+    "activity": "Vrijzwemmen",
+    "extra": "Recreatiebad. Let op; Ladies Only 18+",
+    "start": 20.5,
+    "end": 22,
+    "id": 415,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Dinsdag",
+    "date": "2026-08-18",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (07:00 - 07:30 uur 50m x 5 banen, 07:30 - 08:00 uur 50m x 7 banen)",
+    "start": 7,
+    "end": 8,
+    "id": 416,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Dinsdag",
+    "date": "2026-08-18",
+    "activity": "Prikkelarm Zwemmen",
+    "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+    "start": 8,
+    "end": 9,
+    "id": 417,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Dinsdag",
+    "date": "2026-08-18",
+    "activity": "Aqua'Vitaal",
+    "extra": "Recreatiebad",
+    "start": 10,
+    "end": 12,
+    "id": 418,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Dinsdag",
+    "date": "2026-08-18",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
+    "start": 10.25,
+    "end": 13,
+    "id": 419,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Dinsdag",
+    "date": "2026-08-18",
+    "activity": "Vrijzwemmen",
+    "extra": "Recreatiebad. Let op; Ladies Only 12+",
+    "start": 19,
+    "end": 22,
+    "id": 420,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Dinsdag",
+    "date": "2026-08-18",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (25m ondiep x 8 banen)",
+    "start": 20.5,
+    "end": 21.5,
+    "id": 421,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-08-19",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (50m x 8 banen)",
+    "start": 7,
+    "end": 8,
+    "id": 422,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-08-19",
+    "activity": "Liz & Wes Baby en Peuter Zwemmen",
+    "extra": "0 jaar - lopend, Recreatiebad",
+    "start": 9,
+    "end": 9.75,
+    "id": 423,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-08-19",
+    "activity": "Liz & Wes Baby en Peuter Zwemmen",
+    "extra": "lopend - 2 jaar, Recreatiebad",
+    "start": 9.75,
+    "end": 10.5,
+    "id": 424,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-08-19",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
+    "start": 10.25,
+    "end": 13,
+    "id": 425,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-08-19",
+    "activity": "Liz & Wes Baby en Peuter Zwemmen",
+    "extra": "2 - 3 jaar, Recreatiebad",
+    "start": 10.5,
+    "end": 11.25,
+    "id": 426,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-08-19",
+    "activity": "Liz & Wes Baby en Peuter Zwemmen",
+    "extra": "3 - 4 jaar, Recreatiebad",
+    "start": 11.25,
+    "end": 12,
+    "id": 427,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-08-19",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "Regulier",
+    "start": 13,
+    "end": 13.75,
+    "id": 428,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-08-19",
+    "activity": "Oefenuur",
+    "extra": "Recreatiebad (in ondiep water; oefenen voor A-diploma, B-diploma en C-diploma)",
+    "start": 13.5,
+    "end": 14,
+    "id": 429,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-08-19",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "Regulier",
+    "start": 13.75,
+    "end": 14.5,
+    "id": 430,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-08-19",
+    "activity": "Zwemfeestje",
+    "extra": "Recreatiebad",
+    "start": 14,
+    "end": 18,
+    "id": 431,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-08-19",
+    "activity": "Vrijzwemmen",
+    "extra": "Recreatiebad. Tijdens het vrijzwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
+    "start": 14,
+    "end": 18,
+    "id": 432,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-08-19",
+    "activity": "Oefenuur",
+    "extra": "Wedstrijdbad (In diep water; oefenen voor eind A-diploma, B- diploma en C-diploma)",
+    "start": 14.25,
+    "end": 14.75,
+    "id": 433,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-08-19",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "Regulier",
+    "start": 14.5,
+    "end": 15.25,
+    "id": 434,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-08-19",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "Regulier",
+    "start": 15.5,
+    "end": 16.25,
+    "id": 435,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-08-19",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "Regulier",
+    "start": 16.25,
+    "end": 17,
+    "id": 436,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Woensdag",
+    "date": "2026-08-19",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (25m ondiep x 8 banen)",
+    "start": 20,
+    "end": 21,
+    "id": 437,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Donderdag",
+    "date": "2026-08-20",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (50m x 7 banen)",
+    "start": 7,
+    "end": 8,
+    "id": 438,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Donderdag",
+    "date": "2026-08-20",
+    "activity": "Prikkelarm Zwemmen",
+    "extra": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
+    "start": 8,
+    "end": 9,
+    "id": 439,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Donderdag",
+    "date": "2026-08-20",
+    "activity": "Aqua'Vitaal",
+    "extra": "Recreatiebad",
+    "start": 10,
+    "end": 12,
+    "id": 440,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Donderdag",
+    "date": "2026-08-20",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
+    "start": 10.25,
+    "end": 13,
+    "id": 441,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Donderdag",
+    "date": "2026-08-20",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "Regulier",
+    "start": 16,
+    "end": 16.75,
+    "id": 442,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Donderdag",
+    "date": "2026-08-20",
+    "activity": "Zed & Sop Zwemles",
+    "extra": "Regulier",
+    "start": 16.75,
+    "end": 17.5,
+    "id": 443,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Donderdag",
+    "date": "2026-08-20",
+    "activity": "Aqua'Robic",
+    "extra": "Recreatiebad. Let op; Ladies Only 18+",
+    "start": 19,
+    "end": 20.5,
+    "id": 444,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Donderdag",
+    "date": "2026-08-20",
+    "activity": "Vrijzwemmen",
+    "extra": "Recreatiebad. Let op; Ladies Only 18+",
+    "start": 20.5,
+    "end": 22,
+    "id": 445,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Donderdag",
+    "date": "2026-08-20",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (25m ondiep x 8 banen)",
+    "start": 20.5,
+    "end": 21.5,
+    "id": 446,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Vrijdag",
+    "date": "2026-08-21",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (50m x 7 banen)",
+    "start": 7,
+    "end": 8,
+    "id": 447,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Vrijdag",
+    "date": "2026-08-21",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
+    "start": 10.25,
+    "end": 13,
+    "id": 448,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Vrijdag",
+    "date": "2026-08-21",
+    "activity": "Vrijzwemmen",
+    "extra": "Recreatiebad. Let op; Gentlemen Only 18+",
+    "start": 20,
+    "end": 22,
+    "id": 449,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Zaterdag",
+    "date": "2026-08-22",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (25m x 8 banen)",
+    "start": 10.25,
+    "end": 12.25,
+    "id": 450,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Zaterdag",
+    "date": "2026-08-22",
+    "activity": "Familiezwemmen",
+    "extra": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
+    "start": 13,
+    "end": 16,
+    "id": 451,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Zaterdag",
+    "date": "2026-08-22",
+    "activity": "Zwemfeestje",
+    "extra": "Recreatiebad",
+    "start": 13,
+    "end": 16,
+    "id": 452,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Zondag",
+    "date": "2026-08-23",
+    "activity": "Banenzwemmen",
+    "extra": "Wedstrijdbad (50m x 8 banen)",
+    "start": 9,
+    "end": 12,
+    "id": 453,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Zondag",
+    "date": "2026-08-23",
+    "activity": "Familiezwemmen",
+    "extra": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
+    "start": 10,
+    "end": 16,
+    "id": 454,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
+    "bad": "Sloterparkbad",
+    "dag": "Zondag",
+    "date": "2026-08-23",
+    "activity": "Zwemfeestje",
+    "extra": "Recreatiebad",
+    "start": 10,
+    "end": 16,
+    "id": 455,
+    "website": "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam"
+  },
+  {
     "bad": "Duranbad (Diemen)",
     "dag": "Maandag",
     "date": "2026-07-20",
@@ -4495,7 +5012,7 @@
     "extra": "vier banen alleen diep",
     "start": 9.5,
     "end": 10.5,
-    "id": 409,
+    "id": 456,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4506,7 +5023,7 @@
     "extra": "diep",
     "start": 10.5,
     "end": 12,
-    "id": 410,
+    "id": 457,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4517,7 +5034,7 @@
     "extra": "3 banen en ondiep alleen voor 14.00 uur en na 14.30 uur",
     "start": 12.5,
     "end": 15.25,
-    "id": 411,
+    "id": 458,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4528,7 +5045,7 @@
     "extra": "drie middelste banen",
     "start": 15.5,
     "end": 16.25,
-    "id": 412,
+    "id": 459,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4539,7 +5056,7 @@
     "extra": "vier banen",
     "start": 16.25,
     "end": 17,
-    "id": 413,
+    "id": 460,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4550,7 +5067,7 @@
     "extra": "twee middelste banen",
     "start": 17,
     "end": 17.5,
-    "id": 414,
+    "id": 461,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4561,7 +5078,7 @@
     "extra": "vier banen",
     "start": 17.5,
     "end": 18,
-    "id": 415,
+    "id": 462,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4572,7 +5089,7 @@
     "extra": "drie banen",
     "start": 20,
     "end": 21,
-    "id": 416,
+    "id": 463,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4583,7 +5100,7 @@
     "extra": "drie banen",
     "start": 7,
     "end": 8,
-    "id": 417,
+    "id": 464,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4594,7 +5111,7 @@
     "extra": "",
     "start": 8,
     "end": 8.75,
-    "id": 418,
+    "id": 465,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4605,7 +5122,7 @@
     "extra": "drie banen diep en ondiep",
     "start": 13.75,
     "end": 15.25,
-    "id": 419,
+    "id": 466,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4616,7 +5133,7 @@
     "extra": "één baan in het midden",
     "start": 15.5,
     "end": 16.25,
-    "id": 420,
+    "id": 467,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4627,7 +5144,7 @@
     "extra": "twee middelste banen",
     "start": 16.25,
     "end": 17.5,
-    "id": 421,
+    "id": 468,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4638,7 +5155,7 @@
     "extra": "vier banen",
     "start": 17.5,
     "end": 18,
-    "id": 422,
+    "id": 469,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4649,7 +5166,7 @@
     "extra": "vier banen",
     "start": 20,
     "end": 21.25,
-    "id": 423,
+    "id": 470,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4660,7 +5177,7 @@
     "extra": "",
     "start": 11,
     "end": 11.75,
-    "id": 424,
+    "id": 471,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4671,7 +5188,7 @@
     "extra": "vier banen",
     "start": 11.75,
     "end": 14,
-    "id": 425,
+    "id": 472,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4682,7 +5199,7 @@
     "extra": "vier banen",
     "start": 7,
     "end": 7.75,
-    "id": 426,
+    "id": 473,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4693,7 +5210,7 @@
     "extra": "",
     "start": 7.75,
     "end": 9,
-    "id": 427,
+    "id": 474,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4704,7 +5221,7 @@
     "extra": "vier banen",
     "start": 11,
     "end": 12,
-    "id": 428,
+    "id": 475,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4715,7 +5232,7 @@
     "extra": "drie banen diep en ondiep",
     "start": 12.5,
     "end": 15.25,
-    "id": 429,
+    "id": 476,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4726,7 +5243,7 @@
     "extra": "twee middelste banen",
     "start": 15.5,
     "end": 16.5,
-    "id": 430,
+    "id": 477,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4737,7 +5254,7 @@
     "extra": "één baan in het midden",
     "start": 16.5,
     "end": 17.25,
-    "id": 431,
+    "id": 478,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4748,7 +5265,7 @@
     "extra": "vier banen",
     "start": 20.25,
     "end": 22,
-    "id": 432,
+    "id": 479,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4759,7 +5276,7 @@
     "extra": "",
     "start": 8,
     "end": 12,
-    "id": 433,
+    "id": 480,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4770,7 +5287,7 @@
     "extra": "",
     "start": 12.5,
     "end": 13,
-    "id": 434,
+    "id": 481,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4781,7 +5298,7 @@
     "extra": "",
     "start": 12.5,
     "end": 14.75,
-    "id": 435,
+    "id": 482,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4792,7 +5309,7 @@
     "extra": "vier banen",
     "start": 13,
     "end": 13.75,
-    "id": 436,
+    "id": 483,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4803,7 +5320,7 @@
     "extra": "3 banen",
     "start": 13.75,
     "end": 15.25,
-    "id": 437,
+    "id": 484,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4814,7 +5331,7 @@
     "extra": "één baan in het midden",
     "start": 15.5,
     "end": 16.25,
-    "id": 438,
+    "id": 485,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4825,7 +5342,7 @@
     "extra": "twee middelste banen",
     "start": 16.25,
     "end": 17.25,
-    "id": 439,
+    "id": 486,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4836,7 +5353,7 @@
     "extra": "vier banen",
     "start": 17.25,
     "end": 18,
-    "id": 440,
+    "id": 487,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4847,7 +5364,7 @@
     "extra": "Let op: iedere laatste vrijdag van de maand discozwemmen en geen les of banenzwemmen",
     "start": 19.5,
     "end": 20.25,
-    "id": 441,
+    "id": 488,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4858,7 +5375,7 @@
     "extra": "vier banen  Let op iedere laatste vrijdag van de maand discozwemmen en geen les of banenzwemmen Let op: iedere laatste vrijdag van de maand discozwemmen en geen les of banenzwemmen",
     "start": 20.25,
     "end": 21.25,
-    "id": 442,
+    "id": 489,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4869,7 +5386,7 @@
     "extra": "drie banen",
     "start": 9,
     "end": 9.75,
-    "id": 443,
+    "id": 490,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4880,7 +5397,7 @@
     "extra": "vier banen",
     "start": 9.75,
     "end": 11.25,
-    "id": 444,
+    "id": 491,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4891,7 +5408,7 @@
     "extra": "twee middelste banen",
     "start": 11.25,
     "end": 11.5,
-    "id": 445,
+    "id": 492,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4902,7 +5419,7 @@
     "extra": "vier banen",
     "start": 11.5,
     "end": 12,
-    "id": 446,
+    "id": 493,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4913,7 +5430,7 @@
     "extra": "vier banen",
     "start": 9.75,
     "end": 10.5,
-    "id": 447,
+    "id": 494,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4924,7 +5441,7 @@
     "extra": "drie banen",
     "start": 10.5,
     "end": 11.25,
-    "id": 448,
+    "id": 495,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4935,7 +5452,7 @@
     "extra": "vier banen",
     "start": 11.25,
     "end": 13.25,
-    "id": 449,
+    "id": 496,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4946,7 +5463,7 @@
     "extra": "",
     "start": 12.25,
     "end": 15,
-    "id": 450,
+    "id": 497,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4957,7 +5474,7 @@
     "extra": "vier banen",
     "start": 13.25,
     "end": 15,
-    "id": 451,
+    "id": 498,
     "website": "https://www.diemen.nl/zwembad/Openingstijden"
   },
   {
@@ -4965,10 +5482,10 @@
     "dag": "Donderdag",
     "date": "2026-07-23",
     "activity": "Zomervakantie",
-    "extra": "Tijdens de zomervakantie is het zwembad doordeweeks geopend van 8:00 tot 18:00 uur en in het weekend van 8:00 tot 17:00 uur",
+    "extra": "Tijdens de zomervakantie is het zwembad doordeweeks geopend van 8:00 tot 18:00 uur en in het weekend van 8:00 tot 17:00 uur - Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 8,
     "end": 18,
-    "id": 452,
+    "id": 499,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -4976,10 +5493,10 @@
     "dag": "Donderdag",
     "date": "2026-07-23",
     "activity": "Banenzwemmen – Buitenbad en Bad 2 – Wedstrijdbad",
-    "extra": "",
+    "extra": "Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 8,
     "end": 11,
-    "id": 453,
+    "id": 500,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -4987,10 +5504,10 @@
     "dag": "Donderdag",
     "date": "2026-07-23",
     "activity": "Recreatiezwemmen",
-    "extra": "11:00 – 16:00 Bad 2 – Doelgroepenbad 11:00 – 18:00 Buitenbad en Bad 2 – Golfslagbad, Wedstrijd- en Instructiebad",
+    "extra": "11:00 – 16:00 Bad 2 – Doelgroepenbad 11:00 – 18:00 Buitenbad en Bad 2 – Golfslagbad, Wedstrijd- en Instructiebad - Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 11,
     "end": 18,
-    "id": 454,
+    "id": 501,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -4998,10 +5515,10 @@
     "dag": "Donderdag",
     "date": "2026-07-23",
     "activity": "Vitaliteitszwemmen – Bad 2 – Doelgroepenbad",
-    "extra": "",
+    "extra": "Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 16,
     "end": 17,
-    "id": 455,
+    "id": 502,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5009,10 +5526,10 @@
     "dag": "Vrijdag",
     "date": "2026-07-24",
     "activity": "Zomervakantie",
-    "extra": "Tijdens de zomervakantie is het zwembad doordeweeks geopend van 8:00 tot 18:00 uur en in het weekend van 8:00 tot 17:00 uur",
+    "extra": "Tijdens de zomervakantie is het zwembad doordeweeks geopend van 8:00 tot 18:00 uur en in het weekend van 8:00 tot 17:00 uur - Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 8,
     "end": 18,
-    "id": 456,
+    "id": 503,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5020,10 +5537,10 @@
     "dag": "Vrijdag",
     "date": "2026-07-24",
     "activity": "Banenzwemmen – Buitenbad en Bad 2 – Wedstrijdbad",
-    "extra": "",
+    "extra": "Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 8,
     "end": 11,
-    "id": 457,
+    "id": 504,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5031,10 +5548,10 @@
     "dag": "Vrijdag",
     "date": "2026-07-24",
     "activity": "Zwemmen voor mensen met (beginnende) dementie – Bad 2 – Doelgroepenbad",
-    "extra": "",
+    "extra": "Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 10.25,
     "end": 11,
-    "id": 458,
+    "id": 505,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5042,10 +5559,10 @@
     "dag": "Vrijdag",
     "date": "2026-07-24",
     "activity": "Recreatiezwemmen – Buitenbad en Bad 2 – Golfslagbad, Wedstrijd-, Instructie-, Doelgroepenbad",
-    "extra": "",
+    "extra": "Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 11,
     "end": 18,
-    "id": 459,
+    "id": 506,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5053,10 +5570,10 @@
     "dag": "Zaterdag",
     "date": "2026-07-25",
     "activity": "Banenzwemmen – Buitenbad en Bad 2 – Wedstrijdbad",
-    "extra": "",
+    "extra": "Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 8,
     "end": 10,
-    "id": 460,
+    "id": 507,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5064,10 +5581,10 @@
     "dag": "Zaterdag",
     "date": "2026-07-25",
     "activity": "Zomervakantie",
-    "extra": "Tijdens de zomervakantie is het zwembad doordeweeks geopend van 8:00 tot 18:00 uur en in het weekend van 8:00 tot 17:00 uur",
+    "extra": "Tijdens de zomervakantie is het zwembad doordeweeks geopend van 8:00 tot 18:00 uur en in het weekend van 8:00 tot 17:00 uur - Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 8,
     "end": 17,
-    "id": 461,
+    "id": 508,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5075,10 +5592,10 @@
     "dag": "Zaterdag",
     "date": "2026-07-25",
     "activity": "Familiezwemmen",
-    "extra": "10:00 – 16:00 Bad 2 – Wedstrijd-, Instructie-, Doelgroepenbad 10:00 – 17:00 Buitenbad en Bad 2 – Golfslagbad Familiezwemmen wil zeggen: jongeren onder de 18 jaar hebben alleen toegang met een zwemvaardige volwassene van 21 jaar of ouder.",
+    "extra": "10:00 – 16:00 Bad 2 – Wedstrijd-, Instructie-, Doelgroepenbad 10:00 – 17:00 Buitenbad en Bad 2 – Golfslagbad Familiezwemmen wil zeggen: jongeren onder de 18 jaar hebben alleen toegang met een zwemvaardige volwassene van 21 jaar of ouder. - Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 10,
     "end": 17,
-    "id": 462,
+    "id": 509,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5086,10 +5603,10 @@
     "dag": "Zondag",
     "date": "2026-07-26",
     "activity": "Banenzwemmen – Buitenbad en Bad 2 – Wedstrijdbad",
-    "extra": "",
+    "extra": "Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 8,
     "end": 10,
-    "id": 463,
+    "id": 510,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5097,10 +5614,10 @@
     "dag": "Zondag",
     "date": "2026-07-26",
     "activity": "Zomervakantie",
-    "extra": "Tijdens de zomervakantie is het zwembad doordeweeks geopend van 8:00 tot 18:00 uur en in het weekend van 8:00 tot 17:00 uur",
+    "extra": "Tijdens de zomervakantie is het zwembad doordeweeks geopend van 8:00 tot 18:00 uur en in het weekend van 8:00 tot 17:00 uur - Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 8,
     "end": 17,
-    "id": 464,
+    "id": 511,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5108,10 +5625,10 @@
     "dag": "Zondag",
     "date": "2026-07-26",
     "activity": "Familiezwemmen",
-    "extra": "10:00 – 16:00 Bad 2 – Wedstrijd-, Instructie-, Doelgroepenbad 10:00 – 17:00 Buitenbad en Bad 2 – Golfslagbad Familiezwemmen wil zeggen: jongeren onder de 18 jaar hebben alleen toegang met een zwemvaardige volwassene van 21 jaar of ouder.",
+    "extra": "10:00 – 16:00 Bad 2 – Wedstrijd-, Instructie-, Doelgroepenbad 10:00 – 17:00 Buitenbad en Bad 2 – Golfslagbad Familiezwemmen wil zeggen: jongeren onder de 18 jaar hebben alleen toegang met een zwemvaardige volwassene van 21 jaar of ouder. - Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 10,
     "end": 17,
-    "id": 465,
+    "id": 512,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5119,10 +5636,10 @@
     "dag": "Maandag",
     "date": "2026-07-27",
     "activity": "Zomervakantie",
-    "extra": "Tijdens de zomervakantie is het zwembad doordeweeks geopend van 8:00 tot 18:00 uur en in het weekend van 8:00 tot 17:00 uur",
+    "extra": "Tijdens de zomervakantie is het zwembad doordeweeks geopend van 8:00 tot 18:00 uur en in het weekend van 8:00 tot 17:00 uur - Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 8,
     "end": 18,
-    "id": 466,
+    "id": 513,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5130,10 +5647,10 @@
     "dag": "Maandag",
     "date": "2026-07-27",
     "activity": "Banenzwemmen – Buitenbad en Bad 2 – Wedstrijdbad",
-    "extra": "",
+    "extra": "Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 8,
     "end": 11,
-    "id": 467,
+    "id": 514,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5141,10 +5658,10 @@
     "dag": "Maandag",
     "date": "2026-07-27",
     "activity": "Recreatiezwemmen – Buitenbad en Bad 2 – Golfslag-, Wedstrijd-, Instructie-, Doelgroepenbad",
-    "extra": "",
+    "extra": "Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 11,
     "end": 18,
-    "id": 468,
+    "id": 515,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5152,10 +5669,10 @@
     "dag": "Dinsdag",
     "date": "2026-07-28",
     "activity": "Zomervakantie",
-    "extra": "Tijdens de zomervakantie is het zwembad doordeweeks geopend van 8:00 tot 18:00 uur en in het weekend van 8:00 tot 17:00 uur",
+    "extra": "Tijdens de zomervakantie is het zwembad doordeweeks geopend van 8:00 tot 18:00 uur en in het weekend van 8:00 tot 17:00 uur - Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 8,
     "end": 18,
-    "id": 469,
+    "id": 516,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5163,10 +5680,10 @@
     "dag": "Dinsdag",
     "date": "2026-07-28",
     "activity": "Banenzwemmen – Buitenbad en Bad 2 – Wedstrijdbad",
-    "extra": "",
+    "extra": "Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 8,
     "end": 11,
-    "id": 470,
+    "id": 517,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5174,10 +5691,10 @@
     "dag": "Dinsdag",
     "date": "2026-07-28",
     "activity": "Recreatiezwemmen",
-    "extra": "11:00 – 16:00 Bad 2 – Doelgroepenbad 11:00 – 18:00 Buitenbad en Bad 2 – Golfslagbad, Wedstrijd- en Instructiebad",
+    "extra": "11:00 – 16:00 Bad 2 – Doelgroepenbad 11:00 – 18:00 Buitenbad en Bad 2 – Golfslagbad, Wedstrijd- en Instructiebad - Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 11,
     "end": 18,
-    "id": 471,
+    "id": 518,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5185,10 +5702,10 @@
     "dag": "Dinsdag",
     "date": "2026-07-28",
     "activity": "Vitaliteitszwemmen – Bad 2 – Doelgroepenbad",
-    "extra": "",
+    "extra": "Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 16,
     "end": 17,
-    "id": 472,
+    "id": 519,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5196,10 +5713,10 @@
     "dag": "Woensdag",
     "date": "2026-07-29",
     "activity": "Zomervakantie",
-    "extra": "Tijdens de zomervakantie is het zwembad doordeweeks geopend van 8:00 tot 18:00 uur en in het weekend van 8:00 tot 17:00 uur",
+    "extra": "Tijdens de zomervakantie is het zwembad doordeweeks geopend van 8:00 tot 18:00 uur en in het weekend van 8:00 tot 17:00 uur - Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 8,
     "end": 18,
-    "id": 473,
+    "id": 520,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5207,10 +5724,10 @@
     "dag": "Woensdag",
     "date": "2026-07-29",
     "activity": "Banenzwemmen – Buitenbad en Bad 2 – Wedstrijdbad",
-    "extra": "",
+    "extra": "Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 8,
     "end": 11,
-    "id": 474,
+    "id": 521,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5218,10 +5735,10 @@
     "dag": "Woensdag",
     "date": "2026-07-29",
     "activity": "Recreatiezwemmen – Buitenbad en Bad 2 – Golfslagbad, Wedstrijd-, Instructie-, Doelgroepenbad",
-    "extra": "",
+    "extra": "Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 11,
     "end": 18,
-    "id": 475,
+    "id": 522,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5229,10 +5746,10 @@
     "dag": "Donderdag",
     "date": "2026-07-30",
     "activity": "Zomervakantie",
-    "extra": "Tijdens de zomervakantie is het zwembad doordeweeks geopend van 8:00 tot 18:00 uur en in het weekend van 8:00 tot 17:00 uur",
+    "extra": "Tijdens de zomervakantie is het zwembad doordeweeks geopend van 8:00 tot 18:00 uur en in het weekend van 8:00 tot 17:00 uur - Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 8,
     "end": 18,
-    "id": 476,
+    "id": 523,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5240,10 +5757,10 @@
     "dag": "Donderdag",
     "date": "2026-07-30",
     "activity": "Banenzwemmen – Buitenbad en Bad 2 – Wedstrijdbad",
-    "extra": "",
+    "extra": "Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 8,
     "end": 11,
-    "id": 477,
+    "id": 524,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5251,10 +5768,10 @@
     "dag": "Donderdag",
     "date": "2026-07-30",
     "activity": "Recreatiezwemmen",
-    "extra": "11:00 – 16:00 Bad 2 – Doelgroepenbad 11:00 – 18:00 Buitenbad en Bad 2 – Golfslagbad, Wedstrijd- en Instructiebad",
+    "extra": "11:00 – 16:00 Bad 2 – Doelgroepenbad 11:00 – 18:00 Buitenbad en Bad 2 – Golfslagbad, Wedstrijd- en Instructiebad - Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 11,
     "end": 18,
-    "id": 478,
+    "id": 525,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5262,10 +5779,10 @@
     "dag": "Donderdag",
     "date": "2026-07-30",
     "activity": "Vitaliteitszwemmen – Bad 2 – Doelgroepenbad",
-    "extra": "",
+    "extra": "Laatste succesvolle De Meerkamp update; officiële site tijdelijk niet bereikbaar",
     "start": 16,
     "end": 17,
-    "id": 479,
+    "id": 526,
     "website": "https://amstelveensport.nl/zwembad-de-meerkamp/"
   },
   {
@@ -5276,7 +5793,7 @@
     "extra": "",
     "start": 12,
     "end": 13.4167,
-    "id": 480,
+    "id": 527,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5287,7 +5804,7 @@
     "extra": "",
     "start": 20.75,
     "end": 21.8333,
-    "id": 481,
+    "id": 528,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5298,7 +5815,7 @@
     "extra": "",
     "start": 20,
     "end": 20.75,
-    "id": 482,
+    "id": 529,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5309,7 +5826,7 @@
     "extra": "",
     "start": 11.5,
     "end": 13.4167,
-    "id": 483,
+    "id": 530,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5320,7 +5837,7 @@
     "extra": "",
     "start": 9,
     "end": 10.5,
-    "id": 484,
+    "id": 531,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5331,7 +5848,7 @@
     "extra": "",
     "start": 9,
     "end": 9.75,
-    "id": 485,
+    "id": 532,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5342,7 +5859,7 @@
     "extra": "",
     "start": 10,
     "end": 10.75,
-    "id": 486,
+    "id": 533,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5353,7 +5870,7 @@
     "extra": "",
     "start": 11,
     "end": 11.5,
-    "id": 487,
+    "id": 534,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5364,7 +5881,7 @@
     "extra": "",
     "start": 8,
     "end": 10.8333,
-    "id": 488,
+    "id": 535,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5375,7 +5892,7 @@
     "extra": "",
     "start": 9,
     "end": 10.4167,
-    "id": 489,
+    "id": 536,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5386,7 +5903,7 @@
     "extra": "",
     "start": 10.5,
     "end": 13.8333,
-    "id": 490,
+    "id": 537,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5397,7 +5914,7 @@
     "extra": "",
     "start": 9.25,
     "end": 10.5,
-    "id": 491,
+    "id": 538,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5408,7 +5925,7 @@
     "extra": "",
     "start": 11.5,
     "end": 13.8333,
-    "id": 492,
+    "id": 539,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5419,7 +5936,7 @@
     "extra": "",
     "start": 10.5,
     "end": 11.5,
-    "id": 493,
+    "id": 540,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5430,7 +5947,7 @@
     "extra": "",
     "start": 7,
     "end": 8.8333,
-    "id": 494,
+    "id": 541,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5441,7 +5958,7 @@
     "extra": "",
     "start": 11.5,
     "end": 13.4167,
-    "id": 495,
+    "id": 542,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5452,7 +5969,7 @@
     "extra": "",
     "start": 9,
     "end": 9.75,
-    "id": 496,
+    "id": 543,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5463,7 +5980,7 @@
     "extra": "",
     "start": 10,
     "end": 10.75,
-    "id": 497,
+    "id": 544,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5474,7 +5991,7 @@
     "extra": "",
     "start": 11,
     "end": 11.5,
-    "id": 498,
+    "id": 545,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5485,7 +6002,7 @@
     "extra": "",
     "start": 12,
     "end": 13.4167,
-    "id": 499,
+    "id": 546,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5496,7 +6013,7 @@
     "extra": "",
     "start": 20.75,
     "end": 21.8333,
-    "id": 500,
+    "id": 547,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5507,7 +6024,7 @@
     "extra": "",
     "start": 20,
     "end": 20.75,
-    "id": 501,
+    "id": 548,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5518,7 +6035,7 @@
     "extra": "",
     "start": 7,
     "end": 8.8333,
-    "id": 502,
+    "id": 549,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5529,7 +6046,7 @@
     "extra": "",
     "start": 11.5,
     "end": 13.4167,
-    "id": 503,
+    "id": 550,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5540,7 +6057,7 @@
     "extra": "",
     "start": 9,
     "end": 10.5,
-    "id": 504,
+    "id": 551,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5551,7 +6068,7 @@
     "extra": "Alleen op woensdag volgens rooster",
     "start": 9,
     "end": 9.5,
-    "id": 505,
+    "id": 552,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5562,7 +6079,7 @@
     "extra": "",
     "start": 12,
     "end": 13.4167,
-    "id": 506,
+    "id": 553,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5573,7 +6090,7 @@
     "extra": "",
     "start": 20.75,
     "end": 21.8333,
-    "id": 507,
+    "id": 554,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5584,7 +6101,7 @@
     "extra": "",
     "start": 20,
     "end": 20.75,
-    "id": 508,
+    "id": 555,
     "website": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/"
   },
   {
@@ -5595,7 +6112,7 @@
     "extra": "Banenbad",
     "start": 7,
     "end": 14,
-    "id": 509,
+    "id": 556,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5606,7 +6123,7 @@
     "extra": "Recreatiebad",
     "start": 11,
     "end": 13,
-    "id": 510,
+    "id": 557,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5617,7 +6134,7 @@
     "extra": "Banenbad",
     "start": 20,
     "end": 21.5,
-    "id": 511,
+    "id": 558,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5628,7 +6145,7 @@
     "extra": "Recreatiebad",
     "start": 20.75,
     "end": 21.5,
-    "id": 512,
+    "id": 559,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5639,7 +6156,7 @@
     "extra": "Recreatiebad",
     "start": 14,
     "end": 14.75,
-    "id": 513,
+    "id": 560,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5650,7 +6167,7 @@
     "extra": "Recreatiebad",
     "start": 19.75,
     "end": 20.5,
-    "id": 514,
+    "id": 561,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5661,7 +6178,7 @@
     "extra": "Recreatiebad",
     "start": 9,
     "end": 11,
-    "id": 515,
+    "id": 562,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5672,7 +6189,7 @@
     "extra": "Alle baden",
     "start": 15,
     "end": 18,
-    "id": 516,
+    "id": 563,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5683,7 +6200,7 @@
     "extra": "Instructiebad",
     "start": 9,
     "end": 9.5,
-    "id": 517,
+    "id": 564,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5694,7 +6211,7 @@
     "extra": "Instructiebad",
     "start": 9.5,
     "end": 10.25,
-    "id": 518,
+    "id": 565,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5705,7 +6222,7 @@
     "extra": "Instructiebad",
     "start": 10.25,
     "end": 11,
-    "id": 519,
+    "id": 566,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5716,7 +6233,7 @@
     "extra": "Banenbad",
     "start": 7,
     "end": 14,
-    "id": 520,
+    "id": 567,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5727,7 +6244,7 @@
     "extra": "Recreatiebad",
     "start": 11,
     "end": 13,
-    "id": 521,
+    "id": 568,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5738,7 +6255,7 @@
     "extra": "Recreatiebad",
     "start": 9,
     "end": 9.75,
-    "id": 522,
+    "id": 569,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5749,7 +6266,7 @@
     "extra": "Alle baden",
     "start": 14,
     "end": 18,
-    "id": 523,
+    "id": 570,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5760,7 +6277,7 @@
     "extra": "Recreatiebad & instructiebad",
     "start": 13.25,
     "end": 14,
-    "id": 524,
+    "id": 571,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5771,7 +6288,7 @@
     "extra": "Instructiebad",
     "start": 9,
     "end": 9.5,
-    "id": 525,
+    "id": 572,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5782,7 +6299,7 @@
     "extra": "Instructiebad",
     "start": 9.5,
     "end": 10.25,
-    "id": 526,
+    "id": 573,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5793,7 +6310,7 @@
     "extra": "Instructiebad",
     "start": 10.25,
     "end": 11,
-    "id": 527,
+    "id": 574,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5804,7 +6321,7 @@
     "extra": "Banenbad",
     "start": 10,
     "end": 12.5,
-    "id": 528,
+    "id": 575,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5815,7 +6332,7 @@
     "extra": "Recreatiebad & instructiebad",
     "start": 7.75,
     "end": 12.5,
-    "id": 529,
+    "id": 576,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5826,7 +6343,7 @@
     "extra": "Recreatiebad & instructiebad",
     "start": 12.5,
     "end": 14.5,
-    "id": 530,
+    "id": 577,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5837,7 +6354,7 @@
     "extra": "Banenbad",
     "start": 10,
     "end": 13,
-    "id": 531,
+    "id": 578,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5848,7 +6365,7 @@
     "extra": "Recreatiebad",
     "start": 9,
     "end": 10,
-    "id": 532,
+    "id": 579,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5859,7 +6376,7 @@
     "extra": "Recreatiebad & instructiebad",
     "start": 10,
     "end": 13,
-    "id": 533,
+    "id": 580,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5870,7 +6387,7 @@
     "extra": "Banenbad",
     "start": 7,
     "end": 14,
-    "id": 534,
+    "id": 581,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5881,7 +6398,7 @@
     "extra": "Recreatiebad",
     "start": 11,
     "end": 13,
-    "id": 535,
+    "id": 582,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5892,7 +6409,7 @@
     "extra": "Banenbad",
     "start": 20,
     "end": 21.5,
-    "id": 536,
+    "id": 583,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5903,7 +6420,7 @@
     "extra": "Recreatiebad",
     "start": 19.75,
     "end": 20.5,
-    "id": 537,
+    "id": 584,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5914,7 +6431,7 @@
     "extra": "Recreatiebad",
     "start": 9,
     "end": 11,
-    "id": 538,
+    "id": 585,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5925,7 +6442,7 @@
     "extra": "Alle baden",
     "start": 15,
     "end": 18,
-    "id": 539,
+    "id": 586,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5936,7 +6453,7 @@
     "extra": "Instructiebad",
     "start": 9,
     "end": 9.5,
-    "id": 540,
+    "id": 587,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5947,7 +6464,7 @@
     "extra": "Instructiebad",
     "start": 9.5,
     "end": 10.25,
-    "id": 541,
+    "id": 588,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5958,7 +6475,7 @@
     "extra": "Instructiebad",
     "start": 10.25,
     "end": 11,
-    "id": 542,
+    "id": 589,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5969,7 +6486,7 @@
     "extra": "Banenbad",
     "start": 7,
     "end": 14,
-    "id": 543,
+    "id": 590,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5980,7 +6497,7 @@
     "extra": "Recreatiebad",
     "start": 11,
     "end": 13,
-    "id": 544,
+    "id": 591,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -5991,7 +6508,7 @@
     "extra": "Banenbad",
     "start": 20,
     "end": 21.5,
-    "id": 545,
+    "id": 592,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6002,7 +6519,7 @@
     "extra": "Recreatiebad",
     "start": 19,
     "end": 19.75,
-    "id": 546,
+    "id": 593,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6013,7 +6530,7 @@
     "extra": "Recreatiebad",
     "start": 19.75,
     "end": 20.5,
-    "id": 547,
+    "id": 594,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6024,7 +6541,7 @@
     "extra": "Recreatiebad",
     "start": 20.5,
     "end": 21.25,
-    "id": 548,
+    "id": 595,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6035,7 +6552,7 @@
     "extra": "Recreatiebad",
     "start": 21.25,
     "end": 22,
-    "id": 549,
+    "id": 596,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6046,7 +6563,7 @@
     "extra": "Recreatiebad",
     "start": 9,
     "end": 11,
-    "id": 550,
+    "id": 597,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6057,7 +6574,7 @@
     "extra": "Alle baden",
     "start": 15,
     "end": 18,
-    "id": 551,
+    "id": 598,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6068,7 +6585,7 @@
     "extra": "Instructiebad",
     "start": 9,
     "end": 9.5,
-    "id": 552,
+    "id": 599,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6079,7 +6596,7 @@
     "extra": "Instructiebad",
     "start": 9.5,
     "end": 10.25,
-    "id": 553,
+    "id": 600,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6090,7 +6607,7 @@
     "extra": "Instructiebad",
     "start": 10.25,
     "end": 11,
-    "id": 554,
+    "id": 601,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6101,7 +6618,7 @@
     "extra": "Banenbad",
     "start": 7,
     "end": 14,
-    "id": 555,
+    "id": 602,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6112,7 +6629,7 @@
     "extra": "Banenbad",
     "start": 20,
     "end": 21.5,
-    "id": 556,
+    "id": 603,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6123,7 +6640,7 @@
     "extra": "Recreatiebad",
     "start": 20.25,
     "end": 21,
-    "id": 557,
+    "id": 604,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6134,7 +6651,7 @@
     "extra": "Alle baden",
     "start": 15,
     "end": 18,
-    "id": 558,
+    "id": 605,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6145,7 +6662,7 @@
     "extra": "Banenbad",
     "start": 7,
     "end": 14,
-    "id": 559,
+    "id": 606,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6156,7 +6673,7 @@
     "extra": "Recreatiebad",
     "start": 11,
     "end": 13,
-    "id": 560,
+    "id": 607,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6167,7 +6684,7 @@
     "extra": "Banenbad",
     "start": 20,
     "end": 21.5,
-    "id": 561,
+    "id": 608,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6178,7 +6695,7 @@
     "extra": "Recreatiebad",
     "start": 20.75,
     "end": 21.5,
-    "id": 562,
+    "id": 609,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6189,7 +6706,7 @@
     "extra": "Recreatiebad",
     "start": 14,
     "end": 14.75,
-    "id": 563,
+    "id": 610,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6200,7 +6717,7 @@
     "extra": "Recreatiebad",
     "start": 19.75,
     "end": 20.5,
-    "id": 564,
+    "id": 611,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6211,7 +6728,7 @@
     "extra": "Recreatiebad",
     "start": 9,
     "end": 11,
-    "id": 565,
+    "id": 612,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6222,7 +6739,7 @@
     "extra": "Alle baden",
     "start": 15,
     "end": 18,
-    "id": 566,
+    "id": 613,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6233,7 +6750,7 @@
     "extra": "Instructiebad",
     "start": 9,
     "end": 9.5,
-    "id": 567,
+    "id": 614,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6244,7 +6761,7 @@
     "extra": "Instructiebad",
     "start": 9.5,
     "end": 10.25,
-    "id": 568,
+    "id": 615,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6255,7 +6772,7 @@
     "extra": "Instructiebad",
     "start": 10.25,
     "end": 11,
-    "id": 569,
+    "id": 616,
     "website": "https://sportinaalsmeer.nl/zwembad-de-waterlelie"
   },
   {
@@ -6266,7 +6783,7 @@
     "extra": "Slag 2 i/d breedte",
     "start": 10,
     "end": 11,
-    "id": 570,
+    "id": 617,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6277,7 +6794,7 @@
     "extra": "instructiebad",
     "start": 12,
     "end": 13,
-    "id": 571,
+    "id": 618,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6288,7 +6805,7 @@
     "extra": "Slag 1",
     "start": 12,
     "end": 13,
-    "id": 572,
+    "id": 619,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6299,7 +6816,7 @@
     "extra": "Slag 2",
     "start": 7,
     "end": 8,
-    "id": 573,
+    "id": 620,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6310,7 +6827,7 @@
     "extra": "Slag 1",
     "start": 9,
     "end": 13,
-    "id": 574,
+    "id": 621,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6321,7 +6838,7 @@
     "extra": "instructiebad",
     "start": 12,
     "end": 13,
-    "id": 575,
+    "id": 622,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6332,7 +6849,7 @@
     "extra": "Slag 2",
     "start": 12,
     "end": 13,
-    "id": 576,
+    "id": 623,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6343,7 +6860,7 @@
     "extra": "Slag 1",
     "start": 20,
     "end": 21,
-    "id": 577,
+    "id": 624,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6354,7 +6871,7 @@
     "extra": "instructiebad",
     "start": 9,
     "end": 13,
-    "id": 578,
+    "id": 625,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6365,7 +6882,7 @@
     "extra": "Slag 1 in 3/4 van het bad",
     "start": 9,
     "end": 9.75,
-    "id": 579,
+    "id": 626,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6376,7 +6893,7 @@
     "extra": "Slag 1",
     "start": 9.75,
     "end": 13,
-    "id": 580,
+    "id": 627,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6387,7 +6904,7 @@
     "extra": "Slag 2 - vervalt: ZOMERVAKANTIE",
     "start": 13,
     "end": 14,
-    "id": 581,
+    "id": 628,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6398,7 +6915,7 @@
     "extra": "Slag 1",
     "start": 20,
     "end": 21,
-    "id": 582,
+    "id": 629,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6409,7 +6926,7 @@
     "extra": "instructiebad",
     "start": 12,
     "end": 13,
-    "id": 583,
+    "id": 630,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6420,7 +6937,7 @@
     "extra": "Slag 1",
     "start": 12,
     "end": 13,
-    "id": 584,
+    "id": 631,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6431,7 +6948,7 @@
     "extra": "Slag 1",
     "start": 20,
     "end": 21,
-    "id": 585,
+    "id": 632,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6442,7 +6959,7 @@
     "extra": "Slag 2",
     "start": 9,
     "end": 10,
-    "id": 586,
+    "id": 633,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6453,7 +6970,7 @@
     "extra": "instructiebad",
     "start": 12,
     "end": 13,
-    "id": 587,
+    "id": 634,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6464,7 +6981,7 @@
     "extra": "Slag 1",
     "start": 12,
     "end": 13,
-    "id": 588,
+    "id": 635,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6475,7 +6992,7 @@
     "extra": "Slag 2 - vervalt: ZOMERVAKANTIE",
     "start": 13,
     "end": 14,
-    "id": 589,
+    "id": 636,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6486,7 +7003,7 @@
     "extra": "Slag 1",
     "start": 20,
     "end": 21,
-    "id": 590,
+    "id": 637,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6497,7 +7014,7 @@
     "extra": "Slag 2 i/d breedte",
     "start": 10,
     "end": 11,
-    "id": 591,
+    "id": 638,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6508,7 +7025,7 @@
     "extra": "instructiebad",
     "start": 12,
     "end": 13,
-    "id": 592,
+    "id": 639,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6519,7 +7036,7 @@
     "extra": "Slag 1",
     "start": 12,
     "end": 13,
-    "id": 593,
+    "id": 640,
     "website": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/"
   },
   {
@@ -6530,7 +7047,7 @@
     "extra": "Openluchtzwembad. Tenminste een baan open voor banenzwemmen.",
     "start": 8,
     "end": 20,
-    "id": 594,
+    "id": 641,
     "website": "https://www.amstelbad.nl/praktische-info/openingstijden/"
   },
   {
@@ -6541,7 +7058,7 @@
     "extra": "Openluchtzwembad. Tenminste een baan open voor banenzwemmen.",
     "start": 8,
     "end": 19,
-    "id": 595,
+    "id": 642,
     "website": "https://www.amstelbad.nl/praktische-info/openingstijden/"
   },
   {
@@ -6552,7 +7069,7 @@
     "extra": "Openluchtzwembad. Tenminste een baan open voor banenzwemmen.",
     "start": 10,
     "end": 18,
-    "id": 596,
+    "id": 643,
     "website": "https://www.amstelbad.nl/praktische-info/openingstijden/"
   },
   {
@@ -6563,7 +7080,7 @@
     "extra": "Openluchtzwembad. Tenminste een baan open voor banenzwemmen.",
     "start": 10,
     "end": 18,
-    "id": 597,
+    "id": 644,
     "website": "https://www.amstelbad.nl/praktische-info/openingstijden/"
   },
   {
@@ -6574,7 +7091,7 @@
     "extra": "Openluchtzwembad. Tenminste een baan open voor banenzwemmen.",
     "start": 8,
     "end": 20,
-    "id": 598,
+    "id": 645,
     "website": "https://www.amstelbad.nl/praktische-info/openingstijden/"
   },
   {
@@ -6585,7 +7102,7 @@
     "extra": "Openluchtzwembad. Tenminste een baan open voor banenzwemmen.",
     "start": 8,
     "end": 20,
-    "id": 599,
+    "id": 646,
     "website": "https://www.amstelbad.nl/praktische-info/openingstijden/"
   },
   {
@@ -6596,7 +7113,7 @@
     "extra": "Openluchtzwembad. Tenminste een baan open voor banenzwemmen.",
     "start": 8,
     "end": 19,
-    "id": 600,
+    "id": 647,
     "website": "https://www.amstelbad.nl/praktische-info/openingstijden/"
   },
   {
@@ -6607,7 +7124,7 @@
     "extra": "Openluchtzwembad. Tenminste een baan open voor banenzwemmen.",
     "start": 8,
     "end": 20,
-    "id": 601,
+    "id": 648,
     "website": "https://www.amstelbad.nl/praktische-info/openingstijden/"
   }
 ]
