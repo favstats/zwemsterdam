@@ -3,75 +3,6 @@
     "locationId": 2202,
     "schedule": [
       {
-        "date": "23 juli",
-        "day": "Donderdag",
-        "events": [
-          {
-            "title": "Banenzwemmen",
-            "internalLocation": "Wedstrijdbad",
-            "start": "2026-07-23T07:30:00+02:00",
-            "end": "2026-07-23T08:45:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
-            "title": "Aqua'Vitaal",
-            "internalLocation": "",
-            "start": "2026-07-23T11:15:00+02:00",
-            "end": "2026-07-23T12:15:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/aquavitaal/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
-            "title": "Vrijzwemmen",
-            "internalLocation": "Recreatiebad",
-            "start": "2026-07-23T13:00:00+02:00",
-            "end": "2026-07-23T16:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
-            "title": "Aqua'Bootcamp",
-            "internalLocation": "Recreatiebad",
-            "start": "2026-07-23T18:30:00+02:00",
-            "end": "2026-07-23T19:15:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/aquabootcamp/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
-            "title": "Banenzwemmen",
-            "internalLocation": "Wedstrijdbad",
-            "start": "2026-07-23T18:30:00+02:00",
-            "end": "2026-07-23T20:30:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
-            "title": "Boxercise",
-            "internalLocation": "",
-            "start": "2026-07-23T19:30:00+02:00",
-            "end": "2026-07-23T20:30:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": null
-          },
-          {
-            "title": "Aqua'Robic",
-            "internalLocation": "",
-            "start": "2026-07-23T19:30:00+02:00",
-            "end": "2026-07-23T20:15:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
-          }
-        ]
-      },
-      {
         "date": "24 juli",
         "day": "Vrijdag",
         "events": [
@@ -83,15 +14,6 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
-            "title": "Liz & Wes Baby en Peuter Zwemmen",
-            "internalLocation": "doelgroepenbad, 0 jaar- lopend",
-            "start": "2026-07-24T11:15:00+02:00",
-            "end": "2026-07-24T12:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Liz & Wes Baby en Peuter Zwemmen",
@@ -114,6 +36,15 @@
           {
             "title": "Liz & Wes Baby en Peuter Zwemmen",
             "internalLocation": "doelgroepenbad, lopend - 2 jaar",
+            "start": "2026-07-24T11:15:00+02:00",
+            "end": "2026-07-24T12:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Liz & Wes Baby en Peuter Zwemmen",
+            "internalLocation": "doelgroepenbad, 0 jaar- lopend",
             "start": "2026-07-24T11:15:00+02:00",
             "end": "2026-07-24T12:00:00+02:00",
             "source": "Google Calendar",
@@ -682,15 +613,6 @@
             "url": "/activiteiten/aquavitaal/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Aqua'Bootcamp",
-            "internalLocation": "Recreatiebad",
-            "start": "2026-08-13T18:30:00+02:00",
-            "end": "2026-08-13T19:15:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/aquabootcamp/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "Banenzwemmen",
             "internalLocation": "Wedstrijdbad",
             "start": "2026-08-13T18:30:00+02:00",
@@ -698,6 +620,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Aqua'Bootcamp",
+            "internalLocation": "Recreatiebad",
+            "start": "2026-08-13T18:30:00+02:00",
+            "end": "2026-08-13T19:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aquabootcamp/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Boxercise",
@@ -886,15 +817,6 @@
             "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Zwemles Volwassenen",
-            "internalLocation": "",
-            "start": "2026-08-17T17:30:00+02:00",
-            "end": "2026-08-17T18:15:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "Zwemvaardigheid",
             "internalLocation": "",
             "start": "2026-08-17T17:30:00+02:00",
@@ -902,6 +824,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zwemles Volwassenen",
+            "internalLocation": "",
+            "start": "2026-08-17T17:30:00+02:00",
+            "end": "2026-08-17T18:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Aqua'Robic",
@@ -973,15 +904,6 @@
             "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Zwemles Volwassenen",
-            "internalLocation": "",
-            "start": "2026-08-18T18:30:00+02:00",
-            "end": "2026-08-18T20:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "Aqua'9maanden",
             "internalLocation": "doelgroepenbad",
             "start": "2026-08-18T18:30:00+02:00",
@@ -989,6 +911,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/aqua9maanden/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zwemles Volwassenen",
+            "internalLocation": "",
+            "start": "2026-08-18T18:30:00+02:00",
+            "end": "2026-08-18T20:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Jumping Fitness",
@@ -1129,15 +1060,6 @@
             "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Boxercise",
-            "internalLocation": "",
-            "start": "2026-08-20T19:30:00+02:00",
-            "end": "2026-08-20T20:30:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": null
-          },
-          {
             "title": "Aqua'Robic",
             "internalLocation": "",
             "start": "2026-08-20T19:30:00+02:00",
@@ -1145,6 +1067,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Boxercise",
+            "internalLocation": "",
+            "start": "2026-08-20T19:30:00+02:00",
+            "end": "2026-08-20T20:30:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": null
           }
         ]
       },
@@ -1264,86 +1195,96 @@
             "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           }
         ]
+      },
+      {
+        "date": "24 augustus",
+        "day": "Maandag",
+        "events": [
+          {
+            "title": "Liz & Wes Baby en Peuter Zwemmen",
+            "internalLocation": "doelgroepenbad, 0 jaar - Lopend",
+            "start": "2026-08-24T09:00:00+02:00",
+            "end": "2026-08-24T09:45:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Liz & Wes Baby en Peuter Zwemmen",
+            "internalLocation": "doelgroepenbad, lopen - 2 jaar",
+            "start": "2026-08-24T09:00:00+02:00",
+            "end": "2026-08-24T09:45:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Liz & Wes Baby en Peuter Zwemmen",
+            "internalLocation": "doelgroepenbad, 3-4 jaar , max. 12 deelnemers",
+            "start": "2026-08-24T09:45:00+02:00",
+            "end": "2026-08-24T10:30:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad",
+            "start": "2026-08-24T11:30:00+02:00",
+            "end": "2026-08-24T12:30:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zed & Sop Zwemles",
+            "internalLocation": "",
+            "start": "2026-08-24T16:00:00+02:00",
+            "end": "2026-08-24T17:30:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zwemles Volwassenen",
+            "internalLocation": "",
+            "start": "2026-08-24T17:30:00+02:00",
+            "end": "2026-08-24T18:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zwemvaardigheid",
+            "internalLocation": "",
+            "start": "2026-08-24T17:30:00+02:00",
+            "end": "2026-08-24T18:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Aqua'Robic",
+            "internalLocation": "",
+            "start": "2026-08-24T18:30:00+02:00",
+            "end": "2026-08-24T19:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Aqua'Yoga",
+            "internalLocation": "",
+            "start": "2026-08-24T19:30:00+02:00",
+            "end": "2026-08-24T20:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": null
+          }
+        ]
       }
     ],
     "events": [
-      {
-        "title": "Banenzwemmen",
-        "internalLocation": "Wedstrijdbad",
-        "start": "2026-07-23T07:30:00+02:00",
-        "end": "2026-07-23T08:45:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "23 juli",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Aqua'Vitaal",
-        "internalLocation": "",
-        "start": "2026-07-23T11:15:00+02:00",
-        "end": "2026-07-23T12:15:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/aquavitaal/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "23 juli",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Vrijzwemmen",
-        "internalLocation": "Recreatiebad",
-        "start": "2026-07-23T13:00:00+02:00",
-        "end": "2026-07-23T16:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "23 juli",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Aqua'Bootcamp",
-        "internalLocation": "Recreatiebad",
-        "start": "2026-07-23T18:30:00+02:00",
-        "end": "2026-07-23T19:15:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/aquabootcamp/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "23 juli",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Banenzwemmen",
-        "internalLocation": "Wedstrijdbad",
-        "start": "2026-07-23T18:30:00+02:00",
-        "end": "2026-07-23T20:30:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "23 juli",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Boxercise",
-        "internalLocation": "",
-        "start": "2026-07-23T19:30:00+02:00",
-        "end": "2026-07-23T20:30:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": null,
-        "dateLabel": "23 juli",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Aqua'Robic",
-        "internalLocation": "",
-        "start": "2026-07-23T19:30:00+02:00",
-        "end": "2026-07-23T20:15:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "23 juli",
-        "dayName": "Donderdag"
-      },
       {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad",
@@ -1352,17 +1293,6 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "24 juli",
-        "dayName": "Vrijdag"
-      },
-      {
-        "title": "Liz & Wes Baby en Peuter Zwemmen",
-        "internalLocation": "doelgroepenbad, 0 jaar- lopend",
-        "start": "2026-07-24T11:15:00+02:00",
-        "end": "2026-07-24T12:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "24 juli",
         "dayName": "Vrijdag"
       },
@@ -1391,6 +1321,17 @@
       {
         "title": "Liz & Wes Baby en Peuter Zwemmen",
         "internalLocation": "doelgroepenbad, lopend - 2 jaar",
+        "start": "2026-07-24T11:15:00+02:00",
+        "end": "2026-07-24T12:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "24 juli",
+        "dayName": "Vrijdag"
+      },
+      {
+        "title": "Liz & Wes Baby en Peuter Zwemmen",
+        "internalLocation": "doelgroepenbad, 0 jaar- lopend",
         "start": "2026-07-24T11:15:00+02:00",
         "end": "2026-07-24T12:00:00+02:00",
         "source": "Google Calendar",
@@ -1961,17 +1902,6 @@
         "dayName": "Donderdag"
       },
       {
-        "title": "Aqua'Bootcamp",
-        "internalLocation": "Recreatiebad",
-        "start": "2026-08-13T18:30:00+02:00",
-        "end": "2026-08-13T19:15:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/aquabootcamp/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "13 augustus",
-        "dayName": "Donderdag"
-      },
-      {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad",
         "start": "2026-08-13T18:30:00+02:00",
@@ -1979,6 +1909,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "13 augustus",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Aqua'Bootcamp",
+        "internalLocation": "Recreatiebad",
+        "start": "2026-08-13T18:30:00+02:00",
+        "end": "2026-08-13T19:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aquabootcamp/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "13 augustus",
         "dayName": "Donderdag"
       },
@@ -2181,17 +2122,6 @@
         "dayName": "Maandag"
       },
       {
-        "title": "Zwemles Volwassenen",
-        "internalLocation": "",
-        "start": "2026-08-17T17:30:00+02:00",
-        "end": "2026-08-17T18:15:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "17 augustus",
-        "dayName": "Maandag"
-      },
-      {
         "title": "Zwemvaardigheid",
         "internalLocation": "",
         "start": "2026-08-17T17:30:00+02:00",
@@ -2199,6 +2129,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "17 augustus",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Zwemles Volwassenen",
+        "internalLocation": "",
+        "start": "2026-08-17T17:30:00+02:00",
+        "end": "2026-08-17T18:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "17 augustus",
         "dayName": "Maandag"
       },
@@ -2280,17 +2221,6 @@
         "dayName": "Dinsdag"
       },
       {
-        "title": "Zwemles Volwassenen",
-        "internalLocation": "",
-        "start": "2026-08-18T18:30:00+02:00",
-        "end": "2026-08-18T20:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "18 augustus",
-        "dayName": "Dinsdag"
-      },
-      {
         "title": "Aqua'9maanden",
         "internalLocation": "doelgroepenbad",
         "start": "2026-08-18T18:30:00+02:00",
@@ -2298,6 +2228,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/aqua9maanden/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "18 augustus",
+        "dayName": "Dinsdag"
+      },
+      {
+        "title": "Zwemles Volwassenen",
+        "internalLocation": "",
+        "start": "2026-08-18T18:30:00+02:00",
+        "end": "2026-08-18T20:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "18 augustus",
         "dayName": "Dinsdag"
       },
@@ -2456,17 +2397,6 @@
         "dayName": "Donderdag"
       },
       {
-        "title": "Boxercise",
-        "internalLocation": "",
-        "start": "2026-08-20T19:30:00+02:00",
-        "end": "2026-08-20T20:30:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": null,
-        "dateLabel": "20 augustus",
-        "dayName": "Donderdag"
-      },
-      {
         "title": "Aqua'Robic",
         "internalLocation": "",
         "start": "2026-08-20T19:30:00+02:00",
@@ -2474,6 +2404,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "20 augustus",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Boxercise",
+        "internalLocation": "",
+        "start": "2026-08-20T19:30:00+02:00",
+        "end": "2026-08-20T20:30:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": null,
         "dateLabel": "20 augustus",
         "dayName": "Donderdag"
       },
@@ -2597,9 +2538,108 @@
         "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "23 augustus",
         "dayName": "Zondag"
+      },
+      {
+        "title": "Liz & Wes Baby en Peuter Zwemmen",
+        "internalLocation": "doelgroepenbad, 0 jaar - Lopend",
+        "start": "2026-08-24T09:00:00+02:00",
+        "end": "2026-08-24T09:45:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "24 augustus",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Liz & Wes Baby en Peuter Zwemmen",
+        "internalLocation": "doelgroepenbad, lopen - 2 jaar",
+        "start": "2026-08-24T09:00:00+02:00",
+        "end": "2026-08-24T09:45:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "24 augustus",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Liz & Wes Baby en Peuter Zwemmen",
+        "internalLocation": "doelgroepenbad, 3-4 jaar , max. 12 deelnemers",
+        "start": "2026-08-24T09:45:00+02:00",
+        "end": "2026-08-24T10:30:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "24 augustus",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad",
+        "start": "2026-08-24T11:30:00+02:00",
+        "end": "2026-08-24T12:30:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "24 augustus",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Zed & Sop Zwemles",
+        "internalLocation": "",
+        "start": "2026-08-24T16:00:00+02:00",
+        "end": "2026-08-24T17:30:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "24 augustus",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Zwemles Volwassenen",
+        "internalLocation": "",
+        "start": "2026-08-24T17:30:00+02:00",
+        "end": "2026-08-24T18:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "24 augustus",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Zwemvaardigheid",
+        "internalLocation": "",
+        "start": "2026-08-24T17:30:00+02:00",
+        "end": "2026-08-24T18:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "24 augustus",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Aqua'Robic",
+        "internalLocation": "",
+        "start": "2026-08-24T18:30:00+02:00",
+        "end": "2026-08-24T19:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "24 augustus",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Aqua'Yoga",
+        "internalLocation": "",
+        "start": "2026-08-24T19:30:00+02:00",
+        "end": "2026-08-24T20:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": null,
+        "dateLabel": "24 augustus",
+        "dayName": "Maandag"
       }
     ],
-    "fetchedAt": "2026-07-23T18:08:13.089Z"
+    "fetchedAt": "2026-07-24T07:26:16.853Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -3291,6 +3331,75 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
+          }
+        ]
+      },
+      {
+        "date": "24 augustus",
+        "day": "Maandag",
+        "events": [
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad (50m x 7 banen)",
+            "start": "2026-08-24T07:00:00+02:00",
+            "end": "2026-08-24T08:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Aqua'Vitaal",
+            "internalLocation": "Recreatiebad",
+            "start": "2026-08-24T10:00:00+02:00",
+            "end": "2026-08-24T12:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aquavitaal/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
+            "start": "2026-08-24T10:15:00+02:00",
+            "end": "2026-08-24T13:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zed & Sop Zwemles",
+            "internalLocation": "Regulier",
+            "start": "2026-08-24T16:00:00+02:00",
+            "end": "2026-08-24T16:45:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zed & Sop Zwemles",
+            "internalLocation": "Regulier",
+            "start": "2026-08-24T16:45:00+02:00",
+            "end": "2026-08-24T17:30:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Aqua'Robic",
+            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+            "start": "2026-08-24T19:00:00+02:00",
+            "end": "2026-08-24T20:30:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aquarobic/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Vrijzwemmen",
+            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+            "start": "2026-08-24T20:30:00+02:00",
+            "end": "2026-08-24T22:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
       }
@@ -4043,8 +4152,85 @@
         "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "23 augustus",
         "dayName": "Zondag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad (50m x 7 banen)",
+        "start": "2026-08-24T07:00:00+02:00",
+        "end": "2026-08-24T08:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "24 augustus",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Aqua'Vitaal",
+        "internalLocation": "Recreatiebad",
+        "start": "2026-08-24T10:00:00+02:00",
+        "end": "2026-08-24T12:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aquavitaal/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "24 augustus",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
+        "start": "2026-08-24T10:15:00+02:00",
+        "end": "2026-08-24T13:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "24 augustus",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Zed & Sop Zwemles",
+        "internalLocation": "Regulier",
+        "start": "2026-08-24T16:00:00+02:00",
+        "end": "2026-08-24T16:45:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "24 augustus",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Zed & Sop Zwemles",
+        "internalLocation": "Regulier",
+        "start": "2026-08-24T16:45:00+02:00",
+        "end": "2026-08-24T17:30:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "24 augustus",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Aqua'Robic",
+        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+        "start": "2026-08-24T19:00:00+02:00",
+        "end": "2026-08-24T20:30:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aquarobic/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "24 augustus",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Vrijzwemmen",
+        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+        "start": "2026-08-24T20:30:00+02:00",
+        "end": "2026-08-24T22:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "24 augustus",
+        "dayName": "Maandag"
       }
     ],
-    "fetchedAt": "2026-07-23T18:08:15.144Z"
+    "fetchedAt": "2026-07-24T07:26:18.581Z"
   }
 }
