@@ -16,15 +16,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Boxercise",
-            "internalLocation": "",
-            "start": "2026-08-15T12:00:00+02:00",
-            "end": "2026-08-15T13:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": null
-          },
-          {
             "title": "Vrijzwemmen",
             "internalLocation": "Recreatiebad",
             "start": "2026-08-15T12:00:00+02:00",
@@ -32,6 +23,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Boxercise",
+            "internalLocation": "",
+            "start": "2026-08-15T12:00:00+02:00",
+            "end": "2026-08-15T13:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": null
           }
         ]
       },
@@ -2062,17 +2062,6 @@
         "dayName": "Zaterdag"
       },
       {
-        "title": "Boxercise",
-        "internalLocation": "",
-        "start": "2026-08-15T12:00:00+02:00",
-        "end": "2026-08-15T13:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": null,
-        "dateLabel": "15 augustus",
-        "dayName": "Zaterdag"
-      },
-      {
         "title": "Vrijzwemmen",
         "internalLocation": "Recreatiebad",
         "start": "2026-08-15T12:00:00+02:00",
@@ -2080,6 +2069,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "15 augustus",
+        "dayName": "Zaterdag"
+      },
+      {
+        "title": "Boxercise",
+        "internalLocation": "",
+        "start": "2026-08-15T12:00:00+02:00",
+        "end": "2026-08-15T13:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": null,
         "dateLabel": "15 augustus",
         "dayName": "Zaterdag"
       },
@@ -4317,7 +4317,7 @@
         "dayName": "Dinsdag"
       }
     ],
-    "fetchedAt": "2026-08-15T05:17:45.822Z"
+    "fetchedAt": "2026-08-15T06:22:44.941Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -4717,15 +4717,6 @@
             "url": "/activiteiten/aquarobic/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Vrijzwemmen",
-            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
-            "start": "2026-08-20T20:30:00+02:00",
-            "end": "2026-08-20T22:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Banenzwemmen",
             "internalLocation": "Wedstrijdbad (25m ondiep x 8 banen)",
             "start": "2026-08-20T20:30:00+02:00",
@@ -4733,6 +4724,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Vrijzwemmen",
+            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+            "start": "2026-08-20T20:30:00+02:00",
+            "end": "2026-08-20T22:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
       },
@@ -5182,15 +5182,6 @@
             "url": "/activiteiten/aquarobic/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Vrijzwemmen",
-            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
-            "start": "2026-08-27T20:30:00+02:00",
-            "end": "2026-08-27T22:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Banenzwemmen",
             "internalLocation": "Wedstrijdbad (25m ondiep x 8 banen)",
             "start": "2026-08-27T20:30:00+02:00",
@@ -5198,6 +5189,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Vrijzwemmen",
+            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+            "start": "2026-08-27T20:30:00+02:00",
+            "end": "2026-08-27T22:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
       },
@@ -5647,15 +5647,6 @@
             "url": "/activiteiten/aquarobic/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Vrijzwemmen",
-            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
-            "start": "2026-09-03T20:30:00+02:00",
-            "end": "2026-09-03T22:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Banenzwemmen",
             "internalLocation": "Wedstrijdbad (25m ondiep x 8 banen)",
             "start": "2026-09-03T20:30:00+02:00",
@@ -5663,6 +5654,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Vrijzwemmen",
+            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+            "start": "2026-09-03T20:30:00+02:00",
+            "end": "2026-09-03T22:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
       },
@@ -6112,15 +6112,6 @@
             "url": "/activiteiten/aquarobic/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Vrijzwemmen",
-            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
-            "start": "2026-09-10T20:30:00+02:00",
-            "end": "2026-09-10T22:00:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Banenzwemmen",
             "internalLocation": "Wedstrijdbad (25m ondiep x 8 banen)",
             "start": "2026-09-10T20:30:00+02:00",
@@ -6128,6 +6119,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Vrijzwemmen",
+            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+            "start": "2026-09-10T20:30:00+02:00",
+            "end": "2026-09-10T22:00:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
       },
@@ -6802,17 +6802,6 @@
         "dayName": "Donderdag"
       },
       {
-        "title": "Vrijzwemmen",
-        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
-        "start": "2026-08-20T20:30:00+02:00",
-        "end": "2026-08-20T22:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "20 augustus",
-        "dayName": "Donderdag"
-      },
-      {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad (25m ondiep x 8 banen)",
         "start": "2026-08-20T20:30:00+02:00",
@@ -6820,6 +6809,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "20 augustus",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Vrijzwemmen",
+        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+        "start": "2026-08-20T20:30:00+02:00",
+        "end": "2026-08-20T22:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "20 augustus",
         "dayName": "Donderdag"
       },
@@ -7319,17 +7319,6 @@
         "dayName": "Donderdag"
       },
       {
-        "title": "Vrijzwemmen",
-        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
-        "start": "2026-08-27T20:30:00+02:00",
-        "end": "2026-08-27T22:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "27 augustus",
-        "dayName": "Donderdag"
-      },
-      {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad (25m ondiep x 8 banen)",
         "start": "2026-08-27T20:30:00+02:00",
@@ -7337,6 +7326,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "27 augustus",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Vrijzwemmen",
+        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+        "start": "2026-08-27T20:30:00+02:00",
+        "end": "2026-08-27T22:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "27 augustus",
         "dayName": "Donderdag"
       },
@@ -7836,17 +7836,6 @@
         "dayName": "Donderdag"
       },
       {
-        "title": "Vrijzwemmen",
-        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
-        "start": "2026-09-03T20:30:00+02:00",
-        "end": "2026-09-03T22:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "03 september",
-        "dayName": "Donderdag"
-      },
-      {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad (25m ondiep x 8 banen)",
         "start": "2026-09-03T20:30:00+02:00",
@@ -7854,6 +7843,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "03 september",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Vrijzwemmen",
+        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+        "start": "2026-09-03T20:30:00+02:00",
+        "end": "2026-09-03T22:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "03 september",
         "dayName": "Donderdag"
       },
@@ -8353,17 +8353,6 @@
         "dayName": "Donderdag"
       },
       {
-        "title": "Vrijzwemmen",
-        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
-        "start": "2026-09-10T20:30:00+02:00",
-        "end": "2026-09-10T22:00:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "10 september",
-        "dayName": "Donderdag"
-      },
-      {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad (25m ondiep x 8 banen)",
         "start": "2026-09-10T20:30:00+02:00",
@@ -8371,6 +8360,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "10 september",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Vrijzwemmen",
+        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+        "start": "2026-09-10T20:30:00+02:00",
+        "end": "2026-09-10T22:00:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "10 september",
         "dayName": "Donderdag"
       },
@@ -8617,6 +8617,6 @@
         "dayName": "Dinsdag"
       }
     ],
-    "fetchedAt": "2026-08-15T05:17:47.812Z"
+    "fetchedAt": "2026-08-15T06:22:46.802Z"
   }
 }
