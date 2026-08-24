@@ -544,15 +544,6 @@
             "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
-            "title": "Zwemvaardigheid",
-            "internalLocation": "",
-            "start": "2026-08-31T17:30:00+02:00",
-            "end": "2026-08-31T18:15:00+02:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "Zwemles Volwassenen",
             "internalLocation": "",
             "start": "2026-08-31T17:30:00+02:00",
@@ -560,6 +551,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zwemvaardigheid",
+            "internalLocation": "",
+            "start": "2026-08-31T17:30:00+02:00",
+            "end": "2026-08-31T18:15:00+02:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost"
           },
           {
             "title": "Aqua'Robic",
@@ -2899,17 +2899,6 @@
         "dayName": "Maandag"
       },
       {
-        "title": "Zwemvaardigheid",
-        "internalLocation": "",
-        "start": "2026-08-31T17:30:00+02:00",
-        "end": "2026-08-31T18:15:00+02:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "31 augustus",
-        "dayName": "Maandag"
-      },
-      {
         "title": "Zwemles Volwassenen",
         "internalLocation": "",
         "start": "2026-08-31T17:30:00+02:00",
@@ -2917,6 +2906,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "31 augustus",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Zwemvaardigheid",
+        "internalLocation": "",
+        "start": "2026-08-31T17:30:00+02:00",
+        "end": "2026-08-31T18:15:00+02:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "31 augustus",
         "dayName": "Maandag"
       },
@@ -4857,7 +4857,7 @@
         "dayName": "Donderdag"
       }
     ],
-    "fetchedAt": "2026-08-24T06:40:13.487Z"
+    "fetchedAt": "2026-08-24T17:23:29.778Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -9577,6 +9577,6 @@
         "dayName": "Donderdag"
       }
     ],
-    "fetchedAt": "2026-08-24T06:40:15.556Z"
+    "fetchedAt": "2026-08-24T17:23:31.805Z"
   }
 }
