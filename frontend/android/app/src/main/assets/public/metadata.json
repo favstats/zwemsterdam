@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2025-12-21T00:01:15Z",
-  "lastUpdatedLocal": "21-12-2025 00:01",
-  "totalSessions": 645,
-  "pools": ["Zuiderbad", "Noorderparkbad", "De Mirandabad", "Flevoparkbad", "Brediusbad", "Het Marnix", "Sportfondsenbad Oost", "Sportplaza Mercator", "Bijlmer Sportcentrum", "Sloterparkbad", "Duranbad (Diemen)"],
+  "lastUpdated": "2026-10-09T12:16:47Z",
+  "lastUpdatedLocal": "09-10-2026 14:16",
+  "totalSessions": 497,
+  "pools": ["Zuiderbad", "Noorderparkbad", "De Mirandabad", "Flevoparkbad", "Brediusbad", "Het Marnix", "Sportfondsenbad Oost", "Sportplaza Mercator", "Duranbad (Diemen)", "De Meerkamp (Amstelveen)", "De Sporthoeve (Badhoevedorp)", "De Waterlelie (Aalsmeer)", "De Slag (Zaandam)"],
   "dataSources": [
     {
       "name": "Gemeente Amsterdam",
@@ -33,6 +33,42 @@
       "description": "Zwembad in Diemen (bij Amsterdam)",
       "url": "https://www.diemen.nl/zwembad/",
       "pools": "Duranbad (Diemen)"
+    },
+    {
+      "name": "AmstelveenSport",
+      "description": "Zwembad in Amstelveen (bij Amsterdam)",
+      "url": "https://amstelveensport.nl/zwembad-de-meerkamp/",
+      "pools": "De Meerkamp (Amstelveen)"
+    },
+    {
+      "name": "Sportfondsen De Sporthoeve",
+      "description": "Zwembad in Badhoevedorp (bij Amsterdam)",
+      "url": "https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/",
+      "pools": "De Sporthoeve (Badhoevedorp)"
+    },
+    {
+      "name": "Sport in Aalsmeer",
+      "description": "Zwembad in Aalsmeer (bij Amsterdam)",
+      "url": "https://sportinaalsmeer.nl/zwembad-de-waterlelie",
+      "pools": "De Waterlelie (Aalsmeer)"
+    },
+    {
+      "name": "Sportbedrijf Zaanstad",
+      "description": "Zwembad in Zaandam (bij Amsterdam)",
+      "url": "https://www.sportbedrijfzaanstad.nl/zwembaden/de-slag/",
+      "pools": "De Slag (Zaandam)"
+    },
+    {
+      "name": "Zwembad De Breek",
+      "description": "Seizoensgebonden openluchtzwembad in Landsmeer",
+      "url": "https://www.debreek.nl/openingstijden/",
+      "pools": "De Breek (Landsmeer)"
+    },
+    {
+      "name": "Het Amstelbad",
+      "description": "Seizoensgebonden openluchtzwembad in Ouderkerk aan de Amstel",
+      "url": "https://www.amstelbad.nl/praktische-info/openingstijden/",
+      "pools": "Amstelbad (Ouderkerk aan de Amstel)"
     }
   ]
 }

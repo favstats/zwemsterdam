@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { Search, MapPin, Clock, Calendar, ChevronDown, ChevronUp, Waves, List, Navigation, ExternalLink, Info, AlertTriangle, X, Database, Github, BarChart3, Coffee, Wallet, Heart, Linkedin, Globe, Map as MapIcon } from 'lucide-react';
+import { Search, MapPin, Clock, Calendar, ChevronDown, ChevronUp, Waves, List, Navigation, ExternalLink, Info, AlertTriangle, X, Database, Github, BarChart3, Coffee, Wallet, Heart, Linkedin, Globe, Map as MapIcon, Users } from 'lucide-react';
 
 // Bluesky butterfly icon
 const BlueskyIcon: React.FC<{ size?: number; className?: string }> = ({ size = 16, className = '' }) => (
@@ -21,6 +21,7 @@ interface SwimmingSession {
   dag: string;
   date?: string;
   activity: string;
+  crowd?: string | null;
   extra: string;
   start: number;
   end: number;
@@ -141,15 +142,15 @@ const DAY_COLORS: Record<string, string> = {
 // Pool website fallbacks (in case not in data)
 const POOL_WEBSITES: Record<string, string> = {
   'Zuiderbad': 'https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/',
-  'Noorderparkbad': 'https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/',
+  'Noorderparkbad': 'https://www.amsterdam.nl/noorderparkbad/rooster/',
   'De Mirandabad': 'https://www.amsterdam.nl/demirandabad/rooster/',
-  'Flevoparkbad': 'https://www.amsterdam.nl/flevoparkbad/zwembadrooster-flevoparkbad/',
-  'Brediusbad': 'https://www.amsterdam.nl/brediusbad/zwembadrooster-brediusbad/',
+  'Flevoparkbad': 'https://www.amsterdam.nl/flevoparkbad/rooster/',
+  'Brediusbad': 'https://www.amsterdam.nl/brediusbad/rooster/',
   'Het Marnix': 'https://hetmarnix.nl/schedule/tijden/',
-  'Sportfondsenbad Oost': 'https://amsterdamoost.sportfondsen.nl/tijden-tarieven/',
+  'Sportfondsenbad Oost': 'https://amsterdamoost.sportfondsen.nl/tijden-en-tarieven/',
   'Sportplaza Mercator': 'https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/',
   'Bijlmer Sportcentrum': 'https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost',
-  'Sloterparkbad': 'https://www.optisport.nl/sloterparkbad-amsterdam',
+  'Sloterparkbad': 'https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam',
   'Duranbad (Diemen)': 'https://www.diemen.nl/zwembad/Openingstijden',
   'De Meerkamp (Amstelveen)': 'https://amstelveensport.nl/zwembad-de-meerkamp/',
   'De Sporthoeve (Badhoevedorp)': 'https://sporthoeve.sportfondsen.nl/tijden-en-tarieven/',
@@ -865,6 +866,17 @@ interface TooltipProps {
   poolColor: string;
 }
 
+const CrowdIndicator: React.FC<{ crowd?: string | null }> = ({ crowd }) => {
+  if (!crowd) return null;
+
+  return (
+    <div className="flex items-center gap-2 text-sm text-base-content/70">
+      <Users size={14} className="flex-shrink-0" />
+      <span><span className="font-medium">Drukte:</span> {crowd}</span>
+    </div>
+  );
+};
+
 const Tooltip: React.FC<TooltipProps> = ({ session, x, y, poolColor }) => {
   const isNow = isSessionNow(session);
   const category = getActivityCategory(session.activity);
@@ -907,6 +919,7 @@ const Tooltip: React.FC<TooltipProps> = ({ session, x, y, poolColor }) => {
         
         <div className="pt-2 border-t border-base-200">
           <p className="font-bold text-base">{session.activity}</p>
+          <CrowdIndicator crowd={session.crowd} />
           {session.extra && (
             <div className={`mt-2 text-xs p-2 rounded ${hasNote ? 'bg-warning/20 text-warning-content' : 'bg-base-200'}`}>
               {hasNote && <AlertTriangle size={12} className="inline mr-1 text-warning" />}
@@ -1005,6 +1018,7 @@ const SessionModal: React.FC<SessionModalProps> = ({ session, poolColor, onClose
           <div className="p-4 bg-base-200/50 rounded-xl">
             <p className="text-sm text-base-content/60 mb-1">Activiteit</p>
             <p className="text-lg font-bold">{session.activity}</p>
+            <CrowdIndicator crowd={session.crowd} />
             {session.extra && (
               <p className="text-sm text-base-content/60 mt-2 italic">{session.extra}</p>
             )}
@@ -1027,8 +1041,17 @@ const SessionModal: React.FC<SessionModalProps> = ({ session, poolColor, onClose
           >
             <ExternalLink size={18} />
             Bekijk op officiële website
-        </a>
-      </div>
+          </a>
+          <a
+            href={getPoolMapLink(session.bad)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-outline w-full gap-2"
+          >
+            <MapPin size={18} />
+            Bekijk in Google Maps
+          </a>
+        </div>
       </div>
     </div>
   );
@@ -1987,6 +2010,7 @@ const ListView: React.FC<ListViewProps> = ({ data, onSessionClick }) => {
                   {isOther && <span className="text-gray-400">●</span>}
                   {session.activity}
                 </p>
+                <CrowdIndicator crowd={session.crowd} />
                 {session.extra && (
                   <div className={`mt-2 text-sm p-2 rounded ${hasNote ? 'bg-warning/10 border border-warning/30' : 'bg-base-200'}`}>
                     {hasNote && <AlertTriangle size={12} className="inline mr-1 text-warning" />}

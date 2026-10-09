@@ -25,6 +25,7 @@ empty_swimming_data <- function() {
     dag = character(),
     date = character(),
     activity = character(),
+    crowd = character(),
     extra = character(),
     start = numeric(),
     end = numeric()
@@ -48,7 +49,7 @@ append_cached_pool_rows <- function(current_data, required_pools, source_name) {
           bad %in% missing_pools,
           date %in% target_dates
         ) %>%
-        select(any_of(c("bad", "dag", "date", "activity", "extra", "start", "end")))
+        select(any_of(c("bad", "dag", "date", "activity", "crowd", "extra", "start", "end")))
     } else {
       empty_swimming_data()
     }
@@ -92,8 +93,9 @@ append_cached_pool_rows <- function(current_data, required_pools, source_name) {
   }
 
   if (!is.null(current_data) && nrow(current_data) > 0) {
+    if (!"crowd" %in% names(current_data)) current_data$crowd <- ""
     current_data %>%
-      distinct(bad, date, activity, extra, start, end, .keep_all = TRUE)
+      distinct(bad, date, activity, crowd, extra, start, end, .keep_all = TRUE)
   } else {
     empty_swimming_data()
   }
@@ -102,12 +104,12 @@ append_cached_pool_rows <- function(current_data, required_pools, source_name) {
 # Pool website URLs for linking
 pool_websites <- list(
   "Zuiderbad" = "https://www.amsterdam.nl/zuiderbad/zwembadrooster-zuiderbad/",
-  "Noorderparkbad" = "https://www.amsterdam.nl/noorderparkbad/zwembadrooster-noorderparkbad/",
+  "Noorderparkbad" = "https://www.amsterdam.nl/noorderparkbad/rooster/",
   "De Mirandabad" = "https://www.amsterdam.nl/demirandabad/rooster/",
-  "Flevoparkbad" = "https://www.amsterdam.nl/flevoparkbad/zwembadrooster-flevoparkbad/",
-  "Brediusbad" = "https://www.amsterdam.nl/brediusbad/zwembadrooster-brediusbad/",
-  "Het Marnix" = "https://hetmarnix.nl/zwemmen/",
-  "Sportfondsenbad Oost" = "https://amsterdamoost.sportfondsen.nl/tijden-tarieven/",
+  "Flevoparkbad" = "https://www.amsterdam.nl/flevoparkbad/rooster/",
+  "Brediusbad" = "https://www.amsterdam.nl/brediusbad/rooster/",
+  "Het Marnix" = "https://hetmarnix.nl/schedule/tijden/",
+  "Sportfondsenbad Oost" = "https://amsterdamoost.sportfondsen.nl/tijden-en-tarieven/",
   "Sportplaza Mercator" = "https://mercator.sportfondsen.nl/tijden-tarieven-van-mercator/",
   "Bijlmer Sportcentrum" = "https://www.optisport.nl/zwembad-bijlmer-amsterdam-zuidoost",
   "Sloterparkbad" = "https://www.optisport.nl/zwembad-het-sloterparkbad-amsterdam",
@@ -139,7 +141,7 @@ marnix_data <- get_marnix_timetable()
 # Each pool has different URL paths for their schedule pages
 print("Fetching Sportfondsen pools...")
 sportfondsen_pools <- list(
-  list(url = "https://amsterdamoost.sportfondsen.nl", name = "Sportfondsenbad Oost", path = "/tijden-tarieven/"),
+  list(url = "https://amsterdamoost.sportfondsen.nl", name = "Sportfondsenbad Oost", path = "/tijden-en-tarieven/"),
   list(url = "https://mercator.sportfondsen.nl", name = "Sportplaza Mercator", path = "/tijden-tarieven-van-mercator/")
 )
 

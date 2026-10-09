@@ -387,7 +387,7 @@ get_meerkamp_timetable <- function() {
 
     map_dfr(articles, function(article) {
       class_attr <- html_attr(article, "class") %||% ""
-      date_match <- str_match(class_attr, "mec-timetable-day-\\d+-(\\d{8})")
+      date_match <- str_match(class_attr, "mec-timetable-day-[^-]+-(\\d{8})")
       if (is.na(date_match[1, 2])) return(NULL)
 
       slot_date <- as.Date(date_match[1, 2], "%Y%m%d")
@@ -950,7 +950,8 @@ get_sportfondsen_timetable <- function(base_url, pool_name, schedule_path = "/ti
         dag = dag,
         date = slot_date,
         activity = if(!is.null(.x$activitySchedule$activity$title)) .x$activitySchedule$activity$title else "Onbekend",
-        extra = if(!is.null(.x$occupationDisplay)) .x$occupationDisplay else "",
+        crowd = if(!is.null(.x$occupationDisplay)) .x$occupationDisplay else "",
+        extra = "",
         start = as.numeric(str_replace(.x$startTime, ":", "")) / 100,
         end = as.numeric(str_replace(.x$endTime, ":", "")) / 100
       )
@@ -1007,7 +1008,18 @@ get_optisport_data <- function(json_path = "data/optisport_data.json") {
     })
   })
 
-  message(paste("Loaded", nrow(all_sessions), "Optisport sessions"))
+  if (!is.null(all_sessions) && nrow(all_sessions) > 0) {
+    current_week_start <- floor_date(Sys.Date(), "week", week_start = 1)
+    next_week_end <- current_week_start + days(13)
+    all_sessions <- all_sessions %>%
+      filter(
+        !is.na(date),
+        as.Date(date) >= current_week_start,
+        as.Date(date) <= next_week_end
+      )
+  }
+
+  message(paste("Loaded", nrow(all_sessions), "Optisport sessions in the current/next week"))
   return(all_sessions)
 }
 
