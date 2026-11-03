@@ -4717,7 +4717,7 @@
         "dayName": "Vrijdag"
       }
     ],
-    "fetchedAt": "2026-11-03T12:31:13.658Z"
+    "fetchedAt": "2026-11-03T22:09:09.860Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -4995,6 +4995,24 @@
             "internalLocation": "Ladies Only. Meer info? Mail naar sloterparkbad@optisport.nl",
             "start": "2026-11-05T13:45:00+01:00",
             "end": "2026-11-05T14:30:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zwemles Volwassenen",
+            "internalLocation": "Ladies Only. Meer info? Mail naar sloterparkbad@optisport.nl",
+            "start": "2026-11-05T13:45:00+01:00",
+            "end": "2026-11-05T14:30:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zwemles Volwassenen",
+            "internalLocation": "Ladies Only. Meer info? Mail naar sloterparkbad@optisport.nl",
+            "start": "2026-11-05T14:30:00+01:00",
+            "end": "2026-11-05T15:15:00+01:00",
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam"
@@ -7491,6 +7509,28 @@
       {
         "title": "Zwemles Volwassenen",
         "internalLocation": "Ladies Only. Meer info? Mail naar sloterparkbad@optisport.nl",
+        "start": "2026-11-05T13:45:00+01:00",
+        "end": "2026-11-05T14:30:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "05 november",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Zwemles Volwassenen",
+        "internalLocation": "Ladies Only. Meer info? Mail naar sloterparkbad@optisport.nl",
+        "start": "2026-11-05T14:30:00+01:00",
+        "end": "2026-11-05T15:15:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "05 november",
+        "dayName": "Donderdag"
+      },
+      {
+        "title": "Zwemles Volwassenen",
+        "internalLocation": "Ladies Only. Meer info? Mail naar sloterparkbad@optisport.nl",
         "start": "2026-11-05T14:30:00+01:00",
         "end": "2026-11-05T15:15:00+01:00",
         "source": "Google Calendar",
@@ -9931,6 +9971,6 @@
         "dayName": "Vrijdag"
       }
     ],
-    "fetchedAt": "2026-11-03T12:31:15.739Z"
+    "fetchedAt": "2026-11-03T22:09:11.875Z"
   }
 }
