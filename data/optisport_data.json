@@ -3,75 +3,6 @@
     "locationId": 2202,
     "schedule": [
       {
-        "date": "12 november",
-        "day": "Donderdag",
-        "events": [
-          {
-            "title": "Banenzwemmen",
-            "internalLocation": "Wedstrijdbad",
-            "start": "2026-11-12T07:30:00+01:00",
-            "end": "2026-11-12T09:30:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
-            "title": "Aqua'Vitaal",
-            "internalLocation": "Doelgroepenbad",
-            "start": "2026-11-12T09:15:00+01:00",
-            "end": "2026-11-12T10:15:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/aquavitaal/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
-            "title": "Zwemles Volwassenen",
-            "internalLocation": "",
-            "start": "2026-11-12T11:45:00+01:00",
-            "end": "2026-11-12T12:30:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
-            "title": "Zed & Sop Zwemles",
-            "internalLocation": "",
-            "start": "2026-11-12T16:00:00+01:00",
-            "end": "2026-11-12T17:30:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
-            "title": "Aqua'Bootcamp",
-            "internalLocation": "Recreatiebad",
-            "start": "2026-11-12T18:30:00+01:00",
-            "end": "2026-11-12T19:15:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/aquabootcamp/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
-            "title": "Aqua'Robic",
-            "internalLocation": "Doelgroepenbad",
-            "start": "2026-11-12T19:30:00+01:00",
-            "end": "2026-11-12T20:15:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
-            "title": "Banenzwemmen",
-            "internalLocation": "Wedstrijdbad",
-            "start": "2026-11-12T20:15:00+01:00",
-            "end": "2026-11-12T21:45:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
-          }
-        ]
-      },
-      {
         "date": "13 november",
         "day": "Vrijdag",
         "events": [
@@ -1679,7 +1610,7 @@
           },
           {
             "title": "Liz & Wes Baby en Peuter Zwemmen",
-            "internalLocation": "Doelgroepenbad, 3-4 jaar",
+            "internalLocation": "Doelgroepenbad, 2-3 jaar",
             "start": "2026-12-07T09:30:00+01:00",
             "end": "2026-12-07T10:15:00+01:00",
             "source": "Google Calendar",
@@ -1688,7 +1619,7 @@
           },
           {
             "title": "Liz & Wes Baby en Peuter Zwemmen",
-            "internalLocation": "Doelgroepenbad, 2-3 jaar",
+            "internalLocation": "Doelgroepenbad, 3-4 jaar",
             "start": "2026-12-07T09:30:00+01:00",
             "end": "2026-12-07T10:15:00+01:00",
             "source": "Google Calendar",
@@ -2128,86 +2059,123 @@
             "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
           }
         ]
+      },
+      {
+        "date": "14 december",
+        "day": "Maandag",
+        "events": [
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad",
+            "start": "2026-12-14T07:30:00+01:00",
+            "end": "2026-12-14T09:30:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Liz & Wes Baby en Peuter Zwemmen",
+            "internalLocation": "Doelgroepenbad, lopend - 2 jaar",
+            "start": "2026-12-14T08:45:00+01:00",
+            "end": "2026-12-14T09:30:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Liz & Wes Baby en Peuter Zwemmen",
+            "internalLocation": "Doelgroepenbad, 0 jaar - lopend",
+            "start": "2026-12-14T08:45:00+01:00",
+            "end": "2026-12-14T09:30:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Liz & Wes Baby en Peuter Zwemmen",
+            "internalLocation": "Doelgroepenbad, 2-3 jaar",
+            "start": "2026-12-14T09:30:00+01:00",
+            "end": "2026-12-14T10:15:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Liz & Wes Baby en Peuter Zwemmen",
+            "internalLocation": "Doelgroepenbad, 3-4 jaar",
+            "start": "2026-12-14T09:30:00+01:00",
+            "end": "2026-12-14T10:15:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad",
+            "start": "2026-12-14T11:30:00+01:00",
+            "end": "2026-12-14T12:30:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zed & Sop Zwemles",
+            "internalLocation": "",
+            "start": "2026-12-14T16:00:00+01:00",
+            "end": "2026-12-14T17:30:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zwemles Volwassenen",
+            "internalLocation": "",
+            "start": "2026-12-14T17:30:00+01:00",
+            "end": "2026-12-14T18:15:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Zwemvaardigheid",
+            "internalLocation": "",
+            "start": "2026-12-14T17:30:00+01:00",
+            "end": "2026-12-14T18:15:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Aqua'Robic",
+            "internalLocation": "Doelgroepenbad",
+            "start": "2026-12-14T18:30:00+01:00",
+            "end": "2026-12-14T19:15:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Aqua'Yoga",
+            "internalLocation": "Doelgroepenbad",
+            "start": "2026-12-14T19:30:00+01:00",
+            "end": "2026-12-14T20:15:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aquayoga/zwembad-bijlmer-amsterdam-zuidoost"
+          },
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad",
+            "start": "2026-12-14T20:15:00+01:00",
+            "end": "2026-12-14T22:15:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
+          }
+        ]
       }
     ],
     "events": [
-      {
-        "title": "Banenzwemmen",
-        "internalLocation": "Wedstrijdbad",
-        "start": "2026-11-12T07:30:00+01:00",
-        "end": "2026-11-12T09:30:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "12 november",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Aqua'Vitaal",
-        "internalLocation": "Doelgroepenbad",
-        "start": "2026-11-12T09:15:00+01:00",
-        "end": "2026-11-12T10:15:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/aquavitaal/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "12 november",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Zwemles Volwassenen",
-        "internalLocation": "",
-        "start": "2026-11-12T11:45:00+01:00",
-        "end": "2026-11-12T12:30:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "12 november",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Zed & Sop Zwemles",
-        "internalLocation": "",
-        "start": "2026-11-12T16:00:00+01:00",
-        "end": "2026-11-12T17:30:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "12 november",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Aqua'Bootcamp",
-        "internalLocation": "Recreatiebad",
-        "start": "2026-11-12T18:30:00+01:00",
-        "end": "2026-11-12T19:15:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/aquabootcamp/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "12 november",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Aqua'Robic",
-        "internalLocation": "Doelgroepenbad",
-        "start": "2026-11-12T19:30:00+01:00",
-        "end": "2026-11-12T20:15:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "12 november",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Banenzwemmen",
-        "internalLocation": "Wedstrijdbad",
-        "start": "2026-11-12T20:15:00+01:00",
-        "end": "2026-11-12T21:45:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "12 november",
-        "dayName": "Donderdag"
-      },
       {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad",
@@ -3992,7 +3960,7 @@
       },
       {
         "title": "Liz & Wes Baby en Peuter Zwemmen",
-        "internalLocation": "Doelgroepenbad, 3-4 jaar",
+        "internalLocation": "Doelgroepenbad, 2-3 jaar",
         "start": "2026-12-07T09:30:00+01:00",
         "end": "2026-12-07T10:15:00+01:00",
         "source": "Google Calendar",
@@ -4003,7 +3971,7 @@
       },
       {
         "title": "Liz & Wes Baby en Peuter Zwemmen",
-        "internalLocation": "Doelgroepenbad, 2-3 jaar",
+        "internalLocation": "Doelgroepenbad, 3-4 jaar",
         "start": "2026-12-07T09:30:00+01:00",
         "end": "2026-12-07T10:15:00+01:00",
         "source": "Google Calendar",
@@ -4495,127 +4463,145 @@
         "url": "/activiteiten/vrijzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
         "dateLabel": "13 december",
         "dayName": "Zondag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad",
+        "start": "2026-12-14T07:30:00+01:00",
+        "end": "2026-12-14T09:30:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "14 december",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Liz & Wes Baby en Peuter Zwemmen",
+        "internalLocation": "Doelgroepenbad, lopend - 2 jaar",
+        "start": "2026-12-14T08:45:00+01:00",
+        "end": "2026-12-14T09:30:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "14 december",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Liz & Wes Baby en Peuter Zwemmen",
+        "internalLocation": "Doelgroepenbad, 0 jaar - lopend",
+        "start": "2026-12-14T08:45:00+01:00",
+        "end": "2026-12-14T09:30:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "14 december",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Liz & Wes Baby en Peuter Zwemmen",
+        "internalLocation": "Doelgroepenbad, 2-3 jaar",
+        "start": "2026-12-14T09:30:00+01:00",
+        "end": "2026-12-14T10:15:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "14 december",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Liz & Wes Baby en Peuter Zwemmen",
+        "internalLocation": "Doelgroepenbad, 3-4 jaar",
+        "start": "2026-12-14T09:30:00+01:00",
+        "end": "2026-12-14T10:15:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "14 december",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad",
+        "start": "2026-12-14T11:30:00+01:00",
+        "end": "2026-12-14T12:30:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "14 december",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Zed & Sop Zwemles",
+        "internalLocation": "",
+        "start": "2026-12-14T16:00:00+01:00",
+        "end": "2026-12-14T17:30:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zed-sop-zwemles/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "14 december",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Zwemles Volwassenen",
+        "internalLocation": "",
+        "start": "2026-12-14T17:30:00+01:00",
+        "end": "2026-12-14T18:15:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemles-volwassenen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "14 december",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Zwemvaardigheid",
+        "internalLocation": "",
+        "start": "2026-12-14T17:30:00+01:00",
+        "end": "2026-12-14T18:15:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemvaardigheid/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "14 december",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Aqua'Robic",
+        "internalLocation": "Doelgroepenbad",
+        "start": "2026-12-14T18:30:00+01:00",
+        "end": "2026-12-14T19:15:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aquarobic/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "14 december",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Aqua'Yoga",
+        "internalLocation": "Doelgroepenbad",
+        "start": "2026-12-14T19:30:00+01:00",
+        "end": "2026-12-14T20:15:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aquayoga/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "14 december",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad",
+        "start": "2026-12-14T20:15:00+01:00",
+        "end": "2026-12-14T22:15:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
+        "dateLabel": "14 december",
+        "dayName": "Maandag"
       }
     ],
-    "fetchedAt": "2026-11-12T22:30:24.757Z"
+    "fetchedAt": "2026-11-13T12:44:17.372Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
     "schedule": [
-      {
-        "date": "12 november",
-        "day": "Donderdag",
-        "events": [
-          {
-            "title": "Banenzwemmen",
-            "internalLocation": "Wedstrijdbad (50m x 7 banen)",
-            "start": "2026-11-12T07:00:00+01:00",
-            "end": "2026-11-12T08:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
-            "title": "Prikkelarm Zwemmen",
-            "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
-            "start": "2026-11-12T08:00:00+01:00",
-            "end": "2026-11-12T09:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/prikkelarm-zwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
-            "title": "Aqua'Vitaal",
-            "internalLocation": "Recreatiebad",
-            "start": "2026-11-12T10:00:00+01:00",
-            "end": "2026-11-12T12:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/aquavitaal/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
-            "title": "Banenzwemmen",
-            "internalLocation": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
-            "start": "2026-11-12T10:15:00+01:00",
-            "end": "2026-11-12T13:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
-            "title": "Zwemles Volwassenen",
-            "internalLocation": "Ladies Only. Meer info? Mail naar sloterparkbad@optisport.nl",
-            "start": "2026-11-12T10:45:00+01:00",
-            "end": "2026-11-12T11:30:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
-            "title": "Zwemles Volwassenen",
-            "internalLocation": "Ladies Only. Meer info? Mail naar sloterparkbad@optisport.nl",
-            "start": "2026-11-12T13:45:00+01:00",
-            "end": "2026-11-12T14:30:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
-            "title": "Zwemles Volwassenen",
-            "internalLocation": "Ladies Only. Meer info? Mail naar sloterparkbad@optisport.nl",
-            "start": "2026-11-12T14:30:00+01:00",
-            "end": "2026-11-12T15:15:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
-            "title": "Zed & Sop Zwemles",
-            "internalLocation": "Regulier",
-            "start": "2026-11-12T16:00:00+01:00",
-            "end": "2026-11-12T16:45:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
-            "title": "Zed & Sop Zwemles",
-            "internalLocation": "Regulier",
-            "start": "2026-11-12T16:45:00+01:00",
-            "end": "2026-11-12T17:30:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
-            "title": "Aqua'Robic",
-            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
-            "start": "2026-11-12T19:00:00+01:00",
-            "end": "2026-11-12T20:30:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/aquarobic/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
-            "title": "Banenzwemmen",
-            "internalLocation": "Wedstrijdbad (25m ondiep x 8 banen)",
-            "start": "2026-11-12T20:30:00+01:00",
-            "end": "2026-11-12T21:30:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
-            "title": "Vrijzwemmen",
-            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
-            "start": "2026-11-12T20:30:00+01:00",
-            "end": "2026-11-12T22:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
-          }
-        ]
-      },
       {
         "date": "13 november",
         "day": "Vrijdag",
@@ -4672,15 +4658,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Zwemfeestje",
-            "internalLocation": "Recreatiebad",
-            "start": "2026-11-14T13:00:00+01:00",
-            "end": "2026-11-14T16:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Familiezwemmen",
             "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
             "start": "2026-11-14T13:00:00+01:00",
@@ -4688,6 +4665,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zwemfeestje",
+            "internalLocation": "Recreatiebad",
+            "start": "2026-11-14T13:00:00+01:00",
+            "end": "2026-11-14T16:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
       },
@@ -4705,15 +4691,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Zwemfeestje",
-            "internalLocation": "Recreatiebad",
-            "start": "2026-11-15T10:00:00+01:00",
-            "end": "2026-11-15T16:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Familiezwemmen",
             "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
             "start": "2026-11-15T10:00:00+01:00",
@@ -4721,6 +4698,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zwemfeestje",
+            "internalLocation": "Recreatiebad",
+            "start": "2026-11-15T10:00:00+01:00",
+            "end": "2026-11-15T16:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
       },
@@ -4885,15 +4871,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Zwemles Volwassenen",
-            "internalLocation": "Men Only. Meer info? Mail naar sloterparkbad@optisport.nl",
-            "start": "2026-11-18T09:00:00+01:00",
-            "end": "2026-11-18T09:45:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Liz & Wes Baby en Peuter Zwemmen",
             "internalLocation": "0 jaar - lopend, Recreatiebad",
             "start": "2026-11-18T09:00:00+01:00",
@@ -4901,6 +4878,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zwemles Volwassenen",
+            "internalLocation": "Men Only. Meer info? Mail naar sloterparkbad@optisport.nl",
+            "start": "2026-11-18T09:00:00+01:00",
+            "end": "2026-11-18T09:45:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam"
           },
           {
             "title": "Liz & Wes Baby en Peuter Zwemmen",
@@ -5191,15 +5177,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Familiezwemmen",
-            "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
-            "start": "2026-11-22T10:00:00+01:00",
-            "end": "2026-11-22T16:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Zwemfeestje",
             "internalLocation": "Recreatiebad",
             "start": "2026-11-22T10:00:00+01:00",
@@ -5207,6 +5184,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Familiezwemmen",
+            "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
+            "start": "2026-11-22T10:00:00+01:00",
+            "end": "2026-11-22T16:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
       },
@@ -5371,15 +5357,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Zwemles Volwassenen",
-            "internalLocation": "Men Only. Meer info? Mail naar sloterparkbad@optisport.nl",
-            "start": "2026-11-25T09:00:00+01:00",
-            "end": "2026-11-25T09:45:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Liz & Wes Baby en Peuter Zwemmen",
             "internalLocation": "0 jaar - lopend, Recreatiebad",
             "start": "2026-11-25T09:00:00+01:00",
@@ -5387,6 +5364,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zwemles Volwassenen",
+            "internalLocation": "Men Only. Meer info? Mail naar sloterparkbad@optisport.nl",
+            "start": "2026-11-25T09:00:00+01:00",
+            "end": "2026-11-25T09:45:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam"
           },
           {
             "title": "Liz & Wes Baby en Peuter Zwemmen",
@@ -5686,15 +5672,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Zwemfeestje",
-            "internalLocation": "Recreatiebad",
-            "start": "2026-11-28T13:00:00+01:00",
-            "end": "2026-11-28T16:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Familiezwemmen",
             "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
             "start": "2026-11-28T13:00:00+01:00",
@@ -5702,6 +5679,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zwemfeestje",
+            "internalLocation": "Recreatiebad",
+            "start": "2026-11-28T13:00:00+01:00",
+            "end": "2026-11-28T16:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
       },
@@ -5719,15 +5705,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Familiezwemmen",
-            "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
-            "start": "2026-11-29T10:00:00+01:00",
-            "end": "2026-11-29T16:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Zwemfeestje",
             "internalLocation": "Recreatiebad",
             "start": "2026-11-29T10:00:00+01:00",
@@ -5735,6 +5712,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Familiezwemmen",
+            "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
+            "start": "2026-11-29T10:00:00+01:00",
+            "end": "2026-11-29T16:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
       },
@@ -5899,15 +5885,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Zwemles Volwassenen",
-            "internalLocation": "Men Only. Meer info? Mail naar sloterparkbad@optisport.nl",
-            "start": "2026-12-02T09:00:00+01:00",
-            "end": "2026-12-02T09:45:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Liz & Wes Baby en Peuter Zwemmen",
             "internalLocation": "0 jaar - lopend, Recreatiebad",
             "start": "2026-12-02T09:00:00+01:00",
@@ -5915,6 +5892,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zwemles Volwassenen",
+            "internalLocation": "Men Only. Meer info? Mail naar sloterparkbad@optisport.nl",
+            "start": "2026-12-02T09:00:00+01:00",
+            "end": "2026-12-02T09:45:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam"
           },
           {
             "title": "Liz & Wes Baby en Peuter Zwemmen",
@@ -6214,15 +6200,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Zwemfeestje",
-            "internalLocation": "Recreatiebad",
-            "start": "2026-12-05T13:00:00+01:00",
-            "end": "2026-12-05T16:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Familiezwemmen",
             "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
             "start": "2026-12-05T13:00:00+01:00",
@@ -6230,6 +6207,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zwemfeestje",
+            "internalLocation": "Recreatiebad",
+            "start": "2026-12-05T13:00:00+01:00",
+            "end": "2026-12-05T16:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
       },
@@ -6247,15 +6233,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Familiezwemmen",
-            "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
-            "start": "2026-12-06T10:00:00+01:00",
-            "end": "2026-12-06T16:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Zwemfeestje",
             "internalLocation": "Recreatiebad",
             "start": "2026-12-06T10:00:00+01:00",
@@ -6263,6 +6240,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Familiezwemmen",
+            "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
+            "start": "2026-12-06T10:00:00+01:00",
+            "end": "2026-12-06T16:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
       },
@@ -6700,141 +6686,96 @@
             "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
           }
         ]
+      },
+      {
+        "date": "14 december",
+        "day": "Maandag",
+        "events": [
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad (50m x 7 banen)",
+            "start": "2026-12-14T07:00:00+01:00",
+            "end": "2026-12-14T08:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Aqua'Vitaal",
+            "internalLocation": "Recreatiebad",
+            "start": "2026-12-14T10:00:00+01:00",
+            "end": "2026-12-14T12:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aquavitaal/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Banenzwemmen",
+            "internalLocation": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
+            "start": "2026-12-14T10:15:00+01:00",
+            "end": "2026-12-14T13:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zwemles Volwassenen",
+            "internalLocation": "Ladies Only. Meer info? Mail naar sloterparkbad@optisport.nl",
+            "start": "2026-12-14T13:45:00+01:00",
+            "end": "2026-12-14T14:30:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zwemles Volwassenen",
+            "internalLocation": "Ladies Only. Meer info? Mail naar sloterparkbad@optisport.nl",
+            "start": "2026-12-14T14:30:00+01:00",
+            "end": "2026-12-14T15:15:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zed & Sop Zwemles",
+            "internalLocation": "Regulier",
+            "start": "2026-12-14T16:00:00+01:00",
+            "end": "2026-12-14T16:45:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zed & Sop Zwemles",
+            "internalLocation": "Regulier",
+            "start": "2026-12-14T16:45:00+01:00",
+            "end": "2026-12-14T17:30:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Aqua'Robic",
+            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+            "start": "2026-12-14T19:00:00+01:00",
+            "end": "2026-12-14T20:30:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/aquarobic/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Vrijzwemmen",
+            "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+            "start": "2026-12-14T20:30:00+01:00",
+            "end": "2026-12-14T22:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
+          }
+        ]
       }
     ],
     "events": [
-      {
-        "title": "Banenzwemmen",
-        "internalLocation": "Wedstrijdbad (50m x 7 banen)",
-        "start": "2026-11-12T07:00:00+01:00",
-        "end": "2026-11-12T08:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "12 november",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Prikkelarm Zwemmen",
-        "internalLocation": "Banenzwemmen (Geen muziek, zachte verlichting) Springkuil.",
-        "start": "2026-11-12T08:00:00+01:00",
-        "end": "2026-11-12T09:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/prikkelarm-zwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "12 november",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Aqua'Vitaal",
-        "internalLocation": "Recreatiebad",
-        "start": "2026-11-12T10:00:00+01:00",
-        "end": "2026-11-12T12:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/aquavitaal/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "12 november",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Banenzwemmen",
-        "internalLocation": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
-        "start": "2026-11-12T10:15:00+01:00",
-        "end": "2026-11-12T13:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "12 november",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Zwemles Volwassenen",
-        "internalLocation": "Ladies Only. Meer info? Mail naar sloterparkbad@optisport.nl",
-        "start": "2026-11-12T10:45:00+01:00",
-        "end": "2026-11-12T11:30:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "12 november",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Zwemles Volwassenen",
-        "internalLocation": "Ladies Only. Meer info? Mail naar sloterparkbad@optisport.nl",
-        "start": "2026-11-12T13:45:00+01:00",
-        "end": "2026-11-12T14:30:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "12 november",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Zwemles Volwassenen",
-        "internalLocation": "Ladies Only. Meer info? Mail naar sloterparkbad@optisport.nl",
-        "start": "2026-11-12T14:30:00+01:00",
-        "end": "2026-11-12T15:15:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "12 november",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Zed & Sop Zwemles",
-        "internalLocation": "Regulier",
-        "start": "2026-11-12T16:00:00+01:00",
-        "end": "2026-11-12T16:45:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "12 november",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Zed & Sop Zwemles",
-        "internalLocation": "Regulier",
-        "start": "2026-11-12T16:45:00+01:00",
-        "end": "2026-11-12T17:30:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "12 november",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Aqua'Robic",
-        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
-        "start": "2026-11-12T19:00:00+01:00",
-        "end": "2026-11-12T20:30:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/aquarobic/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "12 november",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Banenzwemmen",
-        "internalLocation": "Wedstrijdbad (25m ondiep x 8 banen)",
-        "start": "2026-11-12T20:30:00+01:00",
-        "end": "2026-11-12T21:30:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "12 november",
-        "dayName": "Donderdag"
-      },
-      {
-        "title": "Vrijzwemmen",
-        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
-        "start": "2026-11-12T20:30:00+01:00",
-        "end": "2026-11-12T22:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "12 november",
-        "dayName": "Donderdag"
-      },
       {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad (50m x 7 banen)",
@@ -6891,17 +6832,6 @@
         "dayName": "Zaterdag"
       },
       {
-        "title": "Zwemfeestje",
-        "internalLocation": "Recreatiebad",
-        "start": "2026-11-14T13:00:00+01:00",
-        "end": "2026-11-14T16:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "14 november",
-        "dayName": "Zaterdag"
-      },
-      {
         "title": "Familiezwemmen",
         "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
         "start": "2026-11-14T13:00:00+01:00",
@@ -6909,6 +6839,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "14 november",
+        "dayName": "Zaterdag"
+      },
+      {
+        "title": "Zwemfeestje",
+        "internalLocation": "Recreatiebad",
+        "start": "2026-11-14T13:00:00+01:00",
+        "end": "2026-11-14T16:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "14 november",
         "dayName": "Zaterdag"
       },
@@ -6924,17 +6865,6 @@
         "dayName": "Zondag"
       },
       {
-        "title": "Zwemfeestje",
-        "internalLocation": "Recreatiebad",
-        "start": "2026-11-15T10:00:00+01:00",
-        "end": "2026-11-15T16:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "15 november",
-        "dayName": "Zondag"
-      },
-      {
         "title": "Familiezwemmen",
         "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
         "start": "2026-11-15T10:00:00+01:00",
@@ -6942,6 +6872,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "15 november",
+        "dayName": "Zondag"
+      },
+      {
+        "title": "Zwemfeestje",
+        "internalLocation": "Recreatiebad",
+        "start": "2026-11-15T10:00:00+01:00",
+        "end": "2026-11-15T16:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "15 november",
         "dayName": "Zondag"
       },
@@ -7122,17 +7063,6 @@
         "dayName": "Woensdag"
       },
       {
-        "title": "Zwemles Volwassenen",
-        "internalLocation": "Men Only. Meer info? Mail naar sloterparkbad@optisport.nl",
-        "start": "2026-11-18T09:00:00+01:00",
-        "end": "2026-11-18T09:45:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "18 november",
-        "dayName": "Woensdag"
-      },
-      {
         "title": "Liz & Wes Baby en Peuter Zwemmen",
         "internalLocation": "0 jaar - lopend, Recreatiebad",
         "start": "2026-11-18T09:00:00+01:00",
@@ -7140,6 +7070,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "18 november",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Zwemles Volwassenen",
+        "internalLocation": "Men Only. Meer info? Mail naar sloterparkbad@optisport.nl",
+        "start": "2026-11-18T09:00:00+01:00",
+        "end": "2026-11-18T09:45:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "18 november",
         "dayName": "Woensdag"
       },
@@ -7474,17 +7415,6 @@
         "dayName": "Zondag"
       },
       {
-        "title": "Familiezwemmen",
-        "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
-        "start": "2026-11-22T10:00:00+01:00",
-        "end": "2026-11-22T16:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "22 november",
-        "dayName": "Zondag"
-      },
-      {
         "title": "Zwemfeestje",
         "internalLocation": "Recreatiebad",
         "start": "2026-11-22T10:00:00+01:00",
@@ -7492,6 +7422,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "22 november",
+        "dayName": "Zondag"
+      },
+      {
+        "title": "Familiezwemmen",
+        "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
+        "start": "2026-11-22T10:00:00+01:00",
+        "end": "2026-11-22T16:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "22 november",
         "dayName": "Zondag"
       },
@@ -7672,17 +7613,6 @@
         "dayName": "Woensdag"
       },
       {
-        "title": "Zwemles Volwassenen",
-        "internalLocation": "Men Only. Meer info? Mail naar sloterparkbad@optisport.nl",
-        "start": "2026-11-25T09:00:00+01:00",
-        "end": "2026-11-25T09:45:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "25 november",
-        "dayName": "Woensdag"
-      },
-      {
         "title": "Liz & Wes Baby en Peuter Zwemmen",
         "internalLocation": "0 jaar - lopend, Recreatiebad",
         "start": "2026-11-25T09:00:00+01:00",
@@ -7690,6 +7620,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "25 november",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Zwemles Volwassenen",
+        "internalLocation": "Men Only. Meer info? Mail naar sloterparkbad@optisport.nl",
+        "start": "2026-11-25T09:00:00+01:00",
+        "end": "2026-11-25T09:45:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "25 november",
         "dayName": "Woensdag"
       },
@@ -8035,17 +7976,6 @@
         "dayName": "Zaterdag"
       },
       {
-        "title": "Zwemfeestje",
-        "internalLocation": "Recreatiebad",
-        "start": "2026-11-28T13:00:00+01:00",
-        "end": "2026-11-28T16:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "28 november",
-        "dayName": "Zaterdag"
-      },
-      {
         "title": "Familiezwemmen",
         "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
         "start": "2026-11-28T13:00:00+01:00",
@@ -8053,6 +7983,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "28 november",
+        "dayName": "Zaterdag"
+      },
+      {
+        "title": "Zwemfeestje",
+        "internalLocation": "Recreatiebad",
+        "start": "2026-11-28T13:00:00+01:00",
+        "end": "2026-11-28T16:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "28 november",
         "dayName": "Zaterdag"
       },
@@ -8068,17 +8009,6 @@
         "dayName": "Zondag"
       },
       {
-        "title": "Familiezwemmen",
-        "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
-        "start": "2026-11-29T10:00:00+01:00",
-        "end": "2026-11-29T16:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "29 november",
-        "dayName": "Zondag"
-      },
-      {
         "title": "Zwemfeestje",
         "internalLocation": "Recreatiebad",
         "start": "2026-11-29T10:00:00+01:00",
@@ -8086,6 +8016,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "29 november",
+        "dayName": "Zondag"
+      },
+      {
+        "title": "Familiezwemmen",
+        "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
+        "start": "2026-11-29T10:00:00+01:00",
+        "end": "2026-11-29T16:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "29 november",
         "dayName": "Zondag"
       },
@@ -8266,17 +8207,6 @@
         "dayName": "Woensdag"
       },
       {
-        "title": "Zwemles Volwassenen",
-        "internalLocation": "Men Only. Meer info? Mail naar sloterparkbad@optisport.nl",
-        "start": "2026-12-02T09:00:00+01:00",
-        "end": "2026-12-02T09:45:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "02 december",
-        "dayName": "Woensdag"
-      },
-      {
         "title": "Liz & Wes Baby en Peuter Zwemmen",
         "internalLocation": "0 jaar - lopend, Recreatiebad",
         "start": "2026-12-02T09:00:00+01:00",
@@ -8284,6 +8214,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "02 december",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Zwemles Volwassenen",
+        "internalLocation": "Men Only. Meer info? Mail naar sloterparkbad@optisport.nl",
+        "start": "2026-12-02T09:00:00+01:00",
+        "end": "2026-12-02T09:45:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "02 december",
         "dayName": "Woensdag"
       },
@@ -8629,17 +8570,6 @@
         "dayName": "Zaterdag"
       },
       {
-        "title": "Zwemfeestje",
-        "internalLocation": "Recreatiebad",
-        "start": "2026-12-05T13:00:00+01:00",
-        "end": "2026-12-05T16:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "05 december",
-        "dayName": "Zaterdag"
-      },
-      {
         "title": "Familiezwemmen",
         "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
         "start": "2026-12-05T13:00:00+01:00",
@@ -8647,6 +8577,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "05 december",
+        "dayName": "Zaterdag"
+      },
+      {
+        "title": "Zwemfeestje",
+        "internalLocation": "Recreatiebad",
+        "start": "2026-12-05T13:00:00+01:00",
+        "end": "2026-12-05T16:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "05 december",
         "dayName": "Zaterdag"
       },
@@ -8662,17 +8603,6 @@
         "dayName": "Zondag"
       },
       {
-        "title": "Familiezwemmen",
-        "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
-        "start": "2026-12-06T10:00:00+01:00",
-        "end": "2026-12-06T16:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "06 december",
-        "dayName": "Zondag"
-      },
-      {
         "title": "Zwemfeestje",
         "internalLocation": "Recreatiebad",
         "start": "2026-12-06T10:00:00+01:00",
@@ -8680,6 +8610,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "06 december",
+        "dayName": "Zondag"
+      },
+      {
+        "title": "Familiezwemmen",
+        "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
+        "start": "2026-12-06T10:00:00+01:00",
+        "end": "2026-12-06T16:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "06 december",
         "dayName": "Zondag"
       },
@@ -9177,8 +9118,107 @@
         "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "11 december",
         "dayName": "Vrijdag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad (50m x 7 banen)",
+        "start": "2026-12-14T07:00:00+01:00",
+        "end": "2026-12-14T08:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "14 december",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Aqua'Vitaal",
+        "internalLocation": "Recreatiebad",
+        "start": "2026-12-14T10:00:00+01:00",
+        "end": "2026-12-14T12:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aquavitaal/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "14 december",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Banenzwemmen",
+        "internalLocation": "Wedstrijdbad (10:15 - 12:15 uur 50m x 5 banen, 12:15 - 13:00 uur 50m x 8 banen)",
+        "start": "2026-12-14T10:15:00+01:00",
+        "end": "2026-12-14T13:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "14 december",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Zwemles Volwassenen",
+        "internalLocation": "Ladies Only. Meer info? Mail naar sloterparkbad@optisport.nl",
+        "start": "2026-12-14T13:45:00+01:00",
+        "end": "2026-12-14T14:30:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "14 december",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Zwemles Volwassenen",
+        "internalLocation": "Ladies Only. Meer info? Mail naar sloterparkbad@optisport.nl",
+        "start": "2026-12-14T14:30:00+01:00",
+        "end": "2026-12-14T15:15:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "14 december",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Zed & Sop Zwemles",
+        "internalLocation": "Regulier",
+        "start": "2026-12-14T16:00:00+01:00",
+        "end": "2026-12-14T16:45:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "14 december",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Zed & Sop Zwemles",
+        "internalLocation": "Regulier",
+        "start": "2026-12-14T16:45:00+01:00",
+        "end": "2026-12-14T17:30:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "14 december",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Aqua'Robic",
+        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+        "start": "2026-12-14T19:00:00+01:00",
+        "end": "2026-12-14T20:30:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/aquarobic/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "14 december",
+        "dayName": "Maandag"
+      },
+      {
+        "title": "Vrijzwemmen",
+        "internalLocation": "Recreatiebad. Let op; Ladies Only 18+",
+        "start": "2026-12-14T20:30:00+01:00",
+        "end": "2026-12-14T22:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "14 december",
+        "dayName": "Maandag"
       }
     ],
-    "fetchedAt": "2026-11-12T22:30:26.963Z"
+    "fetchedAt": "2026-11-13T12:44:19.629Z"
   }
 }
