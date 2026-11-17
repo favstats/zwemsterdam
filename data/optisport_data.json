@@ -4777,7 +4777,7 @@
         "dayName": "Vrijdag"
       }
     ],
-    "fetchedAt": "2026-11-17T00:34:43.971Z"
+    "fetchedAt": "2026-11-17T14:01:09.241Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -5149,6 +5149,21 @@
         ]
       },
       {
+        "date": "21 november",
+        "day": "Zaterdag",
+        "events": [
+          {
+            "title": "Familiezwemmen",
+            "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
+            "start": "2026-11-21T13:00:00+01:00",
+            "end": "2026-11-21T16:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam"
+          }
+        ]
+      },
+      {
         "date": "22 november",
         "day": "Zondag",
         "events": [
@@ -5423,15 +5438,6 @@
             "url": "/activiteiten/zed-sop-zwemles/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Vrijzwemmen",
-            "internalLocation": "Recreatiebad. Tijdens het vrijzwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
-            "start": "2026-11-25T14:00:00+01:00",
-            "end": "2026-11-25T18:00:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Zwemfeestje",
             "internalLocation": "Recreatiebad",
             "start": "2026-11-25T14:00:00+01:00",
@@ -5439,6 +5445,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Vrijzwemmen",
+            "internalLocation": "Recreatiebad. Tijdens het vrijzwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
+            "start": "2026-11-25T14:00:00+01:00",
+            "end": "2026-11-25T18:00:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam"
           },
           {
             "title": "Oefenuur",
@@ -6833,15 +6848,6 @@
             "url": "/activiteiten/banenzwemmen/zwembad-het-sloterparkbad-amsterdam"
           },
           {
-            "title": "Zwemles Volwassenen",
-            "internalLocation": "Men Only. Meer info? Mail naar sloterparkbad@optisport.nl",
-            "start": "2026-12-16T09:00:00+01:00",
-            "end": "2026-12-16T09:45:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam"
-          },
-          {
             "title": "Liz & Wes Baby en Peuter Zwemmen",
             "internalLocation": "0 jaar - lopend, Recreatiebad",
             "start": "2026-12-16T09:00:00+01:00",
@@ -6849,6 +6855,15 @@
             "source": "Google Calendar",
             "themeColor": "bright-blue",
             "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-het-sloterparkbad-amsterdam"
+          },
+          {
+            "title": "Zwemles Volwassenen",
+            "internalLocation": "Men Only. Meer info? Mail naar sloterparkbad@optisport.nl",
+            "start": "2026-12-16T09:00:00+01:00",
+            "end": "2026-12-16T09:45:00+01:00",
+            "source": "Google Calendar",
+            "themeColor": "bright-blue",
+            "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam"
           },
           {
             "title": "Liz & Wes Baby en Peuter Zwemmen",
@@ -7555,6 +7570,17 @@
         "dayName": "Vrijdag"
       },
       {
+        "title": "Familiezwemmen",
+        "internalLocation": "Recreatiebad. Tijdens het familiezwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
+        "start": "2026-11-21T13:00:00+01:00",
+        "end": "2026-11-21T16:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/familiezwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "21 november",
+        "dayName": "Zaterdag"
+      },
+      {
         "title": "Banenzwemmen",
         "internalLocation": "Wedstrijdbad (50m x 8 banen)",
         "start": "2026-11-22T09:00:00+01:00",
@@ -7863,17 +7889,6 @@
         "dayName": "Woensdag"
       },
       {
-        "title": "Vrijzwemmen",
-        "internalLocation": "Recreatiebad. Tijdens het vrijzwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
-        "start": "2026-11-25T14:00:00+01:00",
-        "end": "2026-11-25T18:00:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "25 november",
-        "dayName": "Woensdag"
-      },
-      {
         "title": "Zwemfeestje",
         "internalLocation": "Recreatiebad",
         "start": "2026-11-25T14:00:00+01:00",
@@ -7881,6 +7896,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/zwemfeestje/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "25 november",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Vrijzwemmen",
+        "internalLocation": "Recreatiebad. Tijdens het vrijzwemmen moeten ongediplomeerde kinderen zwemvleugels dragen én worden begeleid door een meezwemmende volwassene (maximaal 2 ongediplomeerde kinderen per volwassene)",
+        "start": "2026-11-25T14:00:00+01:00",
+        "end": "2026-11-25T18:00:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/vrijzwemmen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "25 november",
         "dayName": "Woensdag"
       },
@@ -9447,17 +9473,6 @@
         "dayName": "Woensdag"
       },
       {
-        "title": "Zwemles Volwassenen",
-        "internalLocation": "Men Only. Meer info? Mail naar sloterparkbad@optisport.nl",
-        "start": "2026-12-16T09:00:00+01:00",
-        "end": "2026-12-16T09:45:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam",
-        "dateLabel": "16 december",
-        "dayName": "Woensdag"
-      },
-      {
         "title": "Liz & Wes Baby en Peuter Zwemmen",
         "internalLocation": "0 jaar - lopend, Recreatiebad",
         "start": "2026-12-16T09:00:00+01:00",
@@ -9465,6 +9480,17 @@
         "source": "Google Calendar",
         "themeColor": "bright-blue",
         "url": "/activiteiten/liz-wes-baby-en-peuter-zwemmen/zwembad-het-sloterparkbad-amsterdam",
+        "dateLabel": "16 december",
+        "dayName": "Woensdag"
+      },
+      {
+        "title": "Zwemles Volwassenen",
+        "internalLocation": "Men Only. Meer info? Mail naar sloterparkbad@optisport.nl",
+        "start": "2026-12-16T09:00:00+01:00",
+        "end": "2026-12-16T09:45:00+01:00",
+        "source": "Google Calendar",
+        "themeColor": "bright-blue",
+        "url": "/activiteiten/zwemles-volwassenen/zwembad-het-sloterparkbad-amsterdam",
         "dateLabel": "16 december",
         "dayName": "Woensdag"
       },
@@ -9799,6 +9825,6 @@
         "dayName": "Vrijdag"
       }
     ],
-    "fetchedAt": "2026-11-17T00:34:46.121Z"
+    "fetchedAt": "2026-11-17T14:01:14.964Z"
   }
 }
