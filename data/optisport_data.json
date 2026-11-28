@@ -7,15 +7,6 @@
         "day": "Zaterdag",
         "events": [
           {
-            "title": "Banenzwemmen",
-            "internalLocation": "Wedstrijdbad",
-            "start": "2026-11-28T07:45:00+01:00",
-            "end": "2026-11-28T08:45:00+01:00",
-            "source": "Google Calendar",
-            "themeColor": "bright-blue",
-            "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost"
-          },
-          {
             "title": "Zed & Sop Zwemles",
             "internalLocation": "regulier",
             "start": "2026-11-28T09:00:00+01:00",
@@ -2203,17 +2194,6 @@
       }
     ],
     "events": [
-      {
-        "title": "Banenzwemmen",
-        "internalLocation": "Wedstrijdbad",
-        "start": "2026-11-28T07:45:00+01:00",
-        "end": "2026-11-28T08:45:00+01:00",
-        "source": "Google Calendar",
-        "themeColor": "bright-blue",
-        "url": "/activiteiten/banenzwemmen/zwembad-bijlmer-amsterdam-zuidoost",
-        "dateLabel": "28 november",
-        "dayName": "Zaterdag"
-      },
       {
         "title": "Zed & Sop Zwemles",
         "internalLocation": "regulier",
@@ -4657,7 +4637,7 @@
         "dayName": "Dinsdag"
       }
     ],
-    "fetchedAt": "2026-11-28T00:19:10.357Z"
+    "fetchedAt": "2026-11-28T13:47:49.357Z"
   },
   "Sloterparkbad": {
     "locationId": 2305,
@@ -9199,6 +9179,6 @@
         "dayName": "Dinsdag"
       }
     ],
-    "fetchedAt": "2026-11-28T00:20:05.663Z"
+    "fetchedAt": "2026-11-28T13:48:45.866Z"
   }
 }
